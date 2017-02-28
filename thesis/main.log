@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2016.12.17)  28 FEB 2017 23:49
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2016.12.17)  1 MAR 2017 00:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2072,11 +2072,11 @@ LaTeX Warning: Label `fig: flowHPP' multiply defined.
 
 LaTeX Warning: Label `table:meta' multiply defined.
 
-) (./chapters/Chapter5.aux) (./chapters/Chapter6.aux)
-(./chapters/AP_Regularization.aux) (./chapters/AP_Svm.aux)
+) (./chapters/Chapter5.aux) (./chapters/Chapter6.aux) (./chapters/AP_Svm.aux)
 (./chapters/AP_NBayes.aux) (./chapters/AP_LRegress.aux) (./chapters/AP_Knn.aux)
-(./chapters/AP_Tests.aux) (./chapters/AP_Algorithms.aux)
-(./chapters/AP_Intervals.aux) (./chapters/AP_Datasets.aux))
+(./chapters/AP_Regularization.aux) (./chapters/AP_Tests.aux)
+(./chapters/AP_Algorithms.aux) (./chapters/AP_Intervals.aux)
+(./chapters/AP_Datasets.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 211.
@@ -2280,7 +2280,7 @@ LaTeX Info: Redefining \anw@print on input line 201.
  [1
 
 ]
-LaTeX Info: Redefining \anw@print on input line 209.
+LaTeX Info: Redefining \anw@print on input line 211.
 LaTeX Info: Redefining \anw@print on input line 219.
 LaTeX Info: Redefining \anw@print on input line 237.
 LaTeX Info: Redefining \anw@print on input line 239.
@@ -2326,19 +2326,19 @@ LaTeX Info: Redefining \anw@print on input line 57.
 LaTeX Info: Redefining \anw@print on input line 59.
 LaTeX Info: Redefining \anw@print on input line 61.
 LaTeX Info: Redefining \anw@print on input line 63.
+LaTeX Info: Redefining \anw@print on input line 65.
 LaTeX Info: Redefining \anw@print on input line 67.
 LaTeX Info: Redefining \anw@print on input line 69.
 LaTeX Info: Redefining \anw@print on input line 71.
-LaTeX Info: Redefining \anw@print on input line 73.
-LaTeX Info: Redefining \anw@print on input line 75.
 LaTeX Info: Redefining \anw@print on input line 77.
 LaTeX Info: Redefining \anw@print on input line 79.
 LaTeX Info: Redefining \anw@print on input line 81.
 LaTeX Info: Redefining \anw@print on input line 83.
+LaTeX Info: Redefining \anw@print on input line 87.
 LaTeX Info: Redefining \anw@print on input line 89.
 LaTeX Info: Redefining \anw@print on input line 91.
 LaTeX Info: Redefining \anw@print on input line 93.
-LaTeX Info: Redefining \anw@print on input line 95.
+LaTeX Info: Redefining \anw@print on input line 97.
 LaTeX Info: Redefining \anw@print on input line 99.
 LaTeX Info: Redefining \anw@print on input line 101.
 LaTeX Info: Redefining \anw@print on input line 103.
@@ -2932,10 +2932,324 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ]
+\openout2 = `chapters/AP_Svm.aux'.
+
+ (./chapters/AP_Svm.tex
+Παράρτημα \MakeUppercase {α\anw@true \anw@print \relax }.
+LaTeX Info: Redefining \anw@print on input line 1.
+LaTeX Info: Redefining \anw@print on input line 8.
+LaTeX Info: Redefining \anw@print on input line 8.
+LaTeX Info: Redefining \anw@print on input line 8.
+LaTeX Info: Redefining \anw@print on input line 8.
+LaTeX Info: Redefining \anw@print on input line 16.
+LaTeX Info: Redefining \anw@print on input line 16.
+LaTeX Info: Redefining \anw@print on input line 16.
+LaTeX Info: Redefining \anw@print on input line 16.
+LaTeX Info: Redefining \anw@print on input line 22.
+LaTeX Info: Redefining \anw@print on input line 22.
+LaTeX Info: Redefining \anw@print on input line 22.
+LaTeX Info: Redefining \anw@print on input line 22.
+LaTeX Info: Redefining \anw@print on input line 28.
+LaTeX Info: Redefining \anw@print on input line 28.
+LaTeX Info: Redefining \anw@print on input line 28.
+LaTeX Info: Redefining \anw@print on input line 28.
+LaTeX Info: Redefining \anw@print on input line 39.
+LaTeX Info: Redefining \anw@print on input line 39.
+LaTeX Info: Redefining \anw@print on input line 39.
+LaTeX Info: Redefining \anw@print on input line 39.
+LaTeX Info: Redefining \anw@print on input line 54.
+[49
+
+
+]
+LaTeX Info: Redefining \anw@print on input line 63.
+LaTeX Info: Redefining \anw@print on input line 63.
+LaTeX Info: Redefining \anw@print on input line 63.
+LaTeX Info: Redefining \anw@print on input line 63.
+LaTeX Info: Redefining \anw@print on input line 68.
+LaTeX Info: Redefining \anw@print on input line 68.
+LaTeX Info: Redefining \anw@print on input line 68.
+LaTeX Info: Redefining \anw@print on input line 68.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 68--77
+[]
+ []
+
+LaTeX Info: Redefining \anw@print on input line 79.
+LaTeX Info: Redefining \anw@print on input line 79.
+LaTeX Info: Redefining \anw@print on input line 86.
+LaTeX Info: Redefining \anw@print on input line 86.
+LaTeX Info: Redefining \anw@print on input line 86.
+LaTeX Info: Redefining \anw@print on input line 86.
+LaTeX Info: Redefining \anw@print on input line 93.
+LaTeX Info: Redefining \anw@print on input line 93.
+LaTeX Info: Redefining \anw@print on input line 93.
+LaTeX Info: Redefining \anw@print on input line 93.
+LaTeX Info: Redefining \anw@print on input line 93.
+LaTeX Info: Redefining \anw@print on input line 93.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 93--101
+[] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[50]
+LaTeX Info: Redefining \anw@print on input line 120.
+LaTeX Info: Redefining \anw@print on input line 120.
+LaTeX Info: Redefining \anw@print on input line 120.
+LaTeX Info: Redefining \anw@print on input line 120.
+LaTeX Info: Redefining \anw@print on input line 126.
+LaTeX Info: Redefining \anw@print on input line 132.
+LaTeX Info: Redefining \anw@print on input line 136.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[51]
+LaTeX Info: Redefining \anw@print on input line 151.
+LaTeX Info: Redefining \anw@print on input line 156.
+LaTeX Info: Redefining \anw@print on input line 166.
+LaTeX Info: Redefining \anw@print on input line 166.
+LaTeX Info: Redefining \anw@print on input line 166.
+LaTeX Info: Redefining \anw@print on input line 166.
+LaTeX Info: Redefining \anw@print on input line 171.
+LaTeX Info: Redefining \anw@print on input line 171.
+LaTeX Info: Redefining \anw@print on input line 171.
+LaTeX Info: Redefining \anw@print on input line 171.
+LaTeX Info: Redefining \anw@print on input line 182.
+LaTeX Info: Redefining \anw@print on input line 182.
+LaTeX Info: Redefining \anw@print on input line 182.
+LaTeX Info: Redefining \anw@print on input line 182.
+LaTeX Info: Redefining \anw@print on input line 188.
+LaTeX Info: Redefining \anw@print on input line 194.
+LaTeX Info: Redefining \anw@print on input line 194.
+LaTeX Info: Redefining \anw@print on input line 194.
+LaTeX Info: Redefining \anw@print on input line 194.
+LaTeX Info: Redefining \anw@print on input line 194.
+LaTeX Info: Redefining \anw@print on input line 194.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[52]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[53]
+\openout2 = `chapters/AP_NBayes.aux'.
+
+ (./chapters/AP_NBayes.tex
+Παράρτημα \MakeUppercase {β\anw@true \anw@print \relax }.
+LaTeX Info: Redefining \anw@print on input line 1.
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \end{equation}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `\eqno' in horizontal mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.7 \end{equation}
+                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+LaTeX Info: Redefining \anw@print on input line 7.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7 \end{equation}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.7 \end{equation}
+                  
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+Missing character: There is no ’ in font jkpmn7t!
+Missing character: There is no ’ in font jkpmn7t!
+Missing character: There is no ’ in font jkpmn7t!
+Missing character: There is no ’ in font jkpmn7t!
+LaTeX Info: Redefining \anw@print on input line 20.
+LaTeX Info: Redefining \anw@print on input line 25.
+[54
+
+
+
+])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[55]
+\openout2 = `chapters/AP_LRegress.aux'.
+
+ (./chapters/AP_LRegress.tex
+Παράρτημα \MakeUppercase {γ\anw@true \anw@print \relax }.
+LaTeX Info: Redefining \anw@print on input line 1.
+LaTeX Info: Redefining \anw@print on input line 7.
+LaTeX Info: Redefining \anw@print on input line 11.
+LaTeX Info: Redefining \anw@print on input line 11.
+LaTeX Info: Redefining \anw@print on input line 11.
+LaTeX Info: Redefining \anw@print on input line 11.
+LaTeX Info: Redefining \anw@print on input line 17.
+LaTeX Info: Redefining \anw@print on input line 26.
+LaTeX Info: Redefining \anw@print on input line 36.
+LaTeX Info: Redefining \anw@print on input line 41.
+LaTeX Info: Redefining \anw@print on input line 45.
+LaTeX Info: Redefining \anw@print on input line 50.
+[56
+
+
+
+]
+LaTeX Info: Redefining \anw@print on input line 56.
+LaTeX Info: Redefining \anw@print on input line 56.
+LaTeX Info: Redefining \anw@print on input line 56.
+LaTeX Info: Redefining \anw@print on input line 56.
+LaTeX Info: Redefining \anw@print on input line 64.
+LaTeX Info: Redefining \anw@print on input line 64.
+LaTeX Info: Redefining \anw@print on input line 64.
+LaTeX Info: Redefining \anw@print on input line 64.
+
+Underfull \hbox (badness 1242) in paragraph at lines 64--64
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Σχήμα Γʹ.3: |Gradient descent με πολύ μικρό
+
+ []
+
+LaTeX Info: Redefining \anw@print on input line 70.
+LaTeX Info: Redefining \anw@print on input line 70.
+LaTeX Info: Redefining \anw@print on input line 70.
+LaTeX Info: Redefining \anw@print on input line 70.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[57]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[58]
+\openout2 = `chapters/AP_Knn.aux'.
+
+ (./chapters/AP_Knn.tex
+Παράρτημα \MakeUppercase {δ\anw@true \anw@print \relax }.
+LaTeX Info: Redefining \anw@print on input line 1.
+LaTeX Info: Redefining \anw@print on input line 9.
+LaTeX Info: Redefining \anw@print on input line 9.
+LaTeX Info: Redefining \anw@print on input line 9.
+LaTeX Info: Redefining \anw@print on input line 9.
+Missing character: There is no Κ in font jkpmi!
+Missing character: There is no Κ in font jkpmi!
+Missing character: There is no Κ in font jkpmi!
+Missing character: There is no Κ in font jkpmi!
+LaTeX Info: Redefining \anw@print on input line 16.
+LaTeX Info: Redefining \anw@print on input line 21.
+Missing character: There is no Ξ in font jkpmi!
+LaTeX Info: Redefining \anw@print on input line 31.
+[59
+
+
+
+]
+LaTeX Info: Redefining \anw@print on input line 35.
+LaTeX Info: Redefining \anw@print on input line 35.
+LaTeX Info: Redefining \anw@print on input line 35.
+LaTeX Info: Redefining \anw@print on input line 35.
+LaTeX Info: Redefining \anw@print on input line 40.
+LaTeX Info: Redefining \anw@print on input line 72.
+LaTeX Info: Redefining \anw@print on input line 82.
+LaTeX Info: Redefining \anw@print on input line 82.
+LaTeX Info: Redefining \anw@print on input line 82.
+LaTeX Info: Redefining \anw@print on input line 82.
+LaTeX Info: Redefining \anw@print on input line 87.
+LaTeX Info: Redefining \anw@print on input line 87.
+LaTeX Info: Redefining \anw@print on input line 87.
+LaTeX Info: Redefining \anw@print on input line 87.
+LaTeX Info: Redefining \anw@print on input line 96.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[60]
+LaTeX Info: Redefining \anw@print on input line 101.
+Missing character: There is no Α in font jkpmi!
+Missing character: There is no Ι in font jkpmi!
+
+
+LaTeX Warning: Command \= invalid in math mode on input line 107.
+
+Missing character: There is no Α in font jkpmi!
+Missing character: There is no Ι in font jkpmi!
+Missing character: There is no ̄ in font jkpmi!
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 101--108
+[] 
+ []
+
+LaTeX Info: Redefining \anw@print on input line 112.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[61]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[62]
 \openout2 = `chapters/AP_Regularization.aux'.
 
  (./chapters/AP_Regularization.tex
-Παράρτημα \MakeUppercase {α\anw@true \anw@print \relax }.
+Παράρτημα \MakeUppercase {ε\anw@true \anw@print \relax }.
 LaTeX Info: Redefining \anw@print on input line 1.
 LaTeX Info: Redefining \anw@print on input line 8.
 LaTeX Info: Redefining \anw@print on input line 8.
@@ -2957,219 +3271,15 @@ LaTeX Info: Redefining \anw@print on input line 27.
 LaTeX Info: Redefining \anw@print on input line 27.
 LaTeX Info: Redefining \anw@print on input line 27.
 LaTeX Info: Redefining \anw@print on input line 27.
-[49
-
-
-]
-LaTeX Info: Redefining \anw@print on input line 50.
-LaTeX Info: Redefining \anw@print on input line 50.
-LaTeX Info: Redefining \anw@print on input line 50.
-LaTeX Info: Redefining \anw@print on input line 50.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[50]
-LaTeX Info: Redefining \anw@print on input line 75.
-LaTeX Info: Redefining \anw@print on input line 75.
-LaTeX Info: Redefining \anw@print on input line 75.
-LaTeX Info: Redefining \anw@print on input line 75.
-)
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[51]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[52]
-\openout2 = `chapters/AP_Svm.aux'.
-
- (./chapters/AP_Svm.tex
-Παράρτημα \MakeUppercase {β\anw@true \anw@print \relax }.
-LaTeX Info: Redefining \anw@print on input line 1.
-LaTeX Info: Redefining \anw@print on input line 8.
-LaTeX Info: Redefining \anw@print on input line 8.
-LaTeX Info: Redefining \anw@print on input line 8.
-LaTeX Info: Redefining \anw@print on input line 8.
-LaTeX Info: Redefining \anw@print on input line 16.
-LaTeX Info: Redefining \anw@print on input line 16.
-LaTeX Info: Redefining \anw@print on input line 16.
-LaTeX Info: Redefining \anw@print on input line 16.
-LaTeX Info: Redefining \anw@print on input line 22.
-LaTeX Info: Redefining \anw@print on input line 22.
-LaTeX Info: Redefining \anw@print on input line 22.
-LaTeX Info: Redefining \anw@print on input line 22.
-LaTeX Info: Redefining \anw@print on input line 28.
-LaTeX Info: Redefining \anw@print on input line 28.
-LaTeX Info: Redefining \anw@print on input line 28.
-LaTeX Info: Redefining \anw@print on input line 28.
-LaTeX Info: Redefining \anw@print on input line 39.
-LaTeX Info: Redefining \anw@print on input line 39.
-LaTeX Info: Redefining \anw@print on input line 39.
-LaTeX Info: Redefining \anw@print on input line 39.
-[53
-
-
-
-]
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 69--78
-[]
- []
-
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 94--102
-[] 
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[54]
-LaTeX Info: Redefining \anw@print on input line 121.
-LaTeX Info: Redefining \anw@print on input line 121.
-LaTeX Info: Redefining \anw@print on input line 121.
-LaTeX Info: Redefining \anw@print on input line 121.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[55]
-LaTeX Info: Redefining \anw@print on input line 157.
-LaTeX Info: Redefining \anw@print on input line 157.
-LaTeX Info: Redefining \anw@print on input line 157.
-LaTeX Info: Redefining \anw@print on input line 157.
-LaTeX Info: Redefining \anw@print on input line 163.
-LaTeX Info: Redefining \anw@print on input line 163.
-LaTeX Info: Redefining \anw@print on input line 163.
-LaTeX Info: Redefining \anw@print on input line 163.
-LaTeX Info: Redefining \anw@print on input line 175.
-LaTeX Info: Redefining \anw@print on input line 175.
-LaTeX Info: Redefining \anw@print on input line 175.
-LaTeX Info: Redefining \anw@print on input line 175.
-)
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[56]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[57]
-\openout2 = `chapters/AP_NBayes.aux'.
-
- (./chapters/AP_NBayes.tex
-Παράρτημα \MakeUppercase {γ\anw@true \anw@print \relax }.
-LaTeX Info: Redefining \anw@print on input line 1.
-Missing character: There is no ’ in font jkpmn7t!
-Missing character: There is no ’ in font jkpmn7t!
-Missing character: There is no ’ in font jkpmn7t!
-Missing character: There is no ’ in font jkpmn7t!
-[58
-
-
-
-])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[59]
-\openout2 = `chapters/AP_LRegress.aux'.
-
- (./chapters/AP_LRegress.tex
-Παράρτημα \MakeUppercase {δ\anw@true \anw@print \relax }.
-LaTeX Info: Redefining \anw@print on input line 1.
-LaTeX Info: Redefining \anw@print on input line 9.
-LaTeX Info: Redefining \anw@print on input line 9.
-LaTeX Info: Redefining \anw@print on input line 9.
-LaTeX Info: Redefining \anw@print on input line 9.
-[60
-
-
-
-]
-LaTeX Info: Redefining \anw@print on input line 43.
-LaTeX Info: Redefining \anw@print on input line 43.
-LaTeX Info: Redefining \anw@print on input line 43.
-LaTeX Info: Redefining \anw@print on input line 43.
-LaTeX Info: Redefining \anw@print on input line 51.
-LaTeX Info: Redefining \anw@print on input line 51.
-LaTeX Info: Redefining \anw@print on input line 51.
-LaTeX Info: Redefining \anw@print on input line 51.
-LaTeX Info: Redefining \anw@print on input line 57.
-LaTeX Info: Redefining \anw@print on input line 57.
-LaTeX Info: Redefining \anw@print on input line 57.
-LaTeX Info: Redefining \anw@print on input line 57.
-)
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[61]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[62]
-\openout2 = `chapters/AP_Knn.aux'.
-
- (./chapters/AP_Knn.tex
-Παράρτημα \MakeUppercase {ε\anw@true \anw@print \relax }.
-LaTeX Info: Redefining \anw@print on input line 1.
-LaTeX Info: Redefining \anw@print on input line 9.
-LaTeX Info: Redefining \anw@print on input line 9.
-LaTeX Info: Redefining \anw@print on input line 9.
-LaTeX Info: Redefining \anw@print on input line 9.
-Missing character: There is no Κ in font jkpmi!
-Missing character: There is no Κ in font jkpmi!
-Missing character: There is no Κ in font jkpmi!
-Missing character: There is no Κ in font jkpmi!
-Missing character: There is no Ξ in font jkpmi!
 [63
 
 
 
 ]
-LaTeX Info: Redefining \anw@print on input line 29.
-LaTeX Info: Redefining \anw@print on input line 29.
-LaTeX Info: Redefining \anw@print on input line 29.
-LaTeX Info: Redefining \anw@print on input line 29.
-LaTeX Info: Redefining \anw@print on input line 71.
-LaTeX Info: Redefining \anw@print on input line 71.
-LaTeX Info: Redefining \anw@print on input line 71.
-LaTeX Info: Redefining \anw@print on input line 71.
-LaTeX Info: Redefining \anw@print on input line 77.
-LaTeX Info: Redefining \anw@print on input line 77.
-LaTeX Info: Redefining \anw@print on input line 77.
-LaTeX Info: Redefining \anw@print on input line 77.
+LaTeX Info: Redefining \anw@print on input line 50.
+LaTeX Info: Redefining \anw@print on input line 50.
+LaTeX Info: Redefining \anw@print on input line 50.
+LaTeX Info: Redefining \anw@print on input line 50.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3178,20 +3288,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [64]
-Missing character: There is no Α in font jkpmi!
-Missing character: There is no Ι in font jkpmi!
-
-
-LaTeX Warning: Command \= invalid in math mode on input line 94.
-
-Missing character: There is no Α in font jkpmi!
-Missing character: There is no Ι in font jkpmi!
-Missing character: There is no ̄ in font jkpmi!
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 88--95
-[] 
- []
-
+LaTeX Info: Redefining \anw@print on input line 75.
+LaTeX Info: Redefining \anw@print on input line 75.
+LaTeX Info: Redefining \anw@print on input line 75.
+LaTeX Info: Redefining \anw@print on input line 75.
 )
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3351,11 +3451,11 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
  (./main.aux (./chapters/Intro.aux) (./chapters/Chapter1.aux)
 (./chapters/Chapter2.aux) (./chapters/Chapter3.aux) (./chapters/Chapter4.aux)
-(./chapters/Chapter5.aux) (./chapters/Chapter6.aux)
-(./chapters/AP_Regularization.aux) (./chapters/AP_Svm.aux)
+(./chapters/Chapter5.aux) (./chapters/Chapter6.aux) (./chapters/AP_Svm.aux)
 (./chapters/AP_NBayes.aux) (./chapters/AP_LRegress.aux) (./chapters/AP_Knn.aux)
-(./chapters/AP_Tests.aux) (./chapters/AP_Algorithms.aux)
-(./chapters/AP_Intervals.aux) (./chapters/AP_Datasets.aux))
+(./chapters/AP_Regularization.aux) (./chapters/AP_Tests.aux)
+(./chapters/AP_Algorithms.aux) (./chapters/AP_Intervals.aux)
+(./chapters/AP_Datasets.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 238.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 238.
 
@@ -3372,7 +3472,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  53927 strings out of 493918
  1102601 string characters out of 6150562
- 2197339 words of memory out of 5000000
+ 2197338 words of memory out of 5000000
  56246 multiletter control sequences out of 15000+600000
  30449 words of font info for 111 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
