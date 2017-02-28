@@ -1,0 +1,41 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Πρόβλημα ταξινόμησης όγκων με βάση την κακοήθεια}}{7}
+\contentsline {figure}{\numberline {2}{\ignorespaces Συστατικά μηχανικής μάθησης}}{8}
+\contentsline {figure}{\numberline {3}{\ignorespaces Ένα στατιστικό πείραμα}}{8}
+\contentsline {figure}{\numberline {4}{\ignorespaces Διάγραμμα διασποράς}}{10}
+\contentsline {figure}{\numberline {5}{\ignorespaces Θηκόγραμμα}}{10}
+\contentsline {figure}{\numberline {6}{\ignorespaces Το πρόβλημα της υπερπροσαρμογής}}{12}
+\contentsline {figure}{\numberline {7}{\ignorespaces Μέθοδος Wrapper για επιλογή χαρακτηριστικών}}{14}
+\contentsline {figure}{\numberline {8}{\ignorespaces Πίνακας σύγχυσης ταξινομητή }}{15}
+\contentsline {figure}{\numberline {9}{\ignorespaces Roc καμπύλη ταξινομητή}}{16}
+\contentsline {figure}{\numberline {10}{\ignorespaces K-NN ταξινομητής}}{17}
+\contentsline {figure}{\numberline {11}{\ignorespaces Radial Basis συνάρτηση με γκαουσιανή βάση}}{18}
+\contentsline {figure}{\numberline {12}{\ignorespaces RBF με μικρό γ}}{19}
+\contentsline {figure}{\numberline {13}{\ignorespaces RBF με μεγάλο γ}}{19}
+\contentsline {figure}{\numberline {14}{\ignorespaces Η λογιστική συνάρτηση}}{21}
+\contentsline {figure}{\numberline {15}{\ignorespaces Steepest descent}}{22}
+\contentsline {figure}{\numberline {16}{\ignorespaces Gradient descent με πολύ μικρό βήμα}}{23}
+\contentsline {figure}{\numberline {17}{\ignorespaces Gradient descent με πολύ μεγάλο βήμα}}{23}
+\contentsline {figure}{\numberline {18}{\ignorespaces Χώρος ταξινόμησης μηχανής διανυσματικής στήριξης}}{23}
+\contentsline {figure}{\numberline {19}{\ignorespaces Υπόθεση Α μηχανής διανυσματικής στήριξης}}{24}
+\contentsline {figure}{\numberline {20}{\ignorespaces Υπόθεση Β μηχανής διανυσματικής στήριξης}}{24}
+\contentsline {figure}{\numberline {21}{\ignorespaces Υπόθεση Γ μηχανής διανυσματικής στήριξης}}{24}
+\contentsline {figure}{\numberline {22}{\ignorespaces Υπερεπίπεδο μηχανών διανυσματικής στήριξης}}{25}
+\contentsline {figure}{\numberline {23}{\ignorespaces Χρήση πυρήνα για επίλυση μη γραμμικού διαχωρισμού}}{27}
+\contentsline {figure}{\numberline {24}{\ignorespaces Ελάχιστα μη διαχωρίσιμα δεδομένα}}{28}
+\contentsline {figure}{\numberline {25}{\ignorespaces Εμφανώς μη διαχωρίσιμα δεδομένα}}{28}
+\contentsline {figure}{\numberline {26}{\ignorespaces Μηχανές διανυσματικής στήριξης χαλαρού περιθωρίου}}{29}
+\contentsline {figure}{\numberline {27}{\ignorespaces Μοντέλο υψηλής πόλωσης}}{35}
+\contentsline {figure}{\numberline {28}{\ignorespaces Μοντέλο υψηλής διακύμανσης}}{36}
+\contentsline {figure}{\numberline {29}{\ignorespaces Παράδειγμα κανονικοποίησης}}{37}
+\contentsline {figure}{\numberline {30}{\ignorespaces Γραφική αναπαράσταση κανονικοποίησης}}{37}
+\contentsline {figure}{\numberline {31}{\ignorespaces Επίδραση λ στην κανονικοποίηση}}{38}
+\contentsline {figure}{\numberline {32}{\ignorespaces Αρχικό δείγμα υπερπαραμέτρων}}{42}
+\contentsline {figure}{\numberline {33}{\ignorespaces Συνάρτηση απόκτησης}}{42}
+\contentsline {figure}{\numberline {34}{\ignorespaces Προσαρμογή μοντέλου στο δείγμα με βάση την εκ των υστέρων πιθανότητα}}{42}
+\contentsline {figure}{\numberline {35}{\ignorespaces Βελτιστοποίηση συνάρτησης απόκτησης}}{42}
+\contentsline {figure}{\numberline {36}{\ignorespaces Επιλογή επόμενου σημείου δειγματοληψίας }}{42}
+\contentsline {figure}{\numberline {37}{\ignorespaces Weka}}{46}
+\contentsline {figure}{\numberline {38}{\ignorespaces Πακέτο Caret}}{46}
+\contentsline {figure}{\numberline {39}{\ignorespaces Διεπαφή Weka για προ επεξεργασία δεδομένων}}{46}
+\contentsline {figure}{\numberline {40}{\ignorespaces Οπτικοποιήση με το πακέτο Caret}}{46}
+\contentsline {figure}{\numberline {41}{\ignorespaces ChaLearn AutoML challenge }}{46}

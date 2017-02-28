@@ -1,0 +1,13 @@
+\chapter{Αλγόριθμοι }
+\label{appendix:Alg}
+
+\begin{myalgorithm}[H]
+	H=0\;
+	\For{t=1 μέχρι Τ }{
+		βρες τo $\theta^*=argmin S(\theta, M_{t-1})$ \;
+		υπολόγισε το $f(\theta^*)$\;
+		Ανανέωσε το σετ εκπαίδευσης $H=H \cup (\theta^*, f(\theta^*)) $\;
+		Εκπαίδευσε ένα νέο μοντέλο $M_t$ στο Η \;
+	}
+	\caption{Γενικός Ψευδοκώδικας SΜΒΟ}
+\end{myalgorithm}

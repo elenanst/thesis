@@ -1,0 +1,10 @@
+\BOOKMARK [1][-]{section.1}{Περιγραφή σετ δεδομένων}{}% 1
+\BOOKMARK [1][-]{section.2}{Πειράματα βελτιστοποίησης SVM}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Με χρήση caret}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Με χρήση HPOlib}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Με τη προτεινόμενη μέθοδο}{section.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Περιγραφή Μεταχαρακτηριστικών}{subsection.2.3}% 6
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Περιγραφή μοντέλου HPP}{subsection.2.3}% 7
+\BOOKMARK [2][-]{subsection.2.4}{Σύγκριση μεθόδων}{section.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.4.1}{caret\040Vs\040HPP}{subsection.2.4}% 9
+\BOOKMARK [3][-]{subsubsection.2.4.2}{HPOlib\040Vs\040HPP}{subsection.2.4}% 10

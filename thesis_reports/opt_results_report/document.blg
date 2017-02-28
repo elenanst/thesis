@@ -1,0 +1,17 @@
+[1] Config.pm:318> INFO - This is Biber 1.8
+[2] Config.pm:321> INFO - Logfile is 'document.blg'
+[91] biber:275> INFO - === Î ÎµÎ¼ ÎÎµÎº 29, 2016, 02:42:07
+[91] Biber.pm:333> INFO - Reading 'document.bcf'
+[172] Biber.pm:607> INFO - Using all citekeys in bib section 0
+[253] Biber.pm:3053> INFO - Processing section 0
+[345] Biber.pm:3190> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[348] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
+[348] bibtex.pm:808> INFO - Found BibTeX data source 'bibliography.bib'
+[403] Utils.pm:169> WARN - BibTeX subsystem: /tmp/Bs8fNoluCH/bibliography.bib_26434.utf8, line 4, warning: undefined macro "2016-11-29"
+[405] Utils.pm:169> WARN - The field 'year' in entry 'caret' cannot be null, deleting it
+[583] Biber.pm:2939> INFO - Overriding locale 'de_DE' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[584] Biber.pm:2945> INFO - Sorting 'entry' list 'nty' keys
+[584] Biber.pm:2949> INFO - No sort tailoring available for locale 'de_DE'
+[596] bbl.pm:482> INFO - Writing 'document.bbl' with encoding 'UTF-8'
+[597] bbl.pm:555> INFO - Output to document.bbl
+[598] Biber.pm:105> INFO - WARNINGS: 2

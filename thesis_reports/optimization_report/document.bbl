@@ -1,0 +1,494 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nty}
+    \entry{Abdulrahman:2014:MCA:3015544.3015557}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=84df438b8f862e2e57674458aaded872}{Abdulrahman}{A\bibinitperiod}{Salisu\bibnamedelima Mamman}{S\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=0f53cd125b8efb2a9dcfb78b7832be04}{Brazdil}{B\bibinitperiod}{Pavel}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=84df438b8f862e2e57674458aaded872}{Abdulrahman}{A\bibinitperiod}{Salisu\bibnamedelima Mamman}{S\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=0f53cd125b8efb2a9dcfb78b7832be04}{Brazdil}{B\bibinitperiod}{Pavel}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Prague, Czech Republic}%
+      }
+      \list{publisher}{1}{%
+        {CEUR-WS.org}%
+      }
+      \strng{namehash}{22582987ccf2c79483afe6e70136266c}
+      \strng{fullhash}{22582987ccf2c79483afe6e70136266c}
+      \field{sortinit}{A}
+      \field{labeltitle}{Measures for Combining Accuracy and Time for Meta-learning}
+      \field{booktitle}{Proceedings of the 2014 International Conference on Meta-learning and Algorithm Selection - Volume 1201}
+      \field{isbn}{1613-0073}
+      \field{series}{MLAS'14}
+      \field{title}{Measures for Combining Accuracy and Time for Meta-learning}
+      \field{year}{2014}
+      \field{pages}{49\bibrangedash 50}
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=3015544.3015557
+      \endverb
+    \endentry
+    \entry{1554761}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=86fb2166216053dfae2daab616b57b18}{Bartz-Beielstein}{B\bibinithyphendelim B\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=ae0b620e3bb192f1c5639387065c6bce}{Lasarczyk}{L\bibinitperiod}{C.\bibnamedelimi W.\bibnamedelimi G.}{C\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=e38c3b322d86a4d0f0efbf9483988356}{Preuss}{P\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=86fb2166216053dfae2daab616b57b18}{Bartz-Beielstein}{B\bibinithyphendelim B\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=ae0b620e3bb192f1c5639387065c6bce}{Lasarczyk}{L\bibinitperiod}{C.\bibnamedelimi W.\bibnamedelimi G.}{C\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=e38c3b322d86a4d0f0efbf9483988356}{Preuss}{P\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{20939cdb02e2d8d7ad3f20d26fa2cfcb}
+      \strng{fullhash}{20939cdb02e2d8d7ad3f20d26fa2cfcb}
+      \field{sortinit}{B}
+      \field{labeltitle}{Sequential parameter optimization}
+      \field{booktitle}{2005 IEEE Congress on Evolutionary Computation}
+      \field{issn}{1089-778X}
+      \field{month}{09}
+      \field{title}{Sequential parameter optimization}
+      \field{volume}{1}
+      \field{year}{2005}
+      \field{pages}{773\bibrangedash 780 Vol.1}
+      \verb{doi}
+      \verb 10.1109/CEC.2005.1554761
+      \endverb
+      \keyw{heuristic programming;optimisation;search problems;statistical analysis;optimization algorithm;search algorithm;sequential parameter optimization;statistical techniques;Algorithm design and analysis;Computer science;Design for experiments;Design optimization;Evolutionary computation;Genetic algorithms;Modems;Performance analysis;Statistics;Stochastic processes}
+    \endentry
+    \entry{Bergstra:2011:AHO:2986459.2986743}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=0bc66fe902c838c216bd3175dfeb045b}{Bergstra}{B\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=54e0102029117aca9809348036388cf9}{Bardenet}{B\bibinitperiod}{Rémi}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=40a8e4774982146adc2688546f54efb2}{Bengio}{B\bibinitperiod}{Yoshua}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=8c0b75b51fab44f860838ecaa76c3ce1}{Kégl}{K\bibinitperiod}{Balázs}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0bc66fe902c838c216bd3175dfeb045b}{Bergstra}{B\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=54e0102029117aca9809348036388cf9}{Bardenet}{B\bibinitperiod}{Rémi}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=40a8e4774982146adc2688546f54efb2}{Bengio}{B\bibinitperiod}{Yoshua}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=8c0b75b51fab44f860838ecaa76c3ce1}{Kégl}{K\bibinitperiod}{Balázs}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Granada, Spain}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates Inc.}%
+      }
+      \strng{namehash}{3dd3e1572748cb73912ad4467b93c74b}
+      \strng{fullhash}{32e09731d91a45b9d92d94246abb7fe7}
+      \field{sortinit}{B}
+      \field{labeltitle}{Algorithms for Hyper-parameter Optimization}
+      \field{booktitle}{Proceedings of the 24th International Conference on Neural Information Processing Systems}
+      \field{isbn}{978-1-61839-599-3}
+      \field{series}{NIPS'11}
+      \field{title}{Algorithms for Hyper-parameter Optimization}
+      \field{year}{2011}
+      \field{pages}{2546\bibrangedash 2554}
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=2986459.2986743
+      \endverb
+    \endentry
+    \entry{AAAI1510029}{paper}{}
+      \name{labelname}{3}{}{%
+        {{hash=2661e0a744cd67c731851c7f1c80d2e2}{Feurer}{F\bibinitperiod}{Matthias}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=2b4570b1dfe4c0b15751abe6e8cbf4ae}{Springenberg}{S\bibinitperiod}{Jost}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=2661e0a744cd67c731851c7f1c80d2e2}{Feurer}{F\bibinitperiod}{Matthias}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=2b4570b1dfe4c0b15751abe6e8cbf4ae}{Springenberg}{S\bibinitperiod}{Jost}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{900d0ee249ea38bd1471cbcfe0e0a94e}
+      \strng{fullhash}{900d0ee249ea38bd1471cbcfe0e0a94e}
+      \field{sortinit}{F}
+      \field{labeltitle}{Initializing Bayesian Hyperparameter Optimization via Meta-Learning}
+      \field{abstract}{Model selection and hyperparameter optimization is crucial in applying machine learning to a novel dataset. Recently, a subcommunity of machine learning has focused on solving this problem with Sequential Model-based Bayesian Optimization (SMBO), demonstrating substantial successes in many applications. However, for computationally expensive algorithms the overhead of hyperparameter optimization can still be prohibitive. In this paper we mimic a strategy human domain experts use: speed up optimization by starting from promising configurations that performed well on similar datasets. The resulting initialization technique integrates naturally into the generic SMBO framework and can be trivially applied to any SMBO method. To validate our approach, we perform extensive experiments with two established SMBO frameworks (Spearmint and SMAC) with complementary strengths; optimizing two machine learning frameworks on 57 datasets. Our initialization procedure yields mild improvements for low-dimensional hyperparameter optimization and substantially improves the state of the art for the more complex combined algorithm selection and hyperparameter optimization problem.}
+      \field{title}{Initializing Bayesian Hyperparameter Optimization via Meta-Learning}
+      \field{year}{2015}
+      \verb{url}
+      \verb http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/10029
+      \endverb
+      \keyw{Machine Learning; Meta-Learning; Bayesian Optimization; Hyperparameter Optimization; Sequential Model-based Optimization}
+    \endentry
+    \entry{Huang2006}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=8de34096ba2eacadb23216dd55dfec52}{Huang}{H\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=7522325900ecd72684711d768bf098ed}{Allen}{A\bibinitperiod}{T.\bibnamedelimi T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=ebbc2bdd93fb8196a2a8fb28496c585e}{Notz}{N\bibinitperiod}{W.\bibnamedelimi I.}{W\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+        {{hash=d9caf25cf6b9fa55a6eb71f1283c1b6c}{Zeng}{Z\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=8de34096ba2eacadb23216dd55dfec52}{Huang}{H\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=7522325900ecd72684711d768bf098ed}{Allen}{A\bibinitperiod}{T.\bibnamedelimi T.}{T\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=ebbc2bdd93fb8196a2a8fb28496c585e}{Notz}{N\bibinitperiod}{W.\bibnamedelimi I.}{W\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+        {{hash=d9caf25cf6b9fa55a6eb71f1283c1b6c}{Zeng}{Z\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ab9367f3697f24a033911a0c8d5d82ec}
+      \strng{fullhash}{9250f742bb642d89236792eb522a5794}
+      \field{sortinit}{H}
+      \field{labeltitle}{Global Optimization of Stochastic Black-Box Systems via Sequential Kriging Meta-Models}
+      \field{abstract}{This paper proposes a new method that extends the efficient global optimization to address stochastic black-box systems. The method is based on a kriging meta-model that provides a global prediction of the objective values and a measure of prediction uncertainty at every point. The criterion for the infill sample selection is an augmented expected improvement function with desirable properties for stochastic responses. The method is empirically compared with the revised simplex search, the simultaneous perturbation stochastic approximation, and the DIRECT methods using six test problems from the literature. An application case study on an inventory system is also documented. The results suggest that the proposed method has excellent consistency and efficiency in finding global optimal solutions, and is particularly useful for expensive systems.}
+      \field{issn}{1573-2916}
+      \field{journaltitle}{Journal of Global Optimization}
+      \field{number}{3}
+      \field{title}{Global Optimization of Stochastic Black-Box Systems via Sequential Kriging Meta-Models}
+      \field{volume}{34}
+      \field{year}{2006}
+      \field{pages}{441\bibrangedash 466}
+      \verb{doi}
+      \verb 10.1007/s10898-005-2454-3
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s10898-005-2454-3
+      \endverb
+    \endentry
+    \entry{HutHooLey14:fanova}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=25f5c8395a2808ac5ee0dbede7051255}{Hutter}{H\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=a7142d98e11712ecde6093d13edaadaf}{Hoos}{H\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=307a612ac865b682fe4341d5c661bf10}{Leyton-Brown}{L\bibinithyphendelim B\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=25f5c8395a2808ac5ee0dbede7051255}{Hutter}{H\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=a7142d98e11712ecde6093d13edaadaf}{Hoos}{H\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=307a612ac865b682fe4341d5c661bf10}{Leyton-Brown}{L\bibinithyphendelim B\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d5ab58c4e01d090abdb2567bd6228aff}
+      \strng{fullhash}{d5ab58c4e01d090abdb2567bd6228aff}
+      \field{sortinit}{H}
+      \field{labeltitle}{An Efficient Approach for Assessing Hyperparameter Importance}
+      \field{booktitle}{Proc.~of~ICML-14}
+      \field{note}{To appear}
+      \field{title}{An Efficient Approach for Assessing Hyperparameter Importance}
+      \field{year}{2014}
+    \endentry
+    \entry{Hutter2011}{inbook}{}
+      \name{labelname}{3}{}{%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=c91dd51578c1d6d1adb0e2fcafe0d7c4}{Hoos}{H\bibinitperiod}{Holger\bibnamedelima H.}{H\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=91d47c0d6ebf96d50082140932162381}{Leyton-Brown}{L\bibinithyphendelim B\bibinitperiod}{Kevin}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=c91dd51578c1d6d1adb0e2fcafe0d7c4}{Hoos}{H\bibinitperiod}{Holger\bibnamedelima H.}{H\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=91d47c0d6ebf96d50082140932162381}{Leyton-Brown}{L\bibinithyphendelim B\bibinitperiod}{Kevin}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=1e7ea56c457c902e3d0511d113cfd6ed}{Coello}{C\bibinitperiod}{Carlos\bibnamedelimb A.\bibnamedelimi Coello}{C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{2adee201cb411f3d90fc40f4f56ac368}
+      \strng{fullhash}{2adee201cb411f3d90fc40f4f56ac368}
+      \field{sortinit}{H}
+      \field{labeltitle}{Sequential Model-Based Optimization for General Algorithm Configuration}
+      \field{booktitle}{Learning and Intelligent Optimization: 5th International Conference, LION 5, Rome, Italy, January 17-21, 2011. Selected Papers}
+      \field{isbn}{978-3-642-25566-3}
+      \field{title}{Sequential Model-Based Optimization for General Algorithm Configuration}
+      \field{year}{2011}
+      \field{pages}{507\bibrangedash 523}
+      \verb{doi}
+      \verb 10.1007/978-3-642-25566-3_40
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-642-25566-3_40
+      \endverb
+    \endentry
+    \entry{Hutter:2009:EIM:1569901.1569940}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=c91dd51578c1d6d1adb0e2fcafe0d7c4}{Hoos}{H\bibinitperiod}{Holger\bibnamedelima H.}{H\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=91d47c0d6ebf96d50082140932162381}{Leyton-Brown}{L\bibinithyphendelim B\bibinitperiod}{Kevin}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=57a45a819d1ea44f0e40dfcdeeaa4140}{Murphy}{M\bibinitperiod}{Kevin\bibnamedelima P.}{K\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=c91dd51578c1d6d1adb0e2fcafe0d7c4}{Hoos}{H\bibinitperiod}{Holger\bibnamedelima H.}{H\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=91d47c0d6ebf96d50082140932162381}{Leyton-Brown}{L\bibinithyphendelim B\bibinitperiod}{Kevin}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=57a45a819d1ea44f0e40dfcdeeaa4140}{Murphy}{M\bibinitperiod}{Kevin\bibnamedelima P.}{K\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Montreal, Qu\&\#233;bec, Canada}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{84d81f6d9b50a3d89ef4818b77346d74}
+      \strng{fullhash}{e3306f2285cc70da8b369d5ef101711a}
+      \field{sortinit}{H}
+      \field{labeltitle}{An Experimental Investigation of Model-based Parameter Optimisation: SPO and Beyond}
+      \field{booktitle}{Proceedings of the 11th Annual Conference on Genetic and Evolutionary Computation}
+      \field{isbn}{978-1-60558-325-9}
+      \field{series}{GECCO '09}
+      \field{title}{An Experimental Investigation of Model-based Parameter Optimisation: SPO and Beyond}
+      \field{year}{2009}
+      \field{pages}{271\bibrangedash 278}
+      \verb{doi}
+      \verb 10.1145/1569901.1569940
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1569901.1569940
+      \endverb
+      \keyw{active learning,gaussian processes,noisy optimization,parameter tuning,sequential experimental design}
+    \endentry
+    \entry{HutHooLeyMur10}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=25f5c8395a2808ac5ee0dbede7051255}{Hutter}{H\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=9688b96f1de19824ffdea6ddf0bd4fe8}{Hoos}{H\bibinitperiod}{H.\bibnamedelimi H.}{H\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=307a612ac865b682fe4341d5c661bf10}{Leyton-Brown}{L\bibinithyphendelim B\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=c41050f750f8d6b6ee746233eb75d93e}{Murphy}{M\bibinitperiod}{K.\bibnamedelimi P.}{K\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=25f5c8395a2808ac5ee0dbede7051255}{Hutter}{H\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=9688b96f1de19824ffdea6ddf0bd4fe8}{Hoos}{H\bibinitperiod}{H.\bibnamedelimi H.}{H\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=307a612ac865b682fe4341d5c661bf10}{Leyton-Brown}{L\bibinithyphendelim B\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=c41050f750f8d6b6ee746233eb75d93e}{Murphy}{M\bibinitperiod}{K.\bibnamedelimi P.}{K\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ddd1f889ac19726a161260ffc423ad7d}
+      \strng{fullhash}{6119d049b48632cb2607704589f5e5ec}
+      \field{sortinit}{H}
+      \field{labeltitle}{Time-Bounded Sequential Parameter Optimization}
+      \field{booktitle}{Proceedings of the conference on Learning and Intelligent OptimizatioN (LION 4)}
+      \field{month}{01}
+      \field{title}{Time-Bounded Sequential Parameter Optimization}
+      \field{year}{2010}
+    \endentry
+    \entry{ensemble}{online}{}
+      \name{labelname}{3}{}{%
+        {{hash=ed6f946bb8619e16dc7562d67c090e7c}{Levésque}{L\bibinitperiod}{Julien-Charles}{J\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=6cf428558c3d4908897307fde7e4f5f4}{Gagné}{G\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=bb10d649d5f965f42c77ff1ecb593a06}{Sabourin}{S\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=ed6f946bb8619e16dc7562d67c090e7c}{Levésque}{L\bibinitperiod}{Julien-Charles}{J\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=6cf428558c3d4908897307fde7e4f5f4}{Gagné}{G\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=bb10d649d5f965f42c77ff1ecb593a06}{Sabourin}{S\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c8610529b633ae2dcec98bff369b9455}
+      \strng{fullhash}{c8610529b633ae2dcec98bff369b9455}
+      \field{sortinit}{L}
+      \field{labeltitle}{Bayesian Hyperparameter Optimization for Ensemble Learning}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arxiv}
+      \field{title}{Bayesian Hyperparameter Optimization for Ensemble Learning}
+      \field{version}{1}
+      \verb{eprint}
+      \verb 1605.06394
+      \endverb
+      \warn{\item Datamodel: Entry 'ensemble' (bibliography.bib): Invalid format '2016-5-20' of date field 'date' - ignoring}
+    \endentry
+    \entry{DBLP:journals/corr/LoshchilovH16}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=1241b8181104f1917578d4c7f9b323b6}{Loshchilov}{L\bibinitperiod}{Ilya}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=1241b8181104f1917578d4c7f9b323b6}{Loshchilov}{L\bibinitperiod}{Ilya}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b308ccb07134a06ec3735828ac4f15e2}
+      \strng{fullhash}{b308ccb07134a06ec3735828ac4f15e2}
+      \field{sortinit}{L}
+      \field{labeltitle}{{CMA-ES} for Hyperparameter Optimization of Deep Neural Networks}
+      \field{journaltitle}{CoRR}
+      \field{title}{{CMA-ES} for Hyperparameter Optimization of Deep Neural Networks}
+      \field{volume}{abs/1604.07269}
+      \field{year}{2016}
+      \verb{url}
+      \verb http://arxiv.org/abs/1604.07269
+      \endverb
+    \endentry
+    \entry{Nelder01011965}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=f679d2c76561037caf851bc78e48e730}{Nelder}{N\bibinitperiod}{J.\bibnamedelimi A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=910a207c5358ae3442325672a3c22ade}{Mead}{M\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=f679d2c76561037caf851bc78e48e730}{Nelder}{N\bibinitperiod}{J.\bibnamedelimi A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=910a207c5358ae3442325672a3c22ade}{Mead}{M\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{84865b0f440e946ff4902ee3db0217ce}
+      \strng{fullhash}{84865b0f440e946ff4902ee3db0217ce}
+      \field{sortinit}{N}
+      \field{labeltitle}{A Simplex Method for Function Minimization}
+      \field{abstract}{A method is described for the minimization of a function of n variables, which depends on the comparison of function values at the (n + 1) vertices of a general simplex, followed by the replacement of the vertex with the highest value by another point. The simplex adapts itself to the local landscape, and contracts on to the final minimum. The method is shown to be effective and computationally compact. A procedure is given for the estimation of the Hessian matrix in the neighbourhood of the minimum, needed in statistical estimation problems.}
+      \field{journaltitle}{The Computer Journal}
+      \field{number}{4}
+      \field{title}{A Simplex Method for Function Minimization}
+      \field{volume}{7}
+      \field{year}{1965}
+      \field{pages}{308\bibrangedash 313}
+      \verb{doi}
+      \verb 10.1093/comjnl/7.4.308
+      \endverb
+      \verb{eprint}
+      \verb http://comjnl.oxfordjournals.org/content/7/4/308.full.pdf+html
+      \endverb
+      \verb{url}
+      \verb http://comjnl.oxfordjournals.org/content/7/4/308.abstract
+      \endverb
+    \endentry
+    \entry{wassenberg}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=bab4e5caee2d67831e464ce575022b37}{Pedregosa}{P\bibinitperiod}{Fabian}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=bab4e5caee2d67831e464ce575022b37}{Pedregosa}{P\bibinitperiod}{Fabian}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{bab4e5caee2d67831e464ce575022b37}
+      \strng{fullhash}{bab4e5caee2d67831e464ce575022b37}
+      \field{sortinit}{P}
+      \field{labeltitle}{Hyperparameter optimization with approximate gradient}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arxiv}
+      \field{langid}{american}
+      \field{title}{Hyperparameter optimization with approximate gradient}
+      \field{version}{1}
+      \verb{eprint}
+      \verb 1602.02355v5
+      \endverb
+      \warn{\item Datamodel: Entry 'wassenberg' (bibliography.bib): Invalid format '2016-6-26' of date field 'date' - ignoring}
+    \endentry
+    \entry{1554741}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=b30647c141ffce199033891c9cf6ef3b}{Rojas}{R\bibinitperiod}{S.\bibnamedelimi A.}{S\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=fa3a5bbba1d0e3611d27c00ed97a0e10}{Fernan\-dez-Reyes}{F\bibinithyphendelim d\bibinithyphendelim R\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=b30647c141ffce199033891c9cf6ef3b}{Rojas}{R\bibinitperiod}{S.\bibnamedelimi A.}{S\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=fa3a5bbba1d0e3611d27c00ed97a0e10}{Fernan\-dez-Reyes}{F\bibinithyphendelim d\bibinithyphendelim R\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c77c8ba496a9ff68631668fde4c3baf4}
+      \strng{fullhash}{c77c8ba496a9ff68631668fde4c3baf4}
+      \field{sortinit}{R}
+      \field{labeltitle}{Adapting multiple kernel parameters for support vector machines using genetic algorithms}
+      \field{booktitle}{2005 IEEE Congress on Evolutionary Computation}
+      \field{issn}{1089-778X}
+      \field{month}{09}
+      \field{title}{Adapting multiple kernel parameters for support vector machines using genetic algorithms}
+      \field{volume}{1}
+      \field{year}{2005}
+      \field{pages}{626\bibrangedash 631 Vol.1}
+      \verb{doi}
+      \verb 10.1109/CEC.2005.1554741
+      \endverb
+      \keyw{genetic algorithms;learning (artificial intelligence);pattern classification;radial basis function networks;support vector machines;RBF kernel;SVM;classification tasks;genetic algorithm;genetic algorithms;grid-search;multiple kernel parameters;supervised learning problems;support vector machines;weighted radial basis function kernel;Algorithm design and analysis;Application software;Computer science;Educational institutions;Genetic algorithms;Grid computing;Kernel;Supervised learning;Support vector machine classification;Support vector machines}
+    \endentry
+    \entry{Schilling2016}{inbook}{}
+      \name{labelname}{3}{}{%
+        {{hash=860cc6347679b902fcf17e94465f0e7a}{Schilling}{S\bibinitperiod}{Nicolas}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=a78fe4f292957ed0686ef668ef87048e}{Wistuba}{W\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=6bd1e34895061f42175a4e3ec60b0ea6}{Schmidt-Thieme}{S\bibinithyphendelim T\bibinitperiod}{Lars}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=860cc6347679b902fcf17e94465f0e7a}{Schilling}{S\bibinitperiod}{Nicolas}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=a78fe4f292957ed0686ef668ef87048e}{Wistuba}{W\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=6bd1e34895061f42175a4e3ec60b0ea6}{Schmidt-Thieme}{S\bibinithyphendelim T\bibinitperiod}{Lars}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=f247df2d5de3a9ccb24aa9ee9fdaf277}{Frasconi}{F\bibinitperiod}{Paolo}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=1b0055e0bc807afc8d575a28cd653fe3}{Landwehr}{L\bibinitperiod}{Niels}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=3ac8629f73a346e92784afca7539530c}{Manco}{M\bibinitperiod}{Giuseppe}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=80a7ecb0fd29b36581e59ff5137f9b34}{Vreeken}{V\bibinitperiod}{Jilles}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{ef292fea377873033571a69a9d4fc271}
+      \strng{fullhash}{ef292fea377873033571a69a9d4fc271}
+      \field{sortinit}{S}
+      \field{labeltitle}{Scalable Hyperparameter Optimization with Products of Gaussian Process Experts}
+      \field{booktitle}{Machine Learning and Knowledge Discovery in Databases: European Conference, ECML PKDD 2016, Riva del Garda, Italy, September 19-23, 2016, Proceedings, Part I}
+      \field{isbn}{978-3-319-46128-1}
+      \field{title}{Scalable Hyperparameter Optimization with Products of Gaussian Process Experts}
+      \field{year}{2016}
+      \field{pages}{33\bibrangedash 48}
+      \verb{doi}
+      \verb 10.1007/978-3-319-46128-1_3
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-319-46128-1_3
+      \endverb
+    \endentry
+    \entry{practical}{online}{}
+      \name{labelname}{3}{}{%
+        {{hash=b9d827c94405733235f3f953a0691fd5}{Snoek}{S\bibinitperiod}{Jasper}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=42a970b0a0f1ed24b23064370cc9392f}{Larochelle}{L\bibinitperiod}{Hugo}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=9bebc4579f877e6e09f546c436a41875}{Adams}{A\bibinitperiod}{P.\bibnamedelimi Ryan}{P\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=b9d827c94405733235f3f953a0691fd5}{Snoek}{S\bibinitperiod}{Jasper}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=42a970b0a0f1ed24b23064370cc9392f}{Larochelle}{L\bibinitperiod}{Hugo}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=9bebc4579f877e6e09f546c436a41875}{Adams}{A\bibinitperiod}{P.\bibnamedelimi Ryan}{P\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e8eb4c7943e9073f5f9f01d9eece5e27}
+      \strng{fullhash}{e8eb4c7943e9073f5f9f01d9eece5e27}
+      \field{sortinit}{S}
+      \field{labeltitle}{Practical Bayesian Optimization of Machine Learning Algorithms}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arxiv}
+      \field{title}{Practical Bayesian Optimization of Machine Learning Algorithms}
+      \field{version}{2}
+      \verb{eprint}
+      \verb 1206.2944
+      \endverb
+      \warn{\item Datamodel: Entry 'practical' (bibliography.bib): Invalid format '2012-8-29' of date field 'date' - ignoring}
+    \endentry
+    \entry{7373431}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=e36db91084f841242dddf1f9cd48ab77}{Wistu\-ba}{W\bibinithyphendelim b\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=a4faa0f5713d6be4cc4cd51a585e7a2d}{Schilling}{S\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=8ffc92377bba34bb848d4095e3ea4a05}{L.\-Schmidt-Thieme}{L\bibinithyphendelim S\bibinithyphendelim T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=e36db91084f841242dddf1f9cd48ab77}{Wistu\-ba}{W\bibinithyphendelim b\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=a4faa0f5713d6be4cc4cd51a585e7a2d}{Schilling}{S\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=8ffc92377bba34bb848d4095e3ea4a05}{L.\-Schmidt-Thieme}{L\bibinithyphendelim S\bibinithyphendelim T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{4c5e5dcc74dabb071a555447c1f14276}
+      \strng{fullhash}{4c5e5dcc74dabb071a555447c1f14276}
+      \field{sortinit}{W}
+      \field{labeltitle}{Sequential Model-Free Hyperparameter Tuning}
+      \field{booktitle}{2015 IEEE International Conference on Data Mining}
+      \field{issn}{1550-4786}
+      \field{month}{11}
+      \field{title}{Sequential Model-Free Hyperparameter Tuning}
+      \field{year}{2015}
+      \field{pages}{1033\bibrangedash 1038}
+      \verb{doi}
+      \verb 10.1109/ICDM.2015.20
+      \endverb
+      \keyw{pattern classification;support vector machines;AdaBoost;SMBO framework;SVM;acquisition function;automatic tuning;classifiers;complex hyperparameter tuning strategies;data sets;hyperparameter combinations;hyperparameter configurations;look-up tables;meta-features;random hyperparameter search;sequential model-based optimization;sequential model-free hyperparameter tuning;static ranking;surrogate models;Adaptation models;Data models;Loss measurement;Machine learning algorithms;Optimization;Tuning;hyperparameter optimization;meta-learning;transfer learning}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

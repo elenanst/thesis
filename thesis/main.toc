@@ -1,0 +1,245 @@
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{ Περίληψη}{5}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{ Abstract}{5}{section*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{ Ευχαριστίες}{5}{section*.6}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Εισαγωγή}{6}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Γενικά}{6}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Μεθοδολογία και στόχοι}{7}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Διάρθρωση Κειμένου}{8}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Θεωρητικό Υπόβαθρο}{9}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Μηχανική Μάθηση}{9}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Η έννοια της μηχανικής μάθησης}{9}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Επιβλεπόμενη Μάθηση}{9}{section*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Μη Επιβλεπόμενη Μάθηση}{9}{section*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Ενισχυτική Μάθηση}{9}{section*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Προβλήματα παλινδρόμησης}{10}{section*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Προβλήματα ταξινόμησης}{10}{section*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Προβλήματα ομαδοποίησης}{10}{section*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Ορολογία}{10}{section*.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Η διαδικασία της μηχανικής μάθησης}{12}{subsection.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Συλλογή και καθαρισμός δεδομένων}{12}{section*.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Προ-επεξεργασία}{12}{section*.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Διαχωρισμός σε σετ εκπαίδευσης, αξιολόγησης και ελέγχου}{12}{section*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Εκπαίδευση μοντέλου}{12}{section*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Αξιολόγηση}{12}{section*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Τεχνικές Μηχανικής Μάθησης}{13}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Κατά την προ-επεξεργασία}{13}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Ανάλυση κυρίαρχων συνιστωσών}{13}{section*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Μετασχηματισμός Box-Cox}{14}{section*.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Κατά την εκπαίδευση}{15}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Επιλογή χαρακτηριστικών}{15}{section*.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Συνάθροιση μοντέλων}{16}{section*.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Bootstrap- aggregating.}{17}{section*.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Boosting}{17}{section*.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Stacked generalization}{17}{section*.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Κατά την αξιολόγηση}{17}{subsection.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Μέθοδοι}{17}{section*.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Hold out}{17}{section*.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Leave one out}{18}{section*.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Cross-validation}{18}{section*.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{.632 bootstrap}{18}{section*.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Μετρικές}{19}{section*.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Πίνακας Σύγχυσης}{19}{section*.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Καμπύλη ROC}{20}{section*.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Στατιστικά τεστ υπόθεσης}{20}{section*.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Αυτοματοποιημένη Μηχανική Μάθηση}{21}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Ιστορική Αναδρομή}{21}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Βελτιστοποίηση Υπερπαραμέτρων}{22}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Bayesian Βελτιστοποίηση}{23}{section*.39}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Βελτιστοποίηση blackbox συναρτήσεων}{23}{section*.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Θεώρημα Bayes}{23}{section*.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Η Γκαουσιανή διαδικασία ως εκ των προτέρων πιθανότητα}{24}{section*.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Συνάρτηση απόκτησης}{24}{section*.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Ακολουθιακή βελτιστοποίηση βασισμένη σε μοντέλο}{25}{section*.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Ακολουθιακή ρύθμιση αλγορίθμου βασισμένη σε μοντέλο (SMAC)}{25}{section*.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Δέντρο εκτιμητών Parzen (TPE)}{26}{section*.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Μετα-μάθηση}{26}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.4}Σύγχρονα εργαλεία}{27}{subsection.2.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{HPOlib}{27}{section*.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{auto-sklearn}{28}{section*.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Auto-WEKA}{28}{section*.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{caret}{28}{section*.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Περιγραφή Συστήματος}{29}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Σκοπός}{29}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Τεχνικές}{29}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Βελτιστοποίηση υπερ-παραμέτρων με μετα-μάθηση και χρήση διαστημάτων πρόβλεψης}{30}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Εκμετάλλευση διαστημάτων πρόβλεψης}{31}{section*.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Ensemble με προς τα εμπρός επιλογή μοντέλων}{31}{subsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Ευριστικές}{32}{subsection.3.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Το ξυράφι του Όκαμ}{32}{section*.55}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Κανόνας επάρκειας παραδειγμάτων}{33}{section*.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Κανόνας για επιλογή μεγέθους τεστ ελέγχου}{33}{section*.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Διατηρούμενη διακύμανση PCA}{33}{section*.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Κανόνας Tukey για αναγνώριση ακραίων τιμών}{33}{section*.59}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Αρχιτεκτονική}{34}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Υποσύστημα εκπαίδευσης}{34}{subsection.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}Υποσύστημα πειράματος}{35}{subsection.3.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Πειραματικά αποτελέσματα}{36}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Περιγραφή πειραμάτων}{36}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Περιγραφή σετ δεδομένων}{36}{section*.62}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Αξιολόγηση της τεχνικής βελτιστοποίησης υπερ-παραμέτρων με μετα-μάθηση και χρήση διαστημάτων πρόβλεψης}{36}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Συμπεράσματα}{38}{section*.65}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Αξιολόγηση της τεχνικής σχηματισμού ensemble με προς τα εμπρός επιλογή μοντέλων}{38}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Διαγράμματα προφίλ απόδοσης}{38}{section*.66}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Συμπεράσματα}{39}{section*.69}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Αξιολόγηση συστήματος Automated Data Scientist}{39}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Συμπεράσματα}{39}{section*.73}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Σχετική Δουλειά}{42}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Παραρτήματα}{47}{section*.75}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }}Κανονικοποίηση}{48}{Παράρτημα.alph1.Alph1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Διακύμανση - Πόλωση Μοντέλου}{48}{section*.76}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Η ιδέα της κανονικοποίησης}{49}{section*.79}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Η επίδραση της παραμέτρου λ}{50}{section*.82}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\MakeUppercase {β\anw@true \anw@print \relax }}Μηχανές Διανυσματικής Στήριξης}{52}{Παράρτημα.alph1.Alph2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Θεωρητική θεμελίωση}{52}{section*.86}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Μη γραμμικά διαχωρίσιμες κλάσεις}{54}{section*.88}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Μηχανές διανυσματικής στήριξης χαλαρού περιθωρίου}{55}{section*.90}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\MakeUppercase {γ\anw@true \anw@print \relax }}Naive Bayes}{58}{Παράρτημα.alph1.Alph3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Θεώρημα Bayes.}{58}{section*.93}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Υπολογισμός Μοντέλου}{58}{section*.94}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Πρόβλεψη}{58}{section*.95}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\MakeUppercase {δ\anw@true \anw@print \relax }}Λογιστική Παλινδρόμηση}{60}{Παράρτημα.alph1.Alph4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Η λογιστική συνάρτηση.}{60}{section*.96}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Ερμηνεία}{60}{section*.98}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Gradient descent}{61}{section*.99}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }}Κ-κοντινότερος γείτονας}{63}{Παράρτημα.alph1.Alph5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Συνάρτηση Ακτινικής βάσης }{63}{section*.103}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Επίδραση της μεταβλητής γ}{64}{section*.105}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{H συνάρτηση RBF ως μοντέλο βασισμένο σε παραδείγματα.}{64}{section*.107}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Επιλογή Κ κέντρων.}{64}{section*.108}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\MakeUppercase {στ\relax \anw@true \anw@print \relax }}Στατιστικά τεστ Υπόθεσης}{67}{Παράρτημα.alph1.Alph6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Pearson's Chi-squared τεστ}{67}{section*.109}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Yate's correction for continuity}{67}{section*.110}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{ANOVA τεστ}{67}{section*.111}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Friedman τεστ}{68}{section*.112}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Fisher's exact τεστ}{68}{section*.113}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Mann–Whitney U τεστ (Wilcoxon rank-sum)}{68}{section*.114}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{McNemar}{68}{section*.115}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Cochran-Mantel-Haenszel}{68}{section*.116}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\MakeUppercase {ζ\anw@true \anw@print \relax }}Αλγόριθμοι }{69}{Παράρτημα.alph1.Alph7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\MakeUppercase {η\anw@true \anw@print \relax }}Εξαγωγή διαστημάτων πρόβλεψης από μοντέλα παλινδρόμησης}{70}{Παράρτημα.alph1.Alph8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Από γραμμικό μοντέλο}{70}{section*.117}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Από SVM}{71}{section*.118}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\MakeUppercase {θ\anw@true \anw@print \relax }}Σετ δεδομένων }{72}{Παράρτημα.alph1.Alph9}

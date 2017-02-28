@@ -1,0 +1,396 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nty}
+    \entry{Bergstra:2011:AHO:2986459.2986743}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=0bc66fe902c838c216bd3175dfeb045b}{Bergstra}{B\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=54e0102029117aca9809348036388cf9}{Bardenet}{B\bibinitperiod}{Rémi}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=40a8e4774982146adc2688546f54efb2}{Bengio}{B\bibinitperiod}{Yoshua}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=8c0b75b51fab44f860838ecaa76c3ce1}{Kégl}{K\bibinitperiod}{Balázs}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0bc66fe902c838c216bd3175dfeb045b}{Bergstra}{B\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=54e0102029117aca9809348036388cf9}{Bardenet}{B\bibinitperiod}{Rémi}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=40a8e4774982146adc2688546f54efb2}{Bengio}{B\bibinitperiod}{Yoshua}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=8c0b75b51fab44f860838ecaa76c3ce1}{Kégl}{K\bibinitperiod}{Balázs}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Granada, Spain}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates Inc.}%
+      }
+      \strng{namehash}{3dd3e1572748cb73912ad4467b93c74b}
+      \strng{fullhash}{32e09731d91a45b9d92d94246abb7fe7}
+      \field{sortinit}{B}
+      \field{labeltitle}{Algorithms for Hyper-parameter Optimization}
+      \field{booktitle}{Proceedings of the 24th International Conference on Neural Information Processing Systems}
+      \field{isbn}{978-1-61839-599-3}
+      \field{series}{NIPS'11}
+      \field{title}{Algorithms for Hyper-parameter Optimization}
+      \field{year}{2011}
+      \field{pages}{2546\bibrangedash 2554}
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=2986459.2986743
+      \endverb
+    \endentry
+    \entry{10.2307/2984418}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=067f658bfe8ce1763fbbad3ab585281d}{Box}{B\bibinitperiod}{G.\bibnamedelimi E.\bibnamedelimi P.}{G\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=67a6e76c3d7d2f500bcde768585e3738}{Cox}{C\bibinitperiod}{D.\bibnamedelimi R.}{D\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=067f658bfe8ce1763fbbad3ab585281d}{Box}{B\bibinitperiod}{G.\bibnamedelimi E.\bibnamedelimi P.}{G\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=67a6e76c3d7d2f500bcde768585e3738}{Cox}{C\bibinitperiod}{D.\bibnamedelimi R.}{D\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {[Royal Statistical Society, Wiley]}%
+      }
+      \strng{namehash}{7d7ce8a110c3506443b20e61525ed0fe}
+      \strng{fullhash}{7d7ce8a110c3506443b20e61525ed0fe}
+      \field{sortinit}{B}
+      \field{labeltitle}{An Analysis of Transformations}
+      \field{abstract}{In the analysis of data it is often assumed that observations y<sub>1</sub>, y<sub>2</sub>, ..., y<sub>n</sub> are independently normally distributed with constant variance and with expectations specified by a model linear in a set of parameters θ. In this paper we make the less restrictive assumption that such a normal, homoscedastic, linear model is appropriate after some suitable transformation has been applied to the y's. Inferences about the transformation and about the parameters of the linear model are made by computing the likelihood function and the relevant posterior distribution. The contributions of normality, homoscedasticity and additivity to the transformation are separated. The relation of the present methods to earlier procedures for finding transformations is discussed. The methods are illustrated with examples.}
+      \field{issn}{00359246}
+      \field{journaltitle}{Journal of the Royal Statistical Society. Series B (Methodological)}
+      \field{number}{2}
+      \field{title}{An Analysis of Transformations}
+      \field{volume}{26}
+      \field{year}{1964}
+      \field{pages}{211\bibrangedash 252}
+      \verb{url}
+      \verb http://www.jstor.org/stable/2984418
+      \endverb
+    \endentry
+    \entry{Caruana:2004:ESL:1015330.1015432}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=599c5251d489b92dc7856277d56cb1a9}{Caruana}{C\bibinitperiod}{Rich}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=b35fbebaaa62ff79aee38093ae22a581}{Niculescu-Mizil}{N\bibinithyphendelim M\bibinitperiod}{Alexandru}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=5cf5b578a37fea896a65796d0772e0e6}{Crew}{C\bibinitperiod}{Geoff}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=c4977ba360670911702e1a786f1f044d}{Ksikes}{K\bibinitperiod}{Alex}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=599c5251d489b92dc7856277d56cb1a9}{Caruana}{C\bibinitperiod}{Rich}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=b35fbebaaa62ff79aee38093ae22a581}{Niculescu-Mizil}{N\bibinithyphendelim M\bibinitperiod}{Alexandru}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=5cf5b578a37fea896a65796d0772e0e6}{Crew}{C\bibinitperiod}{Geoff}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=c4977ba360670911702e1a786f1f044d}{Ksikes}{K\bibinitperiod}{Alex}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Banff, Alberta, Canada}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{089af20c0e85c71235697709555dc96d}
+      \strng{fullhash}{a81614fb62844d52d9dad23abe2a436d}
+      \field{sortinit}{C}
+      \field{labeltitle}{Ensemble Selection from Libraries of Models}
+      \field{booktitle}{Proceedings of the Twenty-first International Conference on Machine Learning}
+      \field{isbn}{1-58113-838-5}
+      \field{series}{ICML '04}
+      \field{title}{Ensemble Selection from Libraries of Models}
+      \field{year}{2004}
+      \field{pages}{18\bibrangedash}
+      \verb{doi}
+      \verb 10.1145/1015330.1015432
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1015330.1015432
+      \endverb
+    \endentry
+    \entry{dataworld}{online}{}
+      \field{sortinit}{d}
+      \field{labeltitle}{data.world}
+      \field{title}{data.world}
+      \field{urlday}{06}
+      \field{urlmonth}{02}
+      \field{urlyear}{2017}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://data.world/
+      \endverb
+    \endentry
+    \entry{Dolan2002}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=6354cde0a2f49230b9458c647d3f59df}{Dolan}{D\bibinitperiod}{Elizabeth\bibnamedelima D.}{E\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=7a1efbb9a7c613c11a76d6925097742d}{Moré}{M\bibinitperiod}{Jorge\bibnamedelima J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=6354cde0a2f49230b9458c647d3f59df}{Dolan}{D\bibinitperiod}{Elizabeth\bibnamedelima D.}{E\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=7a1efbb9a7c613c11a76d6925097742d}{Moré}{M\bibinitperiod}{Jorge\bibnamedelima J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7c40cf5cdab3a3159e8f1b7aa18b571e}
+      \strng{fullhash}{7c40cf5cdab3a3159e8f1b7aa18b571e}
+      \field{sortinit}{D}
+      \field{labeltitle}{Benchmarking optimization software with performance profiles}
+      \field{abstract}{We propose performance profiles --- distribution functions for a performance metric --- as a tool for benchmarking and comparing optimization software. We show that performance profiles combine the best features of other tools for performance evaluation.}
+      \field{issn}{1436-4646}
+      \field{journaltitle}{Mathematical Programming}
+      \field{number}{2}
+      \field{title}{Benchmarking optimization software with performance profiles}
+      \field{volume}{91}
+      \field{year}{2002}
+      \field{pages}{201\bibrangedash 213}
+      \verb{doi}
+      \verb 10.1007/s101070100263
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/s101070100263
+      \endverb
+    \endentry
+    \entry{Feurer:2014:UMI:3015544.3015549}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=2661e0a744cd67c731851c7f1c80d2e2}{Feurer}{F\bibinitperiod}{Matthias}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=de7de1a4d295b5756e14ea54090af136}{Springenberg}{S\bibinitperiod}{Jost\bibnamedelima Tobias}{J\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=2661e0a744cd67c731851c7f1c80d2e2}{Feurer}{F\bibinitperiod}{Matthias}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=de7de1a4d295b5756e14ea54090af136}{Springenberg}{S\bibinitperiod}{Jost\bibnamedelima Tobias}{J\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Prague, Czech Republic}%
+      }
+      \list{publisher}{1}{%
+        {CEUR-WS.org}%
+      }
+      \strng{namehash}{011161ee68b23460fb1de9f96de3dd34}
+      \strng{fullhash}{011161ee68b23460fb1de9f96de3dd34}
+      \field{sortinit}{F}
+      \field{labeltitle}{Using Meta-learning to Initialize Bayesian Optimization of Hyperparameters}
+      \field{booktitle}{Proceedings of the 2014 International Conference on Meta-learning and Algorithm Selection - Volume 1201}
+      \field{isbn}{1613-0073}
+      \field{series}{MLAS'14}
+      \field{title}{Using Meta-learning to Initialize Bayesian Optimization of Hyperparameters}
+      \field{year}{2014}
+      \field{pages}{3\bibrangedash 10}
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=3015544.3015549
+      \endverb
+    \endentry
+    \entry{autosklearn}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=bf215181b5140522137b3d4f6b73544a}{github}{g\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=bf215181b5140522137b3d4f6b73544a}{github}{g\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{bf215181b5140522137b3d4f6b73544a}
+      \strng{fullhash}{bf215181b5140522137b3d4f6b73544a}
+      \field{sortinit}{g}
+      \field{labeltitle}{autosklearn}
+      \field{title}{autosklearn}
+      \field{urlday}{06}
+      \field{urlmonth}{02}
+      \field{urlyear}{2017}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://github.com/automl/auto-sklearn
+      \endverb
+    \endentry
+    \entry{hpolib}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=bf215181b5140522137b3d4f6b73544a}{github}{g\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=bf215181b5140522137b3d4f6b73544a}{github}{g\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{bf215181b5140522137b3d4f6b73544a}
+      \strng{fullhash}{bf215181b5140522137b3d4f6b73544a}
+      \field{sortinit}{g}
+      \field{labeltitle}{HPOlib}
+      \field{title}{HPOlib}
+      \field{urlday}{06}
+      \field{urlmonth}{02}
+      \field{urlyear}{2017}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://github.com/automl/HPOlib
+      \endverb
+    \endentry
+    \entry{hyperopt}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=bf215181b5140522137b3d4f6b73544a}{github}{g\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=bf215181b5140522137b3d4f6b73544a}{github}{g\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{bf215181b5140522137b3d4f6b73544a}
+      \strng{fullhash}{bf215181b5140522137b3d4f6b73544a}
+      \field{sortinit}{g}
+      \field{labeltitle}{hyperopt}
+      \field{title}{hyperopt}
+      \field{urlday}{06}
+      \field{urlmonth}{02}
+      \field{urlyear}{2017}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://github.com/hyperopt/hyperopt
+      \endverb
+    \endentry
+    \entry{spearmint}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=bf215181b5140522137b3d4f6b73544a}{github}{g\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=bf215181b5140522137b3d4f6b73544a}{github}{g\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{bf215181b5140522137b3d4f6b73544a}
+      \strng{fullhash}{bf215181b5140522137b3d4f6b73544a}
+      \field{sortinit}{g}
+      \field{labeltitle}{Spearmint}
+      \field{title}{Spearmint}
+      \field{urlday}{06}
+      \field{urlmonth}{02}
+      \field{urlyear}{2017}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://github.com/HIPS/Spearmintt
+      \endverb
+    \endentry
+    \entry{Hutter:2009:EIM:1569901.1569940}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=c91dd51578c1d6d1adb0e2fcafe0d7c4}{Hoos}{H\bibinitperiod}{Holger\bibnamedelima H.}{H\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=91d47c0d6ebf96d50082140932162381}{Leyton-Brown}{L\bibinithyphendelim B\bibinitperiod}{Kevin}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=57a45a819d1ea44f0e40dfcdeeaa4140}{Murphy}{M\bibinitperiod}{Kevin\bibnamedelima P.}{K\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=c91dd51578c1d6d1adb0e2fcafe0d7c4}{Hoos}{H\bibinitperiod}{Holger\bibnamedelima H.}{H\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=91d47c0d6ebf96d50082140932162381}{Leyton-Brown}{L\bibinithyphendelim B\bibinitperiod}{Kevin}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=57a45a819d1ea44f0e40dfcdeeaa4140}{Murphy}{M\bibinitperiod}{Kevin\bibnamedelima P.}{K\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Montreal, Qu\&\#233;bec, Canada}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{84d81f6d9b50a3d89ef4818b77346d74}
+      \strng{fullhash}{e3306f2285cc70da8b369d5ef101711a}
+      \field{sortinit}{H}
+      \field{labeltitle}{An Experimental Investigation of Model-based Parameter Optimisation: SPO and Beyond}
+      \field{booktitle}{Proceedings of the 11th Annual Conference on Genetic and Evolutionary Computation}
+      \field{isbn}{978-1-60558-325-9}
+      \field{series}{GECCO '09}
+      \field{title}{An Experimental Investigation of Model-based Parameter Optimisation: SPO and Beyond}
+      \field{year}{2009}
+      \field{pages}{271\bibrangedash 278}
+      \verb{doi}
+      \verb 10.1145/1569901.1569940
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1569901.1569940
+      \endverb
+      \keyw{active learning,gaussian processes,noisy optimization,parameter tuning,sequential experimental design}
+    \endentry
+    \entry{kaggle}{online}{}
+      \field{sortinit}{K}
+      \field{labeltitle}{Kaggle}
+      \field{title}{Kaggle}
+      \field{urlday}{06}
+      \field{urlmonth}{02}
+      \field{urlyear}{2017}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://www.kaggle.com/datasets
+      \endverb
+    \endentry
+    \entry{openml}{online}{}
+      \field{sortinit}{O}
+      \field{labeltitle}{OpenML}
+      \field{title}{OpenML}
+      \field{urlday}{06}
+      \field{urlmonth}{02}
+      \field{urlyear}{2017}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://openml.org/
+      \endverb
+    \endentry
+    \entry{wassenberg}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=bab4e5caee2d67831e464ce575022b37}{Pedregosa}{P\bibinitperiod}{Fabian}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=bab4e5caee2d67831e464ce575022b37}{Pedregosa}{P\bibinitperiod}{Fabian}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{bab4e5caee2d67831e464ce575022b37}
+      \strng{fullhash}{bab4e5caee2d67831e464ce575022b37}
+      \field{sortinit}{P}
+      \field{labeltitle}{Hyperparameter optimization with approximate gradient}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arxiv}
+      \field{langid}{american}
+      \field{title}{Hyperparameter optimization with approximate gradient}
+      \field{version}{1}
+      \verb{eprint}
+      \verb 1602.02355v5
+      \endverb
+      \warn{\item Datamodel: Entry 'wassenberg' (bibliography.bib): Invalid format '2016-6-26' of date field 'date' - ignoring}
+    \endentry
+    \entry{Reif_meta2-features:}{misc}{}
+      \name{labelname}{3}{}{%
+        {{hash=dfe58d2d6efd8cec3d1cf6ec4f91f0b6}{Reif}{R\bibinitperiod}{Matthias}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5a88b427ea508cca58fbe1653577da26}{Shafait}{S\bibinitperiod}{Faisal}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=39509991baf1f5b54ef9eede853edd37}{Dengel}{D\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=dfe58d2d6efd8cec3d1cf6ec4f91f0b6}{Reif}{R\bibinitperiod}{Matthias}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5a88b427ea508cca58fbe1653577da26}{Shafait}{S\bibinitperiod}{Faisal}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=39509991baf1f5b54ef9eede853edd37}{Dengel}{D\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ece18d4d37742d094441fe46727130e7}
+      \strng{fullhash}{ece18d4d37742d094441fe46727130e7}
+      \field{sortinit}{R}
+      \field{labeltitle}{Meta 2-Features: Providing Meta-Learners More Information}
+      \field{title}{Meta 2-Features: Providing Meta-Learners More Information}
+    \endentry
+    \entry{relational}{online}{}
+      \field{sortinit}{R}
+      \field{labeltitle}{Relational Dataset Repository}
+      \field{title}{Relational Dataset Repository}
+      \field{urlday}{06}
+      \field{urlmonth}{02}
+      \field{urlyear}{2017}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://relational.fit.cvut.cz/
+      \endverb
+    \endentry
+    \entry{UCI}{online}{}
+      \field{sortinit}{U}
+      \field{labeltitle}{UCI}
+      \field{title}{UCI}
+      \field{urlday}{06}
+      \field{urlmonth}{02}
+      \field{urlyear}{2017}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://archive.ics.uci.edu/ml/datasets.html
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

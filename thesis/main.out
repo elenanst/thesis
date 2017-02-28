@@ -1,0 +1,42 @@
+\BOOKMARK [0][-]{chapter.1}{Εισαγωγή}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Γενικά}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Μεθοδολογία και στόχοι}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Διάρθρωση Κειμένου}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Θεωρητικό Υπόβαθρο}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Μηχανική Μάθηση}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.1.1}{Η έννοια της μηχανικής μάθησης}{section.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.1.2}{Η διαδικασία της μηχανικής μάθησης}{section.2.1}% 8
+\BOOKMARK [1][-]{section.2.2}{Τεχνικές Μηχανικής Μάθησης}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.1}{Κατά την προ-επεξεργασία}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.2}{Κατά την εκπαίδευση}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.3}{Κατά την αξιολόγηση}{section.2.2}% 12
+\BOOKMARK [1][-]{section.2.3}{Αυτοματοποιημένη Μηχανική Μάθηση}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.3.1}{Ιστορική Αναδρομή}{section.2.3}% 14
+\BOOKMARK [2][-]{subsection.2.3.2}{Βελτιστοποίηση Υπερπαραμέτρων}{section.2.3}% 15
+\BOOKMARK [2][-]{subsection.2.3.3}{Μετα-μάθηση}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.4}{Σύγχρονα εργαλεία}{section.2.3}% 17
+\BOOKMARK [0][-]{chapter.3}{Περιγραφή Συστήματος}{}% 18
+\BOOKMARK [1][-]{section.3.1}{Σκοπός}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.2}{Τεχνικές}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.2.1}{Βελτιστοποίηση υπερ-παραμέτρων με μετα-μάθηση και χρήση διαστημάτων πρόβλεψης}{section.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.2.2}{Ensemble με προς τα εμπρός επιλογή μοντέλων}{section.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.2.3}{Ευριστικές}{section.3.2}% 23
+\BOOKMARK [1][-]{section.3.3}{Αρχιτεκτονική}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.1}{Υποσύστημα εκπαίδευσης}{section.3.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.2}{Υποσύστημα πειράματος}{section.3.3}% 26
+\BOOKMARK [0][-]{chapter.4}{Πειραματικά αποτελέσματα}{}% 27
+\BOOKMARK [1][-]{section.4.1}{Περιγραφή πειραμάτων}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.2}{Αξιολόγηση της τεχνικής βελτιστοποίησης υπερ-παραμέτρων με μετα-μάθηση και χρήση διαστημάτων πρόβλεψης}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.3}{Αξιολόγηση της τεχνικής σχηματισμού ensemble με προς τα εμπρός επιλογή μοντέλων}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.4}{Αξιολόγηση συστήματος Automated Data Scientist}{chapter.4}% 31
+\BOOKMARK [0][-]{chapter.5}{Σχετική Δουλειά}{}% 32
+\BOOKMARK [0][-]{section*.75}{Παραρτήματα}{}% 33
+\BOOKMARK [0][-]{Παράρτημα.alph1.Alph1}{Κανονικοποίηση}{}% 34
+\BOOKMARK [0][-]{Παράρτημα.alph1.Alph2}{Μηχανές Διανυσματικής Στήριξης}{}% 35
+\BOOKMARK [0][-]{Παράρτημα.alph1.Alph3}{Naive\040Bayes}{}% 36
+\BOOKMARK [0][-]{Παράρτημα.alph1.Alph4}{Λογιστική Παλινδρόμηση}{}% 37
+\BOOKMARK [0][-]{Παράρτημα.alph1.Alph5}{Κ-κοντινότερος γείτονας}{}% 38
+\BOOKMARK [0][-]{Παράρτημα.alph1.Alph6}{Στατιστικά τεστ Υπόθεσης}{}% 39
+\BOOKMARK [0][-]{Παράρτημα.alph1.Alph7}{Αλγόριθμοι }{}% 40
+\BOOKMARK [0][-]{Παράρτημα.alph1.Alph8}{Εξαγωγή διαστημάτων πρόβλεψης από μοντέλα παλινδρόμησης}{}% 41
+\BOOKMARK [0][-]{Παράρτημα.alph1.Alph9}{Σετ δεδομένων }{}% 42

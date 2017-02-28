@@ -1,0 +1,13 @@
+\BOOKMARK [1][-]{section.1}{Περιγραφή του προβλήματος }{}% 1
+\BOOKMARK [1][-]{section.2}{Τεχνικές βελτιστοποίησης}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Bayesian βελτιστοποίηση}{section.2}% 3
+\BOOKMARK [3][-]{subsubsection.2.1.1}{SMBO}{subsection.2.1}% 4
+\BOOKMARK [1][-]{section.3}{Ειδικά Ζητήματα}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Χώρος υπερπαραμέτρων}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Συνάρτηση κόστους}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Αξιολόγηση και έλεγχος}{section.3}% 8
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Αξιολόγηση αλγορίθμου βελτιστοποίσης}{subsection.3.3}% 9
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Σύγκριση μεταξύ διαφορετικών τεχνικών}{subsection.3.3}% 10
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Εκτίμηση σημασίας υπερπαραμέτρων}{subsection.3.3}% 11
+\BOOKMARK [2][-]{subsection.3.4}{Επιτάχυνση βελτιστοποίησης}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{Χρήση μετα-γνώσης}{}% 13

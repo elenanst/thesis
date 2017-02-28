@@ -1,0 +1,6 @@
+\BOOKMARK [1][-]{section.1}{Η βελτιστοποίηση στο Automl}{}% 1
+\BOOKMARK [1][-]{section.2}{Ανάλυση μεταχαρακτηριστικών}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Επιλογή αλγορίθμου}{section.2}% 3
+\BOOKMARK [1][-]{section.3}{Περιγραφή τελικού μοντέλου}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Αξιολόγηση μοντέλου πρόβλεψης βελτιστοποιημέων k}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.2}{Αξιολόγηση ensemble}{section.3}% 6

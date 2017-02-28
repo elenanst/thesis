@@ -1,0 +1,75 @@
+\contentsline {section}{Λίστα σχημάτων}{3}
+\contentsline {section}{\numberline {1}Μηχανική Μάθηση}{5}
+\contentsline {subsection}{\numberline {1.1}Η έννοια της μηχανικής μάθησης}{5}
+\contentsline {subsection}{\numberline {1.2}Η διαδικασία της μηχανικής μάθησης}{8}
+\contentsline {subsubsection}{\numberline {1.2.1}Το πρόβλημα της γενίκευσης}{8}
+\contentsline {paragraph}{Ένα σχετικό στατιστικό πείραμα.}{8}
+\contentsline {subsubsection}{\numberline {1.2.2}Διαχωρισμός σε σετ εκπαίδευσης και σετ ελέγχου}{9}
+\contentsline {subsubsection}{\numberline {1.2.3}Εξερεύνηση δεδομένων}{9}
+\contentsline {subsubsection}{\numberline {1.2.4}Προ επεξεργασία δεδομένων}{10}
+\contentsline {paragraph}{Αγνοούμενες τιμές.}{10}
+\contentsline {paragraph}{Θόρυβος}{10}
+\contentsline {paragraph}{Απαγορευτικός όγκος δεδομένων.}{10}
+\contentsline {paragraph}{Μηχανική χαρακτηριστικών.}{10}
+\contentsline {paragraph}{Ανισορροπία κλάσης.}{12}
+\contentsline {paragraph}{Κανονικοποίηση.}{13}
+\contentsline {subsubsection}{\numberline {1.2.5}Εκπαίδευση μοντέλου}{13}
+\contentsline {paragraph}{Επιλογή χαρακτηριστικών.}{13}
+\contentsline {paragraph}{Βελτιστοποίηση υπερπαραμέτρων.}{14}
+\contentsline {subsubsection}{\numberline {1.2.6}Αξιολόγηση μοντέλου}{14}
+\contentsline {paragraph}{Μετρικές αξιολόγησης μοντέλου.}{15}
+\contentsline {paragraph}{Γραφική απεικόνιση απόδοσης μοντέλου- Καμπύλες ROC.}{15}
+\contentsline {section}{\numberline {2}Τεχνικές μηχανικής μάθησης}{16}
+\contentsline {subsection}{\numberline {2.1}Μοντέλα ταξινόμησης}{16}
+\contentsline {subsubsection}{\numberline {2.1.1}Κ-κοντινότερος γείτονας}{16}
+\contentsline {subsubsection}{\numberline {2.1.2}Συνάρτηση Ακτινικής βάσης }{17}
+\contentsline {paragraph}{Επίδραση της μεταβλητής γ}{19}
+\contentsline {paragraph}{H συνάρτηση RBF ως μοντέλο βασισμένο σε παραδείγματα.}{19}
+\contentsline {paragraph}{Επιλογή Κ κέντρων.}{19}
+\contentsline {subsubsection}{\numberline {2.1.3}Naive Bayes}{20}
+\contentsline {paragraph}{Θεώρημα Bayes.}{20}
+\contentsline {paragraph}{Υπολογισμός Μοντέλου}{20}
+\contentsline {paragraph}{Πρόβλεψη}{20}
+\contentsline {subsubsection}{\numberline {2.1.4}Λογιστική παλινδρόμηση}{21}
+\contentsline {paragraph}{Η λογιστική συνάρτηση.}{21}
+\contentsline {paragraph}{Ερμηνεία}{21}
+\contentsline {paragraph}{Gradient descent}{22}
+\contentsline {subsubsection}{\numberline {2.1.5}Μηχανές διανυσματικής στήριξης}{23}
+\contentsline {paragraph}{Θεωρητική θεμελίωση}{24}
+\contentsline {paragraph}{Μη γραμμικά διαχωρίσιμες κλάσεις}{27}
+\contentsline {paragraph}{Μηχανές διανυσματικής στήριξης χαλαρού περιθωρίου}{28}
+\contentsline {subsection}{\numberline {2.2}Τεχνικές αξιολόγησης μοντέλων}{30}
+\contentsline {paragraph}{Hold out}{30}
+\contentsline {paragraph}{Leave one out}{30}
+\contentsline {paragraph}{Cross-validation}{30}
+\contentsline {paragraph}{.632 bootstrap}{30}
+\contentsline {subsection}{\numberline {2.3}Τεχνικές επιλογής χαρακτηριστικών}{31}
+\contentsline {subsubsection}{\numberline {2.3.1}Ανάλυση κυρίαρχων συνιστωσών}{31}
+\contentsline {subsubsection}{\numberline {2.3.2}Μέθοδος μεταθέσεων για επιλογή με βάση την αμοιβαία πληροφορία}{33}
+\contentsline {paragraph}{Random Forest}{33}
+\contentsline {paragraph}{Αμοιβαία πληροφορία}{33}
+\contentsline {paragraph}{Μέθοδος Μεταθέσεων PIMP}{33}
+\contentsline {subsection}{\numberline {2.4}Τεχνικές συνάθροισης}{34}
+\contentsline {paragraph}{Bootstrap- aggregating.}{34}
+\contentsline {paragraph}{Boosting}{34}
+\contentsline {paragraph}{Stacked generalization}{34}
+\contentsline {subsection}{\numberline {2.5}Κανονικοποίηση}{35}
+\contentsline {paragraph}{Διακύμανση - Πόλωση Μοντέλου}{35}
+\contentsline {paragraph}{Η ιδέα της κανονικοποίησης}{36}
+\contentsline {paragraph}{Η επίδραση της παραμέτρου λ}{38}
+\contentsline {section}{\numberline {3}Αυτοματοποιήμενη μηχανική μάθηση (Automl)}{39}
+\contentsline {subsection}{\numberline {3.1}Ιστορική Αναδρομή}{39}
+\contentsline {subsection}{\numberline {3.2}Χρήση σε βελτιστοποίηση υπερπαραμέτρων}{39}
+\contentsline {subsubsection}{\numberline {3.2.1}Bayesian βελτιστοποίηση}{40}
+\contentsline {paragraph}{Βελτιστοποίηση blackbox συναρτήσεων}{40}
+\contentsline {paragraph}{Θεώρημα Bayes}{40}
+\contentsline {paragraph}{Η Γκαουσιανή διαδικασία ως εκ των προτέρων πιθανότητα}{40}
+\contentsline {paragraph}{Συνάρτηση απόκτησης}{41}
+\contentsline {subsubsection}{\numberline {3.2.2}Ακολουθιακή βελτιστοποίηση βασισμένη σε μοντέλο (SMBO)}{43}
+\contentsline {paragraph}{Ακολουθιακή ρύθμιση αλγορίθμου βασισμένη σε μοντέλο (SMAC)}{43}
+\contentsline {paragraph}{Δέντρο εκτιμητών Parzen (TPE)}{43}
+\contentsline {subsection}{\numberline {3.3}Σύγχρονα εργαλεία automl}{44}
+\contentsline {paragraph}{HPOlib}{44}
+\contentsline {paragraph}{Autoweka}{45}
+\contentsline {paragraph}{Πακέτο Caret}{45}
+\contentsline {section}{\numberline {4}Πηγές}{47}

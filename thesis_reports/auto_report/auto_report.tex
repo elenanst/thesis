@@ -1,0 +1,125 @@
+\documentclass[]{article}
+
+\usepackage[autostyle]{csquotes}
+
+\usepackage{color}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage[
+    backend=biber,
+    citestyle=numeric,
+    style = numeric,
+    sortlocale=de_DE,
+    natbib=true,
+    url=false, 
+    doi=true,
+    eprint=false
+]{biblatex}
+\appto{\bibsetup}{\raggedright}
+\addbibresource{bibliography.bib}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	citecolor = darkgray,
+	linkcolor = black,
+	urlcolor = black
+}
+\usepackage[T1]{fontenc}
+\usepackage{kpfonts}%  for math 
+\usepackage{xgreek}
+\usepackage{fontspec}
+\setmainfont[Ligatures=TeX]{Linux Libertine O}
+\usepackage{amsmath,amsfonts,amsthm, amssymb} % Math packages
+\DeclareMathOperator*{\argmin}{arg\,min}
+\usepackage{graphicx}	
+%%% Custom headers/footers (fancyhdr package)
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhead{}											% No page header
+\fancyfoot[L]{}											% Empty 
+\fancyfoot[C]{}											% Empty
+\fancyfoot[R]{\thepage}									% Pagenumbering
+\renewcommand{\headrulewidth}{0pt}			% Remove header underlines
+\renewcommand{\footrulewidth}{0pt}				% Remove footer underlines
+\setlength{\headheight}{13.6pt}
+
+%%% Custom sectioning
+
+\usepackage{sectsty}
+
+\allsectionsfont{\centering \normalfont\scshape}
+
+%%% Equation and float numbering
+\numberwithin{equation}{section}		% Equationnumbering: section.eq#
+\numberwithin{figure}{section}			% Figurenumbering: section.fig#
+\numberwithin{table}{section}				% Tablenumbering: section.tab#
+
+
+%%% Maketitle metadata
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\title{
+	%\vspace{-1in} 	
+	\usefont{OT1}{bch}{b}{n}
+	\normalfont \normalsize \textsc{} \\ 
+	\huge Experiment [Name of dataset] \\[0.5cm]
+}
+
+\date{}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{\baselineskip}%
+\begin{document}
+	\maketitle
+	\section{Dataset Description}
+	
+	[An Overview of number of instances, number and types of attributes.]
+	
+	
+	\subsection{Feature Exploration}
+	
+	[Plots with remarks]
+	
+	[Table of Metrics]
+	
+	\subsection{Meta-features Description}
+	
+	[Table of Meta-features]
+	
+	[Plots with remarks]
+	
+	
+	\section{Optimized Model}
+	\subsection{Preprocessing}
+	
+	[Pipeline and heuristics exploited]
+	
+	\subsection{Feature Engineering}
+	
+	[Pipeline and heuristics exploited]
+	
+	
+	\subsection{Models}
+	
+	[A paragraph with each model's:\\
+	 a.algorithm name\\
+	 b.optimized hyperparameters]
+	
+	
+	\subsection{Ensemble}
+	
+	[Pipeline \\
+	Description of models in ensemble
+	]
+	\section{Evaluation}
+	\subsection{Optimization Evaluation}
+	
+	[Compare with caret's autotune and random search (Time and Accuracy) \\
+	Evaluate model of hyperparameter prediction]
+	
+	
+	\subsection{Optimized Model Evaluation}
+	[ A paragraph for each test case:\\
+	  a. test description (e.g. ROC, accuracy with 10-fold CV)
+	  b. test result (plor or metric)]
+	\end{document}
+\end{document}

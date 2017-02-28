@@ -1,0 +1,179 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nty}
+    \entry{Caruana:2004:ESL:1015330.1015432}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=599c5251d489b92dc7856277d56cb1a9}{Caruana}{C\bibinitperiod}{Rich}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=b35fbebaaa62ff79aee38093ae22a581}{Niculescu-Mizil}{N\bibinithyphendelim M\bibinitperiod}{Alexandru}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=5cf5b578a37fea896a65796d0772e0e6}{Crew}{C\bibinitperiod}{Geoff}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=c4977ba360670911702e1a786f1f044d}{Ksikes}{K\bibinitperiod}{Alex}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=599c5251d489b92dc7856277d56cb1a9}{Caruana}{C\bibinitperiod}{Rich}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=b35fbebaaa62ff79aee38093ae22a581}{Niculescu-Mizil}{N\bibinithyphendelim M\bibinitperiod}{Alexandru}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=5cf5b578a37fea896a65796d0772e0e6}{Crew}{C\bibinitperiod}{Geoff}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=c4977ba360670911702e1a786f1f044d}{Ksikes}{K\bibinitperiod}{Alex}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Banff, Alberta, Canada}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{089af20c0e85c71235697709555dc96d}
+      \strng{fullhash}{a81614fb62844d52d9dad23abe2a436d}
+      \field{sortinit}{C}
+      \field{labeltitle}{Ensemble Selection from Libraries of Models}
+      \field{booktitle}{Proceedings of the Twenty-first International Conference on Machine Learning}
+      \field{isbn}{1-58113-838-5}
+      \field{series}{ICML '04}
+      \field{title}{Ensemble Selection from Libraries of Models}
+      \field{year}{2004}
+      \field{pages}{18\bibrangedash}
+      \verb{doi}
+      \verb 10.1145/1015330.1015432
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1015330.1015432
+      \endverb
+    \endentry
+    \entry{Feurer:2014:UMI:3015544.3015549}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=2661e0a744cd67c731851c7f1c80d2e2}{Feurer}{F\bibinitperiod}{Matthias}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=de7de1a4d295b5756e14ea54090af136}{Springenberg}{S\bibinitperiod}{Jost\bibnamedelima Tobias}{J\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=2661e0a744cd67c731851c7f1c80d2e2}{Feurer}{F\bibinitperiod}{Matthias}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=de7de1a4d295b5756e14ea54090af136}{Springenberg}{S\bibinitperiod}{Jost\bibnamedelima Tobias}{J\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Prague, Czech Republic}%
+      }
+      \list{publisher}{1}{%
+        {CEUR-WS.org}%
+      }
+      \strng{namehash}{011161ee68b23460fb1de9f96de3dd34}
+      \strng{fullhash}{011161ee68b23460fb1de9f96de3dd34}
+      \field{sortinit}{F}
+      \field{labeltitle}{Using Meta-learning to Initialize Bayesian Optimization of Hyperparameters}
+      \field{booktitle}{Proceedings of the 2014 International Conference on Meta-learning and Algorithm Selection - Volume 1201}
+      \field{isbn}{1613-0073}
+      \field{series}{MLAS'14}
+      \field{title}{Using Meta-learning to Initialize Bayesian Optimization of Hyperparameters}
+      \field{year}{2014}
+      \field{pages}{3\bibrangedash 10}
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=3015544.3015549
+      \endverb
+    \endentry
+    \entry{autosklearn}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=bf215181b5140522137b3d4f6b73544a}{github}{g\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=bf215181b5140522137b3d4f6b73544a}{github}{g\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{bf215181b5140522137b3d4f6b73544a}
+      \strng{fullhash}{bf215181b5140522137b3d4f6b73544a}
+      \field{sortinit}{g}
+      \field{labeltitle}{autosklearn}
+      \field{title}{autosklearn}
+      \field{urlday}{06}
+      \field{urlmonth}{02}
+      \field{urlyear}{2017}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://github.com/automl/HPOlib
+      \endverb
+    \endentry
+    \entry{hpolib}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=bf215181b5140522137b3d4f6b73544a}{github}{g\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=bf215181b5140522137b3d4f6b73544a}{github}{g\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{bf215181b5140522137b3d4f6b73544a}
+      \strng{fullhash}{bf215181b5140522137b3d4f6b73544a}
+      \field{sortinit}{g}
+      \field{labeltitle}{HPOlib}
+      \field{title}{HPOlib}
+      \field{urlday}{06}
+      \field{urlmonth}{02}
+      \field{urlyear}{2017}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://github.com/automl/auto-sklearn
+      \endverb
+    \endentry
+    \entry{Reif_meta2-features:}{misc}{}
+      \name{labelname}{3}{}{%
+        {{hash=dfe58d2d6efd8cec3d1cf6ec4f91f0b6}{Reif}{R\bibinitperiod}{Matthias}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5a88b427ea508cca58fbe1653577da26}{Shafait}{S\bibinitperiod}{Faisal}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=39509991baf1f5b54ef9eede853edd37}{Dengel}{D\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=dfe58d2d6efd8cec3d1cf6ec4f91f0b6}{Reif}{R\bibinitperiod}{Matthias}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5a88b427ea508cca58fbe1653577da26}{Shafait}{S\bibinitperiod}{Faisal}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=39509991baf1f5b54ef9eede853edd37}{Dengel}{D\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ece18d4d37742d094441fe46727130e7}
+      \strng{fullhash}{ece18d4d37742d094441fe46727130e7}
+      \field{sortinit}{R}
+      \field{labeltitle}{Meta 2-Features: Providing Meta-Learners More Information}
+      \field{title}{Meta 2-Features: Providing Meta-Learners More Information}
+    \endentry
+    \entry{Soares2004}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=ea13669b47d552fbc7d7438f9dc08c5c}{Soares}{S\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=d9efc1e20861c49c53f621778884feb3}{Brazdil}{B\bibinitperiod}{Pavel\bibnamedelima B.}{P\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=85310f9e11b661ce6c2c89955fe56bf5}{Kuba}{K\bibinitperiod}{Petr}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=ea13669b47d552fbc7d7438f9dc08c5c}{Soares}{S\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=d9efc1e20861c49c53f621778884feb3}{Brazdil}{B\bibinitperiod}{Pavel\bibnamedelima B.}{P\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=85310f9e11b661ce6c2c89955fe56bf5}{Kuba}{K\bibinitperiod}{Petr}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{eb588705ae0caf0ba9086171c11d1db0}
+      \strng{fullhash}{eb588705ae0caf0ba9086171c11d1db0}
+      \field{sortinit}{S}
+      \field{labeltitle}{A Meta-Learning Method to Select the Kernel Width in Support Vector Regression}
+      \field{abstract}{The Support Vector Machine algorithm is sensitive to the choice of parameter settings. If these are not set correctly, the algorithm may have a substandard performance. Suggesting a good setting is thus an important problem. We propose a meta-learning methodology for this purpose and exploit information about the past performance of different settings. The methodology is applied to set the width of the Gaussian kernel. We carry out an extensive empirical evaluation, including comparisons with other methods (fixed default ranking; selection based on cross-validation and a heuristic method commonly used to set the width of the SVM kernel). We show that our methodology can select settings with low error while providing significant savings in time. Further work should be carried out to see how the methodology could be adapted to different parameter setting tasks.}
+      \field{issn}{1573-0565}
+      \field{journaltitle}{Machine Learning}
+      \field{number}{3}
+      \field{title}{A Meta-Learning Method to Select the Kernel Width in Support Vector Regression}
+      \field{volume}{54}
+      \field{year}{2004}
+      \field{pages}{195\bibrangedash 209}
+      \verb{doi}
+      \verb 10.1023/B:MACH.0000015879.28004.9b
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1023/B:MACH.0000015879.28004.9b
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

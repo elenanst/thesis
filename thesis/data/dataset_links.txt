@@ -1,0 +1,59 @@
+ Relational
+
+ chess https://relational.fit.cvut.cz/dataset/KRK
+ dcg  https://relational.fit.cvut.cz/dataset/DCG
+ ftp https://relational.fit.cvut.cz/dataset/FTP
+ imdb https://relational.fit.cvut.cz/dataset/IMDb
+ krk https://relational.fit.cvut.cz/dataset/KRK
+ musk https://relational.fit.cvut.cz/dataset/Musk
+ mutagenesis https://relational.fit.cvut.cz/dataset/Mutagenesis
+ ptc https://relational.fit.cvut.cz/dataset/PTC
+ trains https://relational.fit.cvut.cz/dataset/Trains
+ university https://relational.fit.cvut.cz/dataset/University
+ utube https://relational.fit.cvut.cz/dataset/UTube
+
+Kaggle
+
+cities_r2 https://www.kaggle.com/zed9941/top-500-indian-cities
+gym https://www.kaggle.com/nsrose7224/crowdedness-at-the-campus-gym
+HR_comma_sep https://www.kaggle.com/ludobenistant/hr-analytics
+mushroom https://www.kaggle.com/uciml/mushroom-classification
+numeric sequence https://www.kaggle.com/hobako1993/sp1-factor-binding-sites-on-chromosome1
+student-mat https://www.kaggle.com/uciml/student-alcohol-consumption
+Video_Games_Sales_as_at_30_Nov_2016 https://www.kaggle.com/gregorut/videogamesales
+AvidationDataUp https://www.kaggle.com/khsamaha/aviation-accident-database-synopses
+creditcard https://www.kaggle.com/dalpozz/creditcardfraud
+SalesKaggle3 https://www.kaggle.com/flenderson/sales-analysis
+UCI_Credit_card https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset
+vgsales https://www.kaggle.com/gregorut/videogamesales
+voice https://www.kaggle.com/primaryobjects/voicegender
+
+OpenML
+AP_Endometrium_Breast https://test.openml.org/d/1123
+AP_Endometrium_Lung https://www.openml.org/d/1155
+lupus https://www.openml.org/d/472
+php3BOEY5 https://www.openml.org/d/1452
+php4ylQmK https://www.openml.org/d/1488
+phpR4hXE4 https://www.openml.org/d/314
+phpSRnbqC https://www.openml.org/d/1490
+prostate 
+
+UCI
+wine-quality-red, wine-quality-white  http://archive.ics.uci.edu/ml/datasets/Wine+Quality
+testing, training http://archive.ics.uci.edu/ml/datasets/Wilt
+balloons http://archive.ics.uci.edu/ml/datasets/Balloons
+car http://archive.ics.uci.edu/ml/datasets/Car+Evaluation
+adult http://archive.ics.uci.edu/ml/datasets/Census+Income
+credit http://archive.ics.uci.edu/ml/datasets/Credit+Approval
+dermatology http://archive.ics.uci.edu/ml/datasets/Dermatology
+haberman http://archive.ics.uci.edu/ml/datasets/Haberman%27s+Survival
+hepatitis http://archive.ics.uci.edu/ml/datasets/Hepatitis
+ionoshpere http://archive.ics.uci.edu/ml/datasets/Ionosphere
+monks http://archive.ics.uci.edu/ml/datasets/MONK%27s+Problems
+nursery http://archive.ics.uci.edu/ml/datasets/Nursery
+pima-indians http://archive.ics.uci.edu/ml/datasets/Pima+Indians+Diabetes
+spambase http://archive.ics.uci.edu/ml/datasets/Spambase
+tic-tac-toe http://archive.ics.uci.edu/ml/datasets/Tic-Tac-Toe+Endgame
+parkinsons  https://archive.ics.uci.edu/ml/datasets/Parkinsons
+
+

@@ -1,0 +1,113 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια}}{10}{figure.caption.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Συστατικά Μηχανική Μάθησης}}{11}{figure.caption.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Διάγραμμα Quantile-Quantile}}{15}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Επιλογή $\lambda $ Box-Cox μετασχηματισμού}}{15}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Μέθοδος wrapper για επιλογή χαρακτηριστικών: σε κάθε επανάληψη γίνεται επιλογή ενός υποσυνόλου χαρακτηριστικών, το μοντέλο εκπαιδεύεται και η απόδοσή του χρησιμοποιείται για την επιλογή του επόμενου υποσυνόλου.\relax }}{16}{figure.caption.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Μέθοδος φιλτραρίσματος για την επιλογή χαρακτηριστικών: γίνεται επιλογή ενός υποσυνόλου με βάση κάποιες ιδιότητες των χαρακτηριστικών, όπως η συσχέτισή τους στην Ανάλυση Κυρίαρχων Συνιστωσών.\relax }}{16}{figure.caption.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Καμπύλη ROC: η μπλε γραμμή αντιστοιχεί σε τυχαίο ταξινομητή, αποτελεί δηλαδή το σημείο αναφοράς του διαγράμματος. Όσο πιο πάνω και δεξιά βρίσκεται η καμπύλη του τόσο καλύτερη η απόδοσή του, με το σημείο $(0,1)$ να αντιστοιχεί σε τέλειο ταξινομητή.\relax }}{20}{figure.2.7}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Το σύστημα Automated Data Scientist ως μαύρο κουτί: Δέχεται ως είσοδο ένα σετ δεδομένων δυαδικής ταξινόμησης και ως έξοδο παράγει το βέλτιστο μοντέλο και γνώση σχετικά με το πείραμα. Ο χρήστης μπορεί να επέμβει στο πείραμα μέσω μιας σαφώς καθορισμένης διεπαφής,.\relax }}{30}{figure.caption.51}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Διάγραμμα ροής της διαδικασίας εκπαίδευσης του HPP μοντέλου: αρχικά συλλέγονται τα σετ δεδομένων και στη συνέχεια για το καθένα γίνεται εξαγωγή μετα-χαρακτηριστικών και βελτιστοποίηση υπερ-παραμέτρων. Η συνθήκη τερματισμού ελέγχει αν έχει ολοκληρωθεί η διαδικασία για όλα τα σετ δεδομένων. Τέλος, εκπαιδεύεται το μοντέλο, για το οποίο παράγεται επίσης πληροφορία για τα διαστήματα πρόβλεψης.\relax }}{31}{figure.caption.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Διάγραμμα ροής της διαδικασίας σχηματισμού μίας συλλογής μοντέλων με την τεχνική της προς τα εμπρός επιλογής μοντέλων. Η συλλογή αρχικοποιείται με τα Ν καλύτερα μοντέλα και στη συνέχεια εφαρμόζεται bootstrapping, σε κάθε επανάληψη του οποίου επιλέγεται ένα υποσέτ των μοντέλων για αξιολόγηση και προστίθεται το βέλτιστο στη συλλογή. Η συνθήκη τερματισμού αντιστοιχεί στο σχηματισμό ενός ensemble προκαθορισμένου πλήθους μοντέλων ή στην ικανοποίηση κάποιας άλλης ποιοτικής συνθήκης (π.χ. ακρίβεια ensemble).\relax }}{32}{figure.caption.54}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Το υποσύστημα εκπαίδευσης: Για κάθε σετ δεδομένων δυαδικής ταξινόμησης της Αποθήκης γίνεται εξαγωγή των μετα-χαρακτηριστικών και εύρεση των βέλτιστων υπερ-παραμέτρων με αποτέλεσμα τη δημιουργία ενός σετ-μεταδεδομένων για κάθε υπερ-παράμετρο ενός αλγορίθμου μάθησης. Το πακέτο metaLearner αναλαμβάνει την εκπαίδευση των HPP μοντέλων.\relax }}{34}{figure.caption.60}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Το υποσύστημα πειράματος: Δεδομένου ενός σετ δεδομένων δυαδικής ταξινόμησης στην είσοδο το υποσύστημα αυτό εφαρμόζει την κατάλληλη προ-επεξεργασία και στη συνέχεια εξάγει τα μετα-χαρακτηριστικά, ώστε το πακέτο optimizer να προβλέψει τις βέλτιστες υπερ-παραμέτρους με τη βοήθεια των HPP μοντέλων. Στη συνέχεια εκπαιδεύεται ένα πλήθος μοντέλων για κάθε αλγόριθμο μάθησης και το πακέτο ensembler αναλαμβάνει το σχηματισμό του τελικού ensemble. Τελευταίο στάδιο αποτελεί η αξιολόγηση του πειράματος. \relax }}{35}{figure.caption.61}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Διάγραμμα προφίλ απόδοσης για τη σύγκριση του ensemble με το καλύτερο μοντέλο: Παρατηρούμε πως \relax }}{39}{figure.caption.67}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Διάγραμμα εξέλιξης ensemble για το σετ δεδομένων (όνομα): Παρατηρούμε πως σε κάθε επανάληψη η απόδοση του ensemble είτε μειώνεται είτε παραμένει σταθερή. \relax }}{39}{figure.caption.68}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια}}{40}{figure.caption.70}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια}}{40}{figure.caption.70}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια}}{40}{figure.caption.71}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια}}{40}{figure.caption.71}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια}}{41}{figure.caption.72}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια}}{41}{figure.caption.72}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }.1}{\ignorespaces Μοντέλο υψηλής πόλωσης}}{51}{figure.caption.77}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }.2}{\ignorespaces Μοντέλο υψηλής διακύμανσης}}{51}{figure.caption.78}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }.3}{\ignorespaces Παράδειγμα κανονικοποίησης}}{51}{figure.caption.80}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }.4}{\ignorespaces Γραφική αναπαράσταση κανονικοποίησης}}{51}{figure.caption.81}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }.5}{\ignorespaces Επίδραση λ στην κανονικοποίηση}}{51}{figure.caption.83}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {β\anw@true \anw@print \relax }.1}{\ignorespaces Χώρος ταξινόμησης μηχανής διανυσματικής στήριξης}}{57}{figure.caption.84}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {β\anw@true \anw@print \relax }.2}{\ignorespaces Υπόθεση Α μηχανής διανυσματικής στήριξης}}{57}{figure.caption.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {β\anw@true \anw@print \relax }.3}{\ignorespaces Υπόθεση Β μηχανής διανυσματικής στήριξης}}{57}{figure.caption.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {β\anw@true \anw@print \relax }.4}{\ignorespaces Υπόθεση Γ μηχανής διανυσματικής στήριξης}}{57}{figure.caption.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {β\anw@true \anw@print \relax }.5}{\ignorespaces Υπερεπίπεδο μηχανών διανυσματικής στήριξης}}{57}{figure.caption.87}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {β\anw@true \anw@print \relax }.6}{\ignorespaces Χρήση πυρήνα για επίλυση μη γραμμικού διαχωρισμού}}{57}{figure.caption.89}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {β\anw@true \anw@print \relax }.7}{\ignorespaces Ελάχιστα μη διαχωρίσιμα δεδομένα}}{57}{figure.caption.91}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {β\anw@true \anw@print \relax }.8}{\ignorespaces Εμφανώς μη διαχωρίσιμα δεδομένα}}{57}{figure.caption.91}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {β\anw@true \anw@print \relax }.9}{\ignorespaces Μηχανές διανυσματικής στήριξης χαλαρού περιθωρίου}}{57}{figure.caption.92}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {δ\anw@true \anw@print \relax }.1}{\ignorespaces Η λογιστική συνάρτηση}}{62}{figure.caption.97}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {δ\anw@true \anw@print \relax }.2}{\ignorespaces Steepest descent}}{62}{figure.caption.100}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {δ\anw@true \anw@print \relax }.3}{\ignorespaces Gradient descent με πολύ μικρό βήμα}}{62}{figure.caption.101}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {δ\anw@true \anw@print \relax }.4}{\ignorespaces Gradient descent με πολύ μεγάλο βήμα}}{62}{figure.caption.101}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }.1}{\ignorespaces K-NN ταξινομητής}}{66}{figure.caption.102}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }.2}{\ignorespaces Radial Basis συνάρτηση με γκαουσιανή βάση}}{66}{figure.caption.104}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }.3}{\ignorespaces RBF με μικρό γ}}{66}{figure.caption.106}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }.4}{\ignorespaces RBF με μεγάλο γ}}{66}{figure.caption.106}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
