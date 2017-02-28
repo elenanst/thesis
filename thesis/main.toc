@@ -172,74 +172,74 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Σχετική Δουλειά}{42}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Παραρτήματα}{47}{section*.75}
+\contentsline {chapter}{Παραρτήματα}{48}{section*.75}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }}Κανονικοποίηση}{48}{Παράρτημα.alph1.Alph1}
+\contentsline {chapter}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }}Κανονικοποίηση}{49}{Παράρτημα.alph1.Alph1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Διακύμανση - Πόλωση Μοντέλου}{48}{section*.76}
+\contentsline {paragraph}{Διακύμανση - Πόλωση Μοντέλου}{49}{section*.76}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Η ιδέα της κανονικοποίησης}{49}{section*.79}
+\contentsline {paragraph}{Η ιδέα της κανονικοποίησης}{50}{section*.79}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Η επίδραση της παραμέτρου λ}{50}{section*.82}
+\contentsline {paragraph}{Η επίδραση της παραμέτρου λ}{51}{section*.82}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {β\anw@true \anw@print \relax }}Μηχανές Διανυσματικής Στήριξης}{52}{Παράρτημα.alph1.Alph2}
+\contentsline {chapter}{\numberline {\MakeUppercase {β\anw@true \anw@print \relax }}Μηχανές Διανυσματικής Στήριξης}{53}{Παράρτημα.alph1.Alph2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Θεωρητική θεμελίωση}{52}{section*.86}
+\contentsline {paragraph}{Θεωρητική θεμελίωση}{53}{section*.86}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Μη γραμμικά διαχωρίσιμες κλάσεις}{54}{section*.88}
+\contentsline {paragraph}{Μη γραμμικά διαχωρίσιμες κλάσεις}{55}{section*.88}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Μηχανές διανυσματικής στήριξης χαλαρού περιθωρίου}{55}{section*.90}
+\contentsline {paragraph}{Μηχανές διανυσματικής στήριξης χαλαρού περιθωρίου}{56}{section*.90}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {γ\anw@true \anw@print \relax }}Naive Bayes}{58}{Παράρτημα.alph1.Alph3}
+\contentsline {chapter}{\numberline {\MakeUppercase {γ\anw@true \anw@print \relax }}Naive Bayes}{59}{Παράρτημα.alph1.Alph3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Θεώρημα Bayes.}{58}{section*.93}
+\contentsline {paragraph}{Θεώρημα Bayes.}{59}{section*.93}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Υπολογισμός Μοντέλου}{58}{section*.94}
+\contentsline {paragraph}{Υπολογισμός Μοντέλου}{59}{section*.94}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Πρόβλεψη}{58}{section*.95}
+\contentsline {paragraph}{Πρόβλεψη}{59}{section*.95}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {δ\anw@true \anw@print \relax }}Λογιστική Παλινδρόμηση}{60}{Παράρτημα.alph1.Alph4}
+\contentsline {chapter}{\numberline {\MakeUppercase {δ\anw@true \anw@print \relax }}Λογιστική Παλινδρόμηση}{61}{Παράρτημα.alph1.Alph4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Η λογιστική συνάρτηση.}{60}{section*.96}
+\contentsline {paragraph}{Η λογιστική συνάρτηση.}{61}{section*.96}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Ερμηνεία}{60}{section*.98}
+\contentsline {paragraph}{Ερμηνεία}{61}{section*.98}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Gradient descent}{61}{section*.99}
+\contentsline {paragraph}{Gradient descent}{62}{section*.99}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }}Κ-κοντινότερος γείτονας}{63}{Παράρτημα.alph1.Alph5}
+\contentsline {chapter}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }}Κ-κοντινότερος γείτονας}{64}{Παράρτημα.alph1.Alph5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Συνάρτηση Ακτινικής βάσης }{63}{section*.103}
+\contentsline {subsubsection}{Συνάρτηση Ακτινικής βάσης }{64}{section*.103}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Επίδραση της μεταβλητής γ}{64}{section*.105}
+\contentsline {paragraph}{Επίδραση της μεταβλητής γ}{65}{section*.105}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{H συνάρτηση RBF ως μοντέλο βασισμένο σε παραδείγματα.}{64}{section*.107}
+\contentsline {paragraph}{H συνάρτηση RBF ως μοντέλο βασισμένο σε παραδείγματα.}{65}{section*.107}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Επιλογή Κ κέντρων.}{64}{section*.108}
+\contentsline {paragraph}{Επιλογή Κ κέντρων.}{65}{section*.108}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {στ\relax \anw@true \anw@print \relax }}Στατιστικά τεστ Υπόθεσης}{67}{Παράρτημα.alph1.Alph6}
+\contentsline {chapter}{\numberline {\MakeUppercase {στ\relax \anw@true \anw@print \relax }}Στατιστικά τεστ Υπόθεσης}{68}{Παράρτημα.alph1.Alph6}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Pearson's Chi-squared τεστ}{67}{section*.109}
+\contentsline {paragraph}{Pearson's Chi-squared τεστ}{68}{section*.109}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Yate's correction for continuity}{67}{section*.110}
+\contentsline {paragraph}{Yate's correction for continuity}{68}{section*.110}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{ANOVA τεστ}{67}{section*.111}
+\contentsline {paragraph}{ANOVA τεστ}{68}{section*.111}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Friedman τεστ}{68}{section*.112}
+\contentsline {paragraph}{Friedman τεστ}{69}{section*.112}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Fisher's exact τεστ}{68}{section*.113}
+\contentsline {paragraph}{Fisher's exact τεστ}{69}{section*.113}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Mann–Whitney U τεστ (Wilcoxon rank-sum)}{68}{section*.114}
+\contentsline {paragraph}{Mann–Whitney U τεστ (Wilcoxon rank-sum)}{69}{section*.114}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{McNemar}{68}{section*.115}
+\contentsline {paragraph}{McNemar}{69}{section*.115}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Cochran-Mantel-Haenszel}{68}{section*.116}
+\contentsline {paragraph}{Cochran-Mantel-Haenszel}{69}{section*.116}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {ζ\anw@true \anw@print \relax }}Αλγόριθμοι }{69}{Παράρτημα.alph1.Alph7}
+\contentsline {chapter}{\numberline {\MakeUppercase {ζ\anw@true \anw@print \relax }}Αλγόριθμοι }{70}{Παράρτημα.alph1.Alph7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {η\anw@true \anw@print \relax }}Εξαγωγή διαστημάτων πρόβλεψης από μοντέλα παλινδρόμησης}{70}{Παράρτημα.alph1.Alph8}
+\contentsline {chapter}{\numberline {\MakeUppercase {η\anw@true \anw@print \relax }}Εξαγωγή διαστημάτων πρόβλεψης από μοντέλα παλινδρόμησης}{71}{Παράρτημα.alph1.Alph8}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Από γραμμικό μοντέλο}{70}{section*.117}
+\contentsline {paragraph}{Από γραμμικό μοντέλο}{71}{section*.117}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Από SVM}{71}{section*.118}
+\contentsline {paragraph}{Από SVM}{72}{section*.118}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {θ\anw@true \anw@print \relax }}Σετ δεδομένων }{72}{Παράρτημα.alph1.Alph9}
+\contentsline {chapter}{\numberline {\MakeUppercase {θ\anw@true \anw@print \relax }}Σετ δεδομένων }{73}{Παράρτημα.alph1.Alph9}
