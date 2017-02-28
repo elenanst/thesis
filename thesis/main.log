@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2016.12.17)  28 FEB 2017 21:20
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2016.12.17)  28 FEB 2017 23:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -934,6 +934,18 @@ Package csquotes Info: Redefining alias 'english' -> 'english/american'.
 )
 Package csquotes Info: Allocating character ".
 
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box43
+\beforetitleunit=\skip56
+\aftertitleunit=\skip57
+\ttl@plus=\dimen164
+\ttl@minus=\dimen165
+\ttl@toksa=\toks23
+\titlewidth=\dimen166
+\titlewidthlast=\dimen167
+\titlewidthfirst=\dimen168
+)
 (/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@pps=\count154
@@ -1023,15 +1035,15 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@parenlevel@text=\count193
 \blx@parenlevel@foot=\count194
 \blx@sectionciteorder@0=\count195
-\labelnumberwidth=\skip56
-\labelalphawidth=\skip57
-\shorthandwidth=\skip58
-\biblabelsep=\skip59
-\bibitemsep=\skip60
-\bibnamesep=\skip61
-\bibinitsep=\skip62
-\bibparsep=\skip63
-\bibhang=\skip64
+\labelnumberwidth=\skip58
+\labelalphawidth=\skip59
+\shorthandwidth=\skip60
+\biblabelsep=\skip61
+\bibitemsep=\skip62
+\bibnamesep=\skip63
+\bibinitsep=\skip64
+\bibparsep=\skip65
+\bibhang=\skip66
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \c@mincomprange=\count196
@@ -1221,7 +1233,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen164
+\@linkdim=\dimen169
 \Hy@linkcounter=\count349
 \Hy@pagecounter=\count350
 
@@ -1242,10 +1254,10 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count352
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen165
+\XeTeXLinkMargin=\dimen170
 \Fld@menulength=\count353
-\Field@Width=\dimen166
-\Fld@charsize=\dimen167
+\Field@Width=\dimen171
+\Fld@charsize=\dimen172
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -1272,7 +1284,7 @@ File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
 Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box43
+\pdfm@box=\box44
 \c@Hy@AnnotLevel=\count357
 \HyField@AnnotCount=\count358
 \Fld@listcount=\count359
@@ -1287,39 +1299,39 @@ Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
 tly
 (rerunfilecheck)             and the loading of the package is aborted.
 )
-\Hy@SectionHShift=\skip65
+\Hy@SectionHShift=\skip67
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 56.
+Package hyperref Info: Option `colorlinks' set `true' on input line 59.
 
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count361
 \Gm@cntv=\count362
 \c@Gm@tempcnt=\count363
-\Gm@bindingoffset=\dimen168
-\Gm@wd@mp=\dimen169
-\Gm@odd@mp=\dimen170
-\Gm@even@mp=\dimen171
-\Gm@layoutwidth=\dimen172
-\Gm@layoutheight=\dimen173
-\Gm@layouthoffset=\dimen174
-\Gm@layoutvoffset=\dimen175
-\Gm@dimlist=\toks23
+\Gm@bindingoffset=\dimen173
+\Gm@wd@mp=\dimen174
+\Gm@odd@mp=\dimen175
+\Gm@even@mp=\dimen176
+\Gm@layoutwidth=\dimen177
+\Gm@layoutheight=\dimen178
+\Gm@layouthoffset=\dimen179
+\Gm@layoutvoffset=\dimen180
+\Gm@dimlist=\toks24
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip66
-\f@ncyO@elh=\skip67
-\f@ncyO@erh=\skip68
-\f@ncyO@olh=\skip69
-\f@ncyO@orh=\skip70
-\f@ncyO@elf=\skip71
-\f@ncyO@erf=\skip72
-\f@ncyO@olf=\skip73
-\f@ncyO@orf=\skip74
+\fancy@headwidth=\skip68
+\f@ncyO@elh=\skip69
+\f@ncyO@erh=\skip70
+\f@ncyO@olh=\skip71
+\f@ncyO@orh=\skip72
+\f@ncyO@elf=\skip73
+\f@ncyO@erf=\skip74
+\f@ncyO@olf=\skip75
+\f@ncyO@orf=\skip76
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 62.
+less on input line 65.
 
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2014/01/20 v4.03 (NLCT)
@@ -1328,15 +1340,15 @@ Package: glossaries 2014/01/20 v4.03 (NLCT)
 Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-\XKV@toks=\toks24
-\XKV@tempa@toks=\toks25
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
 \XKV@depth=\count364
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/mfirstuc.sty
 Package: mfirstuc 2013/11/04 v1.08 (NLCT)
-\@glsmfirst=\toks26
-\@glsmrest=\toks27
+\@glsmfirst=\toks27
+\@glsmrest=\toks28
 )
 (/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -1402,9 +1414,9 @@ Package: fp-upn 1996/10/21
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks28
+\@dtl@toks=\toks29
 \@dtl@tmpcount=\count377
-\dtl@tmplength=\skip75
+\dtl@tmplength=\skip77
 \dtl@sortresult=\count378
 \@dtl@numgrpsepcount=\count379
 \@dtl@datatype=\count380
@@ -1417,43 +1429,43 @@ Package: fp-eval 1995/04/03
 Package: glossaries-compatible-307 2013/11/14 v4.0 (NLCT)
 )
 \gls@level=\count384
-\@gls@tmpb=\toks29
-\gls@tmplen=\skip76
+\@gls@tmpb=\toks30
+\gls@tmplen=\skip78
 \glswrite=\write4
-\glskeylisttok=\toks30
-\glslabeltok=\toks31
-\glsshorttok=\toks32
-\glslongtok=\toks33
+\glskeylisttok=\toks31
+\glslabeltok=\toks32
+\glsshorttok=\toks33
+\glslongtok=\toks34
 
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.st
 y
 Package: glossary-hypernav 2013/11/14 v4.0 (NLCT)
 ) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
 Package: glossary-list 2013/11/14 v4.0 (NLCT)
-\glslistdottedwidth=\skip77
+\glslistdottedwidth=\skip79
 ) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
 Package: glossary-long 2013/11/14 v4.0 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip78
-\LTright=\skip79
-\LTpre=\skip80
-\LTpost=\skip81
+\LTleft=\skip80
+\LTright=\skip81
+\LTpre=\skip82
+\LTpost=\skip83
 \LTchunksize=\count385
-\LTcapwidth=\dimen176
-\LT@head=\box44
-\LT@firsthead=\box45
-\LT@foot=\box46
-\LT@lastfoot=\box47
+\LTcapwidth=\dimen181
+\LT@head=\box45
+\LT@firsthead=\box46
+\LT@foot=\box47
+\LT@lastfoot=\box48
 \LT@cols=\count386
 \LT@rows=\count387
 \c@LT@tables=\count388
 \c@LT@chunks=\count389
-\LT@p@ftn=\toks34
+\LT@p@ftn=\toks35
 )
-\glsdescwidth=\skip82
-\glspagelistwidth=\skip83
+\glsdescwidth=\skip84
+\glspagelistwidth=\skip85
 )
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
 Package: glossary-super 2013/11/14 v4.0 (NLCT)
@@ -1461,30 +1473,30 @@ Package: glossary-super 2013/11/14 v4.0 (NLCT)
 (/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \c@tracingst=\count390
-\ST@wd=\dimen177
-\ST@rightskip=\skip84
-\ST@leftskip=\skip85
-\ST@parfillskip=\skip86
-\ST@pageleft=\dimen178
-\ST@headht=\dimen179
-\ST@tailht=\dimen180
-\ST@pagesofar=\dimen181
-\ST@pboxht=\dimen182
-\ST@lineht=\dimen183
-\ST@stretchht=\dimen184
-\ST@prevht=\dimen185
-\ST@toadd=\dimen186
-\ST@dimen=\dimen187
-\ST@pbox=\box48
+\ST@wd=\dimen182
+\ST@rightskip=\skip86
+\ST@leftskip=\skip87
+\ST@parfillskip=\skip88
+\ST@pageleft=\dimen183
+\ST@headht=\dimen184
+\ST@tailht=\dimen185
+\ST@pagesofar=\dimen186
+\ST@pboxht=\dimen187
+\ST@lineht=\dimen188
+\ST@stretchht=\dimen189
+\ST@prevht=\dimen190
+\ST@toadd=\dimen191
+\ST@dimen=\dimen192
+\ST@pbox=\box49
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2013/11/14 v4.0 (NLCT)
-\glstreeindent=\skip87
+\glstreeindent=\skip89
 ))
 \glo@main@file=\write5
 \openout5 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 66.
+Package glossaries Info: Writing glossary file main.glo on input line 69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
@@ -1505,39 +1517,39 @@ Package `algorithm2e' Release 5.0 -- january 06 2013 --
 subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 - Author: Christophe Fiorio (cfiorio@um2.fr)
 ********************************************************
-\skiptotal=\skip88
-\skiplinenumber=\skip89
-\skiprule=\skip90
-\skiphlne=\skip91
-\skiptext=\skip92
-\skiplength=\skip93
-\algomargin=\skip94
-\skipalgocfslide=\skip95
-\algowidth=\dimen188
-\inoutsize=\dimen189
-\inoutindent=\dimen190
-\interspacetitleruled=\dimen191
-\interspacealgoruled=\dimen192
-\interspacetitleboxruled=\dimen193
-\algocf@inoutbox=\box49
-\algocf@inputbox=\box50
-\AlCapSkip=\skip96
-\AlCapHSkip=\skip97
-\algoskipindent=\skip98
-\algocf@nlbox=\box51
-\algocf@hangingbox=\box52
-\algocf@untilbox=\box53
-\algocf@skipuntil=\skip99
-\algocf@capbox=\box54
-\algoheightruledefault=\skip100
-\algoheightrule=\skip101
-\algotitleheightruledefault=\skip102
-\algotitleheightrule=\skip103
+\skiptotal=\skip90
+\skiplinenumber=\skip91
+\skiprule=\skip92
+\skiphlne=\skip93
+\skiptext=\skip94
+\skiplength=\skip95
+\algomargin=\skip96
+\skipalgocfslide=\skip97
+\algowidth=\dimen193
+\inoutsize=\dimen194
+\inoutindent=\dimen195
+\interspacetitleruled=\dimen196
+\interspacealgoruled=\dimen197
+\interspacetitleboxruled=\dimen198
+\algocf@inoutbox=\box50
+\algocf@inputbox=\box51
+\AlCapSkip=\skip98
+\AlCapHSkip=\skip99
+\algoskipindent=\skip100
+\algocf@nlbox=\box52
+\algocf@hangingbox=\box53
+\algocf@untilbox=\box54
+\algocf@skipuntil=\skip101
+\algocf@capbox=\box55
+\algoheightruledefault=\skip102
+\algoheightrule=\skip103
+\algotitleheightruledefault=\skip104
+\algotitleheightrule=\skip105
 \c@algocfline=\count392
 \c@algocfproc=\count393
 \c@algocf=\count394
-\algocf@algoframe=\box55
-\algocf@algobox=\box56
+\algocf@algoframe=\box56
+\algocf@algobox=\box57
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2013/10/03 v1.9 Data Visualization (1.9)
@@ -1546,10 +1558,10 @@ Package: pgfplots 2013/10/03 v1.9 Data Visualization (1.9)
 (/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks35
+\pgfutil@everybye=\toks36
 )
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box57
+\pgfutil@abb=\box58
 
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
@@ -1565,20 +1577,21 @@ Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks36
-\pgfkeys@temptoks=\toks37
+\pgfkeys@pathtoks=\toks37
+\pgfkeys@temptoks=\toks38
 
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks38
+\pgfkeys@tmptoks=\toks39
 ))
-\pgf@x=\dimen194
-\pgf@y=\dimen195
-\pgf@xa=\dimen196
-\pgf@ya=\dimen197
-\pgf@xb=\dimen198
-\pgf@yb=\dimen199
-\pgf@xc=\dimen200
-\pgf@yc=\dimen201
+\pgf@x=\dimen199
+\pgf@y=\dimen200
+\pgf@xa=\dimen201
+Normal \dimen register pool exhausted, switching to extended pool.
+\pgf@ya=\dimen256
+\pgf@xb=\dimen257
+\pgf@yb=\dimen258
+\pgf@xc=\dimen259
+\pgf@yc=\dimen260
 \w@pgf@writea=\write6
 \r@pgf@reada=\read3
 \c@pgf@counta=\count395
@@ -1631,13 +1644,12 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
-Normal \dimen register pool exhausted, switching to extended pool.
-\pgfmath@dimen=\dimen256
+\pgfmath@dimen=\dimen261
 \pgfmath@count=\count401
-\pgfmath@box=\box58
-\pgfmath@toks=\toks39
-\pgfmath@stack@operand=\toks40
-\pgfmath@stack@operation=\toks41
+\pgfmath@box=\box59
+\pgfmath@toks=\toks40
+\pgfmath@stack@operand=\toks41
+\pgfmath@stack@operation=\toks42
 )
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
@@ -1652,47 +1664,47 @@ Normal \dimen register pool exhausted, switching to extended pool.
 ))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
-\pgf@picminx=\dimen257
-\pgf@picmaxx=\dimen258
-\pgf@picminy=\dimen259
-\pgf@picmaxy=\dimen260
-\pgf@pathminx=\dimen261
-\pgf@pathmaxx=\dimen262
-\pgf@pathminy=\dimen263
-\pgf@pathmaxy=\dimen264
-\pgf@xx=\dimen265
-\pgf@xy=\dimen266
-\pgf@yx=\dimen267
-\pgf@yy=\dimen268
-\pgf@zx=\dimen269
-\pgf@zy=\dimen270
+\pgf@picminx=\dimen262
+\pgf@picmaxx=\dimen263
+\pgf@picminy=\dimen264
+\pgf@picmaxy=\dimen265
+\pgf@pathminx=\dimen266
+\pgf@pathmaxx=\dimen267
+\pgf@pathminy=\dimen268
+\pgf@pathmaxy=\dimen269
+\pgf@xx=\dimen270
+\pgf@xy=\dimen271
+\pgf@yx=\dimen272
+\pgf@yy=\dimen273
+\pgf@zx=\dimen274
+\pgf@zy=\dimen275
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
-\pgf@path@lastx=\dimen271
-\pgf@path@lasty=\dimen272
+\pgf@path@lastx=\dimen276
+\pgf@path@lasty=\dimen277
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen273
-\pgf@shorten@start@additional=\dimen274
+\pgf@shorten@end@additional=\dimen278
+\pgf@shorten@start@additional=\dimen279
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
-\pgfpic=\box59
-\pgf@hbox=\box60
-\pgf@layerbox@main=\box61
+\pgfpic=\box60
+\pgf@hbox=\box61
+\pgf@layerbox@main=\box62
 \pgf@picture@serial@count=\count403
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen275
+\pgflinewidth=\dimen280
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen276
-\pgf@pt@y=\dimen277
-\pgf@pt@temp=\dimen278
+\pgf@pt@x=\dimen281
+\pgf@pt@y=\dimen282
+\pgf@pt@temp=\dimen283
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -1708,7 +1720,7 @@ File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen279
+\pgf@max=\dimen284
 \pgf@sys@shading@range@num=\count404
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
@@ -1716,7 +1728,7 @@ File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
-\pgfexternal@startupbox=\box62
+\pgfexternal@startupbox=\box63
 ))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
@@ -1729,15 +1741,15 @@ File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 )))
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
-\pgfnodeparttextbox=\box63
+\pgfnodeparttextbox=\box64
 )
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen280
-\pgf@nodesepend=\dimen281
+\pgf@nodesepstart=\dimen285
+\pgf@nodesepend=\dimen286
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
@@ -1747,10 +1759,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
 (/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen282
-\pgffor@skip=\dimen283
-\pgffor@stack=\toks42
-\pgffor@toks=\toks43
+\pgffor@iter=\dimen287
+\pgffor@skip=\dimen288
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
 ))
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
@@ -1758,16 +1770,16 @@ Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \pgf@plot@mark@count=\count405
-\pgfplotmarksize=\dimen284
+\pgfplotmarksize=\dimen289
 )
-\tikz@lastx=\dimen285
-\tikz@lasty=\dimen286
-\tikz@lastxsaved=\dimen287
-\tikz@lastysaved=\dimen288
-\tikzleveldistance=\dimen289
-\tikzsiblingdistance=\dimen290
-\tikz@figbox=\box64
-\tikz@tempbox=\box65
+\tikz@lastx=\dimen290
+\tikz@lasty=\dimen291
+\tikz@lastxsaved=\dimen292
+\tikz@lastysaved=\dimen293
+\tikzleveldistance=\dimen294
+\tikzsiblingdistance=\dimen295
+\tikz@figbox=\box65
+\tikz@tempbox=\box66
 \tikztreelevel=\count406
 \tikznumberofchildren=\count407
 \tikznumberofcurrentchild=\count408
@@ -1787,10 +1799,10 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks44
-\t@pgfplots@tokb=\toks45
-\t@pgfplots@tokc=\toks46
-\pgfplots@tmpa=\dimen291
+\t@pgfplots@toka=\toks45
+\t@pgfplots@tokb=\toks46
+\t@pgfplots@tokc=\toks47
+\pgfplots@tmpa=\dimen296
 \c@pgfplots@coordindex=\count414
 \c@pgfplots@scanlineindex=\count415
 
@@ -1806,12 +1818,12 @@ Package pgfplots: loading complementary code for your PGF version...
 gfsupp_misc.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks47
-\pgfkeys@temptoks=\toks48
+\pgfkeys@pathtoks=\toks48
+\pgfkeys@temptoks=\toks49
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks49
+\pgfkeys@tmptoks=\toks50
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_pgfmathfloat.code.tex
@@ -1821,16 +1833,16 @@ gfsupp_pgfmathfloat.code.tex
 gfsupp_pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2012/09/11 v2.10 (rcs-revision 1.17)
 \pgf@plot@mark@count=\count417
-\pgfplotmarksize=\dimen292
+\pgfplotmarksize=\dimen297
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_pgflibraryfpu.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2012/11/30  (rcs-revision 1.38)
-\pgfpic=\box66
-\pgf@hbox=\box67
-\pgf@layerbox@main=\box68
+\pgfpic=\box67
+\pgf@hbox=\box68
+\pgf@layerbox@main=\box69
 \pgf@picture@serial@count=\count418
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
@@ -1851,7 +1863,7 @@ x.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
 d.code.tex
 \c@pgfplotstable@counta=\count420
-\t@pgfplotstable@a=\toks50
+\t@pgfplotstable@a=\toks51
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
 .code.tex)
@@ -1891,16 +1903,16 @@ e.tex)
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
 ations.code.tex
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen293
-\pgfdecoratedremainingdistance=\dimen294
-\pgfdecoratedinputsegmentcompleteddistance=\dimen295
-\pgfdecoratedinputsegmentremainingdistance=\dimen296
-\pgf@decorate@distancetomove=\dimen297
+\pgfdecoratedcompleteddistance=\dimen298
+\pgfdecoratedremainingdistance=\dimen299
+\pgfdecoratedinputsegmentcompleteddistance=\dimen300
+\pgfdecoratedinputsegmentremainingdistance=\dimen301
+\pgf@decorate@distancetomove=\dimen302
 \pgf@decorate@repeatstate=\count423
-\pgfdecorationsegmentamplitude=\dimen298
-\pgfdecorationsegmentlength=\dimen299
+\pgfdecorationsegmentamplitude=\dimen303
+\pgfdecorationsegmentlength=\dimen304
 )
-\tikz@lib@dec@box=\box69
+\tikz@lib@dec@box=\box70
 )
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
 ations.pathmorphing.code.tex
@@ -1911,12 +1923,12 @@ ations.pathreplacing.code.tex
 (/usr/share/texmf/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.p
 athreplacing.code.tex))
 \pgfplots@numplots=\count424
-\pgfplots@xmin@reg=\dimen300
-\pgfplots@xmax@reg=\dimen301
-\pgfplots@ymin@reg=\dimen302
-\pgfplots@ymax@reg=\dimen303
-\pgfplots@zmin@reg=\dimen304
-\pgfplots@zmax@reg=\dimen305
+\pgfplots@xmin@reg=\dimen305
+\pgfplots@xmax@reg=\dimen306
+\pgfplots@ymin@reg=\dimen307
+\pgfplots@ymax@reg=\dimen308
+\pgfplots@zmin@reg=\dimen309
+\pgfplots@zmax@reg=\dimen310
 )
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotm
 arks.code.tex
@@ -1932,21 +1944,21 @@ eX document
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackg
 rounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2010/02/08 v2.10 (rcs-revision 1.2)
-\pgf@layerbox@background=\box70
-\pgf@layerboxsaved@background=\box71
+\pgf@layerbox@background=\box71
+\pgf@layerboxsaved@background=\box72
 ) (/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen306
-\extrarowheight=\dimen307
-\NC@list=\toks51
-\extratabsurround=\skip104
-\backup@length=\skip105
+\col@sep=\dimen311
+\extrarowheight=\dimen312
+\NC@list=\toks52
+\extratabsurround=\skip106
+\backup@length=\skip107
 )
-\rotheadsize=\dimen308
+\rotheadsize=\dimen313
 \c@nlinenum=\count425
-\TeXr@lab=\toks52
+\TeXr@lab=\toks53
 )
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
 s.code.tex
@@ -1995,26 +2007,26 @@ File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 (/usr/share/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.c
 ode.tex
 File: pgflibraryshapes.multipart.code.tex 2010/01/07 v2.10 (rcs-revision 1.2)
-\pgfnodepartlowerbox=\box72
-\pgfnodeparttwobox=\box73
-\pgfnodepartthreebox=\box74
-\pgfnodepartfourbox=\box75
-\pgfnodeparttwentybox=\box76
-\pgfnodepartnineteenbox=\box77
-\pgfnodeparteighteenbox=\box78
-\pgfnodepartseventeenbox=\box79
-\pgfnodepartsixteenbox=\box80
-\pgfnodepartfifteenbox=\box81
-\pgfnodepartfourteenbox=\box82
-\pgfnodepartthirteenbox=\box83
-\pgfnodeparttwelvebox=\box84
-\pgfnodepartelevenbox=\box85
-\pgfnodeparttenbox=\box86
-\pgfnodepartninebox=\box87
-\pgfnodeparteightbox=\box88
-\pgfnodepartsevenbox=\box89
-\pgfnodepartsixbox=\box90
-\pgfnodepartfivebox=\box91
+\pgfnodepartlowerbox=\box73
+\pgfnodeparttwobox=\box74
+\pgfnodepartthreebox=\box75
+\pgfnodepartfourbox=\box76
+\pgfnodeparttwentybox=\box77
+\pgfnodepartnineteenbox=\box78
+\pgfnodeparteighteenbox=\box79
+\pgfnodepartseventeenbox=\box80
+\pgfnodepartsixteenbox=\box81
+\pgfnodepartfifteenbox=\box82
+\pgfnodepartfourteenbox=\box83
+\pgfnodepartthirteenbox=\box84
+\pgfnodeparttwelvebox=\box85
+\pgfnodepartelevenbox=\box86
+\pgfnodeparttenbox=\box87
+\pgfnodepartninebox=\box88
+\pgfnodeparteightbox=\box89
+\pgfnodepartsevenbox=\box90
+\pgfnodepartsixbox=\box91
+\pgfnodepartfivebox=\box92
 )))
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.
 code.tex
@@ -2026,25 +2038,25 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
-\arrowsize=\dimen309
+\arrowsize=\dimen314
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks53
-\verbatim@line=\toks54
+\every@verbatim=\toks54
+\verbatim@line=\toks55
 \verbatim@in@stream=\read4
 )
 \c@magicrownumbers=\count426
 
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen310
+\bigstrutjot=\dimen315
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 
 
 Package csquotes Warning: No multilingual support.
-(csquotes)                Cannot enable multilingual quotes on input line 206.
+(csquotes)                Cannot enable multilingual quotes on input line 211.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -2067,63 +2079,63 @@ LaTeX Warning: Label `table:meta' multiply defined.
 (./chapters/AP_Intervals.aux) (./chapters/AP_Datasets.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 206.
-LaTeX Font Info:    Try loading font information for OML+jkp on input line 206.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 211.
+LaTeX Font Info:    Try loading font information for OML+jkp on input line 211.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 206.
-LaTeX Font Info:    Try loading font information for OMS+jkp on input line 206.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 211.
+LaTeX Font Info:    Try loading font information for OMS+jkp on input line 211.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 206.
-LaTeX Font Info:    Try loading font information for OMX+jkp on input line 206.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 211.
+LaTeX Font Info:    Try loading font information for OMX+jkp on input line 211.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 206.
-LaTeX Font Info:    Try loading font information for U+jkpexa on input line 206
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 211.
+LaTeX Font Info:    Try loading font information for U+jkpexa on input line 211
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 206.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 206.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 211.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 211.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 206.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 206.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 211.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 211.
 
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 206.
-LaTeX Font Info:    ... okay on input line 206.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
@@ -2133,7 +2145,7 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package csquotes Info: Making character " active on input line 206.
+Package csquotes Info: Making character " active on input line 211.
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -2152,22 +2164,22 @@ nvalid format '2016-6-26' of date field 'date' - ignoring.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Gender Recognition by Voice
+(biblatex)                krk
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                krk
+(biblatex)                Gender Recognition by Voice
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 206.
-Package biblatex Info: Reference segment=0 on input line 206.
-\AtBeginShipoutBox=\box92
-Package hyperref Info: Link coloring ON on input line 206.
+Package biblatex Info: Reference section=0 on input line 211.
+Package biblatex Info: Reference segment=0 on input line 211.
+\AtBeginShipoutBox=\box93
+Package hyperref Info: Link coloring ON on input line 211.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -2176,9 +2188,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count427
 )
-LaTeX Info: Redefining \ref on input line 206.
-LaTeX Info: Redefining \pageref on input line 206.
-LaTeX Info: Redefining \nameref on input line 206.
+LaTeX Info: Redefining \ref on input line 211.
+LaTeX Info: Redefining \pageref on input line 211.
+LaTeX Info: Redefining \nameref on input line 211.
 
 (./main.out) (./main.out)
 \@outlinefile=\write7
@@ -2262,12 +2274,12 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 ] (./main.toc
 LaTeX Info: Redefining \anw@print on input line 177.
- [1
-
-]
 LaTeX Info: Redefining \anw@print on input line 185.
 LaTeX Info: Redefining \anw@print on input line 193.
 LaTeX Info: Redefining \anw@print on input line 201.
+ [1
+
+]
 LaTeX Info: Redefining \anw@print on input line 209.
 LaTeX Info: Redefining \anw@print on input line 219.
 LaTeX Info: Redefining \anw@print on input line 237.
@@ -2422,8 +2434,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 115--116
- []\EU1/LinuxLibertineO(0)/b/n/10.95 Προ-επεξεργασία[] \EU1/LinuxLibertineO(0)/
-m/n/10.95 Υπάρχουν διάφορες
+[] []\EU1/LinuxLibertineO(0)/b/n/10.95 Προ-επεξεργασία[] \EU1/LinuxLibertineO(0
+)/m/n/10.95 Υπάρχουν διάφορες
  []
 
 
@@ -2452,9 +2464,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--116
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 117--118
- []\EU1/LinuxLibertineO(0)/b/n/10.95 Εκπαίδευση μοντέλου[] \EU1/LinuxLibertineO
-(0)/m/n/10.95 Απαιτεί την επι-
+Underfull \hbox (badness 1264) in paragraph at lines 116--117
+\EU1/LinuxLibertineO(0)/b/n/10.95 λόγησης και ελέγχου[] \EU1/LinuxLibertineO(0)
+/m/n/10.95 Είναι αναγκαία η
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 117--118
+[] []\EU1/LinuxLibertineO(0)/b/n/10.95 Εκπαίδευση μοντέλου[] \EU1/LinuxLibertin
+eO(0)/m/n/10.95 Απαιτεί την επι-
  []
 
 
@@ -2584,7 +2602,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [24]
 Overfull \hbox (12.04636pt too wide) in paragraph at lines 485--486
-\EU1/LinuxLibertineO(0)/m/n/10.95 (CMA-ES) [[][]46[][]], Ακολουθιακή Βελτιστοπο
+\EU1/LinuxLibertineO(0)/m/n/10.95 (CMA-ES) [[][]50[][]], Ακολουθιακή Βελτιστοπο
 ίηση χωρίς Μοντέλο (Sequential Model-free Optimization
  []
 
@@ -2640,6 +2658,8 @@ Missing character: There is no ) in font nullfont!
 
 
 ]
+LaTeX Info: Redefining \anw@print on input line 76.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -2647,8 +2667,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [30]
-LaTeX Info: Redefining \anw@print on input line 76.
-
 Overfull \hbox (13.3156pt too wide) in paragraph at lines 102--103
 [][] 
  []
@@ -2697,12 +2715,6 @@ Overfull \hbox (3.55075pt too wide) in paragraph at lines 180--181
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[34]
 Overfull \hbox (0.63673pt too wide) in paragraph at lines 206--206
  [][][][]\EU1/LinuxLibertineO(0)/m/n/10.95 preprocessor 
  []
@@ -2713,6 +2725,12 @@ Overfull \hbox (21.46323pt too wide) in paragraph at lines 222--223
  []
 
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34]
 Overfull \hbox (20.52356pt too wide) in paragraph at lines 230--231
 []\EU1/LinuxLibertineO(0)/m/n/10.95 optimizer Στην προκειμένη το πακέτο αυτό αν
 αλαμβάνει την πρόβλεψη των υπερ-παραμέτρων
@@ -2858,17 +2876,6 @@ No file chapters/Chapter5.tex.
 (./chapters/Chapter6.tex
 Κεφάλαιο 5.
 
-LaTeX Warning: Citation 'DBLP:journals/corr/abs-1208-3719' on page 42 undefined
- on input line 4.
-
-
-LaTeX Warning: Citation 'HutHooLeyMur10' on page 42 undefined on input line 4.
-
-
-LaTeX Warning: Citation 'kuba2002exploiting' on page 42 undefined on input line
- 8.
-
-
 Overfull \hbox (10.30527pt too wide) in paragraph at lines 11--12
 \EU1/LinuxLibertineO(0)/m/n/10.95 SVM, που καθορίζει το πλάτος του γκαουσιανού 
 πυρήνα. Χρησιμοποιώντας μετα-χαρακτηριστικά
@@ -2880,12 +2887,7 @@ Overfull \hbox (10.30527pt too wide) in paragraph at lines 11--12
 
 
 
-]
-
-LaTeX Warning: Citation 'Abdulrahman:2014:MCA:3015544.3015557' on page 43 undef
-ined on input line 15.
-
-)
+])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -2893,7 +2895,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [43]
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 216
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 221
 .
  (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2903,7 +2905,7 @@ File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ]
 
 Package biblatex Warning: No driver for entry type 'paper'.
-(biblatex)                Using fallback driver on input line 216.
+(biblatex)                Using fallback driver on input line 221.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3025,20 +3027,22 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 69--78
  []
 
 
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 94--102
+[] 
+ []
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [54]
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 94--102
-[] 
- []
+LaTeX Info: Redefining \anw@print on input line 121.
+LaTeX Info: Redefining \anw@print on input line 121.
+LaTeX Info: Redefining \anw@print on input line 121.
+LaTeX Info: Redefining \anw@print on input line 121.
 
-LaTeX Info: Redefining \anw@print on input line 121.
-LaTeX Info: Redefining \anw@print on input line 121.
-LaTeX Info: Redefining \anw@print on input line 121.
-LaTeX Info: Redefining \anw@print on input line 121.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -3058,14 +3062,14 @@ LaTeX Info: Redefining \anw@print on input line 175.
 LaTeX Info: Redefining \anw@print on input line 175.
 LaTeX Info: Redefining \anw@print on input line 175.
 LaTeX Info: Redefining \anw@print on input line 175.
-
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56])
+[56]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -3073,13 +3077,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [57]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[58]
 \openout2 = `chapters/AP_NBayes.aux'.
 
  (./chapters/AP_NBayes.tex
@@ -3089,7 +3086,7 @@ Missing character: There is no ’ in font jkpmn7t!
 Missing character: There is no ’ in font jkpmn7t!
 Missing character: There is no ’ in font jkpmn7t!
 Missing character: There is no ’ in font jkpmn7t!
-[59
+[58
 
 
 
@@ -3100,7 +3097,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[60]
+[59]
 \openout2 = `chapters/AP_LRegress.aux'.
 
  (./chapters/AP_LRegress.tex
@@ -3110,7 +3107,7 @@ LaTeX Info: Redefining \anw@print on input line 9.
 LaTeX Info: Redefining \anw@print on input line 9.
 LaTeX Info: Redefining \anw@print on input line 9.
 LaTeX Info: Redefining \anw@print on input line 9.
-[61
+[60
 
 
 
@@ -3134,14 +3131,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62]
+[61]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[63]
+[62]
 \openout2 = `chapters/AP_Knn.aux'.
 
  (./chapters/AP_Knn.tex
@@ -3156,7 +3153,7 @@ Missing character: There is no Κ in font jkpmi!
 Missing character: There is no Κ in font jkpmi!
 Missing character: There is no Κ in font jkpmi!
 Missing character: There is no Ξ in font jkpmi!
-[64
+[63
 
 
 
@@ -3180,7 +3177,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[65]
+[64]
 Missing character: There is no Α in font jkpmi!
 Missing character: There is no Ι in font jkpmi!
 
@@ -3202,14 +3199,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[66]
+[65]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[67]
+[66]
 \openout2 = `chapters/AP_Tests.aux'.
 
  (./chapters/AP_Tests.tex
@@ -3221,21 +3218,21 @@ Overfull \hbox (11.49156pt too wide) in paragraph at lines 22--23
 ρείται μια μη-παραμετρική εκδοχή της ANOVA,
  []
 
-[68
 
-
-
-]
 Overfull \hbox (4.6168pt too wide) in paragraph at lines 24--25
 []\EU1/LinuxLibertineO(0)/m/n/10.95 Σημαντική προσθήκη αποτελεί η εναλλακτική t
 est statistic που εισήγαγαν οι Iman []and []Davenport
  []
 
-)
-Overfull \hbox (2.44138pt too wide) in paragraph at lines 36--226
- []\EU1/LinuxLibertineO(0)/b/n/10.95 Cochran-Mantel-Haenszel[] \EU1/LinuxLibert
-ineO(0)/m/n/10.95 Συνδιαμορφώθηκε από τους Cochran [[][]15[][]] []and []Mantel 
-[]and []Haenszel
+[67
+
+
+
+])
+Overfull \hbox (1.49138pt too wide) in paragraph at lines 36--231
+[] []\EU1/LinuxLibertineO(0)/b/n/10.95 Cochran-Mantel-Haenszel[] \EU1/LinuxLibe
+rtineO(0)/m/n/10.95 Συνδιαμορφώθηκε από τους Cochran [[][]17[][]] []and []Mante
+l []and []Haenszel
  []
 
 
@@ -3244,13 +3241,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[69]
+[68]
 \openout2 = `chapters/AP_Algorithms.aux'.
 
  (./chapters/AP_Algorithms.tex
 Παράρτημα \MakeUppercase {ζ\anw@true \anw@print \relax }.
 LaTeX Info: Redefining \anw@print on input line 1.
-) [70
+) [69
 
 
 
@@ -3265,7 +3262,7 @@ LaTeX Info: Redefining \anw@print on input line 14.
 LaTeX Info: Redefining \anw@print on input line 19.
 LaTeX Info: Redefining \anw@print on input line 27.
 LaTeX Info: Redefining \anw@print on input line 31.
-[71
+[70
 
 
 
@@ -3283,89 +3280,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[72]
+[71]
 \openout2 = `chapters/AP_Datasets.aux'.
 
  (./chapters/AP_Datasets.tex
 Παράρτημα \MakeUppercase {θ\anw@true \anw@print \relax }.
 LaTeX Info: Redefining \anw@print on input line 1.
 
-Overfull \hbox (3.05573pt too wide) in paragraph at lines 6--6
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Πηγή| 
- []
-
-
-Overfull \hbox (4.28212pt too wide) in paragraph at lines 6--6
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Πεδίο| 
- []
-
-
-Overfull \hbox (4.72348pt too wide) in paragraph at lines 6--6
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Πλήθος
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-\EU1/LinuxLibertineO(0)/m/n/10.95 παρα-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-\EU1/LinuxLibertineO(0)/m/n/10.95 δειγ-
- []
-
-
-Overfull \hbox (4.72348pt too wide) in paragraph at lines 6--6
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Πλήθος
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-\EU1/LinuxLibertineO(0)/m/n/10.95 χαρα-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-\EU1/LinuxLibertineO(0)/m/n/10.95 κτη-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-\EU1/LinuxLibertineO(0)/m/n/10.95 ριστι-
- []
-
-
-Overfull \hbox (4.07408pt too wide) in paragraph at lines 11--11
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 social| 
- []
-
-
-Overfull \hbox (4.07408pt too wide) in paragraph at lines 12--12
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 social| 
- []
-
-
-Overfull \hbox (4.07408pt too wide) in paragraph at lines 13--13
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 social| 
- []
-
-
-Overfull \hbox (12.30847pt too wide) in paragraph at lines 14--14
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 openml| 
- []
-
-
-Overfull \hbox (12.30847pt too wide) in paragraph at lines 15--15
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 openml| 
- []
-
-
-Overfull \hbox (23.82788pt too wide) in paragraph at lines 18--18
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Computer| 
- []
-
-
-Overfull \hbox (73.60326pt too wide) in alignment at lines 4--27
+Overfull \hbox (37.48674pt too wide) in alignment at lines 4--27
  [] [] [] [] [] [] [] [] [] 
  []
 
@@ -3374,479 +3296,50 @@ Underfull \vbox (badness 10000) detected at line 27
  []
 
 
-Overfull \hbox (21.21083pt too wide) in paragraph at lines 35--35
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 relational| 
- []
-
-
-Overfull \hbox (2.78198pt too wide) in paragraph at lines 35--35
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Sport| 
- []
-
-
-Overfull \hbox (8.00513pt too wide) in paragraph at lines 37--37
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 kaggle| 
- []
-
-
-Overfull \hbox (7.2393pt too wide) in paragraph at lines 37--37
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 continuous| 
- []
-
-
-Overfull \hbox (8.00513pt too wide) in paragraph at lines 39--39
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 kaggle| 
- []
-
-
-Overfull \hbox (0.67198pt too wide) in paragraph at lines 39--39
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 284808| 
- []
-
-
-Overfull \hbox (23.82788pt too wide) in paragraph at lines 42--42
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Computer| 
- []
-
-
-Overfull \hbox (23.82788pt too wide) in paragraph at lines 43--43
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Computer| 
- []
-
-
-Overfull \hbox (23.82788pt too wide) in paragraph at lines 44--44
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Computer| 
- []
-
-
-Overfull \hbox (23.82788pt too wide) in paragraph at lines 45--45
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Computer| 
- []
-
-
-Overfull \hbox (23.82788pt too wide) in paragraph at lines 46--46
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Computer| 
- []
-
-
-Overfull \hbox (73.60326pt too wide) in alignment at lines 27--47
+Overfull \hbox (37.48674pt too wide) in alignment at lines 27--47
  [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (23.82788pt too wide) in paragraph at lines 47--47
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Computer| 
- []
-
-
-Overfull \hbox (23.82788pt too wide) in paragraph at lines 48--48
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Computer| 
- []
-
-
-Overfull \hbox (21.21083pt too wide) in paragraph at lines 49--49
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 relational| 
- []
-
-
-Overfull \hbox (20.90422pt too wide) in paragraph at lines 49--49
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Synthetic| 
- []
-
-
-Overfull \hbox (17.52068pt too wide) in paragraph at lines 50--50
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Business| 
- []
-
-
-Overfull \hbox (2.22421pt too wide) in paragraph at lines 51--51
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 multiclass| 
- []
-
-
-Overfull \hbox (21.21083pt too wide) in paragraph at lines 54--54
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 relational| 
- []
-
-
-Overfull \hbox (20.90422pt too wide) in paragraph at lines 54--54
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Synthetic| 
- []
-
-
-Overfull \hbox (8.00513pt too wide) in paragraph at lines 55--55
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 kaggle| 
- []
-
-
-Overfull \hbox (7.2393pt too wide) in paragraph at lines 55--55
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 continuous| 
- []
-
-
-Overfull \hbox (3.93025pt too wide) in paragraph at lines 60--60
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Hill_Valley_without_noise_Training| 
- []
-
-
-Overfull \hbox (5.11433pt too wide) in paragraph at lines 61--61
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Social| 
- []
-
-
-Overfull \hbox (8.00513pt too wide) in paragraph at lines 62--62
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 kaggle| 
- []
-
-
-Overfull \hbox (2.22421pt too wide) in paragraph at lines 62--62
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 multiclass| 
- []
-
-
-Overfull \hbox (21.21083pt too wide) in paragraph at lines 63--63
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 relational| 
- []
-
-
-Overfull \hbox (0.67198pt too wide) in paragraph at lines 63--63
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 986583| 
- []
-
-
-Overfull \hbox (7.2393pt too wide) in paragraph at lines 63--63
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 continuous| 
- []
-
-
-Overfull \hbox (16.06433pt too wide) in paragraph at lines 65--65
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Physical| 
- []
-
-
-Overfull \hbox (21.44077pt too wide) in paragraph at lines 66--66
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 computer| 
- []
-
-
-Overfull \hbox (73.60326pt too wide) in alignment at lines 47--67
+Overfull \hbox (37.48674pt too wide) in alignment at lines 47--67
  [] [] [] [] [] [] [] [] [] 
  []
 
-[73
+
+Overfull \hbox (37.48674pt too wide) in alignment at lines 67--88
+ [] [] [] [] [] [] [] [] [] 
+ []
+
+[72
 
 
 
 ]
-Overfull \hbox (21.21083pt too wide) in paragraph at lines 67--67
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 relational| 
- []
-
-
-Overfull \hbox (20.90422pt too wide) in paragraph at lines 67--67
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Synthetic| 
- []
-
-
-Overfull \hbox (12.30847pt too wide) in paragraph at lines 68--68
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 openml| 
- []
-
-
-Overfull \hbox (16.06433pt too wide) in paragraph at lines 70--70
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Physical| 
- []
-
-
-Overfull \hbox (8.00513pt too wide) in paragraph at lines 76--76
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 kaggle| 
- []
-
-
-Overfull \hbox (21.21083pt too wide) in paragraph at lines 77--77
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 relational| 
- []
-
-
-Overfull \hbox (21.21083pt too wide) in paragraph at lines 79--79
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 relational| 
- []
-
-
-Overfull \hbox (8.00513pt too wide) in paragraph at lines 80--80
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 kaggle| 
- []
-
-
-Overfull \hbox (4.07408pt too wide) in paragraph at lines 81--81
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 social| 
- []
-
-
-Overfull \hbox (2.22421pt too wide) in paragraph at lines 81--81
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 multiclass| 
- []
-
-
-Overfull \hbox (12.30847pt too wide) in paragraph at lines 83--83
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 openml| 
- []
-
-
-Overfull \hbox (12.30847pt too wide) in paragraph at lines 85--85
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 openml| 
- []
-
-
-Overfull \hbox (12.30847pt too wide) in paragraph at lines 86--86
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 openml| 
- []
-
-
-Overfull \hbox (12.30847pt too wide) in paragraph at lines 87--87
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 openml| 
- []
-
-
-Overfull \hbox (73.60326pt too wide) in alignment at lines 67--88
+Overfull \hbox (37.48674pt too wide) in alignment at lines 88--108
  [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (12.30847pt too wide) in paragraph at lines 88--88
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 openml| 
+Overfull \hbox (37.48674pt too wide) in alignment at lines 108--128
+ [] [] [] [] [] [] [] [] [] 
  []
 
+LaTeX Info: Redefining \anw@print on input line 136.
+LaTeX Info: Redefining \anw@print on input line 136.
+LaTeX Info: Redefining \anw@print on input line 136.
+LaTeX Info: Redefining \anw@print on input line 136.
 
-Overfull \hbox (12.30847pt too wide) in paragraph at lines 89--89
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 openml| 
- []
-
-
-Overfull \hbox (12.30847pt too wide) in paragraph at lines 90--90
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 openml| 
- []
-
-
-Overfull \hbox (12.30847pt too wide) in paragraph at lines 91--91
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 openml| 
- []
-
-
-Overfull \hbox (12.30847pt too wide) in paragraph at lines 92--92
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 openml| 
- []
-
-
-Overfull \hbox (12.30847pt too wide) in paragraph at lines 93--93
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 openml| 
- []
-
-
-Overfull \hbox (12.30847pt too wide) in paragraph at lines 94--94
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 openml| 
- []
-
-
-Overfull \hbox (12.30847pt too wide) in paragraph at lines 95--95
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 openml| 
- []
-
-
-Overfull \hbox (12.30847pt too wide) in paragraph at lines 96--96
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 openml| 
- []
-
-
-Overfull \hbox (12.30847pt too wide) in paragraph at lines 100--100
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 openml| 
- []
-
-
-Overfull \hbox (21.21083pt too wide) in paragraph at lines 101--101
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 relational| 
- []
-
-
-Overfull \hbox (8.00513pt too wide) in paragraph at lines 105--105
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 kaggle| 
- []
-
-
-Overfull \hbox (0.67198pt too wide) in paragraph at lines 105--105
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 198918| 
- []
-
-
-Overfull \hbox (7.2393pt too wide) in paragraph at lines 105--105
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 continuous| 
- []
-
-
-Overfull \hbox (73.60326pt too wide) in alignment at lines 88--108
+Overfull \hbox (37.48674pt too wide) in alignment at lines 128--137
  [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (16.06433pt too wide) in paragraph at lines 108--108
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Physical| 
- []
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-
-Overfull \hbox (23.82788pt too wide) in paragraph at lines 109--109
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Computer| 
- []
-
-
-Overfull \hbox (8.00513pt too wide) in paragraph at lines 111--111
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 kaggle| 
- []
-
-
-Overfull \hbox (2.22421pt too wide) in paragraph at lines 111--111
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 multiclass| 
- []
-
-
-Overfull \hbox (4.70918pt too wide) in paragraph at lines 114--114
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Game| 
- []
-
-
-Overfull \hbox (21.21083pt too wide) in paragraph at lines 115--115
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 relational| 
- []
-
-
-Overfull \hbox (20.90422pt too wide) in paragraph at lines 115--115
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Synthetic| 
- []
-
-
-Overfull \hbox (17.52068pt too wide) in paragraph at lines 117--117
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Business| 
- []
-
-
-Overfull \hbox (8.00513pt too wide) in paragraph at lines 118--118
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 kaggle| 
- []
-
-
-Overfull \hbox (21.21083pt too wide) in paragraph at lines 119--119
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 relational| 
- []
-
-
-Overfull \hbox (20.90422pt too wide) in paragraph at lines 119--119
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Synthetic| 
- []
-
-
-Overfull \hbox (7.2393pt too wide) in paragraph at lines 119--119
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 continuous| 
- []
-
-
-Overfull \hbox (21.21083pt too wide) in paragraph at lines 120--120
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 relational| 
- []
-
-
-Overfull \hbox (20.90422pt too wide) in paragraph at lines 120--120
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Synthetic| 
- []
-
-
-Overfull \hbox (7.2393pt too wide) in paragraph at lines 120--120
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 continuous| 
- []
-
-
-Overfull \hbox (21.21083pt too wide) in paragraph at lines 121--121
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 relational| 
- []
-
-
-Overfull \hbox (0.67198pt too wide) in paragraph at lines 121--121
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 100001| 
- []
-
-
-Overfull \hbox (7.2393pt too wide) in paragraph at lines 121--121
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 continuous| 
- []
-
-
-Overfull \hbox (8.00513pt too wide) in paragraph at lines 122--122
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 kaggle| 
- []
-
-
-Overfull \hbox (7.2393pt too wide) in paragraph at lines 122--122
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 continuous| 
- []
-
-
-Overfull \hbox (8.00513pt too wide) in paragraph at lines 123--123
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 kaggle| 
- []
-
-
-Overfull \hbox (7.2393pt too wide) in paragraph at lines 123--123
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 continuous| 
- []
-
-
-Overfull \hbox (8.00513pt too wide) in paragraph at lines 124--124
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 kaggle| 
- []
-
-
-Overfull \hbox (7.2393pt too wide) in paragraph at lines 124--124
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 continuous| 
- []
-
-
-Overfull \hbox (8.00513pt too wide) in paragraph at lines 125--125
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 kaggle| 
- []
-
-
-Overfull \hbox (7.2393pt too wide) in paragraph at lines 125--125
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 continuous| 
- []
-
-
-Overfull \hbox (8.00513pt too wide) in paragraph at lines 126--126
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 kaggle| 
- []
-
-
-Overfull \hbox (7.2393pt too wide) in paragraph at lines 126--126
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 continuous| 
- []
-
-
-Overfull \hbox (24.88855pt too wide) in paragraph at lines 127--127
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 Video_Games_Sales_as_at_30_Nov_2016
- []
-
-
-Overfull \hbox (8.00513pt too wide) in paragraph at lines 127--127
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 kaggle| 
- []
-
-
-Overfull \hbox (7.2393pt too wide) in paragraph at lines 127--127
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 continuous| 
- []
-
-
-Overfull \hbox (73.60326pt too wide) in alignment at lines 108--128
- [] [] [] [] [] [] [] [] [] 
- []
-
+[73])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -3854,69 +3347,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [74]
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 voice
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
-\EU1/LinuxLibertineO(0)/m/n/10.95 [[]
- []
-
-
-Overfull \hbox (8.00513pt too wide) in paragraph at lines 129--129
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 kaggle| 
- []
-
-
-Overfull \hbox (16.48042pt too wide) in paragraph at lines 130--130
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 business| 
- []
-
-
-Overfull \hbox (7.2393pt too wide) in paragraph at lines 130--130
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 continuous| 
- []
-
-
-Overfull \hbox (16.48042pt too wide) in paragraph at lines 131--131
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 business| 
- []
-
-
-Overfull \hbox (7.2393pt too wide) in paragraph at lines 131--131
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 continuous| 
- []
-
-
-Overfull \hbox (21.21083pt too wide) in paragraph at lines 132--132
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 relational| 
- []
-
-
-Overfull \hbox (7.2393pt too wide) in paragraph at lines 132--132
-[]|\EU1/LinuxLibertineO(0)/m/n/10.95 continuous| 
- []
-
-LaTeX Info: Redefining \anw@print on input line 136.
-LaTeX Info: Redefining \anw@print on input line 136.
-LaTeX Info: Redefining \anw@print on input line 136.
-LaTeX Info: Redefining \anw@print on input line 136.
-
-Overfull \hbox (73.60326pt too wide) in alignment at lines 128--138
- [] [] [] [] [] [] [] [] [] 
- []
-
-)
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[75]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
  (./main.aux (./chapters/Intro.aux) (./chapters/Chapter1.aux)
 (./chapters/Chapter2.aux) (./chapters/Chapter3.aux) (./chapters/Chapter4.aux)
 (./chapters/Chapter5.aux) (./chapters/Chapter6.aux)
@@ -3924,8 +3356,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
 (./chapters/AP_NBayes.aux) (./chapters/AP_LRegress.aux) (./chapters/AP_Knn.aux)
 (./chapters/AP_Tests.aux) (./chapters/AP_Algorithms.aux)
 (./chapters/AP_Intervals.aux) (./chapters/AP_Datasets.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 232.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 232.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 238.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 238.
 
 
 LaTeX Warning: There were undefined references.
@@ -3933,22 +3365,17 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53641 strings out of 493918
- 1098523 string characters out of 6150562
- 2205026 words of memory out of 5000000
- 55967 multiletter control sequences out of 15000+600000
- 30425 words of font info for 108 fonts, out of 8000000 for 9000
+ 53927 strings out of 493918
+ 1102601 string characters out of 6150562
+ 2197339 words of memory out of 5000000
+ 56246 multiletter control sequences out of 15000+600000
+ 30449 words of font info for 111 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,18n,101p,10426b,2062s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,18n,101p,10426b,2060s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (76 pages).
+Output written on main.pdf (75 pages).

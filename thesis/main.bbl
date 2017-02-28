@@ -19,6 +19,35 @@
 
 \refsection{0}
   \sortlist{entry}{nty}
+    \entry{Abdulrahman:2014:MCA:3015544.3015557}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=84df438b8f862e2e57674458aaded872}{Abdulrahman}{A\bibinitperiod}{Salisu\bibnamedelima Mamman}{S\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=0f53cd125b8efb2a9dcfb78b7832be04}{Brazdil}{B\bibinitperiod}{Pavel}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=84df438b8f862e2e57674458aaded872}{Abdulrahman}{A\bibinitperiod}{Salisu\bibnamedelima Mamman}{S\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=0f53cd125b8efb2a9dcfb78b7832be04}{Brazdil}{B\bibinitperiod}{Pavel}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Prague, Czech Republic}%
+      }
+      \list{publisher}{1}{%
+        {CEUR-WS.org}%
+      }
+      \strng{namehash}{22582987ccf2c79483afe6e70136266c}
+      \strng{fullhash}{22582987ccf2c79483afe6e70136266c}
+      \field{sortinit}{A}
+      \field{labeltitle}{Measures for Combining Accuracy and Time for Meta-learning}
+      \field{booktitle}{Proceedings of the 2014 International Conference on Meta-learning and Algorithm Selection - Volume 1201}
+      \field{isbn}{1613-0073}
+      \field{series}{MLAS'14}
+      \field{title}{Measures for Combining Accuracy and Time for Meta-learning}
+      \field{year}{2014}
+      \field{pages}{49\bibrangedash 50}
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=3015544.3015557
+      \endverb
+    \endentry
     \entry{tic}{misc}{}
       \name{labelname}{1}{}{%
         {{hash=89f3328af4035b612bc6589d2e654c8d}{Aha}{A\bibinitperiod}{David\bibnamedelima W.}{D\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
@@ -115,6 +144,35 @@
       \field{title}{PieChart2}
       \verb{url}
       \verb https://www.openml.org/d/1452
+      \endverb
+    \endentry
+    \entry{Bensusan:2001:EPA:645328.650030}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=8591715da1f68e56895c8eb9fbb6659a}{Bensusan}{B\bibinitperiod}{Hilan}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=e3412d0ffb4f0118b5a3ee83cf76205c}{Kalousis}{K\bibinitperiod}{Alexandros}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=8591715da1f68e56895c8eb9fbb6659a}{Bensusan}{B\bibinitperiod}{Hilan}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=e3412d0ffb4f0118b5a3ee83cf76205c}{Kalousis}{K\bibinitperiod}{Alexandros}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {London, UK, UK}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{7179e635975de664ca10b182e3f8502b}
+      \strng{fullhash}{7179e635975de664ca10b182e3f8502b}
+      \field{sortinit}{B}
+      \field{labeltitle}{Estimating the Predictive Accuracy of a Classifier}
+      \field{booktitle}{Proceedings of the 12th European Conference on Machine Learning}
+      \field{isbn}{3-540-42536-5}
+      \field{series}{EMCL '01}
+      \field{title}{Estimating the Predictive Accuracy of a Classifier}
+      \field{year}{2001}
+      \field{pages}{25\bibrangedash 36}
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=645328.650030
       \endverb
     \endentry
     \entry{Bergstra:2011:AHO:2986459.2986743}{inproceedings}{}
@@ -802,6 +860,28 @@
       \verb http://dx.doi.org/10.1007/978-3-642-25566-3_40
       \endverb
     \endentry
+    \entry{HutHooLeyMur10}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=25f5c8395a2808ac5ee0dbede7051255}{Hutter}{H\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=9688b96f1de19824ffdea6ddf0bd4fe8}{Hoos}{H\bibinitperiod}{H.\bibnamedelimi H.}{H\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=307a612ac865b682fe4341d5c661bf10}{Leyton-Brown}{L\bibinithyphendelim B\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=c41050f750f8d6b6ee746233eb75d93e}{Murphy}{M\bibinitperiod}{K.\bibnamedelimi P.}{K\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=25f5c8395a2808ac5ee0dbede7051255}{Hutter}{H\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=9688b96f1de19824ffdea6ddf0bd4fe8}{Hoos}{H\bibinitperiod}{H.\bibnamedelimi H.}{H\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=307a612ac865b682fe4341d5c661bf10}{Leyton-Brown}{L\bibinithyphendelim B\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=c41050f750f8d6b6ee746233eb75d93e}{Murphy}{M\bibinitperiod}{K.\bibnamedelimi P.}{K\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ddd1f889ac19726a161260ffc423ad7d}
+      \strng{fullhash}{6119d049b48632cb2607704589f5e5ec}
+      \field{sortinit}{H}
+      \field{labeltitle}{Time-Bounded Sequential Parameter Optimization}
+      \field{booktitle}{Proceedings of the conference on Learning and Intelligent OptimizatioN (LION 4)}
+      \field{month}{01}
+      \field{title}{Time-Bounded Sequential Parameter Optimization}
+      \field{year}{2010}
+    \endentry
     \entry{doi:10.1080/03610928008827904}{article}{}
       \name{labelname}{2}{}{%
         {{hash=ec6b8004a682d22f65af2b32f7c73f89}{Iman}{I\bibinitperiod}{Ronald\bibnamedelima L.}{R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
@@ -937,6 +1017,29 @@
       \verb{url}
       \verb https://relational.fit.cvut.cz/dataset/IMDb
       \endverb
+    \endentry
+    \entry{kuba2002exploiting}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=85310f9e11b661ce6c2c89955fe56bf5}{Kuba}{K\bibinitperiod}{Petr}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=0f53cd125b8efb2a9dcfb78b7832be04}{Brazdil}{B\bibinitperiod}{Pavel}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=ea13669b47d552fbc7d7438f9dc08c5c}{Soares}{S\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=5aed0ca5507244780b96593d2440caea}{Woznica}{W\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=85310f9e11b661ce6c2c89955fe56bf5}{Kuba}{K\bibinitperiod}{Petr}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=0f53cd125b8efb2a9dcfb78b7832be04}{Brazdil}{B\bibinitperiod}{Pavel}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=ea13669b47d552fbc7d7438f9dc08c5c}{Soares}{S\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=5aed0ca5507244780b96593d2440caea}{Woznica}{W\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{2265ab8dcd3731d2c87b60b1bb3aadca}
+      \strng{fullhash}{9b1e1dab8b7e705ffd0f4ac25d53e06d}
+      \field{sortinit}{K}
+      \field{labeltitle}{Exploiting sampling and meta-learning for parameter setting support vector machines}
+      \field{booktitle}{Proceedings of the IBERAMIA}
+      \field{title}{Exploiting sampling and meta-learning for parameter setting support vector machines}
+      \field{volume}{2002}
+      \field{year}{2002}
+      \field{pages}{217\bibrangedash 225}
     \endentry
     \entry{Kushner}{article}{}
       \name{labelname}{2}{}{%
@@ -1406,6 +1509,23 @@
       \verb http://archive.ics.uci.edu/ml/datasets/Nursery
       \endverb
     \endentry
+    \entry{Reif_meta2-features:}{misc}{}
+      \name{labelname}{3}{}{%
+        {{hash=dfe58d2d6efd8cec3d1cf6ec4f91f0b6}{Reif}{R\bibinitperiod}{Matthias}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5a88b427ea508cca58fbe1653577da26}{Shafait}{S\bibinitperiod}{Faisal}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=39509991baf1f5b54ef9eede853edd37}{Dengel}{D\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=dfe58d2d6efd8cec3d1cf6ec4f91f0b6}{Reif}{R\bibinitperiod}{Matthias}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5a88b427ea508cca58fbe1653577da26}{Shafait}{S\bibinitperiod}{Faisal}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=39509991baf1f5b54ef9eede853edd37}{Dengel}{D\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ece18d4d37742d094441fe46727130e7}
+      \strng{fullhash}{ece18d4d37742d094441fe46727130e7}
+      \field{sortinit}{R}
+      \field{labeltitle}{Meta 2-Features: Providing Meta-Learners More Information}
+      \field{title}{Meta 2-Features: Providing Meta-Learners More Information}
+    \endentry
     \entry{1554741}{inproceedings}{}
       \name{labelname}{2}{}{%
         {{hash=b30647c141ffce199033891c9cf6ef3b}{Rojas}{R\bibinitperiod}{S.\bibnamedelimi A.}{S\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
@@ -1527,6 +1647,31 @@
       \field{title}{Student Alcohol Consumption}
       \verb{url}
       \verb https://www.kaggle.com/uciml/student-alcohol-consumption
+      \endverb
+    \endentry
+    \entry{DBLP:journals/corr/abs-1208-3719}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=5ac1a8e0d967d1d5c68dde5e35588665}{Thornton}{T\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=c91dd51578c1d6d1adb0e2fcafe0d7c4}{Hoos}{H\bibinitperiod}{Holger\bibnamedelima H.}{H\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=e1ded69eaa817b0482d492de4a43e2e8}{Leyton{-}Brown}{L\bibinitperiod}{Kevin}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=5ac1a8e0d967d1d5c68dde5e35588665}{Thornton}{T\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=c91dd51578c1d6d1adb0e2fcafe0d7c4}{Hoos}{H\bibinitperiod}{Holger\bibnamedelima H.}{H\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=e1ded69eaa817b0482d492de4a43e2e8}{Leyton{-}Brown}{L\bibinitperiod}{Kevin}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b03304ed57df99f1dbb366ac9c1b5b57}
+      \strng{fullhash}{02749b06a927e01377fdf79c180c083f}
+      \field{sortinit}{T}
+      \field{labeltitle}{Auto-WEKA: Automated Selection and Hyper-Parameter Optimization of Classification Algorithms}
+      \field{journaltitle}{CoRR}
+      \field{title}{Auto-WEKA: Automated Selection and Hyper-Parameter Optimization of Classification Algorithms}
+      \field{volume}{abs/1208.3719}
+      \field{year}{2012}
+      \verb{url}
+      \verb http://arxiv.org/abs/1208.3719
       \endverb
     \endentry
     \entry{monks}{misc}{}
@@ -1688,8 +1833,8 @@
       \keyw{pattern classification;support vector machines;AdaBoost;SMBO framework;SVM;acquisition function;automatic tuning;classifiers;complex hyperparameter tuning strategies;data sets;hyperparameter combinations;hyperparameter configurations;look-up tables;meta-features;random hyperparameter search;sequential model-based optimization;sequential model-free hyperparameter tuning;static ranking;surrogate models;Adaptation models;Data models;Loss measurement;Machine learning algorithms;Optimization;Tuning;hyperparameter optimization;meta-learning;transfer learning}
     \endentry
   \endsortlist
-  \missing{Gender Recognition by Voice}
   \missing{krk}
+  \missing{Gender Recognition by Voice}
 \endrefsection
 \endinput
 

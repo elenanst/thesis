@@ -28,6 +28,9 @@
 %%% text formatting %%%
 \usepackage [autostyle, english = american]{csquotes}
 \MakeOuterQuote{"}
+\usepackage{titlesec}
+\titleformat{\chapter}[display]{\huge\raggedleft}{\Huge\bfseries \thechapter}{1em}{\LARGE\bfseries\uppercase }
+\titlespacing{\chapter}{0pt}{0pt}{1cm}
 
 %%% appendix %%%
 \usepackage[toc,page]{appendix}
@@ -193,6 +196,8 @@ minimum height=2em]
 
 \newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
 
+%%% issel guidelines %%%
+
 
 %%% title %%%
 \title{
@@ -227,6 +232,7 @@ minimum height=2em]
 \include{chapters/AP_Algorithms}
 \include{chapters/AP_Intervals}
 \include{chapters/AP_Datasets}
+
 \end{appendices}
 
 \end{document}

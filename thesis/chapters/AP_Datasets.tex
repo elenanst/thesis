@@ -1,13 +1,13 @@
 \chapter{Σετ δεδομένων }
 \label{appendix:Datasets}
-\noindent
-	 	\noindent\begin{longtable}{| p{0.05\textwidth} | p{0.37\textwidth}| p{0.05\textwidth} | p{0.05\textwidth} | p{0.1\textwidth} | p{0.07\textwidth} | p{0.07\textwidth} | p{0.1\textwidth} | p{0.05\textwidth} | } 
+{ \footnotesize
+	 	\begin{longtable}{|l| l| l | l | l | l |l | l | l | } 
  			\hline
- 			 & Όνομα & Πηγή & Πεδίο & Τύπος & Πλήθος παραδειγμάτων & Πλήθος χαρακτηριστικών & Κλάση & NAs \\
+ 			 & Όνομα & Πηγή & Πεδίο & Τύπος & { Π.Π} & {Π.Χ} & Κλάση & NAs \\
  			\hline 
  			\rownumber  & accident & & & & & & &\\
  			\rownumber & ad & & & & & & &\\
- 			\rownumber & adni\_demographic\_master\_kaggle & & & & & & &\\
+ 			\rownumber & adni\_demographic & & & & & & &\\
  			\rownumber &  adult \citep{census}  & UCI & social & data  & 48842 & 14 & binary & Ναι\\
  			\rownumber &  adult-stretch \citep{balloons} & UCI & social & data & 16 & 4 & binary & Όχι\\
  			\rownumber &  adult+stretch \citep{balloons} & UCI & social & data & 16 & 4 & binary & Όχι\\
@@ -32,7 +32,7 @@
  			\rownumber & block\_8 & & & & & & & \\
  			\rownumber & block\_10 & & & & & & & \\
  			\rownumber & car \citep{car} & UCI & N/A & data & 1728 & 6  & binary & Όχι\\
- 			\rownumber & chess & relational & Sport & mysql  & 296 & 19 & binary & Όχι \\
+ 			\rownumber & chess & rel. & Sport & mysql  & 296 & 19 & binary & Όχι \\
  			\rownumber & chscase\_health & & & & & & & \\
  			\rownumber & cities\_r2 \citep{indian} & kaggle & N/A & csv & 494 & 21 & continuous & Όχι \\
  			\rownumber & confidence & & & & & & & \\
@@ -46,12 +46,12 @@
  			\rownumber & dbworld\_bodies\_stemmed & UCI & Computer & arff & 64 & 4702 & binary & Όχι \\
  			\rownumber & dbworld\_subjects & UCI & Computer & arff & 64 & 4702 & binary & Όχι \\
  			\rownumber & dbworld\_subjects\_stemmed & UCI & Computer & arff & 64 & 4702 & binary & Όχι \\
- 			\rownumber & dcg \citep{dcg} & relational & Synthetic & mysql & 7129 & 3 & & \\
+ 			\rownumber & dcg \citep{dcg} & rel. & Synthetic & mysql & 7129 & 3 & & \\
  			\rownumber & default\_of\_credit\_card\_clients \citep{default} & UCI & Business & xls & 30000 & 24 & binary & Όχι \\
- 			\rownumber & dermatology \citep{dermatology} & UCI & Life & data & 366 & 33 & multiclass & Ναι \\
+ 			\rownumber & dermatology \citep{dermatology} & UCI & Life & data & 366 & 33 & multi & Ναι \\
  			\rownumber & diagnosis & & & & & & & \\
  			\rownumber & fertility\_Diagnosis & UCI & Life & txt & 100 & 10 & binary & Όχι \\
- 		    \rownumber & ftp \citep{ftp} & relational & Synthetic & mysql & 29555  & 2 & binary  & Ναι  \\
+ 		    \rownumber & ftp \citep{ftp} & rel. & Synthetic & mysql & 29555  & 2 & binary  & Ναι  \\
  			\rownumber & gym \citep{gym} & kaggle & N/A & csv & 26067 & 6 & continuous & Όχι \\
  			\rownumber & haberman \citep{haberman} & UCI & Life & data &  306 & 3 & binary & Όχι \\
  			\rownumber & heart & & & & & & & \\
@@ -59,12 +59,12 @@
  			\rownumber & Hill\_Valley\_with\_noise\_Training & UCI & N/A & data & 606 & 101 & binary & Όχι \\
  			\rownumber & Hill\_Valley\_without\_noise\_Training & UCI & N/A & data & 606 & 101 & binary & Όχι \\
  			\rownumber & house-votes-84 & UCI & Social & data & 435 & 16  & binary & Ναι  \\
- 			\rownumber & HR\_comma\_sep \citep{hr} & kaggle & N/A & csv & 15000 & 9 & multiclass & Όχι \\
- 			\rownumber & imdb \citep{imdb} & relational & Real & mysql & 986583 & 5 & continuous & Όχι \\
+ 			\rownumber & HR\_comma\_sep \citep{hr} & kaggle & N/A & csv & 15000 & 9 & multi & Όχι \\
+ 			\rownumber & imdb \citep{imdb} & rel. & Real & mysql & 986583 & 5 & continuous & Όχι \\
  			\rownumber & indian\_ilpd & UCI & Life & csv & 583 & 10 & binary & Όχι \\
  			\rownumber & ionosphere \citep{ionoshpere} & UCI & Physical & data  & 351 & 34  &  binary & Όχι \\
  			\rownumber & kohkiloyeh & UCI & computer& xlsx& 100 & 6 & binary & Όχι \\
- 			\rownumber & krk \citep{krk} & relational & Synthetic & mysql & 1000  & 6 & binary & Όχι \\
+ 			\rownumber & krk \citep{krk} & rel. & Synthetic & mysql & 1000  & 6 & binary & Όχι \\
  			\rownumber & lupus \citep{lupus} & openml & N/A & arff & 87 & 4 & binary & Όχι \\
  			\rownumber & lymphoma\_2classes & & & & & & & \\
  			\rownumber & magic04 & UCI & Physical & data & 19020 & 11 & binary & Όχι \\
@@ -74,11 +74,11 @@
  			\rownumber & monks-2.train \citep{monks} & UCI & N/A & txt & 432 & 7 & binary & Όχι \\
  			\rownumber & monks-3.train \citep{monks}& UCI & N/A & txt & 432 & 7 & binary & Όχι \\
  			\rownumber & mushrooms \citep{mushroom} & kaggle & N/A & csv & 8125 & 22 & binary & Ναι \\
- 			\rownumber & musk \citep{musk} & relational & Real & mysql & 6599
+ 			\rownumber & musk \citep{musk} & rel. & Real & mysql & 6599
  			  & 6598 & binary & Όχι \\
- 			\rownumber & mutagenesis \citep{Mutagenesis} & relational & Real & mysql & 5244 & 16 & binary & Όχι \\
+ 			\rownumber & mutagenesis \citep{Mutagenesis} & rel. & Real & mysql & 5244 & 16 & binary & Όχι \\
  			\rownumber & numeric sequence \citep{sequence} & kaggle & N/A & csv & 2401 & 28 & binary & Όχι \\
- 			\rownumber & nursery \citep{nursery} & UCI & social & data & 12960 & 8 & multiclass & Όχι \\
+ 			\rownumber & nursery \citep{nursery} & UCI & social & data & 12960 & 8 & multi & Όχι \\
  			\rownumber & parkinsons \citep{parkinsons} & UCI & Life & data & 197 & 23 & binary & Όχι \\
  			\rownumber & php3BOEY5 \citep{pie} & openml & N/A & arff & 745  & 37  &  binary& Όχι \\
  			\rownumber & php4ylQmK \citep{thyroid} & UCI & Life & csv & 195 & 23 & binary & Όχι \\
@@ -98,7 +98,7 @@
  			\rownumber & Pokemon & & & & & & & \\
  			\rownumber & Political-media-DFE & & & & & & & \\
  			\rownumber & prostate\_TumorVSNormal & openml & N/A & arff & 136 & 12601  & binary & Όχι \\
- 			\rownumber & ptc \citep{Helma2001,} & relational & Real  & mysql & 18313 & 6 & binary & Όχι \\
+ 			\rownumber & ptc \citep{Helma2001,} & rel.& Real  & mysql & 18313 & 6 & binary & Όχι \\
  			\rownumber & Qualitative\_Bankruptcy & & & & & & & \\
  			\rownumber & rabe\_97 & & & & & & & \\
  			\rownumber & reviews & & & & & & & \\
@@ -108,31 +108,31 @@
  			\rownumber & sonar & UCI & Physical & data & 208 & 60 & binary  & Όχι \\
  			\rownumber & spambase \citep{spam} & UCI & Computer & data & 4601 & 57 & binary & Ναι  \\
  			\rownumber & SPECTF & & & & & & & \\
- 			\rownumber & student-mat \citep{alcohol} & kaggle & N/A & csv & 396 & 32 & multiclass & Όχι \\
+ 			\rownumber & student-mat \citep{alcohol} & kaggle & N/A & csv & 396 & 32 & multi & Όχι \\
  			\rownumber & testing \citep{wilt} & UCI & Life & csv & 500 & 5 & binary & Όχι \\
  			\rownumber & ThoraricSurgery & & & & & & & \\
  			\rownumber & tic-tac-toe \citep{tic} & UCI & Game & data & 958 & 9 &  binary & Όχι \\
- 			\rownumber & trains \citep{Trains} & relational & Synthetic & mysql & 64 & 7 & binary & Όχι \\
+ 			\rownumber & trains \citep{Trains} & rel. & Synthetic & mysql & 64 & 7 & binary & Όχι \\
  			\rownumber & training \citep{wilt} & UCI & Life  & csv & 4339 & 5 & binary & Όχι \\
  			\rownumber & transfusion & UCI & Business & data & 748 & 5 & binary& Όχι \\
  			\rownumber & UCI\_Credit\_Card & kaggle & N/A & csv & 30000 & 25 & binary & Όχι \\
- 			\rownumber & university\_grade \citep{uni} & relational & Synthetic & mysql & 93 & 5  & continuous & Όχι \\
- 			\rownumber & university\_salary \citep{uni} & relational & Synthetic & mysql & 26 & 5 & continuous & Όχι \\
- 			\rownumber & utube \citep{utube} & relational & Real & mysql & 100001 & 4 & continuous & Όχι \\
+ 			\rownumber & university\_grade \citep{uni} & rel. & Synthetic & mysql & 93 & 5  & continuous & Όχι \\
+ 			\rownumber & university\_salary \citep{uni} & rel. & Synthetic & mysql & 26 & 5 & continuous & Όχι \\
+ 			\rownumber & utube \citep{utube} & rel. & Real & mysql & 100001 & 4 & continuous & Όχι \\
  			\rownumber & vgsales\_EU \citep{vgsales} & kaggle & N/A & csv  & 16598 & 10 & continuous & Όχι\\
  			\rownumber & vgsales\_global \citep{vgsales} & kaggle & N/A & csv  & 16598 & 10 & continuous & Όχι \\
  			\rownumber & vgsales\_JP \citep{vgsales} & kaggle & N/A & csv  & 16598 & 10 & continuous & Όχι \\
  			\rownumber & vgsales\_NA \citep{vgsales} & kaggle & N/A & csv  & 16598 & 10 & continuous & Όχι \\
  			\rownumber & vgsales\_other \citep{vgsales} & kaggle & N/A & csv  & 16598 & 10 & continuous & Όχι \\
- 			\rownumber & Video\_Games\_Sales\_as\_at\_30\_Nov\_2016 \citep{vgames} & kaggle & N/A & csv & 15850 & 15 & continuous & Ναι \\
+ 			\rownumber & Video\_Games\_Sales \citep{vgames} & kaggle & N/A & csv & 15850 & 15 & continuous & Ναι \\
  			\rownumber & visualizing\_soil & & & & & & & \\
  			\rownumber & voice \citep{Gender Recognition by Voice} & kaggle & N/A & csv & 3168 & 20 & binary & Όχι \\
  			\rownumber & winequality-red & UCI & business & csv & 1599 & 11 & continuous & Όχι \\
  			\rownumber & winequality-white & UCI & business & csv & 4898 & 15 & continuous & Όχι \\
- 			\rownumber & world & relational & Real & mysql & 30671 & 15 & continuous & Όχι \\
+ 			\rownumber & world & rel. & Real & mysql & 30671 & 15 & continuous & Όχι \\
  		 \rownumber & yellow-small & & & & & & & \\
  			\rownumber & yellow-small+adult-stretch & & & & & & & \\
 			\hline   
-			 	\caption{Τελική λίστα μετα-χαρακτηριστικών}\label{mfs}    	  
-
+			\caption{Τελική λίστα μετα-χαρακτηριστικών}\label{mfs} 
  \end{longtable}
+}
