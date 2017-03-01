@@ -81,6 +81,7 @@
     </requires>
     <requires type="editable">
       <file>bibliography.bib</file>
+      <file>bibliography_app.bib</file>
     </requires>
   </external>
 </requests>

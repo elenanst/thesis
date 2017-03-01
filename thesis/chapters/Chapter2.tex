@@ -31,8 +31,8 @@
 	\addplot[
 	visualization depends on={\thisrow{nodes}\as\myvalue},
 	scatter/classes={
-		a={mark=*,red},
-		b={mark=*,blue}
+		a={mark=*,black},
+		b={mark=*,white}
 	},
 	scatter, only marks,
 	scatter src=explicit symbolic,
@@ -40,9 +40,9 @@
 	table[x=x,y=y,meta=label]
 	{data/scattered_example.dat};
 
- \addplot [draw=red,fill=blue, opacity = 0.2]
+ \addplot [draw=black,fill=black, opacity = 0.2]
  coordinates { (-6,7.5) (-6,-1.5) (6,-1.5)};
- \addplot [draw=green,fill=red, opacity = 0.2]
+ \addplot [draw=black,fill=black, opacity = 0.5]
  coordinates {(6,-1.5) (6,7.5) (-6,7.5)};
  	\addlegendentry{Κακοήθης}
  	\addlegendentry{Μη κακοήθης}

@@ -1,77 +1,100 @@
 [1] Config.pm:318> INFO - This is Biber 1.8
 [2] Config.pm:321> INFO - Logfile is 'main.blg'
-[191] biber:275> INFO - === Î¤ÏÎ¹ Î¦ÎµÎ² 28, 2017, 23:48:44
-[191] Biber.pm:333> INFO - Reading 'main.bcf'
-[279] Biber.pm:630> INFO - Found 89 citekeys in bib section 0
-[360] Biber.pm:3053> INFO - Processing section 0
-[445] Biber.pm:3190> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[491] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
-[523] bibtex.pm:808> INFO - Found BibTeX data source 'bibliography.bib'
-[525] Utils.pm:169> WARN - Duplicate entry key: 'Hutter2011' in file 'bibliography.bib', skipping ...
-[530] Utils.pm:169> WARN - Duplicate entry key: 'Hutter2011' in file 'bibliography.bib', skipping ...
-[532] Utils.pm:169> WARN - Duplicate entry key: 'Bergstra:2011:AHO:2986459.2986743' in file 'bibliography.bib', skipping ...
-[533] Utils.pm:169> WARN - Duplicate entry key: '7373431' in file 'bibliography.bib', skipping ...
-[533] Utils.pm:169> WARN - Duplicate entry key: 'AAAI1510029' in file 'bibliography.bib', skipping ...
+[161] biber:275> INFO - === Î¤ÎµÏ ÎÎ¬Ï  1, 2017, 23:48:39
+[162] Biber.pm:333> INFO - Reading 'main.bcf'
+[254] Biber.pm:630> INFO - Found 0 citekeys in bib section 0
+[255] Biber.pm:630> INFO - Found 32 citekeys in bib section 1
+[255] Biber.pm:630> INFO - Found 0 citekeys in bib section 0
+[256] Biber.pm:630> INFO - Found 59 citekeys in bib section 2
+[256] Biber.pm:630> INFO - Found 0 citekeys in bib section 0
+[368] Biber.pm:3053> INFO - Processing section 1
+[489] Biber.pm:3190> INFO - Looking for bibtex format file 'bibliography.bib' for section 1
+[519] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
+[532] bibtex.pm:808> INFO - Found BibTeX data source 'bibliography.bib'
 [534] Utils.pm:169> WARN - Duplicate entry key: 'Hutter2011' in file 'bibliography.bib', skipping ...
-[534] Utils.pm:169> WARN - Duplicate entry key: 'DBLP:journals/corr/LoshchilovH16' in file 'bibliography.bib', skipping ...
-[535] Utils.pm:169> WARN - Duplicate entry key: 'Introduction' in file 'bibliography.bib', skipping ...
-[630] Utils.pm:169> WARN - Datamodel: Entry 'wassenberg' (bibliography.bib): Invalid format '2016-6-26' of date field 'date' - ignoring
-[695] Utils.pm:169> WARN - Possible typo (case mismatch) between citation and datasource keys: 'krk' and 'KRK' in file 'bibliography.bib'
-[730] Utils.pm:169> WARN - I didn't find a database entry for 'krk' (section 0)
-[730] Utils.pm:169> WARN - I didn't find a database entry for 'Gender Recognition by Voice' (section 0)
-[744] Utils.pm:169> WARN - The field 'year' in entry 'Reif_meta2-features:' cannot be null, deleting it
-[745] Utils.pm:169> WARN - The field 'keywords' in entry 'CIS-57999' cannot be null, deleting it
-[746] Utils.pm:169> WARN - The field 'institution' in entry 'Lin04simpleprobabilistic' cannot be null, deleting it
-[746] Utils.pm:169> WARN - The field 'author' in entry 'breast' cannot be null, deleting it
-[746] Utils.pm:169> WARN - The field 'year' in entry 'breast' cannot be null, deleting it
-[746] Utils.pm:169> WARN - The field 'author' in entry 'lung' cannot be null, deleting it
-[747] Utils.pm:169> WARN - The field 'year' in entry 'lung' cannot be null, deleting it
-[747] Utils.pm:169> WARN - The field 'author' in entry 'indian' cannot be null, deleting it
-[747] Utils.pm:169> WARN - The field 'year' in entry 'indian' cannot be null, deleting it
-[747] Utils.pm:169> WARN - The field 'author' in entry 'creditcard' cannot be null, deleting it
-[747] Utils.pm:169> WARN - The field 'year' in entry 'creditcard' cannot be null, deleting it
-[747] Utils.pm:169> WARN - The field 'year' in entry 'dcg' cannot be null, deleting it
-[748] Utils.pm:169> WARN - The field 'author' in entry 'default' cannot be null, deleting it
-[748] Utils.pm:169> WARN - The field 'year' in entry 'default' cannot be null, deleting it
-[748] Utils.pm:169> WARN - The field 'year' in entry 'dermatology' cannot be null, deleting it
-[748] Utils.pm:169> WARN - The field 'year' in entry 'ftp' cannot be null, deleting it
-[748] Utils.pm:169> WARN - The field 'author' in entry 'gym' cannot be null, deleting it
-[748] Utils.pm:169> WARN - The field 'year' in entry 'gym' cannot be null, deleting it
-[748] Utils.pm:169> WARN - The field 'year' in entry 'haberman' cannot be null, deleting it
-[749] Utils.pm:169> WARN - The field 'author' in entry 'hepatitis' cannot be null, deleting it
-[749] Utils.pm:169> WARN - The field 'year' in entry 'hepatitis' cannot be null, deleting it
-[749] Utils.pm:169> WARN - The field 'author' in entry 'hr' cannot be null, deleting it
-[749] Utils.pm:169> WARN - The field 'year' in entry 'hr' cannot be null, deleting it
-[749] Utils.pm:169> WARN - The field 'year' in entry 'imdb' cannot be null, deleting it
-[749] Utils.pm:169> WARN - The field 'year' in entry 'ionoshpere' cannot be null, deleting it
-[749] Utils.pm:169> WARN - The field 'author' in entry 'lupus' cannot be null, deleting it
-[750] Utils.pm:169> WARN - The field 'year' in entry 'lupus' cannot be null, deleting it
-[750] Utils.pm:169> WARN - The field 'year' in entry 'monks' cannot be null, deleting it
-[750] Utils.pm:169> WARN - The field 'author' in entry 'mushroom' cannot be null, deleting it
-[750] Utils.pm:169> WARN - The field 'year' in entry 'mushroom' cannot be null, deleting it
-[750] Utils.pm:169> WARN - The field 'year' in entry 'musk' cannot be null, deleting it
-[750] Utils.pm:169> WARN - The field 'author' in entry 'sequence' cannot be null, deleting it
-[750] Utils.pm:169> WARN - The field 'year' in entry 'sequence' cannot be null, deleting it
-[751] Utils.pm:169> WARN - The field 'year' in entry 'nursery' cannot be null, deleting it
-[751] Utils.pm:169> WARN - The field 'year' in entry 'pie' cannot be null, deleting it
-[751] Utils.pm:169> WARN - The field 'year' in entry 'thyroid' cannot be null, deleting it
-[751] Utils.pm:169> WARN - The field 'year' in entry 'planning' cannot be null, deleting it
-[751] Utils.pm:169> WARN - The field 'year' in entry 'pima' cannot be null, deleting it
-[752] Utils.pm:169> WARN - The field 'author' in entry 'sales' cannot be null, deleting it
-[752] Utils.pm:169> WARN - The field 'year' in entry 'sales' cannot be null, deleting it
-[752] Utils.pm:169> WARN - The field 'year' in entry 'spam' cannot be null, deleting it
-[752] Utils.pm:169> WARN - The field 'author' in entry 'alcohol' cannot be null, deleting it
-[752] Utils.pm:169> WARN - The field 'year' in entry 'alcohol' cannot be null, deleting it
-[752] Utils.pm:169> WARN - The field 'year' in entry 'tic' cannot be null, deleting it
-[753] Utils.pm:169> WARN - The field 'year' in entry 'uni' cannot be null, deleting it
-[753] Utils.pm:169> WARN - The field 'year' in entry 'utube' cannot be null, deleting it
-[753] Utils.pm:169> WARN - The field 'author' in entry 'vgsales' cannot be null, deleting it
-[753] Utils.pm:169> WARN - The field 'year' in entry 'vgsales' cannot be null, deleting it
-[753] Utils.pm:169> WARN - The field 'author' in entry 'vgames' cannot be null, deleting it
-[753] Utils.pm:169> WARN - The field 'year' in entry 'vgames' cannot be null, deleting it
-[1186] Biber.pm:2939> INFO - Overriding locale 'de_DE' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[1187] Biber.pm:2945> INFO - Sorting 'entry' list 'nty' keys
-[1187] Biber.pm:2949> INFO - No sort tailoring available for locale 'de_DE'
-[1646] bbl.pm:482> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1659] bbl.pm:555> INFO - Output to main.bbl
-[1660] Biber.pm:105> INFO - WARNINGS: 62
+[537] Utils.pm:169> WARN - Duplicate entry key: 'Hutter2011' in file 'bibliography.bib', skipping ...
+[539] Utils.pm:169> WARN - Duplicate entry key: 'Bergstra:2011:AHO:2986459.2986743' in file 'bibliography.bib', skipping ...
+[539] Utils.pm:169> WARN - Duplicate entry key: '7373431' in file 'bibliography.bib', skipping ...
+[539] Utils.pm:169> WARN - Duplicate entry key: 'AAAI1510029' in file 'bibliography.bib', skipping ...
+[539] Utils.pm:169> WARN - Duplicate entry key: 'Hutter2011' in file 'bibliography.bib', skipping ...
+[540] Utils.pm:169> WARN - Duplicate entry key: 'DBLP:journals/corr/LoshchilovH16' in file 'bibliography.bib', skipping ...
+[540] Utils.pm:169> WARN - Duplicate entry key: 'Introduction' in file 'bibliography.bib', skipping ...
+[667] Utils.pm:169> WARN - Datamodel: Entry 'wassenberg' (bibliography.bib): Invalid format '2016-6-26' of date field 'date' - ignoring
+[732] Utils.pm:169> WARN - The field 'year' in entry 'Reif_meta2-features:' cannot be null, deleting it
+[1085] Biber.pm:2939> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[1085] Biber.pm:2945> INFO - Sorting 'entry' list 'nty' keys
+[1086] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[1246] Biber.pm:3053> INFO - Processing section 2
+[1247] Biber.pm:3190> INFO - Looking for bibtex format file 'bibliography_app.bib' for section 2
+[1267] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
+[1271] bibtex.pm:808> INFO - Found BibTeX data source 'bibliography_app.bib'
+[1290] Utils.pm:169> WARN - Possible typo (case mismatch) between citation and datasource keys: 'krk' and 'KRK' in file 'bibliography_app.bib'
+[1319] Utils.pm:169> WARN - I didn't find a database entry for 'QJ:QJ49708235130' (section 2)
+[1319] Utils.pm:169> WARN - I didn't find a database entry for 'doi:10.1080/03610928008827904' (section 2)
+[1319] Utils.pm:169> WARN - I didn't find a database entry for 'CIS-57999' (section 2)
+[1320] Utils.pm:169> WARN - I didn't find a database entry for 'citeulike:4294367' (section 2)
+[1320] Utils.pm:169> WARN - I didn't find a database entry for 'doi:10.1093/biomet/75.2.383' (section 2)
+[1320] Utils.pm:169> WARN - I didn't find a database entry for 'Wilcoxon45' (section 2)
+[1320] Utils.pm:169> WARN - I didn't find a database entry for 'mann1947' (section 2)
+[1320] Utils.pm:169> WARN - I didn't find a database entry for 'McNemar1947' (section 2)
+[1320] Utils.pm:169> WARN - I didn't find a database entry for '10.2307/3001616' (section 2)
+[1321] Utils.pm:169> WARN - I didn't find a database entry for 'doi:10.1093/jnci/22.4.719' (section 2)
+[1321] Utils.pm:169> WARN - I didn't find a database entry for 'Platt99probabilisticoutputs' (section 2)
+[1321] Utils.pm:169> WARN - I didn't find a database entry for 'Jiang:2008:ECI:1390681.1390698' (section 2)
+[1321] Utils.pm:169> WARN - I didn't find a database entry for 'Lin04simpleprobabilistic' (section 2)
+[1321] Utils.pm:169> WARN - I didn't find a database entry for 'Chang:2011:LLS:1961189.1961199' (section 2)
+[1321] Utils.pm:169> WARN - I didn't find a database entry for 'krk' (section 2)
+[1321] Utils.pm:169> WARN - I didn't find a database entry for 'Gender Recognition by Voice' (section 2)
+[1328] Utils.pm:169> WARN - The field 'author' in entry 'breast' cannot be null, deleting it
+[1328] Utils.pm:169> WARN - The field 'year' in entry 'breast' cannot be null, deleting it
+[1328] Utils.pm:169> WARN - The field 'author' in entry 'lung' cannot be null, deleting it
+[1328] Utils.pm:169> WARN - The field 'year' in entry 'lung' cannot be null, deleting it
+[1328] Utils.pm:169> WARN - The field 'author' in entry 'indian' cannot be null, deleting it
+[1328] Utils.pm:169> WARN - The field 'year' in entry 'indian' cannot be null, deleting it
+[1329] Utils.pm:169> WARN - The field 'author' in entry 'creditcard' cannot be null, deleting it
+[1329] Utils.pm:169> WARN - The field 'year' in entry 'creditcard' cannot be null, deleting it
+[1329] Utils.pm:169> WARN - The field 'year' in entry 'dcg' cannot be null, deleting it
+[1329] Utils.pm:169> WARN - The field 'author' in entry 'default' cannot be null, deleting it
+[1329] Utils.pm:169> WARN - The field 'year' in entry 'default' cannot be null, deleting it
+[1329] Utils.pm:169> WARN - The field 'year' in entry 'dermatology' cannot be null, deleting it
+[1330] Utils.pm:169> WARN - The field 'year' in entry 'ftp' cannot be null, deleting it
+[1330] Utils.pm:169> WARN - The field 'author' in entry 'gym' cannot be null, deleting it
+[1330] Utils.pm:169> WARN - The field 'year' in entry 'gym' cannot be null, deleting it
+[1330] Utils.pm:169> WARN - The field 'year' in entry 'haberman' cannot be null, deleting it
+[1330] Utils.pm:169> WARN - The field 'author' in entry 'hepatitis' cannot be null, deleting it
+[1330] Utils.pm:169> WARN - The field 'year' in entry 'hepatitis' cannot be null, deleting it
+[1331] Utils.pm:169> WARN - The field 'author' in entry 'hr' cannot be null, deleting it
+[1331] Utils.pm:169> WARN - The field 'year' in entry 'hr' cannot be null, deleting it
+[1331] Utils.pm:169> WARN - The field 'year' in entry 'imdb' cannot be null, deleting it
+[1331] Utils.pm:169> WARN - The field 'year' in entry 'ionoshpere' cannot be null, deleting it
+[1331] Utils.pm:169> WARN - The field 'author' in entry 'lupus' cannot be null, deleting it
+[1331] Utils.pm:169> WARN - The field 'year' in entry 'lupus' cannot be null, deleting it
+[1331] Utils.pm:169> WARN - The field 'year' in entry 'monks' cannot be null, deleting it
+[1332] Utils.pm:169> WARN - The field 'author' in entry 'mushroom' cannot be null, deleting it
+[1332] Utils.pm:169> WARN - The field 'year' in entry 'mushroom' cannot be null, deleting it
+[1332] Utils.pm:169> WARN - The field 'year' in entry 'musk' cannot be null, deleting it
+[1332] Utils.pm:169> WARN - The field 'author' in entry 'sequence' cannot be null, deleting it
+[1332] Utils.pm:169> WARN - The field 'year' in entry 'sequence' cannot be null, deleting it
+[1332] Utils.pm:169> WARN - The field 'year' in entry 'nursery' cannot be null, deleting it
+[1333] Utils.pm:169> WARN - The field 'year' in entry 'pie' cannot be null, deleting it
+[1333] Utils.pm:169> WARN - The field 'year' in entry 'thyroid' cannot be null, deleting it
+[1333] Utils.pm:169> WARN - The field 'year' in entry 'planning' cannot be null, deleting it
+[1333] Utils.pm:169> WARN - The field 'year' in entry 'pima' cannot be null, deleting it
+[1333] Utils.pm:169> WARN - The field 'author' in entry 'sales' cannot be null, deleting it
+[1334] Utils.pm:169> WARN - The field 'year' in entry 'sales' cannot be null, deleting it
+[1334] Utils.pm:169> WARN - The field 'year' in entry 'spam' cannot be null, deleting it
+[1334] Utils.pm:169> WARN - The field 'author' in entry 'alcohol' cannot be null, deleting it
+[1334] Utils.pm:169> WARN - The field 'year' in entry 'alcohol' cannot be null, deleting it
+[1334] Utils.pm:169> WARN - The field 'year' in entry 'tic' cannot be null, deleting it
+[1334] Utils.pm:169> WARN - The field 'year' in entry 'uni' cannot be null, deleting it
+[1335] Utils.pm:169> WARN - The field 'year' in entry 'utube' cannot be null, deleting it
+[1335] Utils.pm:169> WARN - The field 'author' in entry 'vgsales' cannot be null, deleting it
+[1335] Utils.pm:169> WARN - The field 'year' in entry 'vgsales' cannot be null, deleting it
+[1335] Utils.pm:169> WARN - The field 'author' in entry 'vgames' cannot be null, deleting it
+[1335] Utils.pm:169> WARN - The field 'year' in entry 'vgames' cannot be null, deleting it
+[1435] Biber.pm:2939> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[1435] Biber.pm:2945> INFO - Sorting 'entry' list 'nty' keys
+[1435] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[1622] bbl.pm:482> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1636] bbl.pm:555> INFO - Output to main.bbl
+[1636] Biber.pm:105> INFO - WARNINGS: 74

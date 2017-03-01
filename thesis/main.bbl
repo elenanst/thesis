@@ -17,7 +17,7 @@
 \endgroup
 
 
-\refsection{0}
+\refsection{1}
   \sortlist{entry}{nty}
     \entry{Abdulrahman:2014:MCA:3015544.3015557}{inproceedings}{}
       \name{labelname}{2}{}{%
@@ -46,104 +46,6 @@
       \field{pages}{49\bibrangedash 50}
       \verb{url}
       \verb http://dl.acm.org/citation.cfm?id=3015544.3015557
-      \endverb
-    \endentry
-    \entry{tic}{misc}{}
-      \name{labelname}{1}{}{%
-        {{hash=89f3328af4035b612bc6589d2e654c8d}{Aha}{A\bibinitperiod}{David\bibnamedelima W.}{D\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=89f3328af4035b612bc6589d2e654c8d}{Aha}{A\bibinitperiod}{David\bibnamedelima W.}{D\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{89f3328af4035b612bc6589d2e654c8d}
-      \strng{fullhash}{89f3328af4035b612bc6589d2e654c8d}
-      \field{sortinit}{A}
-      \field{labeltitle}{Tic-Tac-Toe Endgame Data Set}
-      \field{title}{Tic-Tac-Toe Endgame Data Set}
-      \verb{url}
-      \verb http://archive.ics.uci.edu/ml/datasets/Tic-Tac-Toe+Endgame
-      \endverb
-    \endentry
-    \entry{breast}{misc}{}
-      \field{sortinit}{A}
-      \field{labeltitle}{AP\_Endometrium\_Breast}
-      \field{title}{AP\_Endometrium\_Breast}
-      \verb{url}
-      \verb https://test.openml.org/d/1123
-      \endverb
-    \endentry
-    \entry{lung}{misc}{}
-      \field{sortinit}{A}
-      \field{labeltitle}{AP\_Prostate\_Lung}
-      \field{title}{AP\_Prostate\_Lung}
-      \verb{url}
-      \verb https://www.openml.org/d/1155
-      \endverb
-    \endentry
-    \entry{dcg}{misc}{}
-      \name{labelname}{1}{}{%
-        {{hash=e54334652669d4ecf93effef954411e2}{Bally}{B\bibinitperiod}{Mathieu}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=e54334652669d4ecf93effef954411e2}{Bally}{B\bibinitperiod}{Mathieu}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{e54334652669d4ecf93effef954411e2}
-      \strng{fullhash}{e54334652669d4ecf93effef954411e2}
-      \field{sortinit}{B}
-      \field{labeltitle}{DCG}
-      \field{title}{DCG}
-      \verb{url}
-      \verb https://relational.fit.cvut.cz/dataset/DCG
-      \endverb
-    \endentry
-    \entry{utube}{misc}{}
-      \name{labelname}{1}{}{%
-        {{hash=e54334652669d4ecf93effef954411e2}{Bally}{B\bibinitperiod}{Mathieu}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=e54334652669d4ecf93effef954411e2}{Bally}{B\bibinitperiod}{Mathieu}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{e54334652669d4ecf93effef954411e2}
-      \strng{fullhash}{e54334652669d4ecf93effef954411e2}
-      \field{sortinit}{B}
-      \field{labeltitle}{Utube}
-      \field{title}{Utube}
-      \verb{url}
-      \verb https://relational.fit.cvut.cz/dataset/UTube
-      \endverb
-    \endentry
-    \entry{musk}{misc}{}
-      \name{labelname}{1}{}{%
-        {{hash=e94bd6750c886b2aab7dc99b944812ec}{Barragao}{B\bibinitperiod}{Arnaud}{A\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=e94bd6750c886b2aab7dc99b944812ec}{Barragao}{B\bibinitperiod}{Arnaud}{A\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{e94bd6750c886b2aab7dc99b944812ec}
-      \strng{fullhash}{e94bd6750c886b2aab7dc99b944812ec}
-      \field{sortinit}{B}
-      \field{labeltitle}{Musk}
-      \field{title}{Musk}
-      \verb{url}
-      \verb https://relational.fit.cvut.cz/dataset/Musk
-      \endverb
-    \endentry
-    \entry{pie}{misc}{}
-      \name{labelname}{2}{}{%
-        {{hash=b88ef4fd1a06ac6cdefca012b8541708}{Bauer}{B\bibinitperiod}{Hans\bibnamedelima Jesus}{H\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=0377e74af9e6668e5d1aabc2971f767c}{Bergman}{B\bibinitperiod}{Deter}{D\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=b88ef4fd1a06ac6cdefca012b8541708}{Bauer}{B\bibinitperiod}{Hans\bibnamedelima Jesus}{H\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=0377e74af9e6668e5d1aabc2971f767c}{Bergman}{B\bibinitperiod}{Deter}{D\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{7c014decbce53680b4d57ff7f1676513}
-      \strng{fullhash}{7c014decbce53680b4d57ff7f1676513}
-      \field{sortinit}{B}
-      \field{labeltitle}{PieChart2}
-      \field{title}{PieChart2}
-      \verb{url}
-      \verb https://www.openml.org/d/1452
       \endverb
     \endentry
     \entry{Bensusan:2001:EPA:645328.650030}{inproceedings}{}
@@ -206,40 +108,6 @@
       \field{pages}{2546\bibrangedash 2554}
       \verb{url}
       \verb http://dl.acm.org/citation.cfm?id=2986459.2986743
-      \endverb
-    \endentry
-    \entry{planning}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=f49e078b0e52f0db6da6990c2faaacf7}{Bhatt}{B\bibinitperiod}{Rajen}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=f49e078b0e52f0db6da6990c2faaacf7}{Bhatt}{B\bibinitperiod}{Rajen}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{f49e078b0e52f0db6da6990c2faaacf7}
-      \strng{fullhash}{f49e078b0e52f0db6da6990c2faaacf7}
-      \field{sortinit}{B}
-      \field{labeltitle}{{ Planning-Relax Dataset for Automatic Classification of EEG Signals.}}
-      \field{journaltitle}{UCI Machine Learning Repository}
-      \field{title}{{ Planning-Relax Dataset for Automatic Classification of EEG Signals.}}
-      \verb{url}
-      \verb https://archive.ics.uci.edu/ml/datasets/Planning+Relax
-      \endverb
-    \endentry
-    \entry{car}{misc}{}
-      \name{labelname}{1}{}{%
-        {{hash=eca4423e306925de7e0fb0cd97eb2ae5}{Bohanec}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=eca4423e306925de7e0fb0cd97eb2ae5}{Bohanec}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{eca4423e306925de7e0fb0cd97eb2ae5}
-      \strng{fullhash}{eca4423e306925de7e0fb0cd97eb2ae5}
-      \field{sortinit}{B}
-      \field{labeltitle}{Car Evaluation Data Set}
-      \field{title}{Car Evaluation Data Set}
-      \field{year}{2013}
-      \verb{url}
-      \verb http://archive.ics.uci.edu/ml/datasets/Car+Evaluation
       \endverb
     \endentry
     \entry{10.2307/2984418}{article}{}
@@ -343,66 +211,6 @@
       \verb http://doi.acm.org/10.1145/1015330.1015432
       \endverb
     \endentry
-    \entry{Chang:2011:LLS:1961189.1961199}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=90dbdcacecdffc9ea33bf0a0d370c416}{Chang}{C\bibinitperiod}{Chih-Chung}{C\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=bb8c32ec740b902c4f066796b083badc}{Lin}{L\bibinitperiod}{Chih-Jen}{C\bibinithyphendelim J\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=90dbdcacecdffc9ea33bf0a0d370c416}{Chang}{C\bibinitperiod}{Chih-Chung}{C\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=bb8c32ec740b902c4f066796b083badc}{Lin}{L\bibinitperiod}{Chih-Jen}{C\bibinithyphendelim J\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {New York, NY, USA}%
-      }
-      \list{publisher}{1}{%
-        {ACM}%
-      }
-      \strng{namehash}{1224d323be40e9eaf84c63498a939f53}
-      \strng{fullhash}{1224d323be40e9eaf84c63498a939f53}
-      \field{sortinit}{C}
-      \field{labeltitle}{LIBSVM: A Library for Support Vector Machines}
-      \field{issn}{2157-6904}
-      \field{journaltitle}{ACM Trans. Intell. Syst. Technol.}
-      \field{month}{05}
-      \field{number}{3}
-      \field{title}{LIBSVM: A Library for Support Vector Machines}
-      \field{volume}{2}
-      \field{year}{2011}
-      \field{pages}{27:1\bibrangedash 27:27}
-      \verb{doi}
-      \verb 10.1145/1961189.1961199
-      \endverb
-      \verb{url}
-      \verb http://doi.acm.org/10.1145/1961189.1961199
-      \endverb
-      \keyw{Classification LIBSVM optimization regression support vector machines SVM}
-    \endentry
-    \entry{10.2307/3001616}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=4b8813aa151761e674984941c9baf1eb}{Cochran}{C\bibinitperiod}{William\bibnamedelima G.}{W\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=4b8813aa151761e674984941c9baf1eb}{Cochran}{C\bibinitperiod}{William\bibnamedelima G.}{W\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {[Wiley, International Biometric Society]}%
-      }
-      \strng{namehash}{4b8813aa151761e674984941c9baf1eb}
-      \strng{fullhash}{4b8813aa151761e674984941c9baf1eb}
-      \field{sortinit}{C}
-      \field{labeltitle}{Some Methods for Strengthening the Common χ<sup>2</sup> Tests}
-      \field{issn}{0006341X, 15410420}
-      \field{journaltitle}{Biometrics}
-      \field{number}{4}
-      \field{title}{Some Methods for Strengthening the Common χ<sup>2</sup> Tests}
-      \field{volume}{10}
-      \field{year}{1954}
-      \field{pages}{417\bibrangedash 451}
-      \verb{url}
-      \verb http://www.jstor.org/stable/3001616
-      \endverb
-    \endentry
     \entry{craw1993}{incollection}{}
       \name{labelname}{5}{}{%
         {{hash=a6181b319049e63761338f3e83370142}{Craw}{C\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
@@ -440,82 +248,6 @@
       \endverb
       \verb{url}
       \verb https://www.cambridge.org/core/books/research-and-development-in-expert-systems-ix/consultant-providing-advice-for-the-machine-learning-toolbox/26A8CCC0F5F5E4ECC6CB0B20E2C27083
-      \endverb
-    \endentry
-    \entry{creditcard}{misc}{}
-      \field{sortinit}{C}
-      \field{labeltitle}{Credit Card Fraud Detection}
-      \field{title}{Credit Card Fraud Detection}
-      \verb{url}
-      \verb https://www.kaggle.com/dalpozz/creditcardfraud
-      \endverb
-    \endentry
-    \entry{gym}{misc}{}
-      \field{sortinit}{C}
-      \field{labeltitle}{Crowdedness at the campus gym}
-      \field{title}{Crowdedness at the campus gym}
-      \verb{url}
-      \verb https://www.kaggle.com/nsrose7224/crowdedness-at-the-campus-gym
-      \endverb
-    \endentry
-    \entry{Mutagenesis}{article}{}
-      \name{labelname}{5}{}{%
-        {{hash=d5cc04efef71a9769a4fc611c3e9991f}{Debnath}{D\bibinitperiod}{A.\bibnamedelimi K.}{A\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
-        {{hash=3f890d924981802dfe45681af0159177}{{Lopez\bibnamedelimb de\bibnamedelimb Compadre}}{L\bibinitperiod}{R.\bibnamedelimi L.}{R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-        {{hash=41dded43a609d3056054a6916626d1d0}{Debnath}{D\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=b45a793a28ec7206e158b236e796a9f5}{Shusterman}{S\bibinitperiod}{A.\bibnamedelimi J.}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=7a66b63516119d738f2f64f2362e8dd4}{Hansch}{H\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{5}{}{%
-        {{hash=d5cc04efef71a9769a4fc611c3e9991f}{Debnath}{D\bibinitperiod}{A.\bibnamedelimi K.}{A\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
-        {{hash=3f890d924981802dfe45681af0159177}{{Lopez\bibnamedelimb de\bibnamedelimb Compadre}}{L\bibinitperiod}{R.\bibnamedelimi L.}{R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-        {{hash=41dded43a609d3056054a6916626d1d0}{Debnath}{D\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=b45a793a28ec7206e158b236e796a9f5}{Shusterman}{S\bibinitperiod}{A.\bibnamedelimi J.}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=7a66b63516119d738f2f64f2362e8dd4}{Hansch}{H\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{cbb63c10b2b2dee30666bf07f72f7662}
-      \strng{fullhash}{b015f9d3912f76ceeeea4df5994d197c}
-      \field{sortinit}{D}
-      \field{labeltitle}{{Structure-activity relationship of mutagenic aromatic and heteroaromatic nitro compounds. Correlation with molecular orbital energies and hydrophobicity.}}
-      \field{abstract}{A review of the literature yielded data on over 200 aromatic and heteroaromatic nitro compounds tested for mutagenicity in the Ames test using S. typhimurium TA98. From the data, a quantitative structure-activity relationship (QSAR) has been derived for 188 congeners. The main determinants of mutagenicity are the hydrophobicity (modeled by octanol/water partition coefficients) and the energies of the lowest unoccupied molecular orbitals calculated using the AM1 method. It is also shown that chemicals possessing three or more fused rings possess much greater mutagenic potency than compounds with one or two fused rings. Since the QSAR is based on a very wide range in structural variation, aromatic rings from benzene to coronene are included as well as many different types of heterocycles, it is a significant step toward a predictive toxicology of value in the design of less mutagenic bioactive compounds.}
-      \field{isbn}{0022-2623 (Print)$\backslash$r0022-2623 (Linking)}
-      \field{issn}{0022-2623}
-      \field{journaltitle}{Journal of medicinal chemistry}
-      \field{number}{2}
-      \field{title}{{Structure-activity relationship of mutagenic aromatic and heteroaromatic nitro compounds. Correlation with molecular orbital energies and hydrophobicity.}}
-      \field{volume}{34}
-      \field{year}{1991}
-      \field{pages}{786\bibrangedash 797}
-      \verb{doi}
-      \verb 10.1021/jm00106a046
-      \endverb
-    \endentry
-    \entry{default}{misc}{}
-      \field{sortinit}{D}
-      \field{labeltitle}{Default of Credit Card Clients Dataset}
-      \field{title}{Default of Credit Card Clients Dataset}
-      \verb{url}
-      \verb https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset
-      \endverb
-    \endentry
-    \entry{pima}{misc}{}
-      \name{labelname}{3}{}{%
-        {{hash=6c48368de4561a509b09bac1f41b4938}{Diabetes}{D\bibinitperiod}{National\bibnamedelima Institute}{N\bibinitperiod\bibinitdelim I\bibinitperiod}{of}{o\bibinitperiod}{}{}}%
-        {{hash=8198a38e3445c86f553f65c30d404a10}{Digestive}{D\bibinitperiod}{}{}{}{}{}{}}%
-        {{hash=f02fc5d514a6b09910aaa1bf5714b5e5}{Diseases}{D\bibinitperiod}{Kidney}{K\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{hash=6c48368de4561a509b09bac1f41b4938}{Diabetes}{D\bibinitperiod}{National\bibnamedelima Institute}{N\bibinitperiod\bibinitdelim I\bibinitperiod}{of}{o\bibinitperiod}{}{}}%
-        {{hash=8198a38e3445c86f553f65c30d404a10}{Digestive}{D\bibinitperiod}{}{}{}{}{}{}}%
-        {{hash=f02fc5d514a6b09910aaa1bf5714b5e5}{Diseases}{D\bibinitperiod}{Kidney}{K\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{444ff4d344578ad158d2ef2fd3ddcb61}
-      \strng{fullhash}{444ff4d344578ad158d2ef2fd3ddcb61}
-      \field{sortinit}{D}
-      \field{labeltitle}{Pima Indians Diabetes Data Set}
-      \field{title}{Pima Indians Diabetes Data Set}
-      \verb{url}
-      \verb http://archive.ics.uci.edu/ml/datasets/Pima+Indians+Diabetes
       \endverb
     \endentry
     \entry{Dietterich2000}{inbook}{}
@@ -668,122 +400,6 @@
       \verb http://www.citeulike.org/user/gatsoulis/article/7096000
       \endverb
     \endentry
-    \entry{Helma2001}{article}{}
-      \name{labelname}{4}{}{%
-        {{hash=fa9dd025faefbc18fe8f53e44247adb1}{Helma}{H\bibinitperiod}{Christoph}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=125623e7394dfa3fe23dd4490cf8d953}{King}{K\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=ec05a5d3a4147ae1fcbf17d6f2510200}{Kramer}{K\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=fb3796c076ecc8c5cff4d9274e1ff0bf}{Srinivasan}{S\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{4}{}{%
-        {{hash=fa9dd025faefbc18fe8f53e44247adb1}{Helma}{H\bibinitperiod}{Christoph}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=125623e7394dfa3fe23dd4490cf8d953}{King}{K\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=ec05a5d3a4147ae1fcbf17d6f2510200}{Kramer}{K\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=fb3796c076ecc8c5cff4d9274e1ff0bf}{Srinivasan}{S\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{80cdc8dd8436ff71923c00198e7ab5c5}
-      \strng{fullhash}{3f193e3518b63a7808df6745b2996265}
-      \field{sortinit}{H}
-      \field{labeltitle}{{The Predictive Toxicology Challenge 2000-2001}}
-      \field{abstract}{Summary: We initiated the Predictive Toxicology Challenge (PTC) to stimulate the development of advanced SAR techniques for predictive toxicology models. The goal of this challenge is to predict the rodent carcinogenicity of new compounds based on the experimental results of the US National Toxicology Program (NTP). Submissions will be evaluated on quantitative and qualitative scales to select the most predictive models and those with the highest toxicological relevance.Availability: http://www.informatik.uni-freiburg.de/ ml/ptc/Contact: helma@informatik.uni-freiburg.de}
-      \field{issn}{1367-4803}
-      \field{journaltitle}{Bioinformatics}
-      \field{month}{01}
-      \field{number}{1}
-      \field{title}{{The Predictive Toxicology Challenge 2000-2001}}
-      \field{volume}{17}
-      \field{year}{2001}
-      \field{pages}{107\bibrangedash 108}
-      \verb{doi}
-      \verb 10.1093/bioinformatics/17.1.107
-      \endverb
-      \verb{url}
-      \verb http://bioinformatics.oxfordjournals.org/cgi/doi/10.1093/bioinformatics/17.1.107
-      \endverb
-    \endentry
-    \entry{hepatitis}{misc}{}
-      \field{sortinit}{H}
-      \field{labeltitle}{Hepatitis Data Set}
-      \field{title}{Hepatitis Data Set}
-      \verb{url}
-      \verb http://archive.ics.uci.edu/ml/datasets/Hepatitis
-      \endverb
-    \endentry
-    \entry{sales}{misc}{}
-      \field{sortinit}{H}
-      \field{labeltitle}{Historical Sales and Active Inventory}
-      \field{title}{Historical Sales and Active Inventory}
-      \verb{url}
-      \verb https://www.kaggle.com/flenderson/sales-analysis
-      \endverb
-    \endentry
-    \entry{citeulike:4294367}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=a7a3f5b9c49d7e338885fb4422e53abb}{Holm}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=a7a3f5b9c49d7e338885fb4422e53abb}{Holm}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{a7a3f5b9c49d7e338885fb4422e53abb}
-      \strng{fullhash}{a7a3f5b9c49d7e338885fb4422e53abb}
-      \field{sortinit}{H}
-      \field{labeltitle}{{A simple sequentially rejective multiple test procedure}}
-      \field{journaltitle}{Scandinavian Journal of Statistics}
-      \field{title}{{A simple sequentially rejective multiple test procedure}}
-      \field{volume}{6}
-      \field{year}{1979}
-      \field{pages}{65\bibrangedash 70}
-      \keyw{statistical\_tests}
-    \endentry
-    \entry{doi:10.1093/biomet/75.2.383}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=c6b3fb8334f9f40c098b4b47691afa46}{HOMMEL}{H\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=c6b3fb8334f9f40c098b4b47691afa46}{HOMMEL}{H\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{c6b3fb8334f9f40c098b4b47691afa46}
-      \strng{fullhash}{c6b3fb8334f9f40c098b4b47691afa46}
-      \field{sortinit}{H}
-      \field{labeltitle}{A stagewise rejective multiple test procedure based on a modified Bonferroni test}
-      \field{journaltitle}{Biometrika}
-      \field{number}{2}
-      \field{title}{A stagewise rejective multiple test procedure based on a modified Bonferroni test}
-      \field{volume}{75}
-      \field{year}{1988}
-      \field{pages}{383}
-      \verb{doi}
-      \verb 10.1093/biomet/75.2.383
-      \endverb
-      \verb{eprint}
-      \verb /oup/backfile/Content_public/Journal/biomet/75/2/10.1093/biomet/75.2.383/2/75-2-383.pdf
-      \endverb
-      \verb{url}
-      \verb +%20http://dx.doi.org/10.1093/biomet/75.2.383
-      \endverb
-    \endentry
-    \entry{spam}{misc}{}
-      \name{labelname}{4}{}{%
-        {{hash=92e1a785fde8d68aa11591d43b81c8e3}{Hopkins}{H\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=5dbcb24831cc4caedbc59627ba856457}{Reeber}{R\bibinitperiod}{Erik}{E\bibinitperiod}{}{}{}{}}%
-        {{hash=6b72636142c9e625c6c11c5852fa1cc9}{Forman}{F\bibinitperiod}{George}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=386b1014c974554e8c08ec43b882a3c4}{Suermondt}{S\bibinitperiod}{Jaap}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{4}{}{%
-        {{hash=92e1a785fde8d68aa11591d43b81c8e3}{Hopkins}{H\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=5dbcb24831cc4caedbc59627ba856457}{Reeber}{R\bibinitperiod}{Erik}{E\bibinitperiod}{}{}{}{}}%
-        {{hash=6b72636142c9e625c6c11c5852fa1cc9}{Forman}{F\bibinitperiod}{George}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=386b1014c974554e8c08ec43b882a3c4}{Suermondt}{S\bibinitperiod}{Jaap}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{3974389c9cb3a8668a2c1b121ecd2652}
-      \strng{fullhash}{427bd6f20185dae8cb4df0622e315785}
-      \field{sortinit}{H}
-      \field{labeltitle}{Spambase Data Set}
-      \field{title}{Spambase Data Set}
-      \verb{url}
-      \verb http://archive.ics.uci.edu/ml/datasets/Spambase
-      \endverb
-    \endentry
     \entry{Huang2006}{article}{}
       \name{labelname}{4}{}{%
         {{hash=8de34096ba2eacadb23216dd55dfec52}{Huang}{H\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
@@ -814,14 +430,6 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1007/s10898-005-2454-3
-      \endverb
-    \endentry
-    \entry{hr}{misc}{}
-      \field{sortinit}{H}
-      \field{labeltitle}{Human Resources Analytics}
-      \field{title}{Human Resources Analytics}
-      \verb{url}
-      \verb https://www.kaggle.com/ludobenistant/hr-analytics
       \endverb
     \endentry
     \entry{Hutter2011}{inbook}{}
@@ -882,83 +490,669 @@
       \field{title}{Time-Bounded Sequential Parameter Optimization}
       \field{year}{2010}
     \endentry
-    \entry{doi:10.1080/03610928008827904}{article}{}
+    \entry{kuba2002exploiting}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=85310f9e11b661ce6c2c89955fe56bf5}{Kuba}{K\bibinitperiod}{Petr}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=0f53cd125b8efb2a9dcfb78b7832be04}{Brazdil}{B\bibinitperiod}{Pavel}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=ea13669b47d552fbc7d7438f9dc08c5c}{Soares}{S\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=5aed0ca5507244780b96593d2440caea}{Woznica}{W\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=85310f9e11b661ce6c2c89955fe56bf5}{Kuba}{K\bibinitperiod}{Petr}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=0f53cd125b8efb2a9dcfb78b7832be04}{Brazdil}{B\bibinitperiod}{Pavel}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=ea13669b47d552fbc7d7438f9dc08c5c}{Soares}{S\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=5aed0ca5507244780b96593d2440caea}{Woznica}{W\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{2265ab8dcd3731d2c87b60b1bb3aadca}
+      \strng{fullhash}{9b1e1dab8b7e705ffd0f4ac25d53e06d}
+      \field{sortinit}{K}
+      \field{labeltitle}{Exploiting sampling and meta-learning for parameter setting support vector machines}
+      \field{booktitle}{Proceedings of the IBERAMIA}
+      \field{title}{Exploiting sampling and meta-learning for parameter setting support vector machines}
+      \field{volume}{2002}
+      \field{year}{2002}
+      \field{pages}{217\bibrangedash 225}
+    \endentry
+    \entry{Kushner}{article}{}
       \name{labelname}{2}{}{%
-        {{hash=ec6b8004a682d22f65af2b32f7c73f89}{Iman}{I\bibinitperiod}{Ronald\bibnamedelima L.}{R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-        {{hash=8b0ea784c8795ba1a955d290d34f3ed8}{Davenport}{D\bibinitperiod}{James\bibnamedelima M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=54071ea94ceb278ed0b04c647fb99ac8}{Kushner}{K\bibinitperiod}{H.\bibnamedelimi J.}{H\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=5754ee426a620c08f8e470d60ffde58f}{Mockus}{M\bibinitperiod}{L.\bibnamedelimi J.}{L\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{2}{}{%
-        {{hash=ec6b8004a682d22f65af2b32f7c73f89}{Iman}{I\bibinitperiod}{Ronald\bibnamedelima L.}{R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-        {{hash=8b0ea784c8795ba1a955d290d34f3ed8}{Davenport}{D\bibinitperiod}{James\bibnamedelima M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=54071ea94ceb278ed0b04c647fb99ac8}{Kushner}{K\bibinitperiod}{H.\bibnamedelimi J.}{H\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=5754ee426a620c08f8e470d60ffde58f}{Mockus}{M\bibinitperiod}{L.\bibnamedelimi J.}{L\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{b00c7666d61f6d9b640c1dea5b06617c}
-      \strng{fullhash}{b00c7666d61f6d9b640c1dea5b06617c}
-      \field{sortinit}{I}
-      \field{labeltitle}{Approximations of the critical region of the fbietkan statistic}
-      \field{journaltitle}{Communications in Statistics - Theory and Methods}
-      \field{number}{6}
-      \field{title}{Approximations of the critical region of the fbietkan statistic}
-      \field{volume}{9}
-      \field{year}{1980}
-      \field{pages}{571\bibrangedash 595}
+      \strng{namehash}{346cfa56f948b89d9e10b80bf5b44fd8}
+      \strng{fullhash}{346cfa56f948b89d9e10b80bf5b44fd8}
+      \field{sortinit}{K}
+      \field{labeltitle}{A New Method of Locating the Maximum Point of an Arbitrary Mult}
+      \field{issn}{1573-2878}
+      \field{journaltitle}{Journal of Basic Engineering}
+      \field{number}{1}
+      \field{title}{A New Method of Locating the Maximum Point of an Arbitrary Mult}
+      \field{volume}{86}
+      \field{year}{1964}
+      \field{pages}{97\bibrangedash 106}
       \verb{doi}
-      \verb 10.1080/03610928008827904
-      \endverb
-      \verb{eprint}
-      \verb http://dx.doi.org/10.1080/03610928008827904
+      \verb 10.1115/1.3653121
       \endverb
       \verb{url}
-      \verb http://dx.doi.org/10.1080/03610928008827904
+      \verb http://dx.doi.org/10.1115/1.3653121
       \endverb
     \endentry
-    \entry{CIS-57999}{article}{}
-      \name{labelname}{3}{}{%
-        {{hash=c9165f767d1c78844ace972f60864989}{Jaccard}{J\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=e92bf0d000a250f0f7bc0135012ecf38}{Becker}{B\bibinitperiod}{Michael\bibnamedelima A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=7dedc5d70bca6f166455e74fc268e527}{Wood}{W\bibinitperiod}{Gregory}{G\bibinitperiod}{}{}{}{}}%
+    \entry{DBLP:journals/corr/LoshchilovH16}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=1241b8181104f1917578d4c7f9b323b6}{Loshchilov}{L\bibinitperiod}{Ilya}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{3}{}{%
-        {{hash=c9165f767d1c78844ace972f60864989}{Jaccard}{J\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=e92bf0d000a250f0f7bc0135012ecf38}{Becker}{B\bibinitperiod}{Michael\bibnamedelima A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=7dedc5d70bca6f166455e74fc268e527}{Wood}{W\bibinitperiod}{Gregory}{G\bibinitperiod}{}{}{}{}}%
+      \name{author}{2}{}{%
+        {{hash=1241b8181104f1917578d4c7f9b323b6}{Loshchilov}{L\bibinitperiod}{Ilya}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{cbdd5e0b02abf96c21e327e4bb46e70e}
-      \strng{fullhash}{cbdd5e0b02abf96c21e327e4bb46e70e}
-      \field{sortinit}{J}
-      \field{labeltitle}{Pairwise multiple comparison procedures: A review}
-      \field{journaltitle}{The Psychological Bulletin}
-      \field{title}{Pairwise multiple comparison procedures: A review}
-      \field{volume}{96}
-      \field{year}{1984}
-      \field{pages}{589\bibrangedash 596}
+      \strng{namehash}{b308ccb07134a06ec3735828ac4f15e2}
+      \strng{fullhash}{b308ccb07134a06ec3735828ac4f15e2}
+      \field{sortinit}{L}
+      \field{labeltitle}{{CMA-ES} for Hyperparameter Optimization of Deep Neural Networks}
+      \field{journaltitle}{CoRR}
+      \field{title}{{CMA-ES} for Hyperparameter Optimization of Deep Neural Networks}
+      \field{volume}{abs/1604.07269}
+      \field{year}{2016}
+      \verb{url}
+      \verb http://arxiv.org/abs/1604.07269
+      \endverb
     \endentry
-    \entry{Jiang:2008:ECI:1390681.1390698}{article}{}
-      \name{labelname}{3}{}{%
-        {{hash=8c4879cb38298ad3d0f180a4f70b8692}{Jiang}{J\bibinitperiod}{Bo}{B\bibinitperiod}{}{}{}{}}%
-        {{hash=f229e11728477b0dc2cdca9cbad892c8}{Zhang}{Z\bibinitperiod}{Xuegong}{X\bibinitperiod}{}{}{}{}}%
-        {{hash=1df414765f32cd3fb95f7ca80bfb5b56}{Cai}{C\bibinitperiod}{Tianxi}{T\bibinitperiod}{}{}{}{}}%
+    \entry{Mitchell:1997:ML:541177}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=00bf04c8e4d2890f91709bd25777759a}{Mitchell}{M\bibinitperiod}{Thomas\bibnamedelima M.}{T\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{3}{}{%
-        {{hash=8c4879cb38298ad3d0f180a4f70b8692}{Jiang}{J\bibinitperiod}{Bo}{B\bibinitperiod}{}{}{}{}}%
-        {{hash=f229e11728477b0dc2cdca9cbad892c8}{Zhang}{Z\bibinitperiod}{Xuegong}{X\bibinitperiod}{}{}{}{}}%
-        {{hash=1df414765f32cd3fb95f7ca80bfb5b56}{Cai}{C\bibinitperiod}{Tianxi}{T\bibinitperiod}{}{}{}{}}%
+      \name{author}{1}{}{%
+        {{hash=00bf04c8e4d2890f91709bd25777759a}{Mitchell}{M\bibinitperiod}{Thomas\bibnamedelima M.}{T\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
       }
       \list{publisher}{1}{%
-        {JMLR.org}%
+        {McGraw-Hill, Inc.}%
       }
-      \strng{namehash}{375d72c6fd95c63280b0433e2e5000bb}
-      \strng{fullhash}{375d72c6fd95c63280b0433e2e5000bb}
-      \field{sortinit}{J}
-      \field{labeltitle}{Estimating the Confidence Interval for Prediction Errors of Support Vector Machine Classifiers}
-      \field{issn}{1532-4435}
-      \field{journaltitle}{J. Mach. Learn. Res.}
-      \field{month}{06}
-      \field{title}{Estimating the Confidence Interval for Prediction Errors of Support Vector Machine Classifiers}
-      \field{volume}{9}
-      \field{year}{2008}
-      \field{pages}{521\bibrangedash 540}
+      \strng{namehash}{00bf04c8e4d2890f91709bd25777759a}
+      \strng{fullhash}{00bf04c8e4d2890f91709bd25777759a}
+      \field{sortinit}{M}
+      \field{labeltitle}{Machine Learning}
+      \field{edition}{1}
+      \field{isbn}{0070428077, 9780070428072}
+      \field{title}{Machine Learning}
+      \field{year}{1997}
+    \endentry
+    \entry{Mockus1991}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=1f7584427e692c111002b0a119f7f661}{Mockus}{M\bibinitperiod}{J.\bibnamedelimi B.}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=5754ee426a620c08f8e470d60ffde58f}{Mockus}{M\bibinitperiod}{L.\bibnamedelimi J.}{L\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=1f7584427e692c111002b0a119f7f661}{Mockus}{M\bibinitperiod}{J.\bibnamedelimi B.}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=5754ee426a620c08f8e470d60ffde58f}{Mockus}{M\bibinitperiod}{L.\bibnamedelimi J.}{L\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0bae480099954d1a0171d77720478a1d}
+      \strng{fullhash}{0bae480099954d1a0171d77720478a1d}
+      \field{sortinit}{M}
+      \field{labeltitle}{Bayesian approach to global optimization and application to multiobjective and constrained problems}
+      \field{abstract}{In this paper, the Bayesian methods of global optimization are considered. They provide the minimal expected deviation from the global minimum. It is shown that, using the Bayesian methods, the asymptotic density of calculations of the objective function is much greater around the point of global minimum. The relation of this density to the parameters of the method and to the function is defined.}
+      \field{issn}{1573-2878}
+      \field{journaltitle}{Journal of Optimization Theory and Applications}
+      \field{number}{1}
+      \field{title}{Bayesian approach to global optimization and application to multiobjective and constrained problems}
+      \field{volume}{70}
+      \field{year}{1991}
+      \field{pages}{157\bibrangedash 172}
+      \verb{doi}
+      \verb 10.1007/BF00940509
+      \endverb
       \verb{url}
-      \verb http://dl.acm.org/citation.cfm?id=1390681.1390698
+      \verb http://dx.doi.org/10.1007/BF00940509
+      \endverb
+    \endentry
+    \entry{Nelder01011965}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=f679d2c76561037caf851bc78e48e730}{Nelder}{N\bibinitperiod}{J.\bibnamedelimi A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=910a207c5358ae3442325672a3c22ade}{Mead}{M\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=f679d2c76561037caf851bc78e48e730}{Nelder}{N\bibinitperiod}{J.\bibnamedelimi A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=910a207c5358ae3442325672a3c22ade}{Mead}{M\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{84865b0f440e946ff4902ee3db0217ce}
+      \strng{fullhash}{84865b0f440e946ff4902ee3db0217ce}
+      \field{sortinit}{N}
+      \field{labeltitle}{A Simplex Method for Function Minimization}
+      \field{abstract}{A method is described for the minimization of a function of n variables, which depends on the comparison of function values at the (n + 1) vertices of a general simplex, followed by the replacement of the vertex with the highest value by another point. The simplex adapts itself to the local landscape, and contracts on to the final minimum. The method is shown to be effective and computationally compact. A procedure is given for the estimation of the Hessian matrix in the neighbourhood of the minimum, needed in statistical estimation problems.}
+      \field{journaltitle}{The Computer Journal}
+      \field{number}{4}
+      \field{title}{A Simplex Method for Function Minimization}
+      \field{volume}{7}
+      \field{year}{1965}
+      \field{pages}{308\bibrangedash 313}
+      \verb{doi}
+      \verb 10.1093/comjnl/7.4.308
+      \endverb
+      \verb{eprint}
+      \verb http://comjnl.oxfordjournals.org/content/7/4/308.full.pdf+html
+      \endverb
+      \verb{url}
+      \verb http://comjnl.oxfordjournals.org/content/7/4/308.abstract
+      \endverb
+    \endentry
+    \entry{wassenberg}{online}{}
+      \name{labelname}{1}{}{%
+        {{hash=bab4e5caee2d67831e464ce575022b37}{Pedregosa}{P\bibinitperiod}{Fabian}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=bab4e5caee2d67831e464ce575022b37}{Pedregosa}{P\bibinitperiod}{Fabian}{F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{bab4e5caee2d67831e464ce575022b37}
+      \strng{fullhash}{bab4e5caee2d67831e464ce575022b37}
+      \field{sortinit}{P}
+      \field{labeltitle}{Hyperparameter optimization with approximate gradient}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arxiv}
+      \field{langid}{american}
+      \field{title}{Hyperparameter optimization with approximate gradient}
+      \field{version}{1}
+      \verb{eprint}
+      \verb 1602.02355v5
+      \endverb
+      \warn{\item Datamodel: Entry 'wassenberg' (bibliography.bib): Invalid format '2016-6-26' of date field 'date' - ignoring}
+    \endentry
+    \entry{Introduction}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=5eea355832af13dd65920d8051c0f83f}{Presnell}{P\bibinitperiod}{Brett}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=5eea355832af13dd65920d8051c0f83f}{Presnell}{P\bibinitperiod}{Brett}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5eea355832af13dd65920d8051c0f83f}
+      \strng{fullhash}{5eea355832af13dd65920d8051c0f83f}
+      \field{sortinit}{P}
+      \field{labeltitle}{An introduction to Categorical Data Analysis Using R}
+      \field{title}{An introduction to Categorical Data Analysis Using R}
+    \endentry
+    \entry{Provost98onapplied}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=79fae1f3d670f588a9b7148774f77abf}{Provost}{P\bibinitperiod}{Foster}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=f2a149b8d68fbffd75e8ece81b80708f}{Kohavi}{K\bibinitperiod}{Ron}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=79fae1f3d670f588a9b7148774f77abf}{Provost}{P\bibinitperiod}{Foster}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=f2a149b8d68fbffd75e8ece81b80708f}{Kohavi}{K\bibinitperiod}{Ron}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c5fe4da43e923f43207d090111034fe0}
+      \strng{fullhash}{c5fe4da43e923f43207d090111034fe0}
+      \field{sortinit}{P}
+      \field{labeltitle}{On Applied Research in Machine Learning}
+      \field{booktitle}{Machine learning}
+      \field{title}{On Applied Research in Machine Learning}
+      \field{year}{1998}
+      \field{pages}{127\bibrangedash 132}
+    \endentry
+    \entry{Reif_meta2-features:}{misc}{}
+      \name{labelname}{3}{}{%
+        {{hash=dfe58d2d6efd8cec3d1cf6ec4f91f0b6}{Reif}{R\bibinitperiod}{Matthias}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5a88b427ea508cca58fbe1653577da26}{Shafait}{S\bibinitperiod}{Faisal}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=39509991baf1f5b54ef9eede853edd37}{Dengel}{D\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=dfe58d2d6efd8cec3d1cf6ec4f91f0b6}{Reif}{R\bibinitperiod}{Matthias}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5a88b427ea508cca58fbe1653577da26}{Shafait}{S\bibinitperiod}{Faisal}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=39509991baf1f5b54ef9eede853edd37}{Dengel}{D\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ece18d4d37742d094441fe46727130e7}
+      \strng{fullhash}{ece18d4d37742d094441fe46727130e7}
+      \field{sortinit}{R}
+      \field{labeltitle}{Meta 2-Features: Providing Meta-Learners More Information}
+      \field{title}{Meta 2-Features: Providing Meta-Learners More Information}
+    \endentry
+    \entry{1554741}{inproceedings}{}
+      \name{labelname}{2}{}{%
+        {{hash=b30647c141ffce199033891c9cf6ef3b}{Rojas}{R\bibinitperiod}{S.\bibnamedelimi A.}{S\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=fa3a5bbba1d0e3611d27c00ed97a0e10}{Fernan\-dez-Reyes}{F\bibinithyphendelim d\bibinithyphendelim R\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=b30647c141ffce199033891c9cf6ef3b}{Rojas}{R\bibinitperiod}{S.\bibnamedelimi A.}{S\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=fa3a5bbba1d0e3611d27c00ed97a0e10}{Fernan\-dez-Reyes}{F\bibinithyphendelim d\bibinithyphendelim R\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c77c8ba496a9ff68631668fde4c3baf4}
+      \strng{fullhash}{c77c8ba496a9ff68631668fde4c3baf4}
+      \field{sortinit}{R}
+      \field{labeltitle}{Adapting multiple kernel parameters for support vector machines using genetic algorithms}
+      \field{booktitle}{2005 IEEE Congress on Evolutionary Computation}
+      \field{issn}{1089-778X}
+      \field{month}{09}
+      \field{title}{Adapting multiple kernel parameters for support vector machines using genetic algorithms}
+      \field{volume}{1}
+      \field{year}{2005}
+      \field{pages}{626\bibrangedash 631 Vol.1}
+      \verb{doi}
+      \verb 10.1109/CEC.2005.1554741
+      \endverb
+      \keyw{genetic algorithms;learning (artificial intelligence);pattern classification;radial basis function networks;support vector machines;RBF kernel;SVM;classification tasks;genetic algorithm;genetic algorithms;grid-search;multiple kernel parameters;supervised learning problems;support vector machines;weighted radial basis function kernel;Algorithm design and analysis;Application software;Computer science;Educational institutions;Genetic algorithms;Grid computing;Kernel;Supervised learning;Support vector machine classification;Support vector machines}
+    \endentry
+    \entry{Soares2004}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=ea13669b47d552fbc7d7438f9dc08c5c}{Soares}{S\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=d9efc1e20861c49c53f621778884feb3}{Brazdil}{B\bibinitperiod}{Pavel\bibnamedelima B.}{P\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=85310f9e11b661ce6c2c89955fe56bf5}{Kuba}{K\bibinitperiod}{Petr}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=ea13669b47d552fbc7d7438f9dc08c5c}{Soares}{S\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=d9efc1e20861c49c53f621778884feb3}{Brazdil}{B\bibinitperiod}{Pavel\bibnamedelima B.}{P\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=85310f9e11b661ce6c2c89955fe56bf5}{Kuba}{K\bibinitperiod}{Petr}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{eb588705ae0caf0ba9086171c11d1db0}
+      \strng{fullhash}{eb588705ae0caf0ba9086171c11d1db0}
+      \field{sortinit}{S}
+      \field{labeltitle}{A Meta-Learning Method to Select the Kernel Width in Support Vector Regression}
+      \field{abstract}{The Support Vector Machine algorithm is sensitive to the choice of parameter settings. If these are not set correctly, the algorithm may have a substandard performance. Suggesting a good setting is thus an important problem. We propose a meta-learning methodology for this purpose and exploit information about the past performance of different settings. The methodology is applied to set the width of the Gaussian kernel. We carry out an extensive empirical evaluation, including comparisons with other methods (fixed default ranking; selection based on cross-validation and a heuristic method commonly used to set the width of the SVM kernel). We show that our methodology can select settings with low error while providing significant savings in time. Further work should be carried out to see how the methodology could be adapted to different parameter setting tasks.}
+      \field{issn}{1573-0565}
+      \field{journaltitle}{Machine Learning}
+      \field{number}{3}
+      \field{title}{A Meta-Learning Method to Select the Kernel Width in Support Vector Regression}
+      \field{volume}{54}
+      \field{year}{2004}
+      \field{pages}{195\bibrangedash 209}
+      \verb{doi}
+      \verb 10.1023/B:MACH.0000015879.28004.9b
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1023/B:MACH.0000015879.28004.9b
+      \endverb
+    \endentry
+    \entry{DBLP:journals/corr/abs-1208-3719}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=5ac1a8e0d967d1d5c68dde5e35588665}{Thornton}{T\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=c91dd51578c1d6d1adb0e2fcafe0d7c4}{Hoos}{H\bibinitperiod}{Holger\bibnamedelima H.}{H\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=e1ded69eaa817b0482d492de4a43e2e8}{Leyton{-}Brown}{L\bibinitperiod}{Kevin}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=5ac1a8e0d967d1d5c68dde5e35588665}{Thornton}{T\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=c91dd51578c1d6d1adb0e2fcafe0d7c4}{Hoos}{H\bibinitperiod}{Holger\bibnamedelima H.}{H\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=e1ded69eaa817b0482d492de4a43e2e8}{Leyton{-}Brown}{L\bibinitperiod}{Kevin}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b03304ed57df99f1dbb366ac9c1b5b57}
+      \strng{fullhash}{02749b06a927e01377fdf79c180c083f}
+      \field{sortinit}{T}
+      \field{labeltitle}{Auto-WEKA: Automated Selection and Hyper-Parameter Optimization of Classification Algorithms}
+      \field{journaltitle}{CoRR}
+      \field{title}{Auto-WEKA: Automated Selection and Hyper-Parameter Optimization of Classification Algorithms}
+      \field{volume}{abs/1208.3719}
+      \field{year}{2012}
+      \verb{url}
+      \verb http://arxiv.org/abs/1208.3719
+      \endverb
+    \endentry
+    \entry{Tukey}{book}{}
+      \name{labelname}{1}{}{%
+        {{hash=26f8106c3e152e61fb92d4a2bd368224}{Tukey}{T\bibinitperiod}{John\bibnamedelima W.}{J\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=26f8106c3e152e61fb92d4a2bd368224}{Tukey}{T\bibinitperiod}{John\bibnamedelima W.}{J\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{26f8106c3e152e61fb92d4a2bd368224}
+      \strng{fullhash}{26f8106c3e152e61fb92d4a2bd368224}
+      \field{sortinit}{T}
+      \field{labeltitle}{Exploratory Data Analysis}
+      \field{title}{Exploratory Data Analysis}
+      \field{year}{1977}
+    \endentry
+    \entry{Turing:1995:CMI:216408.216410}{incollection}{}
+      \name{labelname}{1}{}{%
+        {{hash=5b70c770af9b242aba5f0b15cd022727}{Turing}{T\bibinitperiod}{A.\bibnamedelimi M.}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=5b70c770af9b242aba5f0b15cd022727}{Turing}{T\bibinitperiod}{A.\bibnamedelimi M.}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=0c92c43b5a29aa99ce85c87874380e0f}{Feigenbaum}{F\bibinitperiod}{Edward\bibnamedelima A.}{E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=daef7c4d1f315a18d3228bd19219c18a}{Feldman}{F\bibinitperiod}{Julian}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{5b70c770af9b242aba5f0b15cd022727}
+      \strng{fullhash}{5b70c770af9b242aba5f0b15cd022727}
+      \field{sortinit}{T}
+      \field{labeltitle}{Computers \&Amp; Thought}
+      \field{chapter}{Computing Machinery and Intelligence}
+      \field{isbn}{0-262-56092-5}
+      \field{title}{Computers \&Amp; Thought}
+      \field{year}{1995}
+      \field{pages}{11\bibrangedash 35}
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=216408.216410
+      \endverb
+    \endentry
+    \entry{7373431}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=e36db91084f841242dddf1f9cd48ab77}{Wistu\-ba}{W\bibinithyphendelim b\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=a4faa0f5713d6be4cc4cd51a585e7a2d}{Schilling}{S\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=8ffc92377bba34bb848d4095e3ea4a05}{L.\-Schmidt-Thieme}{L\bibinithyphendelim S\bibinithyphendelim T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=e36db91084f841242dddf1f9cd48ab77}{Wistu\-ba}{W\bibinithyphendelim b\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=a4faa0f5713d6be4cc4cd51a585e7a2d}{Schilling}{S\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=8ffc92377bba34bb848d4095e3ea4a05}{L.\-Schmidt-Thieme}{L\bibinithyphendelim S\bibinithyphendelim T\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{4c5e5dcc74dabb071a555447c1f14276}
+      \strng{fullhash}{4c5e5dcc74dabb071a555447c1f14276}
+      \field{sortinit}{W}
+      \field{labeltitle}{Sequential Model-Free Hyperparameter Tuning}
+      \field{booktitle}{2015 IEEE International Conference on Data Mining}
+      \field{issn}{1550-4786}
+      \field{month}{11}
+      \field{title}{Sequential Model-Free Hyperparameter Tuning}
+      \field{year}{2015}
+      \field{pages}{1033\bibrangedash 1038}
+      \verb{doi}
+      \verb 10.1109/ICDM.2015.20
+      \endverb
+      \keyw{pattern classification;support vector machines;AdaBoost;SMBO framework;SVM;acquisition function;automatic tuning;classifiers;complex hyperparameter tuning strategies;data sets;hyperparameter combinations;hyperparameter configurations;look-up tables;meta-features;random hyperparameter search;sequential model-based optimization;sequential model-free hyperparameter tuning;static ranking;surrogate models;Adaptation models;Data models;Loss measurement;Machine learning algorithms;Optimization;Tuning;hyperparameter optimization;meta-learning;transfer learning}
+    \endentry
+  \endsortlist
+\endrefsection
+
+\refsection{2}
+  \sortlist{entry}{nty}
+    \entry{tic}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=89f3328af4035b612bc6589d2e654c8d}{Aha}{A\bibinitperiod}{David\bibnamedelima W.}{D\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=89f3328af4035b612bc6589d2e654c8d}{Aha}{A\bibinitperiod}{David\bibnamedelima W.}{D\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{89f3328af4035b612bc6589d2e654c8d}
+      \strng{fullhash}{89f3328af4035b612bc6589d2e654c8d}
+      \field{sortinit}{A}
+      \field{labeltitle}{Tic-Tac-Toe Endgame Data Set}
+      \field{title}{Tic-Tac-Toe Endgame Data Set}
+      \verb{url}
+      \verb http://archive.ics.uci.edu/ml/datasets/Tic-Tac-Toe+Endgame
+      \endverb
+    \endentry
+    \entry{breast}{misc}{}
+      \field{sortinit}{A}
+      \field{labeltitle}{AP\_Endometrium\_Breast}
+      \field{title}{AP\_Endometrium\_Breast}
+      \verb{url}
+      \verb https://test.openml.org/d/1123
+      \endverb
+    \endentry
+    \entry{lung}{misc}{}
+      \field{sortinit}{A}
+      \field{labeltitle}{AP\_Prostate\_Lung}
+      \field{title}{AP\_Prostate\_Lung}
+      \verb{url}
+      \verb https://www.openml.org/d/1155
+      \endverb
+    \endentry
+    \entry{dcg}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=e54334652669d4ecf93effef954411e2}{Bally}{B\bibinitperiod}{Mathieu}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e54334652669d4ecf93effef954411e2}{Bally}{B\bibinitperiod}{Mathieu}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e54334652669d4ecf93effef954411e2}
+      \strng{fullhash}{e54334652669d4ecf93effef954411e2}
+      \field{sortinit}{B}
+      \field{labeltitle}{DCG}
+      \field{title}{DCG}
+      \verb{url}
+      \verb https://relational.fit.cvut.cz/dataset/DCG
+      \endverb
+    \endentry
+    \entry{utube}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=e54334652669d4ecf93effef954411e2}{Bally}{B\bibinitperiod}{Mathieu}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e54334652669d4ecf93effef954411e2}{Bally}{B\bibinitperiod}{Mathieu}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e54334652669d4ecf93effef954411e2}
+      \strng{fullhash}{e54334652669d4ecf93effef954411e2}
+      \field{sortinit}{B}
+      \field{labeltitle}{Utube}
+      \field{title}{Utube}
+      \verb{url}
+      \verb https://relational.fit.cvut.cz/dataset/UTube
+      \endverb
+    \endentry
+    \entry{musk}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=e94bd6750c886b2aab7dc99b944812ec}{Barragao}{B\bibinitperiod}{Arnaud}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e94bd6750c886b2aab7dc99b944812ec}{Barragao}{B\bibinitperiod}{Arnaud}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e94bd6750c886b2aab7dc99b944812ec}
+      \strng{fullhash}{e94bd6750c886b2aab7dc99b944812ec}
+      \field{sortinit}{B}
+      \field{labeltitle}{Musk}
+      \field{title}{Musk}
+      \verb{url}
+      \verb https://relational.fit.cvut.cz/dataset/Musk
+      \endverb
+    \endentry
+    \entry{pie}{misc}{}
+      \name{labelname}{2}{}{%
+        {{hash=b88ef4fd1a06ac6cdefca012b8541708}{Bauer}{B\bibinitperiod}{Hans\bibnamedelima Jesus}{H\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=0377e74af9e6668e5d1aabc2971f767c}{Bergman}{B\bibinitperiod}{Deter}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=b88ef4fd1a06ac6cdefca012b8541708}{Bauer}{B\bibinitperiod}{Hans\bibnamedelima Jesus}{H\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=0377e74af9e6668e5d1aabc2971f767c}{Bergman}{B\bibinitperiod}{Deter}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7c014decbce53680b4d57ff7f1676513}
+      \strng{fullhash}{7c014decbce53680b4d57ff7f1676513}
+      \field{sortinit}{B}
+      \field{labeltitle}{PieChart2}
+      \field{title}{PieChart2}
+      \verb{url}
+      \verb https://www.openml.org/d/1452
+      \endverb
+    \endentry
+    \entry{planning}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=f49e078b0e52f0db6da6990c2faaacf7}{Bhatt}{B\bibinitperiod}{Rajen}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=f49e078b0e52f0db6da6990c2faaacf7}{Bhatt}{B\bibinitperiod}{Rajen}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f49e078b0e52f0db6da6990c2faaacf7}
+      \strng{fullhash}{f49e078b0e52f0db6da6990c2faaacf7}
+      \field{sortinit}{B}
+      \field{labeltitle}{{ Planning-Relax Dataset for Automatic Classification of EEG Signals.}}
+      \field{journaltitle}{UCI Machine Learning Repository}
+      \field{title}{{ Planning-Relax Dataset for Automatic Classification of EEG Signals.}}
+      \verb{url}
+      \verb https://archive.ics.uci.edu/ml/datasets/Planning+Relax
+      \endverb
+    \endentry
+    \entry{car}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=eca4423e306925de7e0fb0cd97eb2ae5}{Bohanec}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=eca4423e306925de7e0fb0cd97eb2ae5}{Bohanec}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{eca4423e306925de7e0fb0cd97eb2ae5}
+      \strng{fullhash}{eca4423e306925de7e0fb0cd97eb2ae5}
+      \field{sortinit}{B}
+      \field{labeltitle}{Car Evaluation Data Set}
+      \field{title}{Car Evaluation Data Set}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://archive.ics.uci.edu/ml/datasets/Car+Evaluation
+      \endverb
+    \endentry
+    \entry{creditcard}{misc}{}
+      \field{sortinit}{C}
+      \field{labeltitle}{Credit Card Fraud Detection}
+      \field{title}{Credit Card Fraud Detection}
+      \verb{url}
+      \verb https://www.kaggle.com/dalpozz/creditcardfraud
+      \endverb
+    \endentry
+    \entry{gym}{misc}{}
+      \field{sortinit}{C}
+      \field{labeltitle}{Crowdedness at the campus gym}
+      \field{title}{Crowdedness at the campus gym}
+      \verb{url}
+      \verb https://www.kaggle.com/nsrose7224/crowdedness-at-the-campus-gym
+      \endverb
+    \endentry
+    \entry{Mutagenesis}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=d5cc04efef71a9769a4fc611c3e9991f}{Debnath}{D\bibinitperiod}{A.\bibnamedelimi K.}{A\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=3f890d924981802dfe45681af0159177}{{Lopez\bibnamedelimb de\bibnamedelimb Compadre}}{L\bibinitperiod}{R.\bibnamedelimi L.}{R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=41dded43a609d3056054a6916626d1d0}{Debnath}{D\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=b45a793a28ec7206e158b236e796a9f5}{Shusterman}{S\bibinitperiod}{A.\bibnamedelimi J.}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=7a66b63516119d738f2f64f2362e8dd4}{Hansch}{H\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=d5cc04efef71a9769a4fc611c3e9991f}{Debnath}{D\bibinitperiod}{A.\bibnamedelimi K.}{A\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=3f890d924981802dfe45681af0159177}{{Lopez\bibnamedelimb de\bibnamedelimb Compadre}}{L\bibinitperiod}{R.\bibnamedelimi L.}{R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=41dded43a609d3056054a6916626d1d0}{Debnath}{D\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=b45a793a28ec7206e158b236e796a9f5}{Shusterman}{S\bibinitperiod}{A.\bibnamedelimi J.}{A\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=7a66b63516119d738f2f64f2362e8dd4}{Hansch}{H\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{cbb63c10b2b2dee30666bf07f72f7662}
+      \strng{fullhash}{b015f9d3912f76ceeeea4df5994d197c}
+      \field{sortinit}{D}
+      \field{labeltitle}{{Structure-activity relationship of mutagenic aromatic and heteroaromatic nitro compounds. Correlation with molecular orbital energies and hydrophobicity.}}
+      \field{abstract}{A review of the literature yielded data on over 200 aromatic and heteroaromatic nitro compounds tested for mutagenicity in the Ames test using S. typhimurium TA98. From the data, a quantitative structure-activity relationship (QSAR) has been derived for 188 congeners. The main determinants of mutagenicity are the hydrophobicity (modeled by octanol/water partition coefficients) and the energies of the lowest unoccupied molecular orbitals calculated using the AM1 method. It is also shown that chemicals possessing three or more fused rings possess much greater mutagenic potency than compounds with one or two fused rings. Since the QSAR is based on a very wide range in structural variation, aromatic rings from benzene to coronene are included as well as many different types of heterocycles, it is a significant step toward a predictive toxicology of value in the design of less mutagenic bioactive compounds.}
+      \field{isbn}{0022-2623 (Print)$\backslash$r0022-2623 (Linking)}
+      \field{issn}{0022-2623}
+      \field{journaltitle}{Journal of medicinal chemistry}
+      \field{number}{2}
+      \field{title}{{Structure-activity relationship of mutagenic aromatic and heteroaromatic nitro compounds. Correlation with molecular orbital energies and hydrophobicity.}}
+      \field{volume}{34}
+      \field{year}{1991}
+      \field{pages}{786\bibrangedash 797}
+      \verb{doi}
+      \verb 10.1021/jm00106a046
+      \endverb
+    \endentry
+    \entry{default}{misc}{}
+      \field{sortinit}{D}
+      \field{labeltitle}{Default of Credit Card Clients Dataset}
+      \field{title}{Default of Credit Card Clients Dataset}
+      \verb{url}
+      \verb https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset
+      \endverb
+    \endentry
+    \entry{pima}{misc}{}
+      \name{labelname}{3}{}{%
+        {{hash=6c48368de4561a509b09bac1f41b4938}{Diabetes}{D\bibinitperiod}{National\bibnamedelima Institute}{N\bibinitperiod\bibinitdelim I\bibinitperiod}{of}{o\bibinitperiod}{}{}}%
+        {{hash=8198a38e3445c86f553f65c30d404a10}{Digestive}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=f02fc5d514a6b09910aaa1bf5714b5e5}{Diseases}{D\bibinitperiod}{Kidney}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=6c48368de4561a509b09bac1f41b4938}{Diabetes}{D\bibinitperiod}{National\bibnamedelima Institute}{N\bibinitperiod\bibinitdelim I\bibinitperiod}{of}{o\bibinitperiod}{}{}}%
+        {{hash=8198a38e3445c86f553f65c30d404a10}{Digestive}{D\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=f02fc5d514a6b09910aaa1bf5714b5e5}{Diseases}{D\bibinitperiod}{Kidney}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{444ff4d344578ad158d2ef2fd3ddcb61}
+      \strng{fullhash}{444ff4d344578ad158d2ef2fd3ddcb61}
+      \field{sortinit}{D}
+      \field{labeltitle}{Pima Indians Diabetes Data Set}
+      \field{title}{Pima Indians Diabetes Data Set}
+      \verb{url}
+      \verb http://archive.ics.uci.edu/ml/datasets/Pima+Indians+Diabetes
+      \endverb
+    \endentry
+    \entry{Helma2001}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=fa9dd025faefbc18fe8f53e44247adb1}{Helma}{H\bibinitperiod}{Christoph}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=125623e7394dfa3fe23dd4490cf8d953}{King}{K\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=ec05a5d3a4147ae1fcbf17d6f2510200}{Kramer}{K\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=fb3796c076ecc8c5cff4d9274e1ff0bf}{Srinivasan}{S\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=fa9dd025faefbc18fe8f53e44247adb1}{Helma}{H\bibinitperiod}{Christoph}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=125623e7394dfa3fe23dd4490cf8d953}{King}{K\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=ec05a5d3a4147ae1fcbf17d6f2510200}{Kramer}{K\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=fb3796c076ecc8c5cff4d9274e1ff0bf}{Srinivasan}{S\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{80cdc8dd8436ff71923c00198e7ab5c5}
+      \strng{fullhash}{3f193e3518b63a7808df6745b2996265}
+      \field{sortinit}{H}
+      \field{labeltitle}{{The Predictive Toxicology Challenge 2000-2001}}
+      \field{abstract}{Summary: We initiated the Predictive Toxicology Challenge (PTC) to stimulate the development of advanced SAR techniques for predictive toxicology models. The goal of this challenge is to predict the rodent carcinogenicity of new compounds based on the experimental results of the US National Toxicology Program (NTP). Submissions will be evaluated on quantitative and qualitative scales to select the most predictive models and those with the highest toxicological relevance.Availability: http://www.informatik.uni-freiburg.de/ ml/ptc/Contact: helma@informatik.uni-freiburg.de}
+      \field{issn}{1367-4803}
+      \field{journaltitle}{Bioinformatics}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{{The Predictive Toxicology Challenge 2000-2001}}
+      \field{volume}{17}
+      \field{year}{2001}
+      \field{pages}{107\bibrangedash 108}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/17.1.107
+      \endverb
+      \verb{url}
+      \verb http://bioinformatics.oxfordjournals.org/cgi/doi/10.1093/bioinformatics/17.1.107
+      \endverb
+    \endentry
+    \entry{hepatitis}{misc}{}
+      \field{sortinit}{H}
+      \field{labeltitle}{Hepatitis Data Set}
+      \field{title}{Hepatitis Data Set}
+      \verb{url}
+      \verb http://archive.ics.uci.edu/ml/datasets/Hepatitis
+      \endverb
+    \endentry
+    \entry{sales}{misc}{}
+      \field{sortinit}{H}
+      \field{labeltitle}{Historical Sales and Active Inventory}
+      \field{title}{Historical Sales and Active Inventory}
+      \verb{url}
+      \verb https://www.kaggle.com/flenderson/sales-analysis
+      \endverb
+    \endentry
+    \entry{spam}{misc}{}
+      \name{labelname}{4}{}{%
+        {{hash=92e1a785fde8d68aa11591d43b81c8e3}{Hopkins}{H\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5dbcb24831cc4caedbc59627ba856457}{Reeber}{R\bibinitperiod}{Erik}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=6b72636142c9e625c6c11c5852fa1cc9}{Forman}{F\bibinitperiod}{George}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=386b1014c974554e8c08ec43b882a3c4}{Suermondt}{S\bibinitperiod}{Jaap}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=92e1a785fde8d68aa11591d43b81c8e3}{Hopkins}{H\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5dbcb24831cc4caedbc59627ba856457}{Reeber}{R\bibinitperiod}{Erik}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=6b72636142c9e625c6c11c5852fa1cc9}{Forman}{F\bibinitperiod}{George}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=386b1014c974554e8c08ec43b882a3c4}{Suermondt}{S\bibinitperiod}{Jaap}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3974389c9cb3a8668a2c1b121ecd2652}
+      \strng{fullhash}{427bd6f20185dae8cb4df0622e315785}
+      \field{sortinit}{H}
+      \field{labeltitle}{Spambase Data Set}
+      \field{title}{Spambase Data Set}
+      \verb{url}
+      \verb http://archive.ics.uci.edu/ml/datasets/Spambase
+      \endverb
+    \endentry
+    \entry{hr}{misc}{}
+      \field{sortinit}{H}
+      \field{labeltitle}{Human Resources Analytics}
+      \field{title}{Human Resources Analytics}
+      \verb{url}
+      \verb https://www.kaggle.com/ludobenistant/hr-analytics
       \endverb
     \endentry
     \entry{wilt}{article}{}
@@ -1018,73 +1212,6 @@
       \verb https://relational.fit.cvut.cz/dataset/IMDb
       \endverb
     \endentry
-    \entry{kuba2002exploiting}{inproceedings}{}
-      \name{labelname}{4}{}{%
-        {{hash=85310f9e11b661ce6c2c89955fe56bf5}{Kuba}{K\bibinitperiod}{Petr}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=0f53cd125b8efb2a9dcfb78b7832be04}{Brazdil}{B\bibinitperiod}{Pavel}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=ea13669b47d552fbc7d7438f9dc08c5c}{Soares}{S\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=5aed0ca5507244780b96593d2440caea}{Woznica}{W\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{4}{}{%
-        {{hash=85310f9e11b661ce6c2c89955fe56bf5}{Kuba}{K\bibinitperiod}{Petr}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=0f53cd125b8efb2a9dcfb78b7832be04}{Brazdil}{B\bibinitperiod}{Pavel}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=ea13669b47d552fbc7d7438f9dc08c5c}{Soares}{S\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=5aed0ca5507244780b96593d2440caea}{Woznica}{W\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{2265ab8dcd3731d2c87b60b1bb3aadca}
-      \strng{fullhash}{9b1e1dab8b7e705ffd0f4ac25d53e06d}
-      \field{sortinit}{K}
-      \field{labeltitle}{Exploiting sampling and meta-learning for parameter setting support vector machines}
-      \field{booktitle}{Proceedings of the IBERAMIA}
-      \field{title}{Exploiting sampling and meta-learning for parameter setting support vector machines}
-      \field{volume}{2002}
-      \field{year}{2002}
-      \field{pages}{217\bibrangedash 225}
-    \endentry
-    \entry{Kushner}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=54071ea94ceb278ed0b04c647fb99ac8}{Kushner}{K\bibinitperiod}{H.\bibnamedelimi J.}{H\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=5754ee426a620c08f8e470d60ffde58f}{Mockus}{M\bibinitperiod}{L.\bibnamedelimi J.}{L\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=54071ea94ceb278ed0b04c647fb99ac8}{Kushner}{K\bibinitperiod}{H.\bibnamedelimi J.}{H\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=5754ee426a620c08f8e470d60ffde58f}{Mockus}{M\bibinitperiod}{L.\bibnamedelimi J.}{L\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{346cfa56f948b89d9e10b80bf5b44fd8}
-      \strng{fullhash}{346cfa56f948b89d9e10b80bf5b44fd8}
-      \field{sortinit}{K}
-      \field{labeltitle}{A New Method of Locating the Maximum Point of an Arbitrary Mult}
-      \field{issn}{1573-2878}
-      \field{journaltitle}{Journal of Basic Engineering}
-      \field{number}{1}
-      \field{title}{A New Method of Locating the Maximum Point of an Arbitrary Mult}
-      \field{volume}{86}
-      \field{year}{1964}
-      \field{pages}{97\bibrangedash 106}
-      \verb{doi}
-      \verb 10.1115/1.3653121
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1115/1.3653121
-      \endverb
-    \endentry
-    \entry{Lin04simpleprobabilistic}{report}{}
-      \name{labelname}{2}{}{%
-        {{hash=44fd77a0ce220b5ddb18daacdf7329be}{Lin}{L\bibinitperiod}{Chih-jen}{C\bibinithyphendelim j\bibinitperiod}{}{}{}{}}%
-        {{hash=702960a782905fdee88951dd16da2a06}{Weng}{W\bibinitperiod}{Ruby\bibnamedelima C.}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=44fd77a0ce220b5ddb18daacdf7329be}{Lin}{L\bibinitperiod}{Chih-jen}{C\bibinithyphendelim j\bibinitperiod}{}{}{}{}}%
-        {{hash=702960a782905fdee88951dd16da2a06}{Weng}{W\bibinitperiod}{Ruby\bibnamedelima C.}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{b605e8091cee42b6344d23161990a044}
-      \strng{fullhash}{b605e8091cee42b6344d23161990a044}
-      \field{sortinit}{L}
-      \field{labeltitle}{Simple probabilistic predictions for support vector regression}
-      \field{title}{Simple probabilistic predictions for support vector regression}
-      \field{type}{techreport}
-      \field{year}{2004}
-    \endentry
     \entry{parkinsons}{article}{}
       \name{labelname}{5}{}{%
         {{hash=fb24ebcd82bb2b2247d1edfede1204fb}{Little}{L\bibinitperiod}{MA}{M\bibinitperiod}{}{}{}{}}%
@@ -1109,25 +1236,36 @@
       \field{year}{2007}
       \field{pages}{6\bibrangedash 23}
     \endentry
-    \entry{DBLP:journals/corr/LoshchilovH16}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=1241b8181104f1917578d4c7f9b323b6}{Loshchilov}{L\bibinitperiod}{Ilya}{I\bibinitperiod}{}{}{}{}}%
-        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+    \entry{Lloyd:2006:LSQ:2263356.2269955}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=8ebf199f60191f22565bfd96113285ea}{Lloyd}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{2}{}{%
-        {{hash=1241b8181104f1917578d4c7f9b323b6}{Loshchilov}{L\bibinitperiod}{Ilya}{I\bibinitperiod}{}{}{}{}}%
-        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
+      \name{author}{1}{}{%
+        {{hash=8ebf199f60191f22565bfd96113285ea}{Lloyd}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{b308ccb07134a06ec3735828ac4f15e2}
-      \strng{fullhash}{b308ccb07134a06ec3735828ac4f15e2}
+      \list{location}{1}{%
+        {Piscataway, NJ, USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Press}%
+      }
+      \strng{namehash}{8ebf199f60191f22565bfd96113285ea}
+      \strng{fullhash}{8ebf199f60191f22565bfd96113285ea}
       \field{sortinit}{L}
-      \field{labeltitle}{{CMA-ES} for Hyperparameter Optimization of Deep Neural Networks}
-      \field{journaltitle}{CoRR}
-      \field{title}{{CMA-ES} for Hyperparameter Optimization of Deep Neural Networks}
-      \field{volume}{abs/1604.07269}
-      \field{year}{2016}
+      \field{labeltitle}{Least Squares Quantization in PCM}
+      \field{issn}{0018-9448}
+      \field{journaltitle}{IEEE Trans. Inf. Theor.}
+      \field{month}{09}
+      \field{number}{2}
+      \field{title}{Least Squares Quantization in PCM}
+      \field{volume}{28}
+      \field{year}{2006}
+      \field{pages}{129\bibrangedash 137}
+      \verb{doi}
+      \verb 10.1109/TIT.1982.1056489
+      \endverb
       \verb{url}
-      \verb http://arxiv.org/abs/1604.07269
+      \verb http://dx.doi.org/10.1109/TIT.1982.1056489
       \endverb
     \endentry
     \entry{lupus}{misc}{}
@@ -1138,89 +1276,35 @@
       \verb https://www.openml.org/d/472
       \endverb
     \endentry
-    \entry{mann1947}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=f7af0c3d2c7082faa2108df80e32e329}{Mann}{M\bibinitperiod}{H.\bibnamedelimi B.}{H\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-        {{hash=9da97389021d41b9c6c1bb0c72e3a636}{Whitney}{W\bibinitperiod}{D.\bibnamedelimi R.}{D\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=f7af0c3d2c7082faa2108df80e32e329}{Mann}{M\bibinitperiod}{H.\bibnamedelimi B.}{H\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-        {{hash=9da97389021d41b9c6c1bb0c72e3a636}{Whitney}{W\bibinitperiod}{D.\bibnamedelimi R.}{D\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {The Institute of Mathematical Statistics}%
-      }
-      \strng{namehash}{e2df167b7246ea6633fbcee17780d39a}
-      \strng{fullhash}{e2df167b7246ea6633fbcee17780d39a}
-      \field{sortinit}{M}
-      \field{labeltitle}{On a Test of Whether one of Two Random Variables is Stochastically Larger than the Other}
-      \field{journaltitle}{Ann. Math. Statist.}
-      \field{month}{03}
-      \field{number}{1}
-      \field{title}{On a Test of Whether one of Two Random Variables is Stochastically Larger than the Other}
-      \field{volume}{18}
-      \field{year}{1947}
-      \field{pages}{50\bibrangedash 60}
-      \verb{doi}
-      \verb 10.1214/aoms/1177730491
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1214/aoms/1177730491
-      \endverb
-    \endentry
-    \entry{doi:10.1093/jnci/22.4.719}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=7f9cc6904e6e5862b920df6e9ebc01b2}{Mantel}{M\bibinitperiod}{Nathan}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=fb3613d11fcc23f108e7c4f72902489f}{Haenszel}{H\bibinitperiod}{William}{W\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=7f9cc6904e6e5862b920df6e9ebc01b2}{Mantel}{M\bibinitperiod}{Nathan}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=fb3613d11fcc23f108e7c4f72902489f}{Haenszel}{H\bibinitperiod}{William}{W\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{1976dbdeeae3eb41a50cc10c85078eed}
-      \strng{fullhash}{1976dbdeeae3eb41a50cc10c85078eed}
-      \field{sortinit}{M}
-      \field{labeltitle}{Statistical Aspects of the Analysis of Data From Retrospective Studies of Disease}
-      \field{journaltitle}{JNCI: Journal of the National Cancer Institute}
-      \field{number}{4}
-      \field{title}{Statistical Aspects of the Analysis of Data From Retrospective Studies of Disease}
-      \field{volume}{22}
-      \field{year}{1959}
-      \field{pages}{719}
-      \verb{doi}
-      \verb 10.1093/jnci/22.4.719
-      \endverb
-      \verb{eprint}
-      \verb /oup/backfile/Content_public/Journal/jnci/22/4/10.1093/jnci/22.4.719/2/22-4-719.pdf
-      \endverb
-      \verb{url}
-      \verb +%20http://dx.doi.org/10.1093/jnci/22.4.719
-      \endverb
-    \endentry
-    \entry{McNemar1947}{article}{}
+    \entry{Mercer415}{article}{}
       \name{labelname}{1}{}{%
-        {{hash=3c2670ad8954343917d3fd0384a23703}{McNemar}{M\bibinitperiod}{Quinn}{Q\bibinitperiod}{}{}{}{}}%
+        {{hash=24d07d1d5fe217b3f6a8849b44158543}{Mercer}{M\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{1}{}{%
-        {{hash=3c2670ad8954343917d3fd0384a23703}{McNemar}{M\bibinitperiod}{Quinn}{Q\bibinitperiod}{}{}{}{}}%
+        {{hash=24d07d1d5fe217b3f6a8849b44158543}{Mercer}{M\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{3c2670ad8954343917d3fd0384a23703}
-      \strng{fullhash}{3c2670ad8954343917d3fd0384a23703}
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \strng{namehash}{24d07d1d5fe217b3f6a8849b44158543}
+      \strng{fullhash}{24d07d1d5fe217b3f6a8849b44158543}
       \field{sortinit}{M}
-      \field{labeltitle}{Note on the sampling error of the difference between correlated proportions or percentages}
-      \field{abstract}{Two formulas are presented for judging the significance of the difference between correlated proportions. The chi square equivalent of one of the developed formulas is pointed out.}
-      \field{issn}{1860-0980}
-      \field{journaltitle}{Psychometrika}
-      \field{number}{2}
-      \field{title}{Note on the sampling error of the difference between correlated proportions or percentages}
-      \field{volume}{12}
-      \field{year}{1947}
-      \field{pages}{153\bibrangedash 157}
+      \field{labeltitle}{Functions of Positive and Negative Type, and their Connection with the Theory of Integral Equations}
+      \field{issn}{0264-3952}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society of London A: Mathematical, Physical and Engineering Sciences}
+      \field{number}{441-458}
+      \field{title}{Functions of Positive and Negative Type, and their Connection with the Theory of Integral Equations}
+      \field{volume}{209}
+      \field{year}{1909}
+      \field{pages}{415\bibrangedash 446}
       \verb{doi}
-      \verb 10.1007/BF02295996
+      \verb 10.1098/rsta.1909.0016
+      \endverb
+      \verb{eprint}
+      \verb http://rsta.royalsocietypublishing.org/content/209/441-458/415.full.pdf
       \endverb
       \verb{url}
-      \verb http://dx.doi.org/10.1007/BF02295996
+      \verb http://rsta.royalsocietypublishing.org/content/209/441-458/415
       \endverb
     \endentry
     \entry{Trains}{report}{}
@@ -1250,56 +1334,6 @@
       \field{type}{techreport}
       \field{year}{1994}
     \endentry
-    \entry{Mitchell:1997:ML:541177}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=00bf04c8e4d2890f91709bd25777759a}{Mitchell}{M\bibinitperiod}{Thomas\bibnamedelima M.}{T\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=00bf04c8e4d2890f91709bd25777759a}{Mitchell}{M\bibinitperiod}{Thomas\bibnamedelima M.}{T\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {New York, NY, USA}%
-      }
-      \list{publisher}{1}{%
-        {McGraw-Hill, Inc.}%
-      }
-      \strng{namehash}{00bf04c8e4d2890f91709bd25777759a}
-      \strng{fullhash}{00bf04c8e4d2890f91709bd25777759a}
-      \field{sortinit}{M}
-      \field{labeltitle}{Machine Learning}
-      \field{edition}{1}
-      \field{isbn}{0070428077, 9780070428072}
-      \field{title}{Machine Learning}
-      \field{year}{1997}
-    \endentry
-    \entry{Mockus1991}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=1f7584427e692c111002b0a119f7f661}{Mockus}{M\bibinitperiod}{J.\bibnamedelimi B.}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-        {{hash=5754ee426a620c08f8e470d60ffde58f}{Mockus}{M\bibinitperiod}{L.\bibnamedelimi J.}{L\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=1f7584427e692c111002b0a119f7f661}{Mockus}{M\bibinitperiod}{J.\bibnamedelimi B.}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-        {{hash=5754ee426a620c08f8e470d60ffde58f}{Mockus}{M\bibinitperiod}{L.\bibnamedelimi J.}{L\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{0bae480099954d1a0171d77720478a1d}
-      \strng{fullhash}{0bae480099954d1a0171d77720478a1d}
-      \field{sortinit}{M}
-      \field{labeltitle}{Bayesian approach to global optimization and application to multiobjective and constrained problems}
-      \field{abstract}{In this paper, the Bayesian methods of global optimization are considered. They provide the minimal expected deviation from the global minimum. It is shown that, using the Bayesian methods, the asymptotic density of calculations of the objective function is much greater around the point of global minimum. The relation of this density to the parameters of the method and to the function is defined.}
-      \field{issn}{1573-2878}
-      \field{journaltitle}{Journal of Optimization Theory and Applications}
-      \field{number}{1}
-      \field{title}{Bayesian approach to global optimization and application to multiobjective and constrained problems}
-      \field{volume}{70}
-      \field{year}{1991}
-      \field{pages}{157\bibrangedash 172}
-      \verb{doi}
-      \verb 10.1007/BF00940509
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1007/BF00940509
-      \endverb
-    \endentry
     \entry{ftp}{misc}{}
       \name{labelname}{1}{}{%
         {{hash=cd8196e82b091f20547fc5a06f2a1b4e}{Motl}{M\bibinitperiod}{Jan}{J\bibinitperiod}{}{}{}{}}%
@@ -1322,36 +1356,6 @@
       \field{title}{Mushroom Classification}
       \verb{url}
       \verb https://www.kaggle.com/uciml/mushroom-classification
-      \endverb
-    \endentry
-    \entry{Nelder01011965}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=f679d2c76561037caf851bc78e48e730}{Nelder}{N\bibinitperiod}{J.\bibnamedelimi A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=910a207c5358ae3442325672a3c22ade}{Mead}{M\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=f679d2c76561037caf851bc78e48e730}{Nelder}{N\bibinitperiod}{J.\bibnamedelimi A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=910a207c5358ae3442325672a3c22ade}{Mead}{M\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{84865b0f440e946ff4902ee3db0217ce}
-      \strng{fullhash}{84865b0f440e946ff4902ee3db0217ce}
-      \field{sortinit}{N}
-      \field{labeltitle}{A Simplex Method for Function Minimization}
-      \field{abstract}{A method is described for the minimization of a function of n variables, which depends on the comparison of function values at the (n + 1) vertices of a general simplex, followed by the replacement of the vertex with the highest value by another point. The simplex adapts itself to the local landscape, and contracts on to the final minimum. The method is shown to be effective and computationally compact. A procedure is given for the estimation of the Hessian matrix in the neighbourhood of the minimum, needed in statistical estimation problems.}
-      \field{journaltitle}{The Computer Journal}
-      \field{number}{4}
-      \field{title}{A Simplex Method for Function Minimization}
-      \field{volume}{7}
-      \field{year}{1965}
-      \field{pages}{308\bibrangedash 313}
-      \verb{doi}
-      \verb 10.1093/comjnl/7.4.308
-      \endverb
-      \verb{eprint}
-      \verb http://comjnl.oxfordjournals.org/content/7/4/308.full.pdf+html
-      \endverb
-      \verb{url}
-      \verb http://comjnl.oxfordjournals.org/content/7/4/308.abstract
       \endverb
     \endentry
     \entry{dermatology}{misc}{}
@@ -1388,77 +1392,6 @@
       \verb{url}
       \verb http://archive.ics.uci.edu/ml/datasets/Balloons
       \endverb
-    \endentry
-    \entry{wassenberg}{online}{}
-      \name{labelname}{1}{}{%
-        {{hash=bab4e5caee2d67831e464ce575022b37}{Pedregosa}{P\bibinitperiod}{Fabian}{F\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=bab4e5caee2d67831e464ce575022b37}{Pedregosa}{P\bibinitperiod}{Fabian}{F\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{bab4e5caee2d67831e464ce575022b37}
-      \strng{fullhash}{bab4e5caee2d67831e464ce575022b37}
-      \field{sortinit}{P}
-      \field{labeltitle}{Hyperparameter optimization with approximate gradient}
-      \field{eprintclass}{cs.LG}
-      \field{eprinttype}{arxiv}
-      \field{langid}{american}
-      \field{title}{Hyperparameter optimization with approximate gradient}
-      \field{version}{1}
-      \verb{eprint}
-      \verb 1602.02355v5
-      \endverb
-      \warn{\item Datamodel: Entry 'wassenberg' (bibliography.bib): Invalid format '2016-6-26' of date field 'date' - ignoring}
-    \endentry
-    \entry{Platt99probabilisticoutputs}{inproceedings}{}
-      \name{labelname}{1}{}{%
-        {{hash=a8c9625c84503cc60674226890040c91}{Platt}{P\bibinitperiod}{John\bibnamedelima C.}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=a8c9625c84503cc60674226890040c91}{Platt}{P\bibinitperiod}{John\bibnamedelima C.}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {MIT Press}%
-      }
-      \strng{namehash}{a8c9625c84503cc60674226890040c91}
-      \strng{fullhash}{a8c9625c84503cc60674226890040c91}
-      \field{sortinit}{P}
-      \field{labeltitle}{Probabilistic Outputs for Support Vector Machines and Comparisons to Regularized Likelihood Methods}
-      \field{booktitle}{ADVANCES IN LARGE MARGIN CLASSIFIERS}
-      \field{title}{Probabilistic Outputs for Support Vector Machines and Comparisons to Regularized Likelihood Methods}
-      \field{year}{1999}
-      \field{pages}{61\bibrangedash 74}
-    \endentry
-    \entry{Introduction}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=5eea355832af13dd65920d8051c0f83f}{Presnell}{P\bibinitperiod}{Brett}{B\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=5eea355832af13dd65920d8051c0f83f}{Presnell}{P\bibinitperiod}{Brett}{B\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{5eea355832af13dd65920d8051c0f83f}
-      \strng{fullhash}{5eea355832af13dd65920d8051c0f83f}
-      \field{sortinit}{P}
-      \field{labeltitle}{An introduction to Categorical Data Analysis Using R}
-      \field{title}{An introduction to Categorical Data Analysis Using R}
-    \endentry
-    \entry{Provost98onapplied}{inproceedings}{}
-      \name{labelname}{2}{}{%
-        {{hash=79fae1f3d670f588a9b7148774f77abf}{Provost}{P\bibinitperiod}{Foster}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=f2a149b8d68fbffd75e8ece81b80708f}{Kohavi}{K\bibinitperiod}{Ron}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=79fae1f3d670f588a9b7148774f77abf}{Provost}{P\bibinitperiod}{Foster}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=f2a149b8d68fbffd75e8ece81b80708f}{Kohavi}{K\bibinitperiod}{Ron}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{c5fe4da43e923f43207d090111034fe0}
-      \strng{fullhash}{c5fe4da43e923f43207d090111034fe0}
-      \field{sortinit}{P}
-      \field{labeltitle}{On Applied Research in Machine Learning}
-      \field{booktitle}{Machine learning}
-      \field{title}{On Applied Research in Machine Learning}
-      \field{year}{1998}
-      \field{pages}{127\bibrangedash 132}
     \endentry
     \entry{credit}{misc}{}
       \name{labelname}{1}{}{%
@@ -1509,48 +1442,6 @@
       \verb http://archive.ics.uci.edu/ml/datasets/Nursery
       \endverb
     \endentry
-    \entry{Reif_meta2-features:}{misc}{}
-      \name{labelname}{3}{}{%
-        {{hash=dfe58d2d6efd8cec3d1cf6ec4f91f0b6}{Reif}{R\bibinitperiod}{Matthias}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=5a88b427ea508cca58fbe1653577da26}{Shafait}{S\bibinitperiod}{Faisal}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=39509991baf1f5b54ef9eede853edd37}{Dengel}{D\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{hash=dfe58d2d6efd8cec3d1cf6ec4f91f0b6}{Reif}{R\bibinitperiod}{Matthias}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=5a88b427ea508cca58fbe1653577da26}{Shafait}{S\bibinitperiod}{Faisal}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=39509991baf1f5b54ef9eede853edd37}{Dengel}{D\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{ece18d4d37742d094441fe46727130e7}
-      \strng{fullhash}{ece18d4d37742d094441fe46727130e7}
-      \field{sortinit}{R}
-      \field{labeltitle}{Meta 2-Features: Providing Meta-Learners More Information}
-      \field{title}{Meta 2-Features: Providing Meta-Learners More Information}
-    \endentry
-    \entry{1554741}{inproceedings}{}
-      \name{labelname}{2}{}{%
-        {{hash=b30647c141ffce199033891c9cf6ef3b}{Rojas}{R\bibinitperiod}{S.\bibnamedelimi A.}{S\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=fa3a5bbba1d0e3611d27c00ed97a0e10}{Fernan\-dez-Reyes}{F\bibinithyphendelim d\bibinithyphendelim R\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=b30647c141ffce199033891c9cf6ef3b}{Rojas}{R\bibinitperiod}{S.\bibnamedelimi A.}{S\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=fa3a5bbba1d0e3611d27c00ed97a0e10}{Fernan\-dez-Reyes}{F\bibinithyphendelim d\bibinithyphendelim R\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{c77c8ba496a9ff68631668fde4c3baf4}
-      \strng{fullhash}{c77c8ba496a9ff68631668fde4c3baf4}
-      \field{sortinit}{R}
-      \field{labeltitle}{Adapting multiple kernel parameters for support vector machines using genetic algorithms}
-      \field{booktitle}{2005 IEEE Congress on Evolutionary Computation}
-      \field{issn}{1089-778X}
-      \field{month}{09}
-      \field{title}{Adapting multiple kernel parameters for support vector machines using genetic algorithms}
-      \field{volume}{1}
-      \field{year}{2005}
-      \field{pages}{626\bibrangedash 631 Vol.1}
-      \verb{doi}
-      \verb 10.1109/CEC.2005.1554741
-      \endverb
-      \keyw{genetic algorithms;learning (artificial intelligence);pattern classification;radial basis function networks;support vector machines;RBF kernel;SVM;classification tasks;genetic algorithm;genetic algorithms;grid-search;multiple kernel parameters;supervised learning problems;support vector machines;weighted radial basis function kernel;Algorithm design and analysis;Application software;Computer science;Educational institutions;Genetic algorithms;Grid computing;Kernel;Supervised learning;Support vector machine classification;Support vector machines}
-    \endentry
     \entry{uni}{misc}{}
       \name{labelname}{1}{}{%
         {{hash=fab9d9d7b01a60795ceb1b2c0efa1f0e}{Schulte}{S\bibinitperiod}{Oliver}{O\bibinitperiod}{}{}{}{}}%
@@ -1583,36 +1474,6 @@
       \verb http://archive.ics.uci.edu/ml/datasets/Ionosphere
       \endverb
     \endentry
-    \entry{Soares2004}{article}{}
-      \name{labelname}{3}{}{%
-        {{hash=ea13669b47d552fbc7d7438f9dc08c5c}{Soares}{S\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=d9efc1e20861c49c53f621778884feb3}{Brazdil}{B\bibinitperiod}{Pavel\bibnamedelima B.}{P\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-        {{hash=85310f9e11b661ce6c2c89955fe56bf5}{Kuba}{K\bibinitperiod}{Petr}{P\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{hash=ea13669b47d552fbc7d7438f9dc08c5c}{Soares}{S\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=d9efc1e20861c49c53f621778884feb3}{Brazdil}{B\bibinitperiod}{Pavel\bibnamedelima B.}{P\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-        {{hash=85310f9e11b661ce6c2c89955fe56bf5}{Kuba}{K\bibinitperiod}{Petr}{P\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{eb588705ae0caf0ba9086171c11d1db0}
-      \strng{fullhash}{eb588705ae0caf0ba9086171c11d1db0}
-      \field{sortinit}{S}
-      \field{labeltitle}{A Meta-Learning Method to Select the Kernel Width in Support Vector Regression}
-      \field{abstract}{The Support Vector Machine algorithm is sensitive to the choice of parameter settings. If these are not set correctly, the algorithm may have a substandard performance. Suggesting a good setting is thus an important problem. We propose a meta-learning methodology for this purpose and exploit information about the past performance of different settings. The methodology is applied to set the width of the Gaussian kernel. We carry out an extensive empirical evaluation, including comparisons with other methods (fixed default ranking; selection based on cross-validation and a heuristic method commonly used to set the width of the SVM kernel). We show that our methodology can select settings with low error while providing significant savings in time. Further work should be carried out to see how the methodology could be adapted to different parameter setting tasks.}
-      \field{issn}{1573-0565}
-      \field{journaltitle}{Machine Learning}
-      \field{number}{3}
-      \field{title}{A Meta-Learning Method to Select the Kernel Width in Support Vector Regression}
-      \field{volume}{54}
-      \field{year}{2004}
-      \field{pages}{195\bibrangedash 209}
-      \verb{doi}
-      \verb 10.1023/B:MACH.0000015879.28004.9b
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1023/B:MACH.0000015879.28004.9b
-      \endverb
-    \endentry
     \entry{sequence}{misc}{}
       \field{sortinit}{S}
       \field{labeltitle}{SP1 factor binding sites on Chromosome1}
@@ -1621,57 +1482,12 @@
       \verb https://www.kaggle.com/hobako1993/sp1-factor-binding-sites-on-chromosome1
       \endverb
     \endentry
-    \entry{QJ:QJ49708235130}{article}{}
-      \list{publisher}{1}{%
-        {John Wiley & Sons, Ltd}%
-      }
-      \field{sortinit}{S}
-      \field{labeltitle}{Statistical methods for research workers. By Sir Ronald A. Fisher. Edinburgh (Oliver and Boyd), 12th Ed., 1954. Pp. xv, 356; 12 Figs., 74 Tables. 16s}
-      \field{issn}{1477-870X}
-      \field{journaltitle}{Quarterly Journal of the Royal Meteorological Society}
-      \field{number}{351}
-      \field{title}{Statistical methods for research workers. By Sir Ronald A. Fisher. Edinburgh (Oliver and Boyd), 12th Ed., 1954. Pp. xv, 356; 12 Figs., 74 Tables. 16s}
-      \field{volume}{82}
-      \field{year}{1956}
-      \field{pages}{119\bibrangedash 119}
-      \verb{doi}
-      \verb 10.1002/qj.49708235130
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1002/qj.49708235130
-      \endverb
-    \endentry
     \entry{alcohol}{misc}{}
       \field{sortinit}{S}
       \field{labeltitle}{Student Alcohol Consumption}
       \field{title}{Student Alcohol Consumption}
       \verb{url}
       \verb https://www.kaggle.com/uciml/student-alcohol-consumption
-      \endverb
-    \endentry
-    \entry{DBLP:journals/corr/abs-1208-3719}{article}{}
-      \name{labelname}{4}{}{%
-        {{hash=5ac1a8e0d967d1d5c68dde5e35588665}{Thornton}{T\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=c91dd51578c1d6d1adb0e2fcafe0d7c4}{Hoos}{H\bibinitperiod}{Holger\bibnamedelima H.}{H\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
-        {{hash=e1ded69eaa817b0482d492de4a43e2e8}{Leyton{-}Brown}{L\bibinitperiod}{Kevin}{K\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{4}{}{%
-        {{hash=5ac1a8e0d967d1d5c68dde5e35588665}{Thornton}{T\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=528d4af87fd2ecf5fb8a22db913ce088}{Hutter}{H\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=c91dd51578c1d6d1adb0e2fcafe0d7c4}{Hoos}{H\bibinitperiod}{Holger\bibnamedelima H.}{H\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
-        {{hash=e1ded69eaa817b0482d492de4a43e2e8}{Leyton{-}Brown}{L\bibinitperiod}{Kevin}{K\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{b03304ed57df99f1dbb366ac9c1b5b57}
-      \strng{fullhash}{02749b06a927e01377fdf79c180c083f}
-      \field{sortinit}{T}
-      \field{labeltitle}{Auto-WEKA: Automated Selection and Hyper-Parameter Optimization of Classification Algorithms}
-      \field{journaltitle}{CoRR}
-      \field{title}{Auto-WEKA: Automated Selection and Hyper-Parameter Optimization of Classification Algorithms}
-      \field{volume}{abs/1208.3719}
-      \field{year}{2012}
-      \verb{url}
-      \verb http://arxiv.org/abs/1208.3719
       \endverb
     \endentry
     \entry{monks}{misc}{}
@@ -1714,53 +1530,6 @@
       \verb https://www.kaggle.com/zed9941/top-500-indian-cities
       \endverb
     \endentry
-    \entry{Tukey}{book}{}
-      \name{labelname}{1}{}{%
-        {{hash=26f8106c3e152e61fb92d4a2bd368224}{Tukey}{T\bibinitperiod}{John\bibnamedelima W.}{J\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=26f8106c3e152e61fb92d4a2bd368224}{Tukey}{T\bibinitperiod}{John\bibnamedelima W.}{J\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {Addison-Wesley}%
-      }
-      \strng{namehash}{26f8106c3e152e61fb92d4a2bd368224}
-      \strng{fullhash}{26f8106c3e152e61fb92d4a2bd368224}
-      \field{sortinit}{T}
-      \field{labeltitle}{Exploratory Data Analysis}
-      \field{title}{Exploratory Data Analysis}
-      \field{year}{1977}
-    \endentry
-    \entry{Turing:1995:CMI:216408.216410}{incollection}{}
-      \name{labelname}{1}{}{%
-        {{hash=5b70c770af9b242aba5f0b15cd022727}{Turing}{T\bibinitperiod}{A.\bibnamedelimi M.}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=5b70c770af9b242aba5f0b15cd022727}{Turing}{T\bibinitperiod}{A.\bibnamedelimi M.}{A\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-      }
-      \name{editor}{2}{}{%
-        {{hash=0c92c43b5a29aa99ce85c87874380e0f}{Feigenbaum}{F\bibinitperiod}{Edward\bibnamedelima A.}{E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=daef7c4d1f315a18d3228bd19219c18a}{Feldman}{F\bibinitperiod}{Julian}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \list{location}{1}{%
-        {Cambridge, MA, USA}%
-      }
-      \list{publisher}{1}{%
-        {MIT Press}%
-      }
-      \strng{namehash}{5b70c770af9b242aba5f0b15cd022727}
-      \strng{fullhash}{5b70c770af9b242aba5f0b15cd022727}
-      \field{sortinit}{T}
-      \field{labeltitle}{Computers \&Amp; Thought}
-      \field{chapter}{Computing Machinery and Intelligence}
-      \field{isbn}{0-262-56092-5}
-      \field{title}{Computers \&Amp; Thought}
-      \field{year}{1995}
-      \field{pages}{11\bibrangedash 35}
-      \verb{url}
-      \verb http://dl.acm.org/citation.cfm?id=216408.216410
-      \endverb
-    \endentry
     \entry{vgsales}{misc}{}
       \field{sortinit}{V}
       \field{labeltitle}{Video Game Sales}
@@ -1777,64 +1546,23 @@
       \verb https://www.kaggle.com/gregorut/videogamesales
       \endverb
     \endentry
-    \entry{Wilcoxon45}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=405b308b1e8e33ef3275bf6cb9c9b281}{Wilcoxon}{W\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=405b308b1e8e33ef3275bf6cb9c9b281}{Wilcoxon}{W\bibinitperiod}{Frank}{F\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {International Biometric Society}%
-      }
-      \strng{namehash}{405b308b1e8e33ef3275bf6cb9c9b281}
-      \strng{fullhash}{405b308b1e8e33ef3275bf6cb9c9b281}
-      \field{sortinit}{W}
-      \field{labeltitle}{{Individual Comparisons by Ranking Methods}}
-      \field{issn}{00994987}
-      \field{journaltitle}{Biometrics Bulletin}
-      \field{month}{12}
-      \field{number}{6}
-      \field{title}{{Individual Comparisons by Ranking Methods}}
-      \field{volume}{1}
-      \field{year}{1945}
-      \field{pages}{80\bibrangedash 83}
-      \verb{doi}
-      \verb 10.2307/3001968
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.2307/3001968
-      \endverb
-    \endentry
-    \entry{7373431}{inproceedings}{}
-      \name{labelname}{3}{}{%
-        {{hash=e36db91084f841242dddf1f9cd48ab77}{Wistu\-ba}{W\bibinithyphendelim b\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=a4faa0f5713d6be4cc4cd51a585e7a2d}{Schilling}{S\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=8ffc92377bba34bb848d4095e3ea4a05}{L.\-Schmidt-Thieme}{L\bibinithyphendelim S\bibinithyphendelim T\bibinitperiod}{}{}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{hash=e36db91084f841242dddf1f9cd48ab77}{Wistu\-ba}{W\bibinithyphendelim b\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=a4faa0f5713d6be4cc4cd51a585e7a2d}{Schilling}{S\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=8ffc92377bba34bb848d4095e3ea4a05}{L.\-Schmidt-Thieme}{L\bibinithyphendelim S\bibinithyphendelim T\bibinitperiod}{}{}{}{}{}{}}%
-      }
-      \strng{namehash}{4c5e5dcc74dabb071a555447c1f14276}
-      \strng{fullhash}{4c5e5dcc74dabb071a555447c1f14276}
-      \field{sortinit}{W}
-      \field{labeltitle}{Sequential Model-Free Hyperparameter Tuning}
-      \field{booktitle}{2015 IEEE International Conference on Data Mining}
-      \field{issn}{1550-4786}
-      \field{month}{11}
-      \field{title}{Sequential Model-Free Hyperparameter Tuning}
-      \field{year}{2015}
-      \field{pages}{1033\bibrangedash 1038}
-      \verb{doi}
-      \verb 10.1109/ICDM.2015.20
-      \endverb
-      \keyw{pattern classification;support vector machines;AdaBoost;SMBO framework;SVM;acquisition function;automatic tuning;classifiers;complex hyperparameter tuning strategies;data sets;hyperparameter combinations;hyperparameter configurations;look-up tables;meta-features;random hyperparameter search;sequential model-based optimization;sequential model-free hyperparameter tuning;static ranking;surrogate models;Adaptation models;Data models;Loss measurement;Machine learning algorithms;Optimization;Tuning;hyperparameter optimization;meta-learning;transfer learning}
-    \endentry
   \endsortlist
-  \missing{krk}
+  \missing{doi:10.1093/jnci/22.4.719}
+  \missing{Wilcoxon45}
+  \missing{McNemar1947}
+  \missing{QJ:QJ49708235130}
   \missing{Gender Recognition by Voice}
+  \missing{Jiang:2008:ECI:1390681.1390698}
+  \missing{Lin04simpleprobabilistic}
+  \missing{mann1947}
+  \missing{citeulike:4294367}
+  \missing{Platt99probabilisticoutputs}
+  \missing{CIS-57999}
+  \missing{doi:10.1080/03610928008827904}
+  \missing{Chang:2011:LLS:1961189.1961199}
+  \missing{krk}
+  \missing{doi:10.1093/biomet/75.2.383}
+  \missing{10.2307/3001616}
 \endrefsection
 \endinput
 

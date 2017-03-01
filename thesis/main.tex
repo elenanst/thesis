@@ -24,6 +24,7 @@
 \usepackage{graphicx}
 \graphicspath{ {images/} }
 \usepackage{caption}
+\usepackage{subcaption}
 
 %%% text formatting %%%
 \usepackage [autostyle, english = american]{csquotes}
@@ -38,18 +39,21 @@
 \renewcommand\appendixpagename{Παραρτήματα}
 
 %%% bibliography %%%
-\usepackage[
-backend=biber,
-citestyle=numeric,
-style = numeric,
-sortlocale=de_DE,
-natbib=true,
-url=false, 
-doi=true,
-eprint=false
-]{biblatex}
+\usepackage[backend=biber, citestyle=numeric,natbib=true]{biblatex}
+%[
+%backend=biber,
+%citestyle=numeric,
+%style = numeric,
+%sortlocale=de_DE,
+%natbib=true,
+%url=false, 
+%doi=true,
+%eprint=false
+%]
+
 \appto{\bibsetup}{\raggedright}
 \addbibresource{bibliography.bib}
+\addbibresource{bibliography_app.bib}
 \usepackage{hyperref}
 \hypersetup{
 	colorlinks=true,
@@ -75,6 +79,11 @@ eprint=false
 \newglossaryentry{IBL}{%
 	name={IBL},%
 	description={Instance Based Learning}%
+}
+
+\newglossaryentry{SVM}{%
+	name={SVM},%
+	description={Support Vector Machine}%
 }
 
 %%% algorithms %%%
@@ -182,7 +191,6 @@ minimum height=2em]
 
 %%% confusion matrix %%%
 \usepackage{array}
-\usepackage{graphicx}
 \usepackage{multirow}
 
 \newcommand\MyBox[2]{
@@ -204,11 +212,12 @@ minimum height=2em]
 	{Thesis Title}\\
 	{\large Institution Name}
 }
-\author{Νησιωτη Ελένη}
+\author{Νησιώτη Ελένη}
 \date{Day Month Year}
 
 
 \begin{document}
+\begin{refsection}[bibliography]
 \include{chapters/Intro}
 \include{chapters/Chapter1}
 \include{chapters/Chapter2}
@@ -216,13 +225,12 @@ minimum height=2em]
 \include{chapters/Chapter4}
 \include{chapters/Chapter5}
 \include{chapters/Chapter6}
-
-
 \printbibliography[title= Βιβλιογραφία]
+\end{refsection}
 \printglossary[style=long]
 
-
 \begin{appendices}
+\begin{refsection}[bibliography_app]
 \include{chapters/AP_Svm}
 \include{chapters/AP_NBayes}
 \include{chapters/AP_LRegress}
@@ -233,6 +241,8 @@ minimum height=2em]
 \include{chapters/AP_Intervals}
 \include{chapters/AP_Datasets}
 
+\printbibliography[title = Βιβλιογραφία Παραρτημάτων]
+\end{refsection}
 \end{appendices}
 
 \end{document}

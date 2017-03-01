@@ -27,10 +27,6 @@
       <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
-      <bcf:key>sortlocale</bcf:key>
-      <bcf:value>de_DE</bcf:value>
-    </bcf:option>
-    <bcf:option type="singlevalued">
       <bcf:key>sortupper</bcf:key>
       <bcf:value>1</bcf:value>
     </bcf:option>
@@ -1966,8 +1962,15 @@
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
     <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bibliography_app.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 1 -->
+  <bcf:bibdata section="1">
+    <bcf:datasource type="file" datatype="bibtex">bibliography.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="1">
     <bcf:citekey order="1">craw1993</bcf:citekey>
     <bcf:citekey order="1">Brazdil1994</bcf:citekey>
     <bcf:citekey order="2">Turing:1995:CMI:216408.216410</bcf:citekey>
@@ -2030,87 +2033,121 @@
     <bcf:citekey order="61">Bensusan:2001:EPA:645328.650030</bcf:citekey>
     <bcf:citekey order="62">Caruana:2004:ESL:1015330.1015432</bcf:citekey>
     <bcf:citekey order="63">Caruana:2004:ESL:1015330.1015432</bcf:citekey>
-    <bcf:citekey order="64">QJ:QJ49708235130</bcf:citekey>
-    <bcf:citekey order="65">QJ:QJ49708235130</bcf:citekey>
-    <bcf:citekey order="66">doi:10.1080/03610928008827904</bcf:citekey>
-    <bcf:citekey order="67">doi:10.1080/03610928008827904</bcf:citekey>
-    <bcf:citekey order="68">CIS-57999</bcf:citekey>
-    <bcf:citekey order="68">citeulike:4294367</bcf:citekey>
-    <bcf:citekey order="68">doi:10.1093/biomet/75.2.383</bcf:citekey>
-    <bcf:citekey order="69">Wilcoxon45</bcf:citekey>
-    <bcf:citekey order="70">Wilcoxon45</bcf:citekey>
-    <bcf:citekey order="71">mann1947</bcf:citekey>
-    <bcf:citekey order="72">mann1947</bcf:citekey>
-    <bcf:citekey order="73">McNemar1947</bcf:citekey>
-    <bcf:citekey order="74">McNemar1947</bcf:citekey>
-    <bcf:citekey order="75">10.2307/3001616</bcf:citekey>
-    <bcf:citekey order="75">doi:10.1093/jnci/22.4.719</bcf:citekey>
-    <bcf:citekey order="76">10.2307/3001616</bcf:citekey>
-    <bcf:citekey order="76">doi:10.1093/jnci/22.4.719</bcf:citekey>
-    <bcf:citekey order="77">Platt99probabilisticoutputs</bcf:citekey>
-    <bcf:citekey order="78">Platt99probabilisticoutputs</bcf:citekey>
-    <bcf:citekey order="79">Jiang:2008:ECI:1390681.1390698</bcf:citekey>
-    <bcf:citekey order="80">Jiang:2008:ECI:1390681.1390698</bcf:citekey>
-    <bcf:citekey order="81">Lin04simpleprobabilistic</bcf:citekey>
-    <bcf:citekey order="82">Lin04simpleprobabilistic</bcf:citekey>
-    <bcf:citekey order="83">Chang:2011:LLS:1961189.1961199</bcf:citekey>
-    <bcf:citekey order="84">Chang:2011:LLS:1961189.1961199</bcf:citekey>
-    <bcf:citekey order="85">Lin04simpleprobabilistic</bcf:citekey>
-    <bcf:citekey order="86">Lin04simpleprobabilistic</bcf:citekey>
-    <bcf:citekey order="87">census</bcf:citekey>
-    <bcf:citekey order="88">balloons</bcf:citekey>
-    <bcf:citekey order="89">balloons</bcf:citekey>
-    <bcf:citekey order="90">breast</bcf:citekey>
-    <bcf:citekey order="91">lung</bcf:citekey>
-    <bcf:citekey order="92">car</bcf:citekey>
-    <bcf:citekey order="93">indian</bcf:citekey>
-    <bcf:citekey order="94">creditcard</bcf:citekey>
-    <bcf:citekey order="95">credit</bcf:citekey>
-    <bcf:citekey order="96">dcg</bcf:citekey>
-    <bcf:citekey order="97">default</bcf:citekey>
-    <bcf:citekey order="98">dermatology</bcf:citekey>
-    <bcf:citekey order="99">ftp</bcf:citekey>
-    <bcf:citekey order="100">gym</bcf:citekey>
-    <bcf:citekey order="101">haberman</bcf:citekey>
-    <bcf:citekey order="102">hepatitis</bcf:citekey>
-    <bcf:citekey order="103">hr</bcf:citekey>
-    <bcf:citekey order="104">imdb</bcf:citekey>
-    <bcf:citekey order="105">ionoshpere</bcf:citekey>
-    <bcf:citekey order="106">krk</bcf:citekey>
-    <bcf:citekey order="107">lupus</bcf:citekey>
-    <bcf:citekey order="108">monks</bcf:citekey>
-    <bcf:citekey order="109">monks</bcf:citekey>
-    <bcf:citekey order="110">monks</bcf:citekey>
-    <bcf:citekey order="111">mushroom</bcf:citekey>
-    <bcf:citekey order="112">musk</bcf:citekey>
-    <bcf:citekey order="113">Mutagenesis</bcf:citekey>
-    <bcf:citekey order="114">sequence</bcf:citekey>
-    <bcf:citekey order="115">nursery</bcf:citekey>
-    <bcf:citekey order="116">parkinsons</bcf:citekey>
-    <bcf:citekey order="117">pie</bcf:citekey>
-    <bcf:citekey order="118">thyroid</bcf:citekey>
-    <bcf:citekey order="119">planning</bcf:citekey>
-    <bcf:citekey order="120">pima</bcf:citekey>
-    <bcf:citekey order="121">Helma2001</bcf:citekey>
-    <bcf:citekey order="122">sales</bcf:citekey>
-    <bcf:citekey order="123">spam</bcf:citekey>
-    <bcf:citekey order="124">alcohol</bcf:citekey>
-    <bcf:citekey order="125">wilt</bcf:citekey>
-    <bcf:citekey order="126">tic</bcf:citekey>
-    <bcf:citekey order="127">Trains</bcf:citekey>
-    <bcf:citekey order="128">wilt</bcf:citekey>
-    <bcf:citekey order="129">uni</bcf:citekey>
-    <bcf:citekey order="130">uni</bcf:citekey>
-    <bcf:citekey order="131">utube</bcf:citekey>
-    <bcf:citekey order="132">vgsales</bcf:citekey>
-    <bcf:citekey order="133">vgsales</bcf:citekey>
-    <bcf:citekey order="134">vgsales</bcf:citekey>
-    <bcf:citekey order="135">vgsales</bcf:citekey>
-    <bcf:citekey order="136">vgsales</bcf:citekey>
-    <bcf:citekey order="137">vgames</bcf:citekey>
-    <bcf:citekey order="138">Gender Recognition by Voice</bcf:citekey>
   </bcf:section>
-  <bcf:sortlist section="0" type="entry" label="nty">
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 2 -->
+  <bcf:bibdata section="2">
+    <bcf:datasource type="file" datatype="bibtex">bibliography_app.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="2">
+    <bcf:citekey order="1">Mercer415</bcf:citekey>
+    <bcf:citekey order="2">Mercer415</bcf:citekey>
+    <bcf:citekey order="3">Lloyd:2006:LSQ:2263356.2269955</bcf:citekey>
+    <bcf:citekey order="4">Lloyd:2006:LSQ:2263356.2269955</bcf:citekey>
+    <bcf:citekey order="5">QJ:QJ49708235130</bcf:citekey>
+    <bcf:citekey order="7">doi:10.1080/03610928008827904</bcf:citekey>
+    <bcf:citekey order="9">CIS-57999</bcf:citekey>
+    <bcf:citekey order="9">citeulike:4294367</bcf:citekey>
+    <bcf:citekey order="9">doi:10.1093/biomet/75.2.383</bcf:citekey>
+    <bcf:citekey order="10">Wilcoxon45</bcf:citekey>
+    <bcf:citekey order="12">mann1947</bcf:citekey>
+    <bcf:citekey order="14">McNemar1947</bcf:citekey>
+    <bcf:citekey order="16">10.2307/3001616</bcf:citekey>
+    <bcf:citekey order="16">doi:10.1093/jnci/22.4.719</bcf:citekey>
+    <bcf:citekey order="18">Platt99probabilisticoutputs</bcf:citekey>
+    <bcf:citekey order="20">Jiang:2008:ECI:1390681.1390698</bcf:citekey>
+    <bcf:citekey order="22">Lin04simpleprobabilistic</bcf:citekey>
+    <bcf:citekey order="24">Chang:2011:LLS:1961189.1961199</bcf:citekey>
+    <bcf:citekey order="26">Lin04simpleprobabilistic</bcf:citekey>
+    <bcf:citekey order="28">census</bcf:citekey>
+    <bcf:citekey order="29">balloons</bcf:citekey>
+    <bcf:citekey order="30">balloons</bcf:citekey>
+    <bcf:citekey order="31">breast</bcf:citekey>
+    <bcf:citekey order="32">lung</bcf:citekey>
+    <bcf:citekey order="33">car</bcf:citekey>
+    <bcf:citekey order="34">indian</bcf:citekey>
+    <bcf:citekey order="35">creditcard</bcf:citekey>
+    <bcf:citekey order="36">credit</bcf:citekey>
+    <bcf:citekey order="37">dcg</bcf:citekey>
+    <bcf:citekey order="38">default</bcf:citekey>
+    <bcf:citekey order="39">dermatology</bcf:citekey>
+    <bcf:citekey order="40">ftp</bcf:citekey>
+    <bcf:citekey order="41">gym</bcf:citekey>
+    <bcf:citekey order="42">haberman</bcf:citekey>
+    <bcf:citekey order="43">hepatitis</bcf:citekey>
+    <bcf:citekey order="44">hr</bcf:citekey>
+    <bcf:citekey order="45">imdb</bcf:citekey>
+    <bcf:citekey order="46">ionoshpere</bcf:citekey>
+    <bcf:citekey order="47">krk</bcf:citekey>
+    <bcf:citekey order="48">lupus</bcf:citekey>
+    <bcf:citekey order="49">monks</bcf:citekey>
+    <bcf:citekey order="50">monks</bcf:citekey>
+    <bcf:citekey order="51">monks</bcf:citekey>
+    <bcf:citekey order="52">mushroom</bcf:citekey>
+    <bcf:citekey order="53">musk</bcf:citekey>
+    <bcf:citekey order="54">Mutagenesis</bcf:citekey>
+    <bcf:citekey order="55">sequence</bcf:citekey>
+    <bcf:citekey order="56">nursery</bcf:citekey>
+    <bcf:citekey order="57">parkinsons</bcf:citekey>
+    <bcf:citekey order="58">pie</bcf:citekey>
+    <bcf:citekey order="59">thyroid</bcf:citekey>
+    <bcf:citekey order="60">planning</bcf:citekey>
+    <bcf:citekey order="61">pima</bcf:citekey>
+    <bcf:citekey order="62">Helma2001</bcf:citekey>
+    <bcf:citekey order="63">sales</bcf:citekey>
+    <bcf:citekey order="64">spam</bcf:citekey>
+    <bcf:citekey order="65">alcohol</bcf:citekey>
+    <bcf:citekey order="66">wilt</bcf:citekey>
+    <bcf:citekey order="67">tic</bcf:citekey>
+    <bcf:citekey order="68">Trains</bcf:citekey>
+    <bcf:citekey order="69">wilt</bcf:citekey>
+    <bcf:citekey order="70">uni</bcf:citekey>
+    <bcf:citekey order="71">uni</bcf:citekey>
+    <bcf:citekey order="72">utube</bcf:citekey>
+    <bcf:citekey order="73">vgsales</bcf:citekey>
+    <bcf:citekey order="74">vgsales</bcf:citekey>
+    <bcf:citekey order="75">vgsales</bcf:citekey>
+    <bcf:citekey order="76">vgsales</bcf:citekey>
+    <bcf:citekey order="77">vgsales</bcf:citekey>
+    <bcf:citekey order="78">vgames</bcf:citekey>
+    <bcf:citekey order="79">Gender Recognition by Voice</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <bcf:sortlist section="1" type="entry" label="nty">
+  <bcf:sorting>
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1" pad_side="left" pad_width="4" pad_char="0">volume</bcf:sortitem>
+      <bcf:sortitem order="2">0000</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sorting>
+  </bcf:sortlist>
+  <bcf:sortlist section="2" type="entry" label="nty">
   <bcf:sorting>
     <bcf:sort order="1">
       <bcf:sortitem order="1">presort</bcf:sortitem>
