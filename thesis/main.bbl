@@ -490,6 +490,33 @@
       \field{title}{Time-Bounded Sequential Parameter Optimization}
       \field{year}{2010}
     \endentry
+    \entry{Kotsiantis:2007:SML:1566770.1566773}{inproceedings}{}
+      \name{labelname}{1}{}{%
+        {{hash=28406e86c58c19f2dcec677b46f2f514}{Kotsiantis}{K\bibinitperiod}{S.\bibnamedelimi B.}{S\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=28406e86c58c19f2dcec677b46f2f514}{Kotsiantis}{K\bibinitperiod}{S.\bibnamedelimi B.}{S\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam, The Netherlands, The Netherlands}%
+      }
+      \list{publisher}{1}{%
+        {IOS Press}%
+      }
+      \strng{namehash}{28406e86c58c19f2dcec677b46f2f514}
+      \strng{fullhash}{28406e86c58c19f2dcec677b46f2f514}
+      \field{sortinit}{K}
+      \field{labeltitle}{Supervised Machine Learning: A Review of Classification Techniques}
+      \field{booktitle}{Proceedings of the 2007 Conference on Emerging Artificial Intelligence Applications in Computer Engineering: Real Word AI Systems with Applications in eHealth, HCI, Information Retrieval and Pervasive Technologies}
+      \field{isbn}{978-1-58603-780-2}
+      \field{title}{Supervised Machine Learning: A Review of Classification Techniques}
+      \field{year}{2007}
+      \field{pages}{3\bibrangedash 24}
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=1566770.1566773
+      \endverb
+      \keyw{Classifiers,Data Mining,Intelligent Data Analysis,Learning Algorithms}
+    \endentry
     \entry{kuba2002exploiting}{inproceedings}{}
       \name{labelname}{4}{}{%
         {{hash=85310f9e11b661ce6c2c89955fe56bf5}{Kuba}{K\bibinitperiod}{Petr}{P\bibinitperiod}{}{}{}{}}%
@@ -539,6 +566,30 @@
       \verb{url}
       \verb http://dx.doi.org/10.1115/1.3653121
       \endverb
+    \endentry
+    \entry{ensemble}{online}{}
+      \name{labelname}{3}{}{%
+        {{hash=ed6f946bb8619e16dc7562d67c090e7c}{Levésque}{L\bibinitperiod}{Julien-Charles}{J\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=6cf428558c3d4908897307fde7e4f5f4}{Gagné}{G\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=bb10d649d5f965f42c77ff1ecb593a06}{Sabourin}{S\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=ed6f946bb8619e16dc7562d67c090e7c}{Levésque}{L\bibinitperiod}{Julien-Charles}{J\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=6cf428558c3d4908897307fde7e4f5f4}{Gagné}{G\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=bb10d649d5f965f42c77ff1ecb593a06}{Sabourin}{S\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c8610529b633ae2dcec98bff369b9455}
+      \strng{fullhash}{c8610529b633ae2dcec98bff369b9455}
+      \field{sortinit}{L}
+      \field{labeltitle}{Bayesian Hyperparameter Optimization for Ensemble Learning}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arxiv}
+      \field{title}{Bayesian Hyperparameter Optimization for Ensemble Learning}
+      \field{version}{1}
+      \verb{eprint}
+      \verb 1605.06394
+      \endverb
+      \warn{\item Datamodel: Entry 'ensemble' (bibliography.bib): Invalid format '2016-5-20' of date field 'date' - ignoring}
     \endentry
     \entry{DBLP:journals/corr/LoshchilovH16}{article}{}
       \name{labelname}{2}{}{%
@@ -1547,22 +1598,22 @@
       \endverb
     \endentry
   \endsortlist
+  \missing{Gender Recognition by Voice}
+  \missing{Lin04simpleprobabilistic}
   \missing{doi:10.1093/jnci/22.4.719}
   \missing{Wilcoxon45}
-  \missing{McNemar1947}
-  \missing{QJ:QJ49708235130}
-  \missing{Gender Recognition by Voice}
-  \missing{Jiang:2008:ECI:1390681.1390698}
-  \missing{Lin04simpleprobabilistic}
-  \missing{mann1947}
-  \missing{citeulike:4294367}
   \missing{Platt99probabilisticoutputs}
-  \missing{CIS-57999}
+  \missing{QJ:QJ49708235130}
+  \missing{citeulike:4294367}
+  \missing{Jiang:2008:ECI:1390681.1390698}
   \missing{doi:10.1080/03610928008827904}
   \missing{Chang:2011:LLS:1961189.1961199}
-  \missing{krk}
-  \missing{doi:10.1093/biomet/75.2.383}
   \missing{10.2307/3001616}
+  \missing{krk}
+  \missing{CIS-57999}
+  \missing{doi:10.1093/biomet/75.2.383}
+  \missing{McNemar1947}
+  \missing{mann1947}
 \endrefsection
 \endinput
 

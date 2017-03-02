@@ -4,19 +4,21 @@
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια}}{13}{figure.caption.14}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Ορολογία μηχανική μάθησης}}{13}{figure.caption.14}
 \defcounter {refsection}{1}\relax 
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Συστατικά Μηχανική Μάθησης}}{14}{figure.caption.15}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Διάγραμμα Quantile-Quantile}}{18}{figure.caption.23}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Η διαδικασία της μηχανικής μάθησης, βασισμένη στην περιγραφή των \citet {Kotsiantis:2007:SML:1566770.1566773}.\relax }}{15}{figure.2.3}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Επιλογή $\lambda $ Box-Cox μετασχηματισμού}}{18}{figure.caption.23}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Διάγραμμα Quantile-Quantile}}{18}{figure.caption.23}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Μέθοδος wrapper για επιλογή χαρακτηριστικών: σε κάθε επανάληψη γίνεται επιλογή ενός υποσυνόλου χαρακτηριστικών, το μοντέλο εκπαιδεύεται και η απόδοσή του χρησιμοποιείται για την επιλογή του επόμενου υποσυνόλου.\relax }}{19}{figure.caption.25}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Επιλογή $\lambda $ Box-Cox μετασχηματισμού}}{18}{figure.caption.23}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Μέθοδος φιλτραρίσματος για την επιλογή χαρακτηριστικών: γίνεται επιλογή ενός υποσυνόλου με βάση κάποιες ιδιότητες των χαρακτηριστικών, όπως η συσχέτισή τους στην Ανάλυση Κυρίαρχων Συνιστωσών.\relax }}{19}{figure.caption.25}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Μέθοδος wrapper για επιλογή χαρακτηριστικών: σε κάθε επανάληψη γίνεται επιλογή ενός υποσυνόλου χαρακτηριστικών, το μοντέλο εκπαιδεύεται και η απόδοσή του χρησιμοποιείται για την επιλογή του επόμενου υποσυνόλου.\relax }}{19}{figure.caption.25}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Καμπύλη ROC: η μπλε γραμμή αντιστοιχεί σε τυχαίο ταξινομητή, αποτελεί δηλαδή το σημείο αναφοράς του διαγράμματος. Όσο πιο πάνω και δεξιά βρίσκεται η καμπύλη του τόσο καλύτερη η απόδοσή του, με το σημείο $(0,1)$ να αντιστοιχεί σε τέλειο ταξινομητή.\relax }}{23}{figure.2.7}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Μέθοδος φιλτραρίσματος για την επιλογή χαρακτηριστικών: γίνεται επιλογή ενός υποσυνόλου με βάση κάποιες ιδιότητες των χαρακτηριστικών, όπως η συσχέτισή τους στην Ανάλυση Κυρίαρχων Συνιστωσών.\relax }}{19}{figure.caption.25}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Καμπύλη ROC: η γραμμή αντιστοιχεί σε τυχαίο ταξινομητή, αποτελεί δηλαδή το σημείο αναφοράς του διαγράμματος. Όσο πιο πάνω και δεξιά βρίσκεται η καμπύλη του τόσο καλύτερη η απόδοσή του, με το σημείο $(0,1)$ να αντιστοιχεί σε τέλειο ταξινομητή.\relax }}{23}{figure.2.8}
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 

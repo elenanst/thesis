@@ -11,11 +11,12 @@
 %%% math %%%
 \usepackage{amsmath}
 \usepackage{mathtools}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
 \makeatletter
 \newcommand{\ssymbol}[1]{^{\@fnsymbol{#1}}}
 \makeatother
-\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
-\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+
 \newcommand\inv[1]{#1\raisebox{1.15ex}{$\scriptscriptstyle-\!1$}}
 \newcommand{\norm}[1]{\left\lVert#1\right\rVert}
 \DeclareMathOperator*{\argmin}{arg\,min}
@@ -84,6 +85,11 @@
 \newglossaryentry{SVM}{%
 	name={SVM},%
 	description={Support Vector Machine}%
+}
+
+\newglossaryentry{SMBO}{%
+	name={SVM},%
+	description={Sequential Model-Based Optimization}%
 }
 
 %%% algorithms %%%
@@ -203,9 +209,6 @@ minimum height=2em]
 }
 
 \newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
-
-%%% issel guidelines %%%
-
 
 %%% title %%%
 \title{

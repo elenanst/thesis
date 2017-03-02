@@ -14,7 +14,7 @@
 \defcounter {refsection}{1}\relax 
 \contentsline {section}{\numberline {1.3}Διάρθρωση Κειμένου}{11}{section.1.3}
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {2} Θεωρητικό Υπόβαθρο}{12}{chapter.2}
+\contentsline {chapter}{\numberline {2}Θεωρητικό Υπόβαθρο}{12}{chapter.2}
 \defcounter {refsection}{1}\relax 
 \contentsline {section}{\numberline {2.1}Μηχανική Μάθηση}{12}{section.2.1}
 \defcounter {refsection}{1}\relax 
@@ -46,7 +46,7 @@
 \defcounter {refsection}{1}\relax 
 \contentsline {paragraph}{Αξιολόγηση}{15}{paragraph*.20}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2.2}Τεχνικές Μηχανικής Μάθησης}{16}{section.2.2}
+\contentsline {section}{\numberline {2.2}Τεχνικές Μηχανικής Μάθησης}{15}{section.2.2}
 \defcounter {refsection}{1}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Κατά την προ-επεξεργασία}{16}{subsection.2.2.1}
 \defcounter {refsection}{1}\relax 
@@ -88,9 +88,9 @@
 \defcounter {refsection}{1}\relax 
 \contentsline {section}{\numberline {2.3}Αυτοματοποιημένη Μηχανική Μάθηση}{24}{section.2.3}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Ιστορική Αναδρομή}{24}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Ιστορική Αναδρομή}{25}{subsection.2.3.1}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Βελτιστοποίηση Υπερπαραμέτρων}{25}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Βελτιστοποίηση Υπερ-παραμέτρων}{25}{subsection.2.3.2}
 \defcounter {refsection}{1}\relax 
 \contentsline {subsubsection}{Bayesian Βελτιστοποίηση}{26}{subsubsection*.39}
 \defcounter {refsection}{1}\relax 

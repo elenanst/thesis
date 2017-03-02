@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2016.12.17)  1 MAR 2017 23:55
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2016.12.17)  3 MAR 2017 01:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1306,7 +1306,7 @@ tly
 )
 \Hy@SectionHShift=\skip67
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 63.
+Package hyperref Info: Option `colorlinks' set `true' on input line 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -1336,7 +1336,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 69.
+less on input line 70.
 
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2014/01/20 v4.03 (NLCT)
@@ -1501,7 +1501,7 @@ Package: glossary-tree 2013/11/14 v4.0 (NLCT)
 \glo@main@file=\write5
 \openout5 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 73.
+Package glossaries Info: Writing glossary file main.glo on input line 74.
 
 (/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
@@ -2061,7 +2061,7 @@ Package csquotes Info: ... none found.
 
 
 Package csquotes Warning: No multilingual support.
-(csquotes)                Cannot enable multilingual quotes on input line 219.
+(csquotes)                Cannot enable multilingual quotes on input line 222.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -2084,63 +2084,63 @@ LaTeX Warning: Label `table:meta' multiply defined.
 (./chapters/AP_Datasets.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 219.
-LaTeX Font Info:    Try loading font information for OML+jkp on input line 219.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 222.
+LaTeX Font Info:    Try loading font information for OML+jkp on input line 222.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 219.
-LaTeX Font Info:    Try loading font information for OMS+jkp on input line 219.
+LaTeX Font Info:    ... okay on input line 222.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 222.
+LaTeX Font Info:    ... okay on input line 222.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 222.
+LaTeX Font Info:    ... okay on input line 222.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 222.
+LaTeX Font Info:    Try loading font information for OMS+jkp on input line 222.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 219.
-LaTeX Font Info:    Try loading font information for OMX+jkp on input line 219.
+LaTeX Font Info:    ... okay on input line 222.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 222.
+LaTeX Font Info:    Try loading font information for OMX+jkp on input line 222.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 219.
-LaTeX Font Info:    Try loading font information for U+jkpexa on input line 219
+LaTeX Font Info:    ... okay on input line 222.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 222.
+LaTeX Font Info:    Try loading font information for U+jkpexa on input line 222
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 219.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 219.
+LaTeX Font Info:    ... okay on input line 222.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 222.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 222.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 219.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 219.
+LaTeX Font Info:    ... okay on input line 222.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 222.
+LaTeX Font Info:    ... okay on input line 222.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 222.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 222.
 
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 219.
-LaTeX Font Info:    ... okay on input line 219.
+LaTeX Font Info:    ... okay on input line 222.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 222.
+LaTeX Font Info:    ... okay on input line 222.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 222.
+LaTeX Font Info:    ... okay on input line 222.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
@@ -2150,7 +2150,7 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package csquotes Info: Making character " active on input line 219.
+Package csquotes Info: Making character " active on input line 222.
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -2162,9 +2162,29 @@ Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl
 
 Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'ensemble':
+(biblatex)                - Datamodel: Entry 'ensemble' (bibliography.bib): Inv
+alid format '2016-5-20' of date field 'date' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'wassenberg':
 (biblatex)                - Datamodel: Entry 'wassenberg' (bibliography.bib): I
 nvalid format '2016-6-26' of date field 'date' - ignoring.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 2):
+(biblatex)                Gender Recognition by Voice
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 2):
+(biblatex)                Lin04simpleprobabilistic
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
@@ -2183,7 +2203,7 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 2):
-(biblatex)                McNemar1947
+(biblatex)                Platt99probabilisticoutputs
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2197,34 +2217,6 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 2):
-(biblatex)                Gender Recognition by Voice
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                Jiang:2008:ECI:1390681.1390698
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                Lin04simpleprobabilistic
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                mann1947
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
 (biblatex)                citeulike:4294367
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -2232,14 +2224,7 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 2):
-(biblatex)                Platt99probabilisticoutputs
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                CIS-57999
+(biblatex)                Jiang:2008:ECI:1390681.1390698
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2260,7 +2245,21 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 2):
+(biblatex)                10.2307/3001616
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 2):
 (biblatex)                krk
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 2):
+(biblatex)                CIS-57999
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2274,15 +2273,22 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 2):
-(biblatex)                10.2307/3001616
+(biblatex)                McNemar1947
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 2):
+(biblatex)                mann1947
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 219.
-Package biblatex Info: Reference segment=0 on input line 219.
+Package biblatex Info: Reference section=0 on input line 222.
+Package biblatex Info: Reference segment=0 on input line 222.
 \AtBeginShipoutBox=\box93
-Package hyperref Info: Link coloring ON on input line 219.
+Package hyperref Info: Link coloring ON on input line 222.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -2291,9 +2297,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count429
 )
-LaTeX Info: Redefining \ref on input line 219.
-LaTeX Info: Redefining \pageref on input line 219.
-LaTeX Info: Redefining \nameref on input line 219.
+LaTeX Info: Redefining \ref on input line 222.
+LaTeX Info: Redefining \pageref on input line 222.
+LaTeX Info: Redefining \nameref on input line 222.
 
 (./main.out) (./main.out)
 \@outlinefile=\write7
@@ -2340,8 +2346,8 @@ enefit from \pgfplotsset{compat=1.9} (current compat level: 1.7).
 
 \blx@maxsegment@1=\count430
 \blx@sectionciteorder@1=\count431
-Package biblatex Info: Reference section=1 on input line 220.
-Package biblatex Info: Setting label 'refsection:1' on input line 220.
+Package biblatex Info: Reference section=1 on input line 223.
+Package biblatex Info: Setting label 'refsection:1' on input line 223.
 \openout2 = `chapters/Intro.aux'.
 
 (./chapters/Intro.tex
@@ -2360,8 +2366,15 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 LaTeX Font Info:    Font shape `EU1/LinuxLibertineO(0)/m/sl' in size <10.95> no
 t available
 (Font)              Font shape `EU1/LinuxLibertineO(0)/m/it' tried instead on i
-nput line 43.
+nput line 38.
 
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -2435,19 +2448,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5] (./main.lof
-Overfull \hbox (1.61743pt too wide) in paragraph at lines 15--15
+Overfull \hbox (2.8867pt too wide) in paragraph at lines 11--11
+ [][] [][][]\EU1/LinuxLibertineO(0)/m/n/10.95 Η διαδικασία της μηχανικής μάθηση
+ς, βασισμένη στην περιγραφή των Kotsiantis 
+ []
+
+
+Overfull \hbox (1.61743pt too wide) in paragraph at lines 17--17
  \EU1/LinuxLibertineO(0)/m/n/10.95 επιλογή ενός υποσυνόλου χαρακτηριστικών, το 
 μοντέλο εκπαιδεύεται και η από- 
  []
 
 
-Overfull \hbox (3.08014pt too wide) in paragraph at lines 29--29
+Overfull \hbox (3.08014pt too wide) in paragraph at lines 31--31
  \EU1/LinuxLibertineO(0)/m/n/10.95 τιστων υπερ-παραμέτρων με αποτέλεσμα τη δημι
 ουργία ενός σετ-μεταδεδομένων 
  []
 
 
-Overfull \hbox (8.36172pt too wide) in paragraph at lines 31--31
+Overfull \hbox (8.36172pt too wide) in paragraph at lines 33--33
  \EU1/LinuxLibertineO(0)/m/n/10.95 σης στην είσοδο το υποσύστημα αυτό εφαρμόζει
  την κατάλληλη προ-επεξεργασία 
  []
@@ -2455,10 +2474,10 @@ Overfull \hbox (8.36172pt too wide) in paragraph at lines 31--31
 [6
 
 ]
-LaTeX Info: Redefining \anw@print on input line 55.
 LaTeX Info: Redefining \anw@print on input line 57.
-LaTeX Info: Redefining \anw@print on input line 67.
+LaTeX Info: Redefining \anw@print on input line 59.
 LaTeX Info: Redefining \anw@print on input line 69.
+LaTeX Info: Redefining \anw@print on input line 71.
 )
 \tf@lof=\write9
 \openout9 = `main.lof'.
@@ -2493,12 +2512,7 @@ LaTeX Info: Redefining \anw@print on input line 41.
 
 
 ]
-
-LaTeX Warning: Reference `' on page 10 undefined on input line 23.
-
-
-LaTeX Warning: Reference `Caruana:2004:ESL:1015330.1015432' on page 10 undefine
-d on input line 25.
+LaTeX Info: Redefining \anw@print on input line 23.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2539,54 +2553,55 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [14]
-Overfull \hbox (40.56071pt too wide) in paragraph at lines 111--112
-[][] 
- []
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 120.
+See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 \EU1/LinuxLibertineO(0)/m/n/10.95 επίλυση ενός προβλήματος απαιτεί την
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 [] []\EU1/LinuxLibertineO(0)/b/n/10.95 Προ-επεξεργασία[] \EU1/LinuxLibertineO(0
 )/m/n/10.95 Υπάρχουν διάφορες
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 \EU1/LinuxLibertineO(0)/m/n/10.95 ενέργειες που μπορούν να εφαρμοστούν
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 115--116
+Underfull \hbox (badness 1688) in paragraph at lines 124--125
 \EU1/LinuxLibertineO(0)/m/n/10.95 στα δεδομένα, με βάση τις ιδιαιτερότητες
  []
 
 
-Underfull \hbox (badness 1939) in paragraph at lines 115--116
+Underfull \hbox (badness 1939) in paragraph at lines 124--125
 \EU1/LinuxLibertineO(0)/m/n/10.95 καλή λειτουργία των αλγορίθμων μηχανι-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 \EU1/LinuxLibertineO(0)/m/n/10.95 του μοντέλου. Παραδείγματα αποτελούν
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 \EU1/LinuxLibertineO(0)/m/n/10.95 η αφαίρεση αγνοούμενων τιμών και η
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 116--117
+Underfull \hbox (badness 1264) in paragraph at lines 125--126
 \EU1/LinuxLibertineO(0)/b/n/10.95 λόγησης και ελέγχου[] \EU1/LinuxLibertineO(0)
 /m/n/10.95 Είναι αναγκαία η
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 117--118
+Underfull \hbox (badness 4995) in paragraph at lines 126--127
 [] []\EU1/LinuxLibertineO(0)/b/n/10.95 Εκπαίδευση μοντέλου[] \EU1/LinuxLibertin
 eO(0)/m/n/10.95 Απαιτεί την επι-
  []
@@ -2606,7 +2621,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [16]
 PGFPlots: reading {data/qq.dat}
-LaTeX Info: Redefining \anw@print on input line 221.
+LaTeX Info: Redefining \anw@print on input line 231.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2636,6 +2651,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [20]
+Missing character: There is no Ν in font jkpmi!
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -2643,22 +2660,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [21]
-Overfull \hbox (18.14812pt too wide) in paragraph at lines 337--337
+Overfull \hbox (18.14812pt too wide) in paragraph at lines 351--351
  []\EU1/LinuxLibertineO(0)/b/n/10.95 Πραγματική 
  []
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 343.
+(caption)                particular \caption on input line 357.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (29.11589pt too wide) in paragraph at lines 353--353
+Overfull \hbox (21.29784pt too wide) in paragraph at lines 367--367
  [] 
  []
 
 
-Overfull \hbox (10.15915pt too wide) in paragraph at lines 331--355
+Overfull \hbox (2.3411pt too wide) in paragraph at lines 345--369
 []$[]$  $[]$ 
  []
 
@@ -2671,7 +2688,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [22] (./tikz/ROC.tex)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 366.
+(caption)                particular \caption on input line 380.
 See the caption package documentation for explanation.
 
 
@@ -2681,7 +2698,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [23]
-LaTeX Info: Redefining \anw@print on input line 390.
+LaTeX Info: Redefining \anw@print on input line 405.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2701,9 +2718,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [25]
 
-LaTeX Warning: Reference `' on page 26 undefined on input line 445.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -2717,12 +2731,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [27]
-Overfull \hbox (12.04636pt too wide) in paragraph at lines 485--486
-\EU1/LinuxLibertineO(0)/m/n/10.95 (CMA-ES) [[][]19[][]], Ακολουθιακή Βελτιστοπο
-ίηση χωρίς Μοντέλο (Sequential Model-free Optimization
+LaTeX Info: Redefining \anw@print on input line 519.
+
+Overfull \hbox (0.85626pt too wide) in paragraph at lines 521--522
+[] []\EU1/LinuxLibertineO(0)/b/n/10.95 Ακολουθιακή ρύθμιση αλγορίθμου βασισμένη
+ σε μοντέλο (SMAC)[] \EU1/LinuxLibertineO(0)/m/n/10.95 Παρουσιάστηκε το 2011
  []
 
-LaTeX Info: Redefining \anw@print on input line 491.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -2737,7 +2752,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [29]
-Overfull \hbox (3.3046pt too wide) in paragraph at lines 535--536
+Overfull \hbox (3.3046pt too wide) in paragraph at lines 565--566
 \EU1/LinuxLibertineO(0)/m/n/10.95 πληθώρας εργαλείων που επιχειρούν να την αυτο
 ματοποιήσουν. Βιβλιοθήκες σε διάφορες γλώσ-
  []
@@ -2985,11 +3000,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [44]
 \openout2 = `chapters/Chapter5.aux'.
 
-
-No file chapters/Chapter5.tex.
-\openout2 = `chapters/Chapter6.aux'.
-
-(./chapters/Chapter6.tex
+ (./chapters/Chapter5.tex
 Κεφάλαιο 5.
 
 Overfull \hbox (10.30527pt too wide) in paragraph at lines 11--12
@@ -3001,8 +3012,6 @@ Overfull \hbox (10.30527pt too wide) in paragraph at lines 11--12
 
 
 
-
-
 ])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3011,17 +3020,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [46]
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 228
+\openout2 = `chapters/Chapter6.aux'.
+
+
+No file chapters/Chapter6.tex.
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 231
 .
- (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
+(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [47
+
+
 
 
 ]
 
 Package biblatex Warning: No driver for entry type 'paper'.
-(biblatex)                Using fallback driver on input line 228.
+(biblatex)                Using fallback driver on input line 231.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3030,7 +3045,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [48]
-Package biblatex Info: Reference section=0 on input line 229.
+Package biblatex Info: Reference section=0 on input line 232.
 
 No file main.gls.
 
@@ -3045,8 +3060,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 \blx@maxsegment@2=\count432
 \blx@sectionciteorder@2=\count433
-Package biblatex Info: Reference section=2 on input line 233.
-Package biblatex Info: Setting label 'refsection:2' on input line 233.
+Package biblatex Info: Reference section=2 on input line 236.
+Package biblatex Info: Setting label 'refsection:2' on input line 236.
 \openout2 = `chapters/AP_Svm.aux'.
 
  (./chapters/AP_Svm.tex
@@ -3302,7 +3317,7 @@ est statistic που εισήγαγαν οι [],
 
 
 ])
-Overfull \hbox (24.91974pt too wide) in paragraph at lines 36--239
+Overfull \hbox (24.91974pt too wide) in paragraph at lines 36--242
 [] []\EU1/LinuxLibertineO(0)/b/n/10.95 Cochran-Mantel-Haenszel[] \EU1/LinuxLibe
 rtineO(0)/m/n/10.95 Συνδιαμορφώθηκε από τους [], []
  []
@@ -3422,8 +3437,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ]
-Package biblatex Info: Reference section=0 on input line 245.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
+Package biblatex Info: Reference section=0 on input line 248.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3432,7 +3447,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [75]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
  (./main.aux (./chapters/Intro.aux) (./chapters/Chapter1.aux)
 (./chapters/Chapter2.aux) (./chapters/Chapter3.aux) (./chapters/Chapter4.aux)
 (./chapters/Chapter5.aux) (./chapters/Chapter6.aux) (./chapters/AP_Svm.aux)
@@ -3440,8 +3455,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
 (./chapters/AP_Regularization.aux) (./chapters/AP_Tests.aux)
 (./chapters/AP_Algorithms.aux) (./chapters/AP_Intervals.aux)
 (./chapters/AP_Datasets.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 248.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 248.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 251.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 251.
 
 
 LaTeX Warning: There were undefined references.
@@ -3454,12 +3469,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54048 strings out of 493918
- 1104568 string characters out of 6150562
- 2193775 words of memory out of 5000000
- 56353 multiletter control sequences out of 15000+600000
+ 54084 strings out of 493918
+ 1105180 string characters out of 6150562
+ 2195764 words of memory out of 5000000
+ 56389 multiletter control sequences out of 15000+600000
  23295 words of font info for 95 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,18n,101p,10426b,2234s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,18n,103p,10426b,2323s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (76 pages).
+Output written on main.pdf (77 pages).
