@@ -4,71 +4,77 @@
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Ορολογία μηχανική μάθησης}}{13}{figure.caption.14}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Ορολογία μηχανική μάθησης}}{12}{figure.caption.14}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Συστατικά Μηχανική Μάθησης}}{14}{figure.caption.15}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Συστατικά Μηχανική Μάθησης}}{13}{figure.caption.15}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Η διαδικασία της μηχανικής μάθησης, βασισμένη στην περιγραφή των \citet {Kotsiantis:2007:SML:1566770.1566773}.\relax }}{15}{figure.2.3}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Η διαδικασία της μηχανικής μάθησης}}{14}{figure.2.3}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Διάγραμμα Quantile-Quantile}}{18}{figure.caption.23}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Διάγραμμα Quantile-Quantile}}{17}{figure.caption.23}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Επιλογή $\lambda $ Box-Cox μετασχηματισμού}}{18}{figure.caption.23}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Επιλογή $\lambda $ Box-Cox μετασχηματισμού}}{17}{figure.caption.23}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Μέθοδος wrapper για επιλογή χαρακτηριστικών: σε κάθε επανάληψη γίνεται επιλογή ενός υποσυνόλου χαρακτηριστικών, το μοντέλο εκπαιδεύεται και η απόδοσή του χρησιμοποιείται για την επιλογή του επόμενου υποσυνόλου.\relax }}{19}{figure.caption.25}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Μέθοδος wrapper για επιλογή χαρακτηριστικών}}{18}{figure.caption.25}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Μέθοδος φιλτραρίσματος για την επιλογή χαρακτηριστικών: γίνεται επιλογή ενός υποσυνόλου με βάση κάποιες ιδιότητες των χαρακτηριστικών, όπως η συσχέτισή τους στην Ανάλυση Κυρίαρχων Συνιστωσών.\relax }}{19}{figure.caption.25}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Μέθοδος φιλτραρίσματος για την επιλογή χαρακτηριστικών}}{18}{figure.caption.25}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Καμπύλη ROC: η γραμμή αντιστοιχεί σε τυχαίο ταξινομητή, αποτελεί δηλαδή το σημείο αναφοράς του διαγράμματος. Όσο πιο πάνω και δεξιά βρίσκεται η καμπύλη του τόσο καλύτερη η απόδοσή του, με το σημείο $(0,1)$ να αντιστοιχεί σε τέλειο ταξινομητή.\relax }}{23}{figure.2.8}
-\defcounter {refsection}{1}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Το σύστημα Automated Data Scientist ως μαύρο κουτί: Δέχεται ως είσοδο ένα σετ δεδομένων δυαδικής ταξινόμησης και ως έξοδο παράγει το βέλτιστο μοντέλο και γνώση σχετικά με το πείραμα. Ο χρήστης μπορεί να επέμβει στο πείραμα μέσω μιας σαφώς καθορισμένης διεπαφής,.\relax }}{33}{figure.caption.51}
-\defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Διάγραμμα ροής της διαδικασίας εκπαίδευσης του HPP μοντέλου: αρχικά συλλέγονται τα σετ δεδομένων και στη συνέχεια για το καθένα γίνεται εξαγωγή μετα-χαρακτηριστικών και βελτιστοποίηση υπερ-παραμέτρων. Η συνθήκη τερματισμού ελέγχει αν έχει ολοκληρωθεί η διαδικασία για όλα τα σετ δεδομένων. Τέλος, εκπαιδεύεται το μοντέλο, για το οποίο παράγεται επίσης πληροφορία για τα διαστήματα πρόβλεψης.\relax }}{34}{figure.caption.52}
-\defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Διάγραμμα ροής της διαδικασίας σχηματισμού μίας συλλογής μοντέλων με την τεχνική της προς τα εμπρός επιλογής μοντέλων. Η συλλογή αρχικοποιείται με τα Ν καλύτερα μοντέλα και στη συνέχεια εφαρμόζεται bootstrapping, σε κάθε επανάληψη του οποίου επιλέγεται ένα υποσέτ των μοντέλων για αξιολόγηση και προστίθεται το βέλτιστο στη συλλογή. Η συνθήκη τερματισμού αντιστοιχεί στο σχηματισμό ενός ensemble προκαθορισμένου πλήθους μοντέλων ή στην ικανοποίηση κάποιας άλλης ποιοτικής συνθήκης (π.χ. ακρίβεια ensemble).\relax }}{35}{figure.caption.54}
-\defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Το υποσύστημα εκπαίδευσης: Για κάθε σετ δεδομένων δυαδικής ταξινόμησης της Αποθήκης γίνεται εξαγωγή των μετα-χαρακτηριστικών και εύρεση των βέλτιστων υπερ-παραμέτρων με αποτέλεσμα τη δημιουργία ενός σετ-μεταδεδομένων για κάθε υπερ-παράμετρο ενός αλγορίθμου μάθησης. Το πακέτο metaLearner αναλαμβάνει την εκπαίδευση των HPP μοντέλων.\relax }}{37}{figure.caption.60}
-\defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Το υποσύστημα πειράματος: Δεδομένου ενός σετ δεδομένων δυαδικής ταξινόμησης στην είσοδο το υποσύστημα αυτό εφαρμόζει την κατάλληλη προ-επεξεργασία και στη συνέχεια εξάγει τα μετα-χαρακτηριστικά, ώστε το πακέτο optimizer να προβλέψει τις βέλτιστες υπερ-παραμέτρους με τη βοήθεια των HPP μοντέλων. Στη συνέχεια εκπαιδεύεται ένα πλήθος μοντέλων για κάθε αλγόριθμο μάθησης και το πακέτο ensembler αναλαμβάνει το σχηματισμό του τελικού ensemble. Τελευταίο στάδιο αποτελεί η αξιολόγηση του πειράματος. \relax }}{38}{figure.caption.61}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Καμπύλη ROC Δυαδικού Ταξινομητή}}{22}{figure.2.8}
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Διάγραμμα προφίλ απόδοσης για τη σύγκριση του ensemble με το καλύτερο μοντέλο: Παρατηρούμε πως \relax }}{42}{figure.caption.67}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Το σύστημα Automated Data Scientist ως μαύρο κουτί}}{32}{figure.caption.51}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Διάγραμμα εξέλιξης ensemble για το σετ δεδομένων (όνομα): Παρατηρούμε πως σε κάθε επανάληψη η απόδοση του ensemble είτε μειώνεται είτε παραμένει σταθερή. \relax }}{42}{figure.caption.68}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Διάγραμμα ροής της διαδικασίας εκπαίδευσης του HPP μοντέλου}}{33}{figure.caption.52}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια}}{43}{figure.caption.70}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Διάγραμμα ροής της διαδικασίας σχηματισμού μίας συλλογής μοντέλων με την τεχνική της προς τα εμπρός επιλογής μοντέλων}}{34}{figure.caption.54}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια}}{43}{figure.caption.70}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Το υποσύστημα εκπαίδευσης}}{36}{figure.caption.60}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια}}{43}{figure.caption.71}
-\defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια}}{43}{figure.caption.71}
-\defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια}}{44}{figure.caption.72}
-\defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια}}{44}{figure.caption.72}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Το υποσύστημα πειράματος}}{37}{figure.caption.61}
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{2}\relax 
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Διάστηματα πρόβλεψης για την υπερ-παράμετρο sigma του SVM.\relax }}{40}{figure.caption.65}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Διάστηματα πρόβλεψης για την υπερ-παράμετρο cp του rpart.\relax }}{40}{figure.caption.65}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Διάστηματα πρόβλεψης για την υπερ-παράμετρο decay του nnet.\relax }}{40}{figure.caption.65}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Διάστηματα πρόβλεψης για την υπερ-παράμετρο size του nnet.\relax }}{40}{figure.caption.65}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Διάστηματα πρόβλεψης για την υπερ-παράμετρο fL του nb.\relax }}{40}{figure.caption.65}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Καμπύλη ROC για την υπερ-παράμετρο usekernel του nb.\relax }}{40}{figure.caption.65}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Διάστηματα πρόβλεψης για την υπερ-παράμετρο adjust του nb.\relax }}{40}{figure.caption.65}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Διάγραμμα προφίλ απόδοσης για τη σύγκριση του ensemble με το βέλτιστο μοντέλο}}{42}{figure.caption.68}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Διάγραμμα εξέλιξης ensemble για το σετ δεδομένων (όνομα)}}{42}{figure.caption.69}
+\defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{2}\relax 
-\contentsline {figure}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }.1}{\ignorespaces Χώρος ταξινόμησης SVM}}{51}{figure.caption.76}
-\defcounter {refsection}{2}\relax 
-\contentsline {figure}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }.2}{\ignorespaces Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια}}{52}{figure.caption.77}
-\defcounter {refsection}{2}\relax 
+\defcounter {refsection}{1}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{2}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{2}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }.1}{\ignorespaces Χώρος ταξινόμησης SVM}}{52}{figure.caption.76}
+\defcounter {refsection}{2}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }.2}{\ignorespaces Λειτουργία \gls {SVM}}}{53}{figure.caption.77}
+\defcounter {refsection}{2}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{2}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{2}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{2}\relax 
-\contentsline {figure}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }.1}{\ignorespaces Μοντέλο υψηλής πόλωσης}}{65}{figure.caption.92}
+\addvspace {10\p@ }
 \defcounter {refsection}{2}\relax 
-\contentsline {figure}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }.2}{\ignorespaces Μοντέλο υψηλής διακύμανσης}}{65}{figure.caption.93}
+\contentsline {figure}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }.1}{\ignorespaces Μοντέλο υψηλής πόλωσης}}{64}{figure.caption.92}
+\defcounter {refsection}{2}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }.2}{\ignorespaces Μοντέλο υψηλής διακύμανσης}}{64}{figure.caption.93}
 \defcounter {refsection}{2}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{2}\relax 

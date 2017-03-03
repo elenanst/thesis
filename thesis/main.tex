@@ -26,6 +26,7 @@
 \graphicspath{ {images/} }
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage[section]{placeins}
 
 %%% text formatting %%%
 \usepackage [autostyle, english = american]{csquotes}
@@ -67,7 +68,7 @@
 \usepackage[a4paper,width=150mm,top=25mm,bottom=25mm]{geometry}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\fancyhead[RO,LE]{Thesis Title}
+\fancyhead[RO,LE]{}
 
 %%% glossary %%%
 \usepackage{glossaries}
@@ -92,6 +93,20 @@
 	description={Sequential Model-Based Optimization}%
 }
 
+\newglossaryentry{ΤΝΝ}{%
+	name={ΤΝΝ},%
+	description={Τεχνητό Νευρωνικό Δίκτυο}%
+}
+
+\newglossaryentry{HPP}{%
+	name={HPP},%
+	description={Hyperparameter prediction}%
+}
+
+\newglossaryentry{PCA}{%
+	name={PCA},%
+	description={Principal Component Analysis}%
+}
 %%% algorithms %%%
 \usepackage[]{algorithm2e}
 \newenvironment{myalgorithm}[1][htb]
@@ -228,8 +243,10 @@ minimum height=2em]
 \include{chapters/Chapter4}
 \include{chapters/Chapter5}
 \include{chapters/Chapter6}
+\include{chapters/Chapter7}
 \printbibliography[title= Βιβλιογραφία]
 \end{refsection}
+
 \printglossary[style=long]
 
 \begin{appendices}

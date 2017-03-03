@@ -4,19 +4,33 @@
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {2.1}{\ignorespaces Ο Πίνακας Σύγχυσης συνοψίζει τη λειτουργία του δυαδικού ταξινομητή, ο οποίος προβλέψει μεταξύ θετικών και αρνητικών παραδειγμάτων. TP: σωστά θετικά, TN: σωστά αρνητικά, FN: λάθος αρνητικά, FP: λάθος θετικά \relax }}{22}{table.2.1}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Πίνακας Σύγχυσης Δυαδικού Ταξινομητή}}{21}{table.2.1}
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces Λίστα μετα-χαρακτηριστικών, τα οποία χρησιμοποιήθηκαν για την εκπαίδευση των μοντέλων HPP\relax }}{40}{table.caption.63}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Λίστα μετα-χαρακτηριστικών, τα οποία χρησιμοποιήθηκαν για την εκπαίδευση των HPP μοντέλων\relax }}{39}{table.caption.63}
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {4.2}{\ignorespaces Οι αλγόριθμοι που χρησιμοποιεί το σύστημα Automated Data Scientist και οι υπερ-παράμετροί τους, όπως τις ορίζει το πακέτο caret. knn: κ-κοντινότερος γείτονας, rpart: δέντρο ταξινόμησης και παλινδρόμησης (CART), nnet: ΤΝΝ, svmRadial: svm με χρήση γκαουσιανού πυρήνα, nb: Naive Bayes.\relax }}{40}{table.caption.64}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Οι αλγόριθμοι που χρησιμοποιεί το σύστημα Automated Data Scientist και οι υπερ-παράμετροί του}}{39}{table.caption.64}
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {4.3}{\ignorespaces \relax }}{41}{table.4.3}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Επιλογή αλγορίθμου για την υπερ-παράμετρο C του SVM\relax }}{40}{figure.caption.65}
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {4.4}{\ignorespaces \relax }}{41}{table.4.4}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Επιλογή αλγορίθμου για την υπερ-παράμετρο cp του rpart\relax }}{40}{figure.caption.65}
+\defcounter {refsection}{1}\relax 
+\contentsline {table}{\numberline {4.5}{\ignorespaces Επιλογή αλγορίθμου για την υπερ-παράμετρο decay του nnet\relax }}{40}{figure.caption.65}
+\defcounter {refsection}{1}\relax 
+\contentsline {table}{\numberline {4.6}{\ignorespaces Επιλογή αλγορίθμου για την υπερ-παράμετρο size του nnet\relax }}{40}{figure.caption.65}
+\defcounter {refsection}{1}\relax 
+\contentsline {table}{\numberline {4.7}{\ignorespaces Επιλογή αλγορίθμου για την υπερ-παράμετρο fL του nb\relax }}{40}{figure.caption.65}
+\defcounter {refsection}{1}\relax 
+\contentsline {table}{\numberline {4.8}{\ignorespaces Επιλογή αλγορίθμου για την υπερ-παράμετρο usekerne του nb\relax }}{40}{figure.caption.65}
+\defcounter {refsection}{1}\relax 
+\contentsline {table}{\numberline {4.9}{\ignorespaces Επιλογή αλγορίθμου για την υπερ-παράμετρο adjust του nb.\relax }}{40}{figure.caption.65}
+\defcounter {refsection}{1}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{1}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{2}\relax 

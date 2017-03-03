@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2016.12.17)  3 MAR 2017 01:30
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013/Debian) (format=xelatex 2016.12.17)  3 MAR 2017 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -910,6 +910,9 @@ Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count147
 \c@subtable=\count148
 )
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
 
@@ -1306,7 +1309,7 @@ tly
 )
 \Hy@SectionHShift=\skip67
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 64.
+Package hyperref Info: Option `colorlinks' set `true' on input line 65.
 
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -1336,7 +1339,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 70.
+less on input line 71.
 
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2014/01/20 v4.03 (NLCT)
@@ -1501,7 +1504,7 @@ Package: glossary-tree 2013/11/14 v4.0 (NLCT)
 \glo@main@file=\write5
 \openout5 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 74.
+Package glossaries Info: Writing glossary file main.glo on input line 75.
 
 (/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Invalid UTF-8 byte or sequence at line 164 replaced by U+FFFD.
@@ -2061,7 +2064,7 @@ Package csquotes Info: ... none found.
 
 
 Package csquotes Warning: No multilingual support.
-(csquotes)                Cannot enable multilingual quotes on input line 222.
+(csquotes)                Cannot enable multilingual quotes on input line 237.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -2077,70 +2080,70 @@ LaTeX Warning: Label `fig: flowHPP' multiply defined.
 
 LaTeX Warning: Label `table:meta' multiply defined.
 
-) (./chapters/Chapter5.aux) (./chapters/Chapter6.aux) (./chapters/AP_Svm.aux)
-(./chapters/AP_NBayes.aux) (./chapters/AP_LRegress.aux) (./chapters/AP_Knn.aux)
-(./chapters/AP_Regularization.aux) (./chapters/AP_Tests.aux)
-(./chapters/AP_Algorithms.aux) (./chapters/AP_Intervals.aux)
-(./chapters/AP_Datasets.aux))
+) (./chapters/Chapter5.aux) (./chapters/Chapter6.aux) (./chapters/Chapter7.aux)
+(./chapters/AP_Svm.aux) (./chapters/AP_NBayes.aux) (./chapters/AP_LRegress.aux)
+(./chapters/AP_Knn.aux) (./chapters/AP_Regularization.aux)
+(./chapters/AP_Tests.aux) (./chapters/AP_Algorithms.aux)
+(./chapters/AP_Intervals.aux) (./chapters/AP_Datasets.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 222.
-LaTeX Font Info:    Try loading font information for OML+jkp on input line 222.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 237.
+LaTeX Font Info:    Try loading font information for OML+jkp on input line 237.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 222.
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 222.
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 222.
-LaTeX Font Info:    Try loading font information for OMS+jkp on input line 222.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 237.
+LaTeX Font Info:    Try loading font information for OMS+jkp on input line 237.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 222.
-LaTeX Font Info:    Try loading font information for OMX+jkp on input line 222.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 237.
+LaTeX Font Info:    Try loading font information for OMX+jkp on input line 237.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 222.
-LaTeX Font Info:    Try loading font information for U+jkpexa on input line 222
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 237.
+LaTeX Font Info:    Try loading font information for U+jkpexa on input line 237
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 222.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 222.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 237.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 237.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 222.
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 222.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 222.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 237.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 237.
 
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 222.
-LaTeX Font Info:    ... okay on input line 222.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 222.
-LaTeX Font Info:    ... okay on input line 222.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
@@ -2150,7 +2153,7 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package csquotes Info: Making character " active on input line 222.
+Package csquotes Info: Making character " active on input line 237.
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -2182,20 +2185,6 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 2):
-(biblatex)                Lin04simpleprobabilistic
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                doi:10.1093/jnci/22.4.719
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
 (biblatex)                Wilcoxon45
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -2203,70 +2192,7 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 2):
-(biblatex)                Platt99probabilisticoutputs
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                QJ:QJ49708235130
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                citeulike:4294367
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                Jiang:2008:ECI:1390681.1390698
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                doi:10.1080/03610928008827904
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                Chang:2011:LLS:1961189.1961199
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                10.2307/3001616
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
 (biblatex)                krk
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                CIS-57999
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                doi:10.1093/biomet/75.2.383
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2285,10 +2211,10 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 222.
-Package biblatex Info: Reference segment=0 on input line 222.
+Package biblatex Info: Reference section=0 on input line 237.
+Package biblatex Info: Reference segment=0 on input line 237.
 \AtBeginShipoutBox=\box93
-Package hyperref Info: Link coloring ON on input line 222.
+Package hyperref Info: Link coloring ON on input line 237.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -2297,9 +2223,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count429
 )
-LaTeX Info: Redefining \ref on input line 222.
-LaTeX Info: Redefining \pageref on input line 222.
-LaTeX Info: Redefining \nameref on input line 222.
+LaTeX Info: Redefining \ref on input line 237.
+LaTeX Info: Redefining \pageref on input line 237.
+LaTeX Info: Redefining \nameref on input line 237.
 
 (./main.out) (./main.out)
 \@outlinefile=\write7
@@ -2346,8 +2272,8 @@ enefit from \pgfplotsset{compat=1.9} (current compat level: 1.7).
 
 \blx@maxsegment@1=\count430
 \blx@sectionciteorder@1=\count431
-Package biblatex Info: Reference section=1 on input line 223.
-Package biblatex Info: Setting label 'refsection:1' on input line 223.
+Package biblatex Info: Reference section=1 on input line 238.
+Package biblatex Info: Setting label 'refsection:1' on input line 238.
 \openout2 = `chapters/Intro.aux'.
 
 (./chapters/Intro.tex
@@ -2366,15 +2292,8 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 LaTeX Font Info:    Font shape `EU1/LinuxLibertineO(0)/m/sl' in size <10.95> no
 t available
 (Font)              Font shape `EU1/LinuxLibertineO(0)/m/it' tried instead on i
-nput line 38.
+nput line 43.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -2424,18 +2343,18 @@ LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 11.
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
-LaTeX Info: Redefining \anw@print on input line 177.
-LaTeX Info: Redefining \anw@print on input line 185.
-LaTeX Info: Redefining \anw@print on input line 193.
-LaTeX Info: Redefining \anw@print on input line 201.
+LaTeX Info: Redefining \anw@print on input line 181.
+LaTeX Info: Redefining \anw@print on input line 189.
  [4
 
 ]
-LaTeX Info: Redefining \anw@print on input line 211.
-LaTeX Info: Redefining \anw@print on input line 217.
-LaTeX Info: Redefining \anw@print on input line 235.
-LaTeX Info: Redefining \anw@print on input line 237.
-LaTeX Info: Redefining \anw@print on input line 243.
+LaTeX Info: Redefining \anw@print on input line 197.
+LaTeX Info: Redefining \anw@print on input line 205.
+LaTeX Info: Redefining \anw@print on input line 215.
+LaTeX Info: Redefining \anw@print on input line 221.
+LaTeX Info: Redefining \anw@print on input line 239.
+LaTeX Info: Redefining \anw@print on input line 241.
+LaTeX Info: Redefining \anw@print on input line 247.
 )
 \tf@toc=\write8
 \openout8 = `main.toc'.
@@ -2448,66 +2367,30 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5] (./main.lof
-Overfull \hbox (2.8867pt too wide) in paragraph at lines 11--11
- [][] [][][]\EU1/LinuxLibertineO(0)/m/n/10.95 Η διαδικασία της μηχανικής μάθηση
-ς, βασισμένη στην περιγραφή των Kotsiantis 
- []
-
-
-Overfull \hbox (1.61743pt too wide) in paragraph at lines 17--17
- \EU1/LinuxLibertineO(0)/m/n/10.95 επιλογή ενός υποσυνόλου χαρακτηριστικών, το 
-μοντέλο εκπαιδεύεται και η από- 
- []
-
-
-Overfull \hbox (3.08014pt too wide) in paragraph at lines 31--31
- \EU1/LinuxLibertineO(0)/m/n/10.95 τιστων υπερ-παραμέτρων με αποτέλεσμα τη δημι
-ουργία ενός σετ-μεταδεδομένων 
- []
-
-
-Overfull \hbox (8.36172pt too wide) in paragraph at lines 33--33
- \EU1/LinuxLibertineO(0)/m/n/10.95 σης στην είσοδο το υποσύστημα αυτό εφαρμόζει
- την κατάλληλη προ-επεξεργασία 
- []
-
-[6
-
-]
-LaTeX Info: Redefining \anw@print on input line 57.
-LaTeX Info: Redefining \anw@print on input line 59.
-LaTeX Info: Redefining \anw@print on input line 69.
-LaTeX Info: Redefining \anw@print on input line 71.
+LaTeX Info: Redefining \anw@print on input line 63.
+LaTeX Info: Redefining \anw@print on input line 65.
+LaTeX Info: Redefining \anw@print on input line 75.
+LaTeX Info: Redefining \anw@print on input line 77.
 )
 \tf@lof=\write9
 \openout9 = `main.lof'.
 
+ [6
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7] (./main.lot
-Overfull \hbox (3.1678pt too wide) in paragraph at lines 7--7
- [][] [][][]\EU1/LinuxLibertineO(0)/m/n/10.95 Ο Πίνακας Σύγχυσης συνοψίζει τη λ
-ειτουργία του δυαδικού ταξινομητή, ο οποίος 
- []
-
-LaTeX Info: Redefining \anw@print on input line 41.
+] (./main.lot
+LaTeX Info: Redefining \anw@print on input line 55.
 )
 \tf@lot=\write10
 \openout10 = `main.lot'.
 
-) [8
+) [7
 
 ]
 \openout2 = `chapters/Chapter1.aux'.
 
  (./chapters/Chapter1.tex
 Κεφάλαιο 1.
-[9
+[8
 
 
 
@@ -2520,19 +2403,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10])
+[9])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11]
+[10]
 \openout2 = `chapters/Chapter2.aux'.
 
  (./chapters/Chapter2.tex
 Κεφάλαιο 2.
-[12
+[11
 
 
 
@@ -2545,14 +2428,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13]
+[12]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14]
+[13]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 120.
@@ -2612,7 +2495,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+[14]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [15]
+PGFPlots: reading {data/qq.dat}
+LaTeX Info: Redefining \anw@print on input line 231.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -2620,9 +2513,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16]
-PGFPlots: reading {data/qq.dat}
-LaTeX Info: Redefining \anw@print on input line 231.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -2644,13 +2534,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[20]
 Missing character: There is no Ν in font jkpmi!
 
 
@@ -2659,7 +2542,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21]
+[20]
 Overfull \hbox (18.14812pt too wide) in paragraph at lines 351--351
  []\EU1/LinuxLibertineO(0)/b/n/10.95 Πραγματική 
  []
@@ -2685,7 +2568,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22] (./tikz/ROC.tex)
+[21] (./tikz/ROC.tex)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 380.
@@ -2697,7 +2580,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23]
+[22]
 LaTeX Info: Redefining \anw@print on input line 405.
 
 
@@ -2706,10 +2589,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24]
+[23]
 Missing character: There is no Μ in font jkpmi!
 Missing character: There is no Α in font jkpmi!
 
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -2724,13 +2614,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [26]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[27]
 LaTeX Info: Redefining \anw@print on input line 519.
 
 Overfull \hbox (0.85626pt too wide) in paragraph at lines 521--522
@@ -2744,14 +2627,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28]
+[27]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29]
+[28]
 Overfull \hbox (3.3046pt too wide) in paragraph at lines 565--566
 \EU1/LinuxLibertineO(0)/m/n/10.95 πληθώρας εργαλείων που επιχειρούν να την αυτο
 ματοποιήσουν. Βιβλιοθήκες σε διάφορες γλώσ-
@@ -2763,14 +2646,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30])
+[29])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31]
+[30]
 \openout2 = `chapters/Chapter3.aux'.
 
  (./chapters/Chapter3.tex
@@ -2784,11 +2667,18 @@ Overfull \hbox (2.90869pt too wide) in paragraph at lines 7--8
 Missing character: There is no ( in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no ) in font nullfont!
-[32
+[31
 
 
 
 ]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]
 LaTeX Info: Redefining \anw@print on input line 76.
 
 
@@ -2798,18 +2688,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [33]
-Overfull \hbox (13.3156pt too wide) in paragraph at lines 102--103
+Overfull \hbox (13.3156pt too wide) in paragraph at lines 103--104
 [][] 
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[34]
-Overfull \hbox (0.27605pt too wide) in paragraph at lines 110--111
+Overfull \hbox (0.27605pt too wide) in paragraph at lines 111--112
 []\EU1/LinuxLibertineO(0)/m/n/10.95 αρχικοποίηση συλλογής με τα καλύτερα μοντέλ
 α. Έτσι, αποφεύγεται η υπερ-προσαρμογή
  []
@@ -2820,7 +2704,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35]
+[34]
 Overfull \hbox (22.19006pt too wide) in paragraph at lines 148--149
 []\EU1/LinuxLibertineO(0)/m/n/10.95 όπου $\OML/jkp/m/it/10.95 Q[]$ \EU1/LinuxLi
 bertineO(0)/m/n/10.95 και $\OML/jkp/m/it/10.95 Q[]$ \EU1/LinuxLibertineO(0)/m/n
@@ -2834,7 +2718,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36]
+[35]
 Overfull \hbox (2.87582pt too wide) in paragraph at lines 155--156
 \EU1/LinuxLibertineO(0)/m/n/10.95 ensemble μοντέλων για το σετ δεδομένων εισόδο
 υ παρέχοντας τεχνικές προ-επεξεργασίας,
@@ -2846,6 +2730,12 @@ Overfull \hbox (3.55075pt too wide) in paragraph at lines 180--181
  []
 
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36]
 Overfull \hbox (0.63673pt too wide) in paragraph at lines 206--206
  [][][][]\EU1/LinuxLibertineO(0)/m/n/10.95 preprocessor 
  []
@@ -2856,15 +2746,9 @@ Overfull \hbox (21.46323pt too wide) in paragraph at lines 222--223
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[37]
-Overfull \hbox (20.52356pt too wide) in paragraph at lines 230--231
-[]\EU1/LinuxLibertineO(0)/m/n/10.95 optimizer Στην προκειμένη το πακέτο αυτό αν
-αλαμβάνει την πρόβλεψη των υπερ-παραμέτρων
+Overfull \hbox (22.29196pt too wide) in paragraph at lines 230--231
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 optimizer. Στην προκειμένη το πακέτο αυτό α
+ναλαμβάνει την πρόβλεψη των υπερ-παραμέτρων
  []
 
 
@@ -2873,12 +2757,6 @@ Overfull \hbox (24.65247pt too wide) in paragraph at lines 231--232
  σε ένα μοντέλο με μοναδικό συνδυασμό υπερ-παραμέτρων
  []
 
-
-LaTeX Warning: Reference `' on page 38 undefined on input line 233.
-
-
-LaTeX Warning: Reference `' on page 38 undefined on input line 233.
-
 )
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2886,30 +2764,117 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38]
+[37]
 \openout2 = `chapters/Chapter4.aux'.
 
  (./chapters/Chapter4.tex
 Κεφάλαιο 4.
 LaTeX Info: Redefining \anw@print on input line 10.
-[39
+[38
 
 
 
 ]
 
-Package caption Warning: \label without proper \caption on input line 59.
+Package caption Warning: \label without proper \caption on input line 61.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `table:algorithms' on page 40 undefined on input line 
-44.
+LaTeX Warning: Reference `table:algorithms' on page 39 undefined on input line 
+45.
 
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 79.
-See the caption package documentation for explanation.
+Underfull \hbox (badness 1337) in paragraph at lines 69--69
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Πίνακας 4.3: |Επιλογή αλγορίθμου για την
+ []
 
+File: images/intervals.png Graphic file (type QTm)
+<use  "images/intervals.png" >
+Underfull \hbox (badness 1337) in paragraph at lines 91--91
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Πίνακας 4.4: |Επιλογή αλγορίθμου για την
+ []
+
+File: images/intervals.png Graphic file (type QTm)
+<use  "images/intervals.png" >
+Underfull \hbox (badness 1337) in paragraph at lines 113--113
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Πίνακας 4.5: |Επιλογή αλγορίθμου για την
+ []
+
+File: images/intervals.png Graphic file (type QTm)
+<use  "images/intervals.png" >
+Underfull \hbox (badness 1337) in paragraph at lines 135--135
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Πίνακας 4.6: |Επιλογή αλγορίθμου για την
+ []
+
+File: images/intervals.png Graphic file (type QTm)
+<use  "images/intervals.png" >
+Underfull \hbox (badness 1337) in paragraph at lines 157--157
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Πίνακας 4.7: |Επιλογή αλγορίθμου για την
+ []
+
+File: images/intervals.png Graphic file (type QTm)
+<use  "images/intervals.png" >
+Underfull \hbox (badness 1337) in paragraph at lines 179--179
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Πίνακας 4.8: |Επιλογή αλγορίθμου για την
+ []
+
+File: images/intervals.png Graphic file (type QTm)
+<use  "images/intervals.png" >
+Underfull \hbox (badness 3088) in paragraph at lines 196--196
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Σχήμα 4.6: |Καμπύλη ROC για την υπερ-
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 201--201
+[]\EU1/LinuxLibertineO(0)/m/n/10.95 Πίνακας 4.9: |Επιλογή αλγορίθμου για την
+ []
+
+File: images/intervals.png Graphic file (type QTm)
+<use  "images/intervals.png" >
+Overfull \hbox (6.6497pt too wide) in paragraph at lines 66--220
+[]$[]$  $[]$
+ []
+
+
+Overfull \hbox (6.6497pt too wide) in paragraph at lines 66--220
+[]$  $[]$
+ []
+
+
+Overfull \hbox (6.6497pt too wide) in paragraph at lines 66--220
+[]$  $[]$
+ []
+
+
+Overfull \hbox (6.6497pt too wide) in paragraph at lines 66--220
+[]$  $[]$
+ []
+
+
+Overfull \hbox (6.6497pt too wide) in paragraph at lines 66--220
+[]$  $[]$
+ []
+
+
+Overfull \hbox (6.6497pt too wide) in paragraph at lines 66--220
+[]$  $[]$
+ []
+
+
+Overfull \hbox (6.6497pt too wide) in paragraph at lines 66--220
+[]$  $[]$ 
+ []
+
+
+LaTeX Warning: Float too large for page by 397.76846pt on input line 220.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 24.91798pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 24.91798pt.
@@ -2918,62 +2883,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [40]
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 99.
-See the caption package documentation for explanation.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 24.90704pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41]
-Overfull \hbox (23.62418pt too wide) in paragraph at lines 153--154
+[41
+
+]
+Overfull \hbox (19.92308pt too wide) in paragraph at lines 273--274
 []\EU1/LinuxLibertineO(0)/m/n/10.95 πλεγματική αναζήτηση. Πρόκειται για τη συνη
-θέστερη τεχνική αναζήτησης υπερ-παραμέτρων
+θέστερη τεχνική αναζήτησης υπερπαραμέτρων
  []
 
 
-LaTeX Warning: Reference `' on page 42 undefined on input line 154.
-
-PGFPlots: reading {data/qq.dat}
-
-Underfull \hbox (badness 4531) in paragraph at lines 180--180
-[]\EU1/LinuxLibertineO(0)/m/n/10.95 Σχήμα 4.3: |Οι άξονες του διαγράμμα-
- []
-
-
-Underfull \hbox (badness 4531) in paragraph at lines 198--198
-[]\EU1/LinuxLibertineO(0)/m/n/10.95 Σχήμα 4.4: |Οι άξονες του διαγράμμα-
- []
-
-
-Overfull \hbox (4.99086pt too wide) in paragraph at lines 157--202
+Overfull \hbox (4.99086pt too wide) in paragraph at lines 277--278
 \EU1/LinuxLibertineO(0)/m/n/10.95 ensemble μοντέλα μόνο ενός αλγορίθμου μάθησης
 . Οι υποπεριπτώσεις αυτές λαμβάνονται υπόψη
- []
-
-PGFPlots: reading {data/qq.dat}
-
-Underfull \hbox (badness 4531) in paragraph at lines 225--225
-[]\EU1/LinuxLibertineO(0)/m/n/10.95 Σχήμα 4.5: |Οι άξονες του διαγράμμα-
- []
-
-
-Underfull \hbox (badness 4531) in paragraph at lines 243--243
-[]\EU1/LinuxLibertineO(0)/m/n/10.95 Σχήμα 4.6: |Οι άξονες του διαγράμμα-
- []
-
-PGFPlots: reading {data/qq.dat}
-
-Underfull \hbox (badness 4531) in paragraph at lines 270--270
-[]\EU1/LinuxLibertineO(0)/m/n/10.95 Σχήμα 4.7: |Οι άξονες του διαγράμμα-
- []
-
-
-Underfull \hbox (badness 4531) in paragraph at lines 288--288
-[]\EU1/LinuxLibertineO(0)/m/n/10.95 Σχήμα 4.8: |Οι άξονες του διαγράμμα-
  []
 
 )
@@ -2984,20 +2910,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [42]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[43]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[44]
 \openout2 = `chapters/Chapter5.aux'.
 
  (./chapters/Chapter5.tex
@@ -3008,7 +2920,7 @@ Overfull \hbox (10.30527pt too wide) in paragraph at lines 11--12
 πυρήνα. Χρησιμοποιώντας μετα-χαρακτηριστικά
  []
 
-[45
+[43
 
 
 
@@ -3019,24 +2931,36 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46]
+[44]
 \openout2 = `chapters/Chapter6.aux'.
 
+ (./chapters/Chapter6.tex
+Κεφάλαιο 6.
+) [45
 
-No file chapters/Chapter6.tex.
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 231
+
+
+]
+\openout2 = `chapters/Chapter7.aux'.
+
+ (./chapters/Chapter7.tex
+Κεφάλαιο 7.
+) [46
+
+
+
+]
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 247
 .
-(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [47
-
-
 
 
 ]
 
 Package biblatex Warning: No driver for entry type 'paper'.
-(biblatex)                Using fallback driver on input line 231.
+(biblatex)                Using fallback driver on input line 247.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3045,82 +2969,62 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [48]
-Package biblatex Info: Reference section=0 on input line 232.
-
-No file main.gls.
+Package biblatex Info: Reference section=0 on input line 248.
+ (./main.gls
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49] [50
+[49]
+Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
+) [50
+
+
+] [51
 
 
 ]
 \blx@maxsegment@2=\count432
 \blx@sectionciteorder@2=\count433
-Package biblatex Info: Reference section=2 on input line 236.
-Package biblatex Info: Setting label 'refsection:2' on input line 236.
+Package biblatex Info: Reference section=2 on input line 253.
+Package biblatex Info: Setting label 'refsection:2' on input line 253.
 \openout2 = `chapters/AP_Svm.aux'.
 
  (./chapters/AP_Svm.tex
 Παράρτημα \MakeUppercase {α\anw@true \anw@print \relax }.
 LaTeX Info: Redefining \anw@print on input line 1.
-LaTeX Info: Redefining \anw@print on input line 4.
+LaTeX Info: Redefining \anw@print on input line 5.
 PGFPlots: reading {data/svm_space.dat}
 PGFPlots: reading {data/svm_space.dat}
 PGFPlots: reading {data/svm_space.dat}
-LaTeX Info: Redefining \anw@print on input line 74.
-LaTeX Info: Redefining \anw@print on input line 74.
-LaTeX Info: Redefining \anw@print on input line 74.
-LaTeX Info: Redefining \anw@print on input line 74.
+LaTeX Info: Redefining \anw@print on input line 75.
+LaTeX Info: Redefining \anw@print on input line 75.
+LaTeX Info: Redefining \anw@print on input line 75.
+LaTeX Info: Redefining \anw@print on input line 75.
 PGFPlots: reading {data/svm_support.dat}
-LaTeX Info: Redefining \anw@print on input line 107.
-LaTeX Info: Redefining \anw@print on input line 107.
-LaTeX Info: Redefining \anw@print on input line 107.
-LaTeX Info: Redefining \anw@print on input line 107.
-[51
+LaTeX Info: Redefining \anw@print on input line 106.
+LaTeX Info: Redefining \anw@print on input line 106.
+LaTeX Info: Redefining \anw@print on input line 106.
+LaTeX Info: Redefining \anw@print on input line 106.
+[52
 
 
 ]
-LaTeX Info: Redefining \anw@print on input line 125.
-LaTeX Info: Redefining \anw@print on input line 134.
-LaTeX Info: Redefining \anw@print on input line 134.
-LaTeX Info: Redefining \anw@print on input line 134.
-LaTeX Info: Redefining \anw@print on input line 134.
-LaTeX Info: Redefining \anw@print on input line 139.
-LaTeX Info: Redefining \anw@print on input line 139.
-LaTeX Info: Redefining \anw@print on input line 139.
-LaTeX Info: Redefining \anw@print on input line 139.
-LaTeX Info: Redefining \anw@print on input line 146.
-LaTeX Info: Redefining \anw@print on input line 146.
+LaTeX Info: Redefining \anw@print on input line 124.
+LaTeX Info: Redefining \anw@print on input line 133.
+LaTeX Info: Redefining \anw@print on input line 133.
+LaTeX Info: Redefining \anw@print on input line 133.
+LaTeX Info: Redefining \anw@print on input line 133.
+LaTeX Info: Redefining \anw@print on input line 138.
+LaTeX Info: Redefining \anw@print on input line 138.
+LaTeX Info: Redefining \anw@print on input line 138.
+LaTeX Info: Redefining \anw@print on input line 138.
+LaTeX Info: Redefining \anw@print on input line 145.
+LaTeX Info: Redefining \anw@print on input line 145.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 139--147
-[] 
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[52]
-LaTeX Info: Redefining \anw@print on input line 151.
-LaTeX Info: Redefining \anw@print on input line 151.
-LaTeX Info: Redefining \anw@print on input line 158.
-LaTeX Info: Redefining \anw@print on input line 158.
-LaTeX Info: Redefining \anw@print on input line 158.
-LaTeX Info: Redefining \anw@print on input line 158.
-LaTeX Info: Redefining \anw@print on input line 165.
-LaTeX Info: Redefining \anw@print on input line 165.
-LaTeX Info: Redefining \anw@print on input line 165.
-LaTeX Info: Redefining \anw@print on input line 165.
-LaTeX Info: Redefining \anw@print on input line 165.
-LaTeX Info: Redefining \anw@print on input line 165.
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 165--173
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 138--146
 [] 
  []
 
@@ -3131,13 +3035,24 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [53]
-LaTeX Info: Redefining \anw@print on input line 193.
-LaTeX Info: Redefining \anw@print on input line 199.
-LaTeX Info: Redefining \anw@print on input line 203.
-LaTeX Info: Redefining \anw@print on input line 212.
-LaTeX Info: Redefining \anw@print on input line 218.
-LaTeX Info: Redefining \anw@print on input line 223.
+LaTeX Info: Redefining \anw@print on input line 150.
+LaTeX Info: Redefining \anw@print on input line 150.
+LaTeX Info: Redefining \anw@print on input line 157.
+LaTeX Info: Redefining \anw@print on input line 157.
+LaTeX Info: Redefining \anw@print on input line 157.
+LaTeX Info: Redefining \anw@print on input line 157.
+LaTeX Info: Redefining \anw@print on input line 164.
+LaTeX Info: Redefining \anw@print on input line 164.
+LaTeX Info: Redefining \anw@print on input line 164.
+LaTeX Info: Redefining \anw@print on input line 164.
+LaTeX Info: Redefining \anw@print on input line 164.
+LaTeX Info: Redefining \anw@print on input line 164.
 
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 164--172
+[] 
+ []
+
+LaTeX Info: Redefining \anw@print on input line 181.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -3145,14 +3060,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [54]
-LaTeX Info: Redefining \anw@print on input line 234.
-LaTeX Info: Redefining \anw@print on input line 240.
-LaTeX Info: Redefining \anw@print on input line 240.
-LaTeX Info: Redefining \anw@print on input line 240.
-LaTeX Info: Redefining \anw@print on input line 240.
-LaTeX Info: Redefining \anw@print on input line 240.
-LaTeX Info: Redefining \anw@print on input line 240.
-)
+LaTeX Info: Redefining \anw@print on input line 192.
+LaTeX Info: Redefining \anw@print on input line 198.
+LaTeX Info: Redefining \anw@print on input line 202.
+LaTeX Info: Redefining \anw@print on input line 211.
+LaTeX Info: Redefining \anw@print on input line 217.
+LaTeX Info: Redefining \anw@print on input line 222.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -3160,6 +3074,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [55]
+LaTeX Info: Redefining \anw@print on input line 233.
+LaTeX Info: Redefining \anw@print on input line 239.
+LaTeX Info: Redefining \anw@print on input line 239.
+LaTeX Info: Redefining \anw@print on input line 239.
+LaTeX Info: Redefining \anw@print on input line 239.
+LaTeX Info: Redefining \anw@print on input line 239.
+LaTeX Info: Redefining \anw@print on input line 239.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[56]
 \openout2 = `chapters/AP_NBayes.aux'.
 
  (./chapters/AP_NBayes.tex
@@ -3172,7 +3101,7 @@ Missing character: There is no ’ in font jkpmn7t!
 Missing character: There is no ’ in font jkpmn7t!
 LaTeX Info: Redefining \anw@print on input line 19.
 LaTeX Info: Redefining \anw@print on input line 24.
-[56
+[57
 
 
 
@@ -3183,7 +3112,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[57]
+[58]
 \openout2 = `chapters/AP_LRegress.aux'.
 
  (./chapters/AP_LRegress.tex
@@ -3196,7 +3125,7 @@ LaTeX Info: Redefining \anw@print on input line 31.
 LaTeX Info: Redefining \anw@print on input line 36.
 LaTeX Info: Redefining \anw@print on input line 40.
 LaTeX Info: Redefining \anw@print on input line 45.
-[58
+[59
 
 
 
@@ -3207,7 +3136,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[59]
+[60]
 \openout2 = `chapters/AP_Knn.aux'.
 
  (./chapters/AP_Knn.tex
@@ -3221,7 +3150,7 @@ LaTeX Info: Redefining \anw@print on input line 12.
 LaTeX Info: Redefining \anw@print on input line 17.
 Missing character: There is no Ξ in font jkpmi!
 LaTeX Info: Redefining \anw@print on input line 27.
-[60
+[61
 
 
 
@@ -3252,7 +3181,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[61]
+[62]
 LaTeX Info: Redefining \anw@print on input line 92.
 )
 
@@ -3261,33 +3190,31 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62]
+[63]
 \openout2 = `chapters/AP_Regularization.aux'.
 
  (./chapters/AP_Regularization.tex
 Παράρτημα \MakeUppercase {ε\anw@true \anw@print \relax }.
 LaTeX Info: Redefining \anw@print on input line 1.
-LaTeX Info: Redefining \anw@print on input line 8.
-LaTeX Info: Redefining \anw@print on input line 8.
-LaTeX Info: Redefining \anw@print on input line 8.
-LaTeX Info: Redefining \anw@print on input line 8.
-LaTeX Info: Redefining \anw@print on input line 14.
-LaTeX Info: Redefining \anw@print on input line 14.
-LaTeX Info: Redefining \anw@print on input line 14.
-LaTeX Info: Redefining \anw@print on input line 14.
-LaTeX Info: Redefining \anw@print on input line 23.
-[63
+File: images/bias.png Graphic file (type QTm)
+<use  "images/bias.png" >
+LaTeX Info: Redefining \anw@print on input line 9.
+LaTeX Info: Redefining \anw@print on input line 9.
+LaTeX Info: Redefining \anw@print on input line 9.
+LaTeX Info: Redefining \anw@print on input line 9.
+File: images/variance.png Graphic file (type QTm)
+ <use  "images/variance.png" >
+LaTeX Info: Redefining \anw@print on input line 17.
+LaTeX Info: Redefining \anw@print on input line 17.
+LaTeX Info: Redefining \anw@print on input line 17.
+LaTeX Info: Redefining \anw@print on input line 17.
+ [64
 
 
 
-])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[64]
+]
+LaTeX Info: Redefining \anw@print on input line 27.
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -3307,9 +3234,9 @@ Overfull \hbox (11.49156pt too wide) in paragraph at lines 22--23
  []
 
 
-Overfull \hbox (62.89996pt too wide) in paragraph at lines 24--25
+Overfull \hbox (4.6168pt too wide) in paragraph at lines 24--25
 []\EU1/LinuxLibertineO(0)/m/n/10.95 Σημαντική προσθήκη αποτελεί η εναλλακτική t
-est statistic που εισήγαγαν οι [],
+est statistic που εισήγαγαν οι Iman []and []Davenport
  []
 
 [66
@@ -3317,9 +3244,10 @@ est statistic που εισήγαγαν οι [],
 
 
 ])
-Overfull \hbox (24.91974pt too wide) in paragraph at lines 36--242
+Overfull \hbox (1.49138pt too wide) in paragraph at lines 36--259
 [] []\EU1/LinuxLibertineO(0)/b/n/10.95 Cochran-Mantel-Haenszel[] \EU1/LinuxLibe
-rtineO(0)/m/n/10.95 Συνδιαμορφώθηκε από τους [], []
+rtineO(0)/m/n/10.95 Συνδιαμορφώθηκε από τους Cochran [[][]11[][]] []and []Mante
+l []and []Haenszel
  []
 
 
@@ -3354,12 +3282,12 @@ LaTeX Info: Redefining \anw@print on input line 31.
 
 
 ]
-LaTeX Info: Redefining \anw@print on input line 43.
-LaTeX Info: Redefining \anw@print on input line 51.
-LaTeX Info: Redefining \anw@print on input line 55.
+LaTeX Info: Redefining \anw@print on input line 42.
+LaTeX Info: Redefining \anw@print on input line 50.
+LaTeX Info: Redefining \anw@print on input line 54.
+LaTeX Info: Redefining \anw@print on input line 60.
 LaTeX Info: Redefining \anw@print on input line 61.
-LaTeX Info: Redefining \anw@print on input line 62.
-LaTeX Info: Redefining \anw@print on input line 65.
+LaTeX Info: Redefining \anw@print on input line 64.
 )
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3437,9 +3365,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ]
-Package biblatex Info: Reference section=0 on input line 248.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -3447,16 +3372,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [75]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
+Package biblatex Info: Reference section=0 on input line 265.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 268.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[76]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 268.
  (./main.aux (./chapters/Intro.aux) (./chapters/Chapter1.aux)
 (./chapters/Chapter2.aux) (./chapters/Chapter3.aux) (./chapters/Chapter4.aux)
-(./chapters/Chapter5.aux) (./chapters/Chapter6.aux) (./chapters/AP_Svm.aux)
-(./chapters/AP_NBayes.aux) (./chapters/AP_LRegress.aux) (./chapters/AP_Knn.aux)
-(./chapters/AP_Regularization.aux) (./chapters/AP_Tests.aux)
-(./chapters/AP_Algorithms.aux) (./chapters/AP_Intervals.aux)
-(./chapters/AP_Datasets.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 251.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 251.
+(./chapters/Chapter5.aux) (./chapters/Chapter6.aux) (./chapters/Chapter7.aux)
+(./chapters/AP_Svm.aux) (./chapters/AP_NBayes.aux) (./chapters/AP_LRegress.aux)
+(./chapters/AP_Knn.aux) (./chapters/AP_Regularization.aux)
+(./chapters/AP_Tests.aux) (./chapters/AP_Algorithms.aux)
+(./chapters/AP_Intervals.aux) (./chapters/AP_Datasets.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 268.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 268.
 
 
 LaTeX Warning: There were undefined references.
@@ -3469,12 +3404,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54084 strings out of 493918
- 1105180 string characters out of 6150562
- 2195764 words of memory out of 5000000
- 56389 multiletter control sequences out of 15000+600000
+ 54186 strings out of 493918
+ 1106946 string characters out of 6150562
+ 1841374 words of memory out of 5000000
+ 56473 multiletter control sequences out of 15000+600000
  23295 words of font info for 95 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 63i,18n,103p,10426b,2323s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,18n,103p,10426b,2197s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on main.pdf (77 pages).

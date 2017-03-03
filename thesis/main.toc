@@ -6,213 +6,217 @@
 \contentsline {paragraph}{Ευχαριστίες}{3}{paragraph*.3}
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {1}\scshape {Εισαγωγή}}{9}{chapter.1}
+\contentsline {chapter}{\numberline {1}\scshape {Εισαγωγή}}{8}{chapter.1}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {1.1}Γενικά}{9}{section.1.1}
+\contentsline {section}{\numberline {1.1}Γενικά}{8}{section.1.1}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {1.2}Μεθοδολογία και στόχοι}{10}{section.1.2}
+\contentsline {section}{\numberline {1.2}Μεθοδολογία και στόχοι}{9}{section.1.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {1.3}Διάρθρωση Κειμένου}{11}{section.1.3}
+\contentsline {section}{\numberline {1.3}Διάρθρωση Κειμένου}{10}{section.1.3}
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {2}Θεωρητικό Υπόβαθρο}{12}{chapter.2}
+\contentsline {chapter}{\numberline {2}Θεωρητικό Υπόβαθρο}{11}{chapter.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2.1}Μηχανική Μάθηση}{12}{section.2.1}
+\contentsline {section}{\numberline {2.1}Μηχανική Μάθηση}{11}{section.2.1}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Η έννοια της μηχανικής μάθησης}{12}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.1}Η έννοια της μηχανικής μάθησης}{11}{subsection.2.1.1}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Επιβλεπόμενη Μάθηση}{12}{paragraph*.7}
+\contentsline {paragraph}{Επιβλεπόμενη Μάθηση}{11}{paragraph*.7}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Μη Επιβλεπόμενη Μάθηση}{12}{paragraph*.8}
+\contentsline {paragraph}{Μη Επιβλεπόμενη Μάθηση}{11}{paragraph*.8}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Ενισχυτική Μάθηση}{12}{paragraph*.9}
+\contentsline {paragraph}{Ενισχυτική Μάθηση}{11}{paragraph*.9}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Προβλήματα παλινδρόμησης}{13}{paragraph*.10}
+\contentsline {paragraph}{Προβλήματα παλινδρόμησης}{12}{paragraph*.10}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Προβλήματα ταξινόμησης}{13}{paragraph*.11}
+\contentsline {paragraph}{Προβλήματα ταξινόμησης}{12}{paragraph*.11}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Προβλήματα ομαδοποίησης}{13}{paragraph*.12}
+\contentsline {paragraph}{Προβλήματα ομαδοποίησης}{12}{paragraph*.12}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{Ορολογία}{13}{subsubsection*.13}
+\contentsline {subsubsection}{Ορολογία}{12}{subsubsection*.13}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Η διαδικασία της μηχανικής μάθησης}{15}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Η διαδικασία της μηχανικής μάθησης}{14}{subsection.2.1.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Συλλογή και καθαρισμός δεδομένων}{15}{paragraph*.16}
+\contentsline {paragraph}{Συλλογή και καθαρισμός δεδομένων}{14}{paragraph*.16}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Προ-επεξεργασία}{15}{paragraph*.17}
+\contentsline {paragraph}{Προ-επεξεργασία}{14}{paragraph*.17}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Διαχωρισμός σε σετ εκπαίδευσης, αξιολόγησης και ελέγχου}{15}{paragraph*.18}
+\contentsline {paragraph}{Διαχωρισμός σε σετ εκπαίδευσης, αξιολόγησης και ελέγχου}{14}{paragraph*.18}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Εκπαίδευση μοντέλου}{15}{paragraph*.19}
+\contentsline {paragraph}{Εκπαίδευση μοντέλου}{14}{paragraph*.19}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Αξιολόγηση}{15}{paragraph*.20}
+\contentsline {paragraph}{Αξιολόγηση}{14}{paragraph*.20}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2.2}Τεχνικές Μηχανικής Μάθησης}{15}{section.2.2}
+\contentsline {section}{\numberline {2.2}Τεχνικές Μηχανικής Μάθησης}{14}{section.2.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Κατά την προ-επεξεργασία}{16}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Κατά την προ-επεξεργασία}{15}{subsection.2.2.1}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{Ανάλυση κυρίαρχων συνιστωσών}{16}{subsubsection*.21}
+\contentsline {subsubsection}{Ανάλυση κυρίαρχων συνιστωσών}{15}{subsubsection*.21}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{Μετασχηματισμός Box-Cox}{17}{subsubsection*.22}
+\contentsline {subsubsection}{Μετασχηματισμός Box-Cox}{16}{subsubsection*.22}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Κατά την εκπαίδευση}{18}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Κατά την εκπαίδευση}{17}{subsection.2.2.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{Επιλογή χαρακτηριστικών}{18}{subsubsection*.24}
+\contentsline {subsubsection}{Επιλογή χαρακτηριστικών}{17}{subsubsection*.24}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{Συνάθροιση μοντέλων}{19}{subsubsection*.26}
+\contentsline {subsubsection}{Συνάθροιση μοντέλων}{18}{subsubsection*.26}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Bootstrap- aggregating.}{20}{paragraph*.27}
+\contentsline {paragraph}{Bootstrap- aggregating.}{19}{paragraph*.27}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Boosting}{20}{paragraph*.28}
+\contentsline {paragraph}{Boosting}{19}{paragraph*.28}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Stacked generalization}{20}{paragraph*.29}
+\contentsline {paragraph}{Stacked generalization}{19}{paragraph*.29}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Κατά την αξιολόγηση}{20}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Κατά την αξιολόγηση}{19}{subsection.2.2.3}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{Μέθοδοι}{20}{subsubsection*.30}
+\contentsline {subsubsection}{Μέθοδοι}{19}{subsubsection*.30}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Hold out}{20}{paragraph*.31}
+\contentsline {paragraph}{Hold out}{19}{paragraph*.31}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Leave one out}{21}{paragraph*.32}
+\contentsline {paragraph}{Leave one out}{20}{paragraph*.32}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Cross-validation}{21}{paragraph*.33}
+\contentsline {paragraph}{Cross-validation}{20}{paragraph*.33}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{.632 bootstrap}{21}{paragraph*.34}
+\contentsline {paragraph}{.632 bootstrap}{20}{paragraph*.34}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{Μετρικές}{22}{subsubsection*.35}
+\contentsline {subsubsection}{Μετρικές}{21}{subsubsection*.35}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Πίνακας Σύγχυσης}{22}{paragraph*.36}
+\contentsline {paragraph}{Πίνακας Σύγχυσης}{21}{paragraph*.36}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Καμπύλη ROC}{22}{paragraph*.37}
+\contentsline {paragraph}{Καμπύλη ROC}{21}{paragraph*.37}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{Στατιστικά τεστ υπόθεσης}{23}{subsubsection*.38}
+\contentsline {subsubsection}{Στατιστικά τεστ υπόθεσης}{22}{subsubsection*.38}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2.3}Αυτοματοποιημένη Μηχανική Μάθηση}{24}{section.2.3}
+\contentsline {section}{\numberline {2.3}Αυτοματοποιημένη Μηχανική Μάθηση}{23}{section.2.3}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Ιστορική Αναδρομή}{25}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Ιστορική Αναδρομή}{24}{subsection.2.3.1}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Βελτιστοποίηση Υπερ-παραμέτρων}{25}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Βελτιστοποίηση Υπερ-παραμέτρων}{24}{subsection.2.3.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{Bayesian Βελτιστοποίηση}{26}{subsubsection*.39}
+\contentsline {subsubsection}{Bayesian Βελτιστοποίηση}{25}{subsubsection*.39}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Βελτιστοποίηση blackbox συναρτήσεων}{26}{paragraph*.40}
+\contentsline {paragraph}{Βελτιστοποίηση blackbox συναρτήσεων}{25}{paragraph*.40}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Θεώρημα Bayes}{26}{paragraph*.41}
+\contentsline {paragraph}{Θεώρημα Bayes}{25}{paragraph*.41}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Η Γκαουσιανή διαδικασία ως εκ των προτέρων πιθανότητα}{27}{paragraph*.42}
+\contentsline {paragraph}{Η Γκαουσιανή διαδικασία ως εκ των προτέρων πιθανότητα}{26}{paragraph*.42}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Συνάρτηση απόκτησης}{27}{paragraph*.43}
+\contentsline {paragraph}{Συνάρτηση απόκτησης}{26}{paragraph*.43}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{Ακολουθιακή βελτιστοποίηση βασισμένη σε μοντέλο}{28}{subsubsection*.44}
+\contentsline {subsubsection}{Ακολουθιακή βελτιστοποίηση βασισμένη σε μοντέλο}{27}{subsubsection*.44}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Ακολουθιακή ρύθμιση αλγορίθμου βασισμένη σε μοντέλο (SMAC)}{28}{paragraph*.45}
+\contentsline {paragraph}{Ακολουθιακή ρύθμιση αλγορίθμου βασισμένη σε μοντέλο (SMAC)}{27}{paragraph*.45}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Δέντρο εκτιμητών Parzen (TPE)}{29}{paragraph*.46}
+\contentsline {paragraph}{Δέντρο εκτιμητών Parzen (TPE)}{28}{paragraph*.46}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Μετα-μάθηση}{29}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.3}Μετα-μάθηση}{28}{subsection.2.3.3}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Σύγχρονα εργαλεία}{30}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.4}Σύγχρονα εργαλεία}{29}{subsection.2.3.4}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{HPOlib}{30}{paragraph*.47}
+\contentsline {paragraph}{HPOlib}{29}{paragraph*.47}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{auto-sklearn}{31}{paragraph*.48}
+\contentsline {paragraph}{auto-sklearn}{30}{paragraph*.48}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Auto-WEKA}{31}{paragraph*.49}
+\contentsline {paragraph}{Auto-WEKA}{30}{paragraph*.49}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{caret}{31}{paragraph*.50}
+\contentsline {paragraph}{caret}{30}{paragraph*.50}
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {3}Περιγραφή Συστήματος}{32}{chapter.3}
+\contentsline {chapter}{\numberline {3}Περιγραφή Συστήματος}{31}{chapter.3}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {3.1}Σκοπός}{32}{section.3.1}
+\contentsline {section}{\numberline {3.1}Σκοπός}{31}{section.3.1}
 \defcounter {refsection}{1}\relax 
 \contentsline {section}{\numberline {3.2}Τεχνικές}{32}{section.3.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Βελτιστοποίηση υπερ-παραμέτρων με μετα-μάθηση και χρήση διαστημάτων πρόβλεψης}{33}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}Βελτιστοποίηση υπερ-παραμέτρων με μετα-μάθηση και χρήση διαστημάτων πρόβλεψης}{32}{subsection.3.2.1}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Εκμετάλλευση διαστημάτων πρόβλεψης}{34}{paragraph*.53}
+\contentsline {paragraph}{Εκμετάλλευση διαστημάτων πρόβλεψης}{33}{paragraph*.53}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Ensemble με προς τα εμπρός επιλογή μοντέλων}{34}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}Ensemble με προς τα εμπρός επιλογή μοντέλων}{33}{subsection.3.2.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Ευριστικές}{35}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}Ευριστικές}{34}{subsection.3.2.3}
 \defcounter {refsection}{1}\relax 
 \contentsline {paragraph}{Το ξυράφι του Όκαμ}{35}{paragraph*.55}
 \defcounter {refsection}{1}\relax 
 \contentsline {paragraph}{Κανόνας επάρκειας παραδειγμάτων}{35}{paragraph*.56}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Κανόνας για επιλογή μεγέθους τεστ ελέγχου}{36}{paragraph*.57}
+\contentsline {paragraph}{Κανόνας για επιλογή μεγέθους τεστ ελέγχου}{35}{paragraph*.57}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Διατηρούμενη διακύμανση PCA}{36}{paragraph*.58}
+\contentsline {paragraph}{Διατηρούμενη διακύμανση \gls {PCA}}{35}{paragraph*.58}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Κανόνας Tukey για αναγνώριση ακραίων τιμών}{36}{paragraph*.59}
+\contentsline {paragraph}{Κανόνας Tukey για αναγνώριση ακραίων τιμών}{35}{paragraph*.59}
 \defcounter {refsection}{1}\relax 
 \contentsline {section}{\numberline {3.3}Αρχιτεκτονική}{36}{section.3.3}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Υποσύστημα εκπαίδευσης}{37}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}Υποσύστημα εκπαίδευσης}{36}{subsection.3.3.1}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Υποσύστημα πειράματος}{38}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Υποσύστημα πειράματος}{37}{subsection.3.3.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {4}Πειραματικά αποτελέσματα}{39}{chapter.4}
+\contentsline {chapter}{\numberline {4}Πειραματικά αποτελέσματα}{38}{chapter.4}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {4.1}Περιγραφή πειραμάτων}{39}{section.4.1}
+\contentsline {section}{\numberline {4.1}Περιγραφή πειραμάτων}{38}{section.4.1}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Περιγραφή σετ δεδομένων}{39}{paragraph*.62}
+\contentsline {paragraph}{Περιγραφή σετ δεδομένων}{38}{paragraph*.62}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {4.2}Αξιολόγηση της τεχνικής βελτιστοποίησης υπερ-παραμέτρων με μετα-μάθηση και χρήση διαστημάτων πρόβλεψης}{39}{section.4.2}
+\contentsline {section}{\numberline {4.2}Αξιολόγηση της τεχνικής βελτιστοποίησης υπερ-παραμέτρων με μετα-μάθηση και χρήση διαστημάτων πρόβλεψης}{38}{section.4.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Συμπεράσματα}{41}{paragraph*.65}
+\contentsline {paragraph}{Συμπεράσματα}{41}{paragraph*.66}
 \defcounter {refsection}{1}\relax 
 \contentsline {section}{\numberline {4.3}Αξιολόγηση της τεχνικής σχηματισμού ensemble με προς τα εμπρός επιλογή μοντέλων}{41}{section.4.3}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Διαγράμματα προφίλ απόδοσης}{41}{paragraph*.66}
+\contentsline {paragraph}{Διαγράμματα προφίλ απόδοσης}{41}{paragraph*.67}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Συμπεράσματα}{42}{paragraph*.69}
+\contentsline {paragraph}{Συμπεράσματα}{42}{paragraph*.70}
 \defcounter {refsection}{1}\relax 
 \contentsline {section}{\numberline {4.4}Αξιολόγηση συστήματος Automated Data Scientist}{42}{section.4.4}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Συμπεράσματα}{42}{paragraph*.73}
+\contentsline {paragraph}{Συμπεράσματα}{42}{paragraph*.71}
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {5}Σχετική Δουλειά}{45}{chapter.5}
+\contentsline {chapter}{\numberline {5}Σχετική Δουλειά}{43}{chapter.5}
+\defcounter {refsection}{1}\relax 
+\contentsline {chapter}{\numberline {6}Συμπεράσματα}{45}{chapter.6}
+\defcounter {refsection}{1}\relax 
+\contentsline {chapter}{\numberline {7}Μελλοντικές Επεκτάσεις}{46}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Παραρτήματα}{50}{section*.75}
+\contentsline {chapter}{Παραρτήματα}{51}{section*.75}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }}Μηχανές Διανυσματικής Στήριξης}{51}{Παράρτημα.alph1.Alph1}
+\contentsline {chapter}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }}Μηχανές Διανυσματικής Στήριξης}{52}{Παράρτημα.alph1.Alph1}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Θεωρητική θεμελίωση}{51}{paragraph*.78}
+\contentsline {paragraph}{Θεωρητική θεμελίωση}{52}{paragraph*.78}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Μη γραμμικά διαχωρίσιμες κλάσεις}{54}{paragraph*.79}
+\contentsline {paragraph}{Μη γραμμικά διαχωρίσιμες κλάσεις}{55}{paragraph*.79}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Μηχανές διανυσματικής στήριξης χαλαρού περιθωρίου}{55}{paragraph*.80}
+\contentsline {paragraph}{Μηχανές διανυσματικής στήριξης χαλαρού περιθωρίου}{56}{paragraph*.80}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {β\anw@true \anw@print \relax }}Naive Bayes}{56}{Παράρτημα.alph1.Alph2}
+\contentsline {chapter}{\numberline {\MakeUppercase {β\anw@true \anw@print \relax }}Naive Bayes}{57}{Παράρτημα.alph1.Alph2}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Θεώρημα Bayes.}{56}{paragraph*.81}
+\contentsline {paragraph}{Θεώρημα Bayes.}{57}{paragraph*.81}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Υπολογισμός Μοντέλου}{56}{paragraph*.82}
+\contentsline {paragraph}{Υπολογισμός Μοντέλου}{57}{paragraph*.82}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Πρόβλεψη}{56}{paragraph*.83}
+\contentsline {paragraph}{Πρόβλεψη}{57}{paragraph*.83}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {γ\anw@true \anw@print \relax }}Λογιστική Παλινδρόμηση}{58}{Παράρτημα.alph1.Alph3}
+\contentsline {chapter}{\numberline {\MakeUppercase {γ\anw@true \anw@print \relax }}Λογιστική Παλινδρόμηση}{59}{Παράρτημα.alph1.Alph3}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Η λογιστική συνάρτηση.}{58}{paragraph*.84}
+\contentsline {paragraph}{Η λογιστική συνάρτηση.}{59}{paragraph*.84}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Ερμηνεία}{58}{paragraph*.85}
+\contentsline {paragraph}{Ερμηνεία}{59}{paragraph*.85}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Gradient descent}{59}{paragraph*.86}
+\contentsline {paragraph}{Gradient descent}{60}{paragraph*.86}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {δ\anw@true \anw@print \relax }}Κ-κοντινότερος γείτονας}{60}{Παράρτημα.alph1.Alph4}
+\contentsline {chapter}{\numberline {\MakeUppercase {δ\anw@true \anw@print \relax }}Κ-κοντινότερος γείτονας}{61}{Παράρτημα.alph1.Alph4}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Συνάρτηση Ακτινικής βάσης }{60}{paragraph*.87}
+\contentsline {paragraph}{Συνάρτηση Ακτινικής βάσης }{61}{paragraph*.87}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Επίδραση της μεταβλητής γ}{61}{paragraph*.88}
+\contentsline {paragraph}{Επίδραση της μεταβλητής γ}{62}{paragraph*.88}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{H συνάρτηση RBF ως μοντέλο βασισμένο σε παραδείγματα.}{61}{paragraph*.89}
+\contentsline {paragraph}{H συνάρτηση RBF ως μοντέλο βασισμένο σε παραδείγματα.}{62}{paragraph*.89}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Επιλογή Κ κέντρων.}{61}{paragraph*.90}
+\contentsline {paragraph}{Επιλογή Κ κέντρων.}{62}{paragraph*.90}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }}Κανονικοποίηση}{63}{Παράρτημα.alph1.Alph5}
+\contentsline {chapter}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }}Κανονικοποίηση}{64}{Παράρτημα.alph1.Alph5}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Διακύμανση - Πόλωση Μοντέλου}{63}{paragraph*.91}
+\contentsline {paragraph}{Διακύμανση - Πόλωση Μοντέλου}{64}{paragraph*.91}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Η ιδέα της κανονικοποίησης}{63}{paragraph*.94}
+\contentsline {paragraph}{Η ιδέα της κανονικοποίησης}{65}{paragraph*.94}
 \defcounter {refsection}{2}\relax 
 \contentsline {chapter}{\numberline {\MakeUppercase {στ\relax \anw@true \anw@print \relax }}Στατιστικά τεστ Υπόθεσης}{66}{Παράρτημα.alph1.Alph6}
 \defcounter {refsection}{2}\relax 

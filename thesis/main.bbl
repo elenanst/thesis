@@ -77,6 +77,34 @@
       \verb http://dl.acm.org/citation.cfm?id=645328.650030
       \endverb
     \endentry
+    \entry{Bergstra:2012:RSH:2188385.2188395}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=0bc66fe902c838c216bd3175dfeb045b}{Bergstra}{B\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=40a8e4774982146adc2688546f54efb2}{Bengio}{B\bibinitperiod}{Yoshua}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=0bc66fe902c838c216bd3175dfeb045b}{Bergstra}{B\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=40a8e4774982146adc2688546f54efb2}{Bengio}{B\bibinitperiod}{Yoshua}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {JMLR.org}%
+      }
+      \strng{namehash}{a05cf9842110d2caa7fbdda862c52ff8}
+      \strng{fullhash}{a05cf9842110d2caa7fbdda862c52ff8}
+      \field{sortinit}{B}
+      \field{labeltitle}{Random Search for Hyper-parameter Optimization}
+      \field{issn}{1532-4435}
+      \field{journaltitle}{J. Mach. Learn. Res.}
+      \field{month}{02}
+      \field{title}{Random Search for Hyper-parameter Optimization}
+      \field{volume}{13}
+      \field{year}{2012}
+      \field{pages}{281\bibrangedash 305}
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=2188385.2188395
+      \endverb
+      \keyw{deep learning,global optimization,model selection,neural networks,response surface modeling}
+    \endentry
     \entry{Bergstra:2011:AHO:2986459.2986743}{inproceedings}{}
       \name{labelname}{4}{}{%
         {{hash=0bc66fe902c838c216bd3175dfeb045b}{Bergstra}{B\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
@@ -305,27 +333,6 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1007/s101070100263
-      \endverb
-    \endentry
-    \entry{Brazdil2009}{inbook}{}
-      \list{location}{1}{%
-        {Berlin, Heidelberg}%
-      }
-      \list{publisher}{1}{%
-        {Springer Berlin Heidelberg}%
-      }
-      \field{sortinit}{E}
-      \field{labeltitle}{Extending Metalearning to Data Mining and KDD}
-      \field{booktitle}{Metalearning: Applications to Data Mining}
-      \field{isbn}{978-3-540-73263-1}
-      \field{title}{Extending Metalearning to Data Mining and KDD}
-      \field{year}{2009}
-      \field{pages}{61\bibrangedash 72}
-      \verb{doi}
-      \verb 10.1007/978-3-540-73263-1_4
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1007/978-3-540-73263-1_4
       \endverb
     \endentry
     \entry{Feurer:2014:UMI:3015544.3015549}{inproceedings}{}
@@ -786,6 +793,35 @@
       \endverb
       \keyw{genetic algorithms;learning (artificial intelligence);pattern classification;radial basis function networks;support vector machines;RBF kernel;SVM;classification tasks;genetic algorithm;genetic algorithms;grid-search;multiple kernel parameters;supervised learning problems;support vector machines;weighted radial basis function kernel;Algorithm design and analysis;Application software;Computer science;Educational institutions;Genetic algorithms;Grid computing;Kernel;Supervised learning;Support vector machine classification;Support vector machines}
     \endentry
+    \entry{Brazdil2009}{inbook}{}
+      \name{labelname}{1}{}{%
+        {{hash=3575f14af7838ffd914fd699377b94e4}{Rostislav}{R\bibinitperiod}{Striz}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=3575f14af7838ffd914fd699377b94e4}{Rostislav}{R\bibinitperiod}{Striz}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{3575f14af7838ffd914fd699377b94e4}
+      \strng{fullhash}{3575f14af7838ffd914fd699377b94e4}
+      \field{sortinit}{R}
+      \field{labeltitle}{Extending Metalearning to Data Mining and KDD}
+      \field{booktitle}{Metalearning: Applications to Data Mining}
+      \field{isbn}{978-3-540-73263-1}
+      \field{title}{Extending Metalearning to Data Mining and KDD}
+      \field{year}{2009}
+      \field{pages}{61\bibrangedash 72}
+      \verb{doi}
+      \verb 10.1007/978-3-540-73263-1_4
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-3-540-73263-1_4
+      \endverb
+    \endentry
     \entry{Soares2004}{article}{}
       \name{labelname}{3}{}{%
         {{hash=ea13669b47d552fbc7d7438f9dc08c5c}{Soares}{S\bibinitperiod}{Carlos}{C\bibinitperiod}{}{}{}{}}%
@@ -1051,6 +1087,66 @@
       \verb http://archive.ics.uci.edu/ml/datasets/Car+Evaluation
       \endverb
     \endentry
+    \entry{Chang:2011:LLS:1961189.1961199}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=90dbdcacecdffc9ea33bf0a0d370c416}{Chang}{C\bibinitperiod}{Chih-Chung}{C\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=bb8c32ec740b902c4f066796b083badc}{Lin}{L\bibinitperiod}{Chih-Jen}{C\bibinithyphendelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=90dbdcacecdffc9ea33bf0a0d370c416}{Chang}{C\bibinitperiod}{Chih-Chung}{C\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=bb8c32ec740b902c4f066796b083badc}{Lin}{L\bibinitperiod}{Chih-Jen}{C\bibinithyphendelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{1224d323be40e9eaf84c63498a939f53}
+      \strng{fullhash}{1224d323be40e9eaf84c63498a939f53}
+      \field{sortinit}{C}
+      \field{labeltitle}{LIBSVM: A Library for Support Vector Machines}
+      \field{issn}{2157-6904}
+      \field{journaltitle}{ACM Trans. Intell. Syst. Technol.}
+      \field{month}{05}
+      \field{number}{3}
+      \field{title}{LIBSVM: A Library for Support Vector Machines}
+      \field{volume}{2}
+      \field{year}{2011}
+      \field{pages}{27:1\bibrangedash 27:27}
+      \verb{doi}
+      \verb 10.1145/1961189.1961199
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1961189.1961199
+      \endverb
+      \keyw{Classification LIBSVM optimization regression support vector machines SVM}
+    \endentry
+    \entry{10.2307/3001616}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=4b8813aa151761e674984941c9baf1eb}{Cochran}{C\bibinitperiod}{William\bibnamedelima G.}{W\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=4b8813aa151761e674984941c9baf1eb}{Cochran}{C\bibinitperiod}{William\bibnamedelima G.}{W\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {[Wiley, International Biometric Society]}%
+      }
+      \strng{namehash}{4b8813aa151761e674984941c9baf1eb}
+      \strng{fullhash}{4b8813aa151761e674984941c9baf1eb}
+      \field{sortinit}{C}
+      \field{labeltitle}{Some Methods for Strengthening the Common χ<sup>2</sup> Tests}
+      \field{issn}{0006341X, 15410420}
+      \field{journaltitle}{Biometrics}
+      \field{number}{4}
+      \field{title}{Some Methods for Strengthening the Common χ<sup>2</sup> Tests}
+      \field{volume}{10}
+      \field{year}{1954}
+      \field{pages}{417\bibrangedash 451}
+      \verb{url}
+      \verb http://www.jstor.org/stable/3001616
+      \endverb
+    \endentry
     \entry{creditcard}{misc}{}
       \field{sortinit}{C}
       \field{labeltitle}{Credit Card Fraud Detection}
@@ -1176,6 +1272,50 @@
       \verb https://www.kaggle.com/flenderson/sales-analysis
       \endverb
     \endentry
+    \entry{citeulike:4294367}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=a7a3f5b9c49d7e338885fb4422e53abb}{Holm}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=a7a3f5b9c49d7e338885fb4422e53abb}{Holm}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a7a3f5b9c49d7e338885fb4422e53abb}
+      \strng{fullhash}{a7a3f5b9c49d7e338885fb4422e53abb}
+      \field{sortinit}{H}
+      \field{labeltitle}{{A simple sequentially rejective multiple test procedure}}
+      \field{journaltitle}{Scandinavian Journal of Statistics}
+      \field{title}{{A simple sequentially rejective multiple test procedure}}
+      \field{volume}{6}
+      \field{year}{1979}
+      \field{pages}{65\bibrangedash 70}
+      \keyw{statistical\_tests}
+    \endentry
+    \entry{doi:10.1093/biomet/75.2.383}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=c6b3fb8334f9f40c098b4b47691afa46}{HOMMEL}{H\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=c6b3fb8334f9f40c098b4b47691afa46}{HOMMEL}{H\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c6b3fb8334f9f40c098b4b47691afa46}
+      \strng{fullhash}{c6b3fb8334f9f40c098b4b47691afa46}
+      \field{sortinit}{H}
+      \field{labeltitle}{A stagewise rejective multiple test procedure based on a modified Bonferroni test}
+      \field{journaltitle}{Biometrika}
+      \field{title}{A stagewise rejective multiple test procedure based on a modified Bonferroni test}
+      \field{volume}{75}
+      \field{year}{1988}
+      \field{pages}{383}
+      \verb{doi}
+      \verb 10.1093/biomet/75.2.383
+      \endverb
+      \verb{eprint}
+      \verb /oup/backfile/Content_public/Journal/biomet/75/2/10.1093/biomet/75.2.383/2/75-2-383.pdf
+      \endverb
+      \verb{url}
+      \verb +%20http://dx.doi.org/10.1093/biomet/75.2.383
+      \endverb
+    \endentry
     \entry{spam}{misc}{}
       \name{labelname}{4}{}{%
         {{hash=92e1a785fde8d68aa11591d43b81c8e3}{Hopkins}{H\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
@@ -1204,6 +1344,85 @@
       \field{title}{Human Resources Analytics}
       \verb{url}
       \verb https://www.kaggle.com/ludobenistant/hr-analytics
+      \endverb
+    \endentry
+    \entry{doi:10.1080/03610928008827904}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=ec6b8004a682d22f65af2b32f7c73f89}{Iman}{I\bibinitperiod}{Ronald\bibnamedelima L.}{R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=8b0ea784c8795ba1a955d290d34f3ed8}{Davenport}{D\bibinitperiod}{James\bibnamedelima M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=ec6b8004a682d22f65af2b32f7c73f89}{Iman}{I\bibinitperiod}{Ronald\bibnamedelima L.}{R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=8b0ea784c8795ba1a955d290d34f3ed8}{Davenport}{D\bibinitperiod}{James\bibnamedelima M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b00c7666d61f6d9b640c1dea5b06617c}
+      \strng{fullhash}{b00c7666d61f6d9b640c1dea5b06617c}
+      \field{sortinit}{I}
+      \field{labeltitle}{Approximations of the critical region of the fbietkan statistic}
+      \field{journaltitle}{Communications in Statistics - Theory and Methods}
+      \field{number}{6}
+      \field{title}{Approximations of the critical region of the fbietkan statistic}
+      \field{volume}{9}
+      \field{year}{1980}
+      \field{pages}{571\bibrangedash 595}
+      \verb{doi}
+      \verb 10.1080/03610928008827904
+      \endverb
+      \verb{eprint}
+      \verb http://dx.doi.org/10.1080/03610928008827904
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1080/03610928008827904
+      \endverb
+    \endentry
+    \entry{CIS-57999}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=c9165f767d1c78844ace972f60864989}{Jaccard}{J\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=e92bf0d000a250f0f7bc0135012ecf38}{Becker}{B\bibinitperiod}{Michael\bibnamedelima A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=7dedc5d70bca6f166455e74fc268e527}{Wood}{W\bibinitperiod}{Gregory}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=c9165f767d1c78844ace972f60864989}{Jaccard}{J\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=e92bf0d000a250f0f7bc0135012ecf38}{Becker}{B\bibinitperiod}{Michael\bibnamedelima A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=7dedc5d70bca6f166455e74fc268e527}{Wood}{W\bibinitperiod}{Gregory}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{cbdd5e0b02abf96c21e327e4bb46e70e}
+      \strng{fullhash}{cbdd5e0b02abf96c21e327e4bb46e70e}
+      \field{sortinit}{J}
+      \field{labeltitle}{Pairwise multiple comparison procedures: A review}
+      \field{journaltitle}{The Psychological Bulletin}
+      \field{title}{Pairwise multiple comparison procedures: A review}
+      \field{volume}{96}
+      \field{year}{1984}
+      \field{pages}{589\bibrangedash 596}
+    \endentry
+    \entry{Jiang:2008:ECI:1390681.1390698}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=8c4879cb38298ad3d0f180a4f70b8692}{Jiang}{J\bibinitperiod}{Bo}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=f229e11728477b0dc2cdca9cbad892c8}{Zhang}{Z\bibinitperiod}{Xuegong}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=1df414765f32cd3fb95f7ca80bfb5b56}{Cai}{C\bibinitperiod}{Tianxi}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=8c4879cb38298ad3d0f180a4f70b8692}{Jiang}{J\bibinitperiod}{Bo}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=f229e11728477b0dc2cdca9cbad892c8}{Zhang}{Z\bibinitperiod}{Xuegong}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=1df414765f32cd3fb95f7ca80bfb5b56}{Cai}{C\bibinitperiod}{Tianxi}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {JMLR.org}%
+      }
+      \strng{namehash}{375d72c6fd95c63280b0433e2e5000bb}
+      \strng{fullhash}{375d72c6fd95c63280b0433e2e5000bb}
+      \field{sortinit}{J}
+      \field{labeltitle}{Estimating the Confidence Interval for Prediction Errors of Support Vector Machine Classifiers}
+      \field{issn}{1532-4435}
+      \field{journaltitle}{J. Mach. Learn. Res.}
+      \field{month}{06}
+      \field{title}{Estimating the Confidence Interval for Prediction Errors of Support Vector Machine Classifiers}
+      \field{volume}{9}
+      \field{year}{2008}
+      \field{pages}{521\bibrangedash 540}
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=1390681.1390698
       \endverb
     \endentry
     \entry{wilt}{article}{}
@@ -1262,6 +1481,23 @@
       \verb{url}
       \verb https://relational.fit.cvut.cz/dataset/IMDb
       \endverb
+    \endentry
+    \entry{Lin04simpleprobabilistic}{report}{}
+      \name{labelname}{2}{}{%
+        {{hash=44fd77a0ce220b5ddb18daacdf7329be}{Lin}{L\bibinitperiod}{Chih-jen}{C\bibinithyphendelim j\bibinitperiod}{}{}{}{}}%
+        {{hash=702960a782905fdee88951dd16da2a06}{Weng}{W\bibinitperiod}{Ruby\bibnamedelima C.}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=44fd77a0ce220b5ddb18daacdf7329be}{Lin}{L\bibinitperiod}{Chih-jen}{C\bibinithyphendelim j\bibinitperiod}{}{}{}{}}%
+        {{hash=702960a782905fdee88951dd16da2a06}{Weng}{W\bibinitperiod}{Ruby\bibnamedelima C.}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b605e8091cee42b6344d23161990a044}
+      \strng{fullhash}{b605e8091cee42b6344d23161990a044}
+      \field{sortinit}{L}
+      \field{labeltitle}{Simple probabilistic predictions for support vector regression}
+      \field{title}{Simple probabilistic predictions for support vector regression}
+      \field{type}{techreport}
+      \field{year}{2004}
     \endentry
     \entry{parkinsons}{article}{}
       \name{labelname}{5}{}{%
@@ -1325,6 +1561,35 @@
       \field{title}{lupus}
       \verb{url}
       \verb https://www.openml.org/d/472
+      \endverb
+    \endentry
+    \entry{doi:10.1093/jnci/22.4.719}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=7f9cc6904e6e5862b920df6e9ebc01b2}{Mantel}{M\bibinitperiod}{Nathan}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=fb3613d11fcc23f108e7c4f72902489f}{Haenszel}{H\bibinitperiod}{William}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=7f9cc6904e6e5862b920df6e9ebc01b2}{Mantel}{M\bibinitperiod}{Nathan}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=fb3613d11fcc23f108e7c4f72902489f}{Haenszel}{H\bibinitperiod}{William}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1976dbdeeae3eb41a50cc10c85078eed}
+      \strng{fullhash}{1976dbdeeae3eb41a50cc10c85078eed}
+      \field{sortinit}{M}
+      \field{labeltitle}{Statistical Aspects of the Analysis of Data From Retrospective Studies of Disease}
+      \field{journaltitle}{JNCI: Journal of the National Cancer Institute}
+      \field{number}{4}
+      \field{title}{Statistical Aspects of the Analysis of Data From Retrospective Studies of Disease}
+      \field{volume}{22}
+      \field{year}{1959}
+      \field{pages}{719}
+      \verb{doi}
+      \verb 10.1093/jnci/22.4.719
+      \endverb
+      \verb{eprint}
+      \verb /oup/backfile/Content_public/Journal/jnci/22/4/10.1093/jnci/22.4.719/2/22-4-719.pdf
+      \endverb
+      \verb{url}
+      \verb +%20http://dx.doi.org/10.1093/jnci/22.4.719
       \endverb
     \endentry
     \entry{Mercer415}{article}{}
@@ -1444,6 +1709,25 @@
       \verb http://archive.ics.uci.edu/ml/datasets/Balloons
       \endverb
     \endentry
+    \entry{Platt99probabilisticoutputs}{inproceedings}{}
+      \name{labelname}{1}{}{%
+        {{hash=a8c9625c84503cc60674226890040c91}{Platt}{P\bibinitperiod}{John\bibnamedelima C.}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=a8c9625c84503cc60674226890040c91}{Platt}{P\bibinitperiod}{John\bibnamedelima C.}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{a8c9625c84503cc60674226890040c91}
+      \strng{fullhash}{a8c9625c84503cc60674226890040c91}
+      \field{sortinit}{P}
+      \field{labeltitle}{Probabilistic Outputs for Support Vector Machines and Comparisons to Regularized Likelihood Methods}
+      \field{booktitle}{ADVANCES IN LARGE MARGIN CLASSIFIERS}
+      \field{title}{Probabilistic Outputs for Support Vector Machines and Comparisons to Regularized Likelihood Methods}
+      \field{year}{1999}
+      \field{pages}{61\bibrangedash 74}
+    \endentry
     \entry{credit}{misc}{}
       \name{labelname}{1}{}{%
         {{hash=0d3fa17b2ee00a3420460ee983db17f1}{Quinlan}{Q\bibinitperiod}{}{}{}{}{}{}}%
@@ -1533,6 +1817,26 @@
       \verb https://www.kaggle.com/hobako1993/sp1-factor-binding-sites-on-chromosome1
       \endverb
     \endentry
+    \entry{QJ:QJ49708235130}{article}{}
+      \list{publisher}{1}{%
+        {John Wiley & Sons, Ltd}%
+      }
+      \field{sortinit}{S}
+      \field{labeltitle}{Statistical methods for research workers. By Sir Ronald A. Fisher. Edinburgh (Oliver and Boyd), 12th Ed., 1954. Pp. xv, 356; 12 Figs., 74 Tables. 16s}
+      \field{issn}{1477-870X}
+      \field{journaltitle}{Quarterly Journal of the Royal Meteorological Society}
+      \field{number}{351}
+      \field{title}{Statistical methods for research workers. By Sir Ronald A. Fisher. Edinburgh (Oliver and Boyd), 12th Ed., 1954. Pp. xv, 356; 12 Figs., 74 Tables. 16s}
+      \field{volume}{82}
+      \field{year}{1956}
+      \field{pages}{119\bibrangedash 119}
+      \verb{doi}
+      \verb 10.1002/qj.49708235130
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1002/qj.49708235130
+      \endverb
+    \endentry
     \entry{alcohol}{misc}{}
       \field{sortinit}{S}
       \field{labeltitle}{Student Alcohol Consumption}
@@ -1581,6 +1885,25 @@
       \verb https://www.kaggle.com/zed9941/top-500-indian-cities
       \endverb
     \endentry
+    \entry{VapLer63}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=280ff2e00d4fc8efc3e392e82e57e44a}{Vapnik}{V\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=5591f21aeca2a3bf72dd167729ce2e2e}{Lerner}{L\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=280ff2e00d4fc8efc3e392e82e57e44a}{Vapnik}{V\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=5591f21aeca2a3bf72dd167729ce2e2e}{Lerner}{L\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{24f82ec384ae8044cef52e9a43133dd9}
+      \strng{fullhash}{24f82ec384ae8044cef52e9a43133dd9}
+      \field{sortinit}{V}
+      \field{labeltitle}{{Pattern Recognition using Generalized Portrait Method}}
+      \field{journaltitle}{Automation and Remote Control}
+      \field{title}{{Pattern Recognition using Generalized Portrait Method}}
+      \field{volume}{24}
+      \field{year}{1963}
+      \keyw{kernels}
+    \endentry
     \entry{vgsales}{misc}{}
       \field{sortinit}{V}
       \field{labeltitle}{Video Game Sales}
@@ -1599,19 +1922,8 @@
     \endentry
   \endsortlist
   \missing{Gender Recognition by Voice}
-  \missing{Lin04simpleprobabilistic}
-  \missing{doi:10.1093/jnci/22.4.719}
   \missing{Wilcoxon45}
-  \missing{Platt99probabilisticoutputs}
-  \missing{QJ:QJ49708235130}
-  \missing{citeulike:4294367}
-  \missing{Jiang:2008:ECI:1390681.1390698}
-  \missing{doi:10.1080/03610928008827904}
-  \missing{Chang:2011:LLS:1961189.1961199}
-  \missing{10.2307/3001616}
   \missing{krk}
-  \missing{CIS-57999}
-  \missing{doi:10.1093/biomet/75.2.383}
   \missing{McNemar1947}
   \missing{mann1947}
 \endrefsection

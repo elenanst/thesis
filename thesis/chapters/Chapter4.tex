@@ -3,7 +3,7 @@
 Στόχος της παρούσας ενότητας είναι ο έλεγχος του συστήματος Automated Data Scientist, καθώς και της συνεισφοράς των τεχνικών που εφαρμόσαμε και περιγράψαμε στην ενότητα \ref{sec:techniques}. Προς αυτό το σκοπό σχεδιάσαμε τα ακόλουθα πειράματα, τα οποία θα αναλύσουμε στη συνέχεια:
 \begin{itemize}
 	\item αξιολόγηση των HPP μοντέλων
-	\item αξιολόγηση του ensemble με επιλογή μοντέλων
+	\item αξιολόγηση του ensemble με προς-τα-εμπρός επιλογή μοντέλων
 	\item συνολική αξιολόγηση του συστήματος
 \end{itemize}
 
@@ -11,16 +11,18 @@
 \begin{itemize}
 	\item μετατροπή αρχείων σε comma-delimited .csv. Τα πηγαία αρχεία βρίσκονταν σε μορφές .csv, .txt, .xlsx, .arff και .mysql.
 	\item καθορισμός κλάσης. Στη πλειοψηφία των περιπτώσεων η κλάση αναγνωριζόταν χειροκίνητα από την περιγραφή του σετ δεδομένων. Συλλέχθηκαν και σετ δεδομένων που ήταν πολλαπλής ταξινόμησης και παλινδρόμησης. Στην πρώτη περίπτωση έγινε αντιστοίχηση σε δύο ουσιώδεις κλάσεις, ενώ στη δεύτερη βρέθηκε η μέση τιμή της μεταβλητής κλάσης και χρησιμοποιήθηκε ως κατώφλι για το διαχωρισμό των παραδειγμάτων σε δύο κλάσεις.
-	\item αναγνώριση άγνωστων τιμών. Στα αρχεία που περιείχαν άγνωστες τιμές χρησιμοποιούνταν διάφοροι συμβολισμοί ("?", "*", "") οι οποίοι αντικαταστάθηκαν από κενά, ώστε να αναγνωρίζονται από την R ως NAs.  
+	\item αναγνώριση άγνωστων τιμών. Στα αρχεία που περιείχαν άγνωστες τιμές χρησιμοποιούνταν διάφοροι συμβολισμοί ("?", "*", "") οι οποίοι αντικαταστάθηκαν από κενά, ώστε να αναγνωρίζονται από την R ως NAs (Not Available).  
 \end{itemize}
 \section{Αξιολόγηση της τεχνικής βελτιστοποίησης υπερ-παραμέτρων με μετα-μάθηση και χρήση διαστημάτων πρόβλεψης}
 Όπως είδαμε στην ενότητα \ref{sec:HPP} προϊόντα αυτής της τεχνικής είναι τα HPP μοντέλα, καθένα εκ των οποίων έχει εκπαιδευτεί στη πρόβλεψη μίας υπερ-παραμέτρου ενός αλγορίθμου μηχανικής μάθησης. Σε αυτό το σημείο θα αξιολογήσουμε τα μοντέλα αυτά ως προς το σκοπό τους, δηλαδή πόσο καλά προβλέπουν τις βελτιστοποιημένες υπερ-παραμέτρους. Επίσης, θα σχολιάσουμε τη συνεισφορά της χρήσης διαστημάτων πρόβλεψης.
 
 Για την παραγωγή των σετ μετα-δεδομένων, τα οποία χρησιμοποιούνται για την εκπαίδευση των HPP μοντέλων, είναι απαραίτητα δύο στάδια:
 \begin{itemize}
-	\item Εξαγωγή των μετα-χαρακτηριστικών κάθε σετ δεδομένων. Τα μετα-χαρακτηριστικά που χρησιμοποιήσαμε περιγράφονται στον Πίνακα \ref{table:meta}, υπολογίστηκαν από το πακέτο mf\-Extractor του συστήματος μας και βασίστηκαν στη δουλειά της ομάδας που υλοποίησε το λογισμικό autosklearn~\footnote{https://github.com/automl/auto-sklearn/tree/master/autosklearn}. Καθώς τα μετα-χαρακτηριστικά που επιλέξαμε αφορούν μόνο μη-κατηγορικά χαρακτηριστικά, πριν τον υπολογισμό τους έγινε μετατροπή των κατηγορικών χαρακτηριστικών σε μεταβλητές-δείκτες. 
+	\item Εξαγωγή των μετα-χαρακτηριστικών κάθε σετ δεδομένων. Τα μετα-χαρακτηριστικά που χρησιμοποιήσαμε περιγράφονται στον Πίνακα \ref{table:meta}, υπολογίστηκαν με χρήση του πακέτου mf\-Extractor του συστήματός μας και βασίστηκαν στη δουλειά της ομάδας που υλοποίησε το λογισμικό autosklearn. Καθώς τα μετα-χαρακτηριστικά που επιλέξαμε αφορούν μόνο μη-κατηγορικά χαρακτηριστικά, πριν τον υπολογισμό τους έγινε μετατροπή των κατηγορικών χαρακτηριστικών σε μεταβλητές-δείκτες. 
 	 \begin{table}[!htb]
 	 	\begin{center}
+	 	\caption{Λίστα μετα-χαρακτηριστικών, τα οποία χρησιμοποιήθηκαν για την εκπαίδευση των HPP μοντέλων}
+	 	\label{table:meta}
 	 		\begin{tabular}{ |c| } 
 	 			\hline
 	 			Μετα-χαρακτηριστικά\\
@@ -39,13 +41,13 @@
 	 			\hline
 	 		\end{tabular}    
 	 	\end{center}
-	 	\caption{Λίστα μετα-χαρακτηριστικών, τα οποία χρησιμοποιήθηκαν για την εκπαίδευση των μοντέλων HPP}\label{table:meta}
 	 \end{table}
-	\item Εύρεση των βέλτιστων υπερ-παραμέτρων για κάθε αλγόριθμο. Προς αυτό ο σκοπό χρησιμοποιήθηκε η βιβλιοθήκη HPOlib, την οποία έχουμε περιγράψει στην Eνότητα \ref{section:tools}. Ο αλγόριθμος που επιλέχθηκε ήταν ο Tree Parzen Estimator, καθώς είναι σημαντικά ταχύτερος από τους υπόλοιπους. Από τη πλευρά μας ήταν απαραίτητος ο ορισμός του χώρου αναζήτησης υπερ-παραμέτρων και της συνάρτησης κόστους για κάθε αλγόριθμο, η οποία ορίστηκε ως $ Cost = 1- Accuracy$. Στον Πίνακα \ref{table:algorithms} μπορούμε να δούμε τους αλγορίθμους μάθησης με τους οποίους ασχοληθήκαμε, καθώς και τις υπερπαραμέτρους τους.	
+	\item Εύρεση των βέλτιστων υπερ-παραμέτρων για κάθε αλγόριθμο. Προς αυτό ο σκοπό χρησιμοποιήθηκε η βιβλιοθήκη HPOlib, την οποία έχουμε περιγράψει στην Eνότητα \ref{section:tools}. Ο αλγόριθμος που επιλέχθηκε ήταν ο Tree Parzen Estimator, καθώς είναι σημαντικά ταχύτερος από τους υπόλοιπους. Από τη πλευρά μας ήταν απαραίτητος ο ορισμός του χώρου αναζήτησης υπερ-παραμέτρων και της συνάρτησης κόστους για κάθε αλγόριθμο, η οποία ορίστηκε ως $ Cost = 1- Accuracy$. Στον Πίνακα \ref{table:algorithms} μπορούμε να δούμε τους αλγορίθμους μάθησης με τους οποίους ασχοληθήκαμε, καθώς και τις υπερπαραμέτρους τους.
 
 \end{itemize}
 	\begin{table}[!htb]
 		\begin{center}
+				\caption[Οι αλγόριθμοι που χρησιμοποιεί το σύστημα Automated Data Scientist και οι υπερ-παράμετροί του]{Οι αλγόριθμοι που χρησιμοποιεί το σύστημα Automated Data Scientist και οι υπερ-παράμετροί τους, όπως τις ορίζει το πακέτο caret. knn: κ-κοντινότερος γείτονας, rpart: δέντρο ταξινόμησης και παλινδρόμησης (CART), nnet: \gls{ΤΝΝ}, svmRadial: \gls{SVM} με χρήση γκαουσιανού πυρήνα, nb: Naive Bayes.} \label{table:meta}
 			\begin{tabular}{ |c|c|c|c|c| } 
 				\hline
 				knn & rpart & nnet & svmRadial & nb\\
@@ -57,14 +59,14 @@
 			\end{tabular}    
 		\end{center}
 		\label{table:algorithms}
-		\caption{Οι αλγόριθμοι που χρησιμοποιεί το σύστημα Automated Data Scientist και οι υπερ-παράμετροί τους, όπως τις ορίζει το πακέτο caret. knn: κ-κοντινότερος γείτονας, rpart: δέντρο ταξινόμησης και παλινδρόμησης (CART), nnet: ΤΝΝ, svmRadial: svm με χρήση γκαουσιανού πυρήνα, nb: Naive Bayes.} \label{table:meta}
 	\end{table} 
 	
-Στα πειράματα που ακολουθούν έχουμε χρησιμοποιήσει τη τεχνική leave one out για την αξιολόγηση των μοντέλων, 10-fold cross-validation για τη ρύθμιση και ως κριτήριο της απόδοσης των μοντέλων παλινδρόμησης τη ρίζα του μέσου τετραγωνικού σφάλματος (root mean squared error).
-
-\begin{minipage}{0.48\linewidth}
+Στα πειράματα που ακολουθούν έχουμε χρησιμοποιήσει τη τεχνική Leave one out για την αξιολόγηση των μοντέλων, 10-fold cross-validation για τη ρύθμιση και ως κριτήριο της απόδοσης των μοντέλων παλινδρόμησης τη ρίζα του μέσου τετραγωνικού σφάλματος (root mean squared error).
+\begin{figure}[H]
+\begin{minipage}{0.48\textwidth}
 		\noindent
 		\begin{center}
+				\captionof{table}{Επιλογή αλγορίθμου για την υπερ-παράμετρο C του SVM}
 				\begin{tabular}{ |c|c|c|c| } 
 					\hline
 					& lm & lm+BoxCox & svmRadial\\
@@ -76,15 +78,17 @@
 					p-value & & &\\				
 					\hline
 				\end{tabular}   
-			\captionof{table}{}
 		\end{center}
 \end{minipage} \qquad
-\begin{minipage}{0.48\linewidth}
+\begin{minipage}{0.48\textwidth}
+		\centering
+          \includegraphics[width=\textwidth]{intervals}
+		\caption{Διάστηματα πρόβλεψης για την υπερ-παράμετρο sigma του SVM.}	
 \end{minipage}
-
-\begin{minipage}{0.48\linewidth}
+\begin{minipage}{0.48\textwidth}
 	\noindent
 	\begin{center}
+		\captionof{table}{Επιλογή αλγορίθμου για την υπερ-παράμετρο cp του rpart}
 		\begin{tabular}{ |c|c|c|c| } 
 			\hline
 			& lm & lm+BoxCox & svmRadial\\
@@ -96,11 +100,127 @@
 			p-value & & &\\				
 			\hline
 		\end{tabular}   
-		\captionof{table}{}
 	\end{center}
 \end{minipage} \qquad
-\begin{minipage}{0.48\linewidth}
+\begin{minipage}{0.48\textwidth}
+	 	\centering
+\includegraphics[width=0.9\textwidth]{intervals}
+	 	\caption{Διάστηματα πρόβλεψης για την υπερ-παράμετρο cp του rpart.}	
 \end{minipage}
+\begin{minipage}{0.48\textwidth}
+	\noindent
+	\begin{center}
+		\captionof{table}{Επιλογή αλγορίθμου για την υπερ-παράμετρο decay του nnet}
+		\begin{tabular}{ |c|c|c|c| } 
+			\hline
+			& lm & lm+BoxCox & svmRadial\\
+			\hline
+			rmse & & &\\
+			\hline
+			Rsquared & & & \\
+			\hline 
+			p-value & & &\\				
+			\hline
+		\end{tabular}   
+	\end{center}
+\end{minipage} \qquad
+\begin{minipage}{0.48\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{intervals}
+	\caption{Διάστηματα πρόβλεψης για την υπερ-παράμετρο decay του nnet.}	
+\end{minipage}
+\begin{minipage}{0.48\textwidth}
+	\noindent
+	\begin{center}
+		\captionof{table}{Επιλογή αλγορίθμου για την υπερ-παράμετρο size του nnet}
+		\begin{tabular}{ |c|c|c|c| } 
+			\hline
+			& lm & lm+BoxCox & svmRadial\\
+			\hline
+			rmse & & &\\
+			\hline
+			Rsquared & & & \\
+			\hline 
+			p-value & & &\\				
+			\hline
+		\end{tabular}   
+	\end{center}
+\end{minipage} \qquad
+\begin{minipage}{0.48\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{intervals}
+	\caption{Διάστηματα πρόβλεψης για την υπερ-παράμετρο size του nnet.}	
+\end{minipage}
+\begin{minipage}{0.48\textwidth}
+	\noindent
+	\begin{center}
+		\captionof{table}{Επιλογή αλγορίθμου για την υπερ-παράμετρο fL του nb}
+		\begin{tabular}{ |c|c|c|c| } 
+			\hline
+			& lm & lm+BoxCox & svmRadial\\
+			\hline
+			rmse & & &\\
+			\hline
+			Rsquared & & & \\
+			\hline 
+			p-value & & &\\				
+			\hline
+		\end{tabular}   
+	\end{center}
+\end{minipage} \qquad
+\begin{minipage}{0.48\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{intervals}
+	\caption{Διάστηματα πρόβλεψης για την υπερ-παράμετρο fL του nb.}	
+\end{minipage}
+\begin{minipage}{0.48\textwidth}
+	\noindent
+	\begin{center}
+		\captionof{table}{Επιλογή αλγορίθμου για την υπερ-παράμετρο usekerne του nb}
+		\begin{tabular}{ |c|c|c|c| } 
+			\hline
+			& lm & lm+BoxCox & svmRadial\\
+			\hline
+			rmse & & &\\
+			\hline
+			Rsquared & & & \\
+			\hline 
+			p-value & & &\\				
+			\hline
+		\end{tabular}   
+	\end{center}
+\end{minipage} \qquad
+\begin{minipage}{0.48\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{intervals}
+	\caption{Καμπύλη ROC  για την υπερ-παράμετρο usekernel του nb.}	
+\end{minipage}
+\begin{minipage}{0.48\textwidth}
+	\noindent
+	\begin{center}
+		\captionof{table}{Επιλογή αλγορίθμου για την υπερ-παράμετρο adjust του nb.}
+		\begin{tabular}{ |c|c|c|c| } 
+			\hline
+			& lm & lm+BoxCox & svmRadial\\
+			\hline
+			rmse & & &\\
+			\hline
+			Rsquared & & & \\
+			\hline 
+			p-value & & &\\				
+			\hline
+		\end{tabular}   
+	\end{center}
+\end{minipage} \qquad
+\begin{minipage}{0.48\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{intervals}
+	\caption{Διάστηματα πρόβλεψης για την υπερ-παράμετρο adjust του nb.}	
+\end{minipage}
+\end{figure}
+
+\FloatBarrier
+
 \paragraph{Συμπεράσματα}
 Τα μοντέλα HPP που εκπαιδεύσαμε απέχουν κατά πολύ από το να προβλέπουν επακριβώς τις υπερ-παραμέτρους. Το γεγονός αυτό μάλλον οφείλεται στα μετα-χαρακτη\-ρι\-στικά και συγκεκριμένα την αδυναμία τους να περιγράψουν τις συναρτήσεις-στόχους που θέσαμε. Είναι γεγονός πως δεν είμαστε βέβαιοι για την επιτευξιμότητα της πρόβλεψης υπερ-παραμέτρων, τα πειράματά μας ωστόσο δεν απορρίπτουν την ύπαρξη κάποια συσχέτισης μεταξύ αυτών και των μετα-χαρακτηριστικών.
 
@@ -112,7 +232,7 @@ H αξιολόγηση της τεχνικής ensemble που χρησιμοπ�
 	\item Ο ensemble προσθέτει μοντέλα με το βέλτιστο τρόπο. Ουσιαστικά θέλουμε να επιβεβαιώσουμε τη σωστή λειτουργία του ensemble, δηλαδή ότι σε κάθε επανάληψη έχουμε είτε σταθερή είτε βελτιωμένη απόδοση.
 \end{itemize}
 
-Για τα πειράματά μας εκπαιδεύουμε τα μοντέλα στο $80\%$ των σετ δεδομένων και κρατάμε τα υπόλοιπα για την αξιολόγηση του ensemble, η οποία γίνεται ως εξής: εξάγονται τα μετα-χαρακτηριστικά των σετ δεδομένων, προβλέπονται οι βέλτιστοι υπερ-παράμετροι για κάθε αλγόριθμο μάθησης, εκπαιδεύονται τα μοντέλα και τέλος σχηματίζεται ο ensemble. Για κάθε σετ δεδομένων καταγράφεται η απόδοση του ensemble και του βέλτιστου μοντέλου ως η ακρίβεια (accuracy) που επιτεύχθηκε με 10-fold cross-validation. 
+Για τα πειράματά μας εκπαιδεύουμε τα μοντέλα στο $80\%$ των σετ δεδομένων και κρατάμε τα υπόλοιπα για την αξιολόγηση του ensemble, η οποία γίνεται ως εξής: εξάγονται τα μετα-χαρακτηριστικά των σετ δεδομένων, προβλέπονται οι βέλτιστες υπερ-παράμετροι για κάθε αλγόριθμο μάθησης, εκπαιδεύονται τα μοντέλα και τέλος σχηματίζεται ο ensemble. Για κάθε σετ δεδομένων καταγράφεται η απόδοση του ensemble και του βέλτιστου μοντέλου ως η ακρίβεια (accuracy) που επιτεύχθηκε με 10-fold cross-validation. 
 
 Εφαρμόζωντας το Wilcoxon-rank sum τεστ με επίπεδο εμπιστοσύνης $95\%$ διαπιστώνουμε πως ..., καθώς το p-value ισούται με ... .
 
@@ -136,158 +256,26 @@ r_{p,s}= \frac{t_{p,s}}{\max\{{t_{p,s} : s \in S}\}}
 
 \begin{figure}[!htb]
 	\begin{center}
-		\caption{Διάγραμμα προφίλ απόδοσης για τη σύγκριση του ensemble με το καλύτερο μοντέλο: Παρατηρούμε πως }
+		\caption[Διάγραμμα προφίλ απόδοσης για τη σύγκριση του ensemble με το βέλτιστο μοντέλο]{Διάγραμμα προφίλ απόδοσης για τη σύγκριση του ensemble με το βέλτιστο μοντέλο: Παρατηρούμε πως }
 	\end{center}
 \end{figure}
 
 \begin{figure}[!htb]
 	\begin{center}
-		\caption{Διάγραμμα εξέλιξης ensemble για το σετ δεδομένων (όνομα): Παρατηρούμε πως σε κάθε επανάληψη η απόδοση του ensemble είτε μειώνεται είτε παραμένει σταθερή. }
+		\caption[Διάγραμμα εξέλιξης ensemble για το σετ δεδομένων (όνομα)]{Διάγραμμα εξέλιξης ensemble για το σετ δεδομένων (όνομα): Παρατηρούμε πως σε κάθε επανάληψη η απόδοση του ensemble είτε μειώνεται είτε παραμένει σταθερή. }
 	\end{center}
 \end{figure} 	
 
 \paragraph{Συμπεράσματα}
-\section{Αξιολόγηση συστήματος Automated Data Scientist}
+\section{Αξιολόγηση συστήματος Automated Data Scientist}\label{section:eval_system}
 Η αξιολόγηση του Automated Data Scientist στοχεύει να αποδείξει ότι το σύστημα που έχουμε σχεδιάσει έχει απόδοση συγκρίσιμη με τεχνικές της σύγχρονης βιβλιογραφίας. Καθώς η ουσιαστική πρωτοτυπία του συστήματος βρίσκεται στον τρόπο με τον οποίο γίνεται η βελτιστοποίηση των υπερ-παρα\-μέ\-τρων για τα μοντέλα μηχανικής μάθησης που χρησιμοποιούμε θα συγκρίνουμε το σύστημά μας με δύο τεχνικές βελτιστοποίησης:
 \begin{itemize}
-	\item πλεγματική αναζήτηση. Πρόκειται για τη συνηθέστερη τεχνική αναζήτησης υπερ-παραμέτρων μέχρι και σήμερα.
-	\item Tree Parzen Estimator. Η τεχνική αυτή, που έχει περιγραφεί στην ενότητα \ref{} αποτελεί state of the art στο χώρο του AutoML.
+	\item πλεγματική αναζήτηση. Πρόκειται για τη συνηθέστερη τεχνική αναζήτησης υπερ\-παραμέτρων μέχρι και σήμερα.
+	\item Tree Parzen Estimator. Η τεχνική αυτή, που έχει περιγραφεί στην ενότητα \ref{section:SMBO} αποτελεί state of the art στο χώρο του AutoML.
 \end{itemize}
 
 Η διεξαγωγή των πειραμάτων ακολουθεί τη λογική της ενότητας \ref{section:tensemble}. Έχουμε πραγματοποιήσει 6 διαφορετικά πειράματα: ένα για το συνολικό σύστημα και ένα χρησιμοποιώντας στον ensemble μοντέλα μόνο ενός αλγορίθμου μάθησης. Οι υποπεριπτώσεις αυτές λαμβάνονται υπόψη για τη σύγκριση των τριών τεχνικών επί ίσοις όροις. Φυσικά εμείς ενδιαφερόμαστε περισσότερο για την απόδειξη υπεροχής του συνολικού συστήματος.  
-	\begin{figure}[!htb]
-		
-		\begin{minipage}[t]{0.45\linewidth}
-			\centering
-			\resizebox{\textwidth}{!}{
-				\begin{tikzpicture}
-				
-				\begin{axis}[xlabel= Θεωρητικά ποσοστημόρια,ylabel= Ποσοστημόρια δείγματος,]
-				\addplot[
-				visualization depends on={\thisrow{color}\as\myvalue},
-				scatter/classes={
-					1={mark=*,black}
-				},
-				scatter, only marks,
-				scatter src=explicit symbolic,
-				]
-				table[x=x,y=y,meta=color]
-				{data/qq.dat};
-				\end{axis}
-				\end{tikzpicture}
-			}
-			
-			\caption[Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια]{ Οι άξονες του διαγράμματος αντιστοιχούν στα χαρακτηριστικά του προβλήματος και τα σημεία στα παραδείγματα, για τα οποία η κλάση απεικονίζεται με το χρώμα. Η υπόθεση h αντιστοιχεί στη γραμμή, η οποία διαχωρίζει το πρόβλημα σε δύο υποχώρους.}	
-			
-		\end{minipage} \qquad
-		\begin{minipage}[t]{0.45\linewidth}
-			\centering
-			\resizebox{\textwidth}{!}{
-				\begin{tikzpicture}[
-				declare function={gamma(\z)=
-					(2.506628274631*sqrt(1/\z) + 0.20888568*(1/\z)^(1.5) + 0.00870357*(1/\z)^(2.5) - (174.2106599*(1/\z)^(3.5))/25920 - (715.6423511*(1/\z)^(4.5))/1244160)*exp((-ln(1/\z)-1)*\z);},
-				declare function={gammapdf(\x,\k,\theta) = (\x)^(\k-1)*exp(-\x/\theta) / (\theta^\k*gamma(\k));}
-				]	
-				\begin{axis}[ymin = 0,xlabel= λ,ylabel= Συντελεστής συσχέτισης,]
-				\addplot [smooth, domain=0:20, black] {gammapdf(x,9,0.5)};
-				\addplot +[dashed,mark = none , black] coordinates { (4.1,0)  (4.1,0.275)};
-				\end{axis}
-				\end{tikzpicture}
-			}
-			
-			\caption[Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια]{ Οι άξονες του διαγράμματος αντιστοιχούν στα χαρακτηριστικά του προβλήματος και τα σημεία στα παραδείγματα, για τα οποία η κλάση απεικονίζεται με το χρώμα. Η υπόθεση h αντιστοιχεί στη γραμμή, η οποία διαχωρίζει το πρόβλημα σε δύο υποχώρους.}	
-			
-		\end{minipage}
-	\end{figure}
-	
-	\begin{figure}[!htb]
-		
-		\begin{minipage}[t]{0.45\linewidth}
-			\centering
-			\resizebox{\textwidth}{!}{
-				\begin{tikzpicture}
-				
-				\begin{axis}[xlabel= Θεωρητικά ποσοστημόρια,ylabel= Ποσοστημόρια δείγματος,]
-				\addplot[
-				visualization depends on={\thisrow{color}\as\myvalue},
-				scatter/classes={
-					1={mark=*,black}
-				},
-				scatter, only marks,
-				scatter src=explicit symbolic,
-				]
-				table[x=x,y=y,meta=color]
-				{data/qq.dat};
-				\end{axis}
-				\end{tikzpicture}
-			}
-			
-			\caption[Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια]{ Οι άξονες του διαγράμματος αντιστοιχούν στα χαρακτηριστικά του προβλήματος και τα σημεία στα παραδείγματα, για τα οποία η κλάση απεικονίζεται με το χρώμα. Η υπόθεση h αντιστοιχεί στη γραμμή, η οποία διαχωρίζει το πρόβλημα σε δύο υποχώρους.}	
-			
-		\end{minipage} \qquad
-		\begin{minipage}[t]{0.45\linewidth}
-			\centering
-			\resizebox{\textwidth}{!}{
-				\begin{tikzpicture}[
-				declare function={gamma(\z)=
-					(2.506628274631*sqrt(1/\z) + 0.20888568*(1/\z)^(1.5) + 0.00870357*(1/\z)^(2.5) - (174.2106599*(1/\z)^(3.5))/25920 - (715.6423511*(1/\z)^(4.5))/1244160)*exp((-ln(1/\z)-1)*\z);},
-				declare function={gammapdf(\x,\k,\theta) = (\x)^(\k-1)*exp(-\x/\theta) / (\theta^\k*gamma(\k));}
-				]	
-				\begin{axis}[ymin = 0,xlabel= λ,ylabel= Συντελεστής συσχέτισης,]
-				\addplot [smooth, domain=0:20, black] {gammapdf(x,9,0.5)};
-				\addplot +[dashed,mark = none , black] coordinates { (4.1,0)  (4.1,0.275)};
-				\end{axis}
-				\end{tikzpicture}
-			}
-			
-			\caption[Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια]{ Οι άξονες του διαγράμματος αντιστοιχούν στα χαρακτηριστικά του προβλήματος και τα σημεία στα παραδείγματα, για τα οποία η κλάση απεικονίζεται με το χρώμα. Η υπόθεση h αντιστοιχεί στη γραμμή, η οποία διαχωρίζει το πρόβλημα σε δύο υποχώρους.}	
-			
-		\end{minipage}
-	\end{figure}
 
-	\begin{figure}[!htb]
-		
-		\begin{minipage}[t]{0.45\linewidth}
-			\centering
-			\resizebox{\textwidth}{!}{
-				\begin{tikzpicture}
-				
-				\begin{axis}[xlabel= Θεωρητικά ποσοστημόρια,ylabel= Ποσοστημόρια δείγματος,]
-				\addplot[
-				visualization depends on={\thisrow{color}\as\myvalue},
-				scatter/classes={
-					1={mark=*,black}
-				},
-				scatter, only marks,
-				scatter src=explicit symbolic,
-				]
-				table[x=x,y=y,meta=color]
-				{data/qq.dat};
-				\end{axis}
-				\end{tikzpicture}
-			}
-			
-			\caption[Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια]{ Οι άξονες του διαγράμματος αντιστοιχούν στα χαρακτηριστικά του προβλήματος και τα σημεία στα παραδείγματα, για τα οποία η κλάση απεικονίζεται με το χρώμα. Η υπόθεση h αντιστοιχεί στη γραμμή, η οποία διαχωρίζει το πρόβλημα σε δύο υποχώρους.}	
-			
-		\end{minipage} \qquad
-		\begin{minipage}[t]{0.45\linewidth}
-			\centering
-			\resizebox{\textwidth}{!}{
-				\begin{tikzpicture}[
-				declare function={gamma(\z)=
-					(2.506628274631*sqrt(1/\z) + 0.20888568*(1/\z)^(1.5) + 0.00870357*(1/\z)^(2.5) - (174.2106599*(1/\z)^(3.5))/25920 - (715.6423511*(1/\z)^(4.5))/1244160)*exp((-ln(1/\z)-1)*\z);},
-				declare function={gammapdf(\x,\k,\theta) = (\x)^(\k-1)*exp(-\x/\theta) / (\theta^\k*gamma(\k));}
-				]	
-				\begin{axis}[ymin = 0,xlabel= λ,ylabel= Συντελεστής συσχέτισης,]
-				\addplot [smooth, domain=0:20, black] {gammapdf(x,9,0.5)};
-				\addplot +[dashed,mark = none , black] coordinates { (4.1,0)  (4.1,0.275)};
-				\end{axis}
-				\end{tikzpicture}
-			}
-			
-			\caption[Χώρος χαρακτηριστικών προβλήματος ταξινόμησης όγκων ως προς κακοήθεια]{ Οι άξονες του διαγράμματος αντιστοιχούν στα χαρακτηριστικά του προβλήματος και τα σημεία στα παραδείγματα, για τα οποία η κλάση απεικονίζεται με το χρώμα. Η υπόθεση h αντιστοιχεί στη γραμμή, η οποία διαχωρίζει το πρόβλημα σε δύο υποχώρους.}	
-			
-		\end{minipage}
-	\end{figure}
+[Ακολουθούν τα διαγράμματα προφίλ απόδοσης]
 	
 \paragraph{Συμπεράσματα}
