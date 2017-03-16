@@ -1,0 +1,489 @@
+@article{Lloyd:2006:LSQ:2263356.2269955,
+ author = {Lloyd, S.},
+ title = {Least Squares Quantization in PCM},
+ journal = {IEEE Trans. Inf. Theor.},
+ issue_date = {March 1982},
+ volume = {28},
+ number = {2},
+ month = sep,
+ year = {2006},
+ issn = {0018-9448},
+ pages = {129--137},
+ numpages = {9},
+ url = {http://dx.doi.org/10.1109/TIT.1982.1056489},
+ doi = {10.1109/TIT.1982.1056489},
+ acmid = {2269955},
+ publisher = {IEEE Press},
+ address = {Piscataway, NJ, USA},
+}
+
+@article{Mercer415,
+	author = {Mercer, J.},
+	title = {Functions of Positive and Negative Type, and their Connection with the Theory of Integral Equations},
+	volume = {209},
+	number = {441-458},
+	pages = {415--446},
+	year = {1909},
+	doi = {10.1098/rsta.1909.0016},
+	publisher = {The Royal Society},
+	issn = {0264-3952},
+	URL = {http://rsta.royalsocietypublishing.org/content/209/441-458/415},
+	eprint = {http://rsta.royalsocietypublishing.org/content/209/441-458/415.full.pdf},
+	journal = {Philosophical Transactions of the Royal Society of London A: Mathematical, Physical and Engineering Sciences}
+}
+
+@incollection{KRK,
+author = {Muggleton, Stephen and Bain, Michael and Hayes-Michie, Jean and Michie, Donald},
+booktitle = {In Proceedings of the Sixth International Workshop on Machine Learning},
+pages = {113--118},
+title = {{An Experimental Comparison of Human and Machine Learning Formalisms}},
+url = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.52.9566},
+volume = {53},
+year = {1989}
+}
+
+@misc{car,
+author = "Bohanec, M.",
+year = "2013",
+title = "Car Evaluation Data Set" ,
+url = "http://archive.ics.uci.edu/ml/datasets/Car+Evaluation"}
+
+@misc{balloons,
+author = "Pazzani, M.",
+year = "1996",
+title = "Balloons Data Set" ,
+url = "http://archive.ics.uci.edu/ml/datasets/Balloons"}
+
+@misc{census,
+author = "Kohavi, M. and Becker, B.",
+year = "2013",
+title = "Census Income Data Set"  ,
+url = "http://archive.ics.uci.edu/ml/datasets/Census+Income"}
+
+@misc{dermatology,
+author = "Nilsel, I. and Guvenir Altay, H.",
+year = " ",
+title = "Dermatology Data Set "  ,
+url = "http://archive.ics.uci.edu/ml/datasets/Dermatology"}
+
+@misc{haberman,
+author = "Tjen-Sien, L",
+year = " ",
+title = "Haberman's Survival Data Set  "  ,
+url = "http://archive.ics.uci.edu/ml/datasets/Haberman\%27s+Survival"}
+
+@misc{hepatitis,
+author = " ",
+year = " ",
+title = "Hepatitis Data Set"  ,
+url = "http://archive.ics.uci.edu/ml/datasets/Hepatitis"}
+
+@misc{ionoshpere,
+author = "Sigillito, V. ",
+year = " ",
+title = "Ionosphere Data Set"  ,
+url = "http://archive.ics.uci.edu/ml/datasets/Ionosphere"}
+
+@misc{monks,
+author = " Thrun, S. ",
+year = " ",
+title = "MONK's Problems Data Set"  ,
+url = "http://archive.ics.uci.edu/ml/datasets/MONK\%27s+Problems"}
+
+@misc{nursery,
+author = "Rajkovic, V. ",
+year = " ",
+title = "Nursery Data Set "  ,
+url = "http://archive.ics.uci.edu/ml/datasets/Nursery"}
+
+@misc{pima,
+author = "National Institute of Diabetes and Digestive and Kidney Diseases  ",
+year = " ",
+title = "Pima Indians Diabetes Data Set"  ,
+url = "http://archive.ics.uci.edu/ml/datasets/Pima+Indians+Diabetes"}
+
+@misc{spam,
+author = "Hopkins, Mark and Reeber, Erik and Forman, George and Suermondt, Jaap",
+year = " ",
+title = "Spambase Data Set "  ,
+url = "http://archive.ics.uci.edu/ml/datasets/Spambase"}
+
+@misc{tic,
+author = " Aha, David W.",
+year = " ",
+title = "Tic-Tac-Toe Endgame Data Set"  ,
+url = "http://archive.ics.uci.edu/ml/datasets/Tic-Tac-Toe+Endgame"}
+
+@misc{credit,
+author = "Quinlan",
+year = "1987",
+title = "Credit Approval Data Set"  ,
+url = "http://archive.ics.uci.edu/ml/datasets/Credit+Approval"}
+
+@misc{dcg,
+author = "Bally, Mathieu",
+year = "",
+title = "DCG"  ,
+url = "https://relational.fit.cvut.cz/dataset/DCG"}
+
+@misc{ftp,
+author = "Motl, Jan",
+year = "",
+title = "FTP"  ,
+url = "https://relational.fit.cvut.cz/dataset/FTP"}
+
+@misc{imdb,
+author = "Kranjc, Janez",
+year = "",
+title = "IMDb"  ,
+url = "https://relational.fit.cvut.cz/dataset/IMDb"}
+
+@misc{musk,
+author = "Barragao, Arnaud",
+year = "",
+title = "Musk"  ,
+url = "https://relational.fit.cvut.cz/dataset/Musk"}
+
+@misc{uni,
+author = "Schulte, Oliver",
+year = "",
+title = "University"  ,
+url = "https://relational.fit.cvut.cz/dataset/University"}
+
+@misc{utube,
+author = "Bally, Mathieu",
+year = "",
+title = "Utube"  ,
+url = "https://relational.fit.cvut.cz/dataset/UTube"}
+
+@misc{indian,
+author = " ",
+year = "",
+title = "Top 500 Indian Cities"  ,
+url = "https://www.kaggle.com/zed9941/top-500-indian-cities"}
+
+@misc{gym,
+author = " ",
+year = "",
+title = "Crowdedness at the campus gym"  ,
+url = "https://www.kaggle.com/nsrose7224/crowdedness-at-the-campus-gym"}
+
+@misc{hr,
+author = " ",
+year = "",
+title = "Human Resources Analytics"  ,
+url = "https://www.kaggle.com/ludobenistant/hr-analytics"}
+
+@misc{sequence,
+author = " ",
+year = "",
+title = "SP1 factor binding sites on Chromosome1"  ,
+url = "https://www.kaggle.com/hobako1993/sp1-factor-binding-sites-on-chromosome1"}
+
+@misc{alcohol,
+author = " ",
+year = "",
+title = "Student Alcohol Consumption"  ,
+url = "https://www.kaggle.com/uciml/student-alcohol-consumption"}
+
+@misc{mushroom,
+author = " ",
+year = "",
+title = "Mushroom Classification"  ,
+url = "https://www.kaggle.com/uciml/mushroom-classification"}
+
+@misc{vgames,
+author = " ",
+year = "",
+title = "Video Game Sales"  ,
+url = "https://www.kaggle.com/gregorut/videogamesales"}
+
+@misc{aviation,
+author = " ",
+year = "",
+title = "Aviation Accident Database & Synopses",
+url = "https://www.kaggle.com/khsamaha/aviation-accident-database-synopses"}
+
+@misc{creditcard,
+author = " ",
+year = "",
+title = "Credit Card Fraud Detection",
+url = "https://www.kaggle.com/dalpozz/creditcardfraud"}
+
+@misc{default,
+author = " ",
+year = "",
+title = "Default of Credit Card Clients Dataset",
+url = "https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset"}
+
+@misc{sales,
+author = " ",
+year = "",
+title = "Historical Sales and Active Inventory",
+url = "https://www.kaggle.com/flenderson/sales-analysis"}
+
+@misc{vgsales,
+author = " ",
+year = "",
+title = "Video Game Sales",
+url = "https://www.kaggle.com/gregorut/videogamesales"}
+
+@misc{voice,
+author = " ",
+year = "",
+title = "Gender Recognition by Voice",
+url = "https://www.kaggle.com/primaryobjects/voicegender"}
+
+@misc{breast,
+author = " ",
+year = "",
+title = "AP\_Endometrium\_Breast",
+url = "https://test.openml.org/d/1123"}
+
+@misc{lung,
+author = " ",
+year = "",
+title = "AP\_Prostate\_Lung",
+url = "https://www.openml.org/d/1155"}
+
+@misc{lupus,
+author = " ",
+year = "",
+title = "lupus",
+url = "https://www.openml.org/d/472"}
+
+@misc{pie,
+author = "Bauer, Hans Jesus and Bergman, Deter",
+year = "",
+title = "PieChart2",
+url = "https://www.openml.org/d/1452"}
+
+@misc{thyroid,
+author = "Quinlan, Ross",
+year = "",
+title = "Thyroid Disease Data Set ",
+url = "http://archive.ics.uci.edu/ml/datasets/Thyroid+Disease"}
+
+
+@article{planning,
+author = {Bhatt, Rajen},
+journal = {UCI Machine Learning Repository},
+title = {{ Planning-Relax Dataset for Automatic Classification of EEG Signals.}},
+year = {},
+url = {https://archive.ics.uci.edu/ml/datasets/Planning+Relax},
+}
+
+
+@article{wilt,
+author = {Johnson, B. and Tateishi, R. and Hoan, N.},
+journal = {International Journal of Remote Sensing},
+pmid = {6969-6982},
+title = {{ A hybrid pansharpening approach and multiscale object-based image analysis for mapping diseased pine and oak trees.}},
+year = {2013},
+url = {http://archive.ics.uci.edu/ml/datasets/Wilt},
+}
+
+@article{10.2307/3001616,
+ ISSN = {0006341X, 15410420},
+ URL = {http://www.jstor.org/stable/3001616},
+ author = {William G. Cochran},
+ journal = {Biometrics},
+ number = {4},
+ pages = {417-451},
+ publisher = {[Wiley, International Biometric Society]},
+ title = {Some Methods for Strengthening the Common χ<sup>2</sup> Tests},
+ volume = {10},
+ year = {1954}
+}
+
+@article{Jiang:2008:ECI:1390681.1390698,
+ author = {Jiang, Bo and Zhang, Xuegong and Cai, Tianxi},
+ title = {Estimating the Confidence Interval for Prediction Errors of Support Vector Machine Classifiers},
+ journal = {J. Mach. Learn. Res.},
+ issue_date = {6/1/2008},
+ volume = {9},
+ month = jun,
+ year = {2008},
+ issn = {1532-4435},
+ pages = {521--540},
+ numpages = {20},
+ url = {http://dl.acm.org/citation.cfm?id=1390681.1390698},
+ acmid = {1390698},
+ publisher = {JMLR.org},
+} 
+
+@TECHREPORT{Lin04simpleprobabilistic,
+    author = {Chih-jen Lin and Ruby C. Weng},
+    title = {Simple probabilistic predictions for support vector regression},
+    institution = {},
+    year = {2004}
+}
+
+@INPROCEEDINGS{Platt99probabilisticoutputs,
+    author = {John C. Platt},
+    title = {Probabilistic Outputs for Support Vector Machines and Comparisons to Regularized Likelihood Methods},
+    booktitle = {ADVANCES IN LARGE MARGIN CLASSIFIERS},
+    year = {1999},
+    pages = {61--74},
+    publisher = {MIT Press}
+}
+
+@article{doi:10.1093/jnci/22.4.719,
+author = {Mantel, Nathan and Haenszel, William},
+title = {Statistical Aspects of the Analysis of Data From Retrospective Studies of Disease},
+journal = {JNCI: Journal of the National Cancer Institute},
+volume = {22},
+number = {4},
+pages = {719},
+year = {1959},
+doi = {10.1093/jnci/22.4.719},
+URL = { + http://dx.doi.org/10.1093/jnci/22.4.719},
+eprint = {/oup/backfile/Content_public/Journal/jnci/22/4/10.1093/jnci/22.4.719/2/22-4-719.pdf}
+}
+
+@article{VapLer63,
+    author = {Vapnik, V. and Lerner, A.},
+    citeulike-article-id = {619639},
+    journal = {Automation and Remote Control},
+    keywords = {kernels},
+    posted-at = {2006-05-09 01:04:55},
+    priority = {2},
+    title = {{Pattern Recognition using Generalized Portrait Method}},
+    volume = {24},
+    year = {1963}
+}
+
+@article{doi:10.1093/biomet/75.2.383,
+author = {HOMMEL, G.},
+title = {A stagewise rejective multiple test procedure based on a modified Bonferroni test},
+journal = {Biometrika},
+volume = {75},
+pages = {383},
+year = {1988},
+doi = {10.1093/biomet/75.2.383},
+URL = { + http://dx.doi.org/10.1093/biomet/75.2.383},
+eprint = {/oup/backfile/Content_public/Journal/biomet/75/2/10.1093/biomet/75.2.383/2/75-2-383.pdf}
+}
+
+
+
+
+@article{citeulike:4294367,
+    author = {Holm, S.},
+    citeulike-article-id = {4294367},
+    journal = {Scandinavian Journal of Statistics},
+    keywords = {statistical\_tests},
+    pages = {65--70},
+    posted-at = {2009-04-09 13:12:50},
+    priority = {0},
+    title = {{A simple sequentially rejective multiple test procedure}},
+    volume = {6},
+    year = {1979}
+}
+
+
+@article{CIS-57999,
+  Author = {Jaccard, James and Becker, Michael A. and Wood, Gregory},
+  Title = {Pairwise multiple comparison procedures: A review},
+  Journal = {The Psychological Bulletin},
+  Volume = {96},
+  Year = {1984},
+  Pages = {589--596},
+  Keywords = {}
+}
+
+
+@article{doi:10.1080/03610928008827904,
+author = { Ronald L.   Iman  and  James M.   Davenport },
+title = {Approximations of the critical region of the fbietkan statistic},
+journal = {Communications in Statistics - Theory and Methods},
+volume = {9},
+number = {6},
+pages = {571-595},
+year = {1980},
+doi = {10.1080/03610928008827904},
+
+URL = { 
+        http://dx.doi.org/10.1080/03610928008827904
+    
+},
+eprint = { 
+        http://dx.doi.org/10.1080/03610928008827904
+    
+}
+
+}
+
+
+@article {QJ:QJ49708235130,
+title = {Statistical methods for research workers. By Sir Ronald A. Fisher. Edinburgh (Oliver and Boyd), 12th Ed., 1954. Pp. xv, 356; 12 Figs., 74 Tables. 16s},
+journal = {Quarterly Journal of the Royal Meteorological Society},
+volume = {82},
+number = {351},
+publisher = {John Wiley & Sons, Ltd},
+issn = {1477-870X},
+url = {http://dx.doi.org/10.1002/qj.49708235130},
+doi = {10.1002/qj.49708235130},
+pages = {119--119},
+year = {1956},
+}
+
+@article{parkinsons,
+	Author = {Little, MA and McSharry, PE and Roberts, SJ and Costello, DAE and Moroz,IM},
+	Journal = {BioMedical Engineering OnLine},
+	Pages = {6-23},
+	Title = {{Exploiting Nonlinear Recurrence and Fractal Scaling Properties for Voice Disorder Detection}},
+	Year = {2007}
+       }
+
+
+@article{Mutagenesis,
+abstract = {A review of the literature yielded data on over 200 aromatic and heteroaromatic nitro compounds tested for mutagenicity in the Ames test using S. typhimurium TA98. From the data, a quantitative structure-activity relationship (QSAR) has been derived for 188 congeners. The main determinants of mutagenicity are the hydrophobicity (modeled by octanol/water partition coefficients) and the energies of the lowest unoccupied molecular orbitals calculated using the AM1 method. It is also shown that chemicals possessing three or more fused rings possess much greater mutagenic potency than compounds with one or two fused rings. Since the QSAR is based on a very wide range in structural variation, aromatic rings from benzene to coronene are included as well as many different types of heterocycles, it is a significant step toward a predictive toxicology of value in the design of less mutagenic bioactive compounds.},
+author = {Debnath, A. K. and {Lopez de Compadre}, R. L. and Debnath, G. and Shusterman, A. J. and Hansch, C.},
+doi = {10.1021/jm00106a046},
+isbn = {0022-2623 (Print)$\backslash$r0022-2623 (Linking)},
+issn = {0022-2623},
+journal = {Journal of medicinal chemistry},
+number = {2},
+pages = {786--797},
+pmid = {1995902},
+title = {{Structure-activity relationship of mutagenic aromatic and heteroaromatic nitro compounds. Correlation with molecular orbital energies and hydrophobicity.}},
+volume = {34},
+year = {1991}
+}
+
+@article{CorCer09,
+	Author = {P. Cortez and A. Cerdeira and F. Almeida and T. Matos and J. Reis},
+	Journal = {Decision Support Systems},
+	Number = {4},
+	Pages = {547-553},
+	Title = {{Modeling wine preferences by data mining from physicochemical properties}},
+	Volume = {47},
+	Year = {1998}
+       }
+
+
+@article{Helma2001,
+abstract = {Summary: We initiated the Predictive Toxicology Challenge (PTC) to stimulate the development of advanced SAR techniques for predictive toxicology models. The goal of this challenge is to predict the rodent carcinogenicity of new compounds based on the experimental results of the US National Toxicology Program (NTP). Submissions will be evaluated on quantitative and qualitative scales to select the most predictive models and those with the highest toxicological relevance.Availability: http://www.informatik.uni-freiburg.de/ ml/ptc/Contact: helma@informatik.uni-freiburg.de},
+author = {Helma, Christoph and King, R. D. and Kramer, S. and Srinivasan, A.},
+doi = {10.1093/bioinformatics/17.1.107},
+issn = {1367-4803},
+journal = {Bioinformatics},
+month = jan,
+number = {1},
+pages = {107--108},
+pmid = {12835260},
+title = {{The Predictive Toxicology Challenge 2000-2001}},
+url = {http://bioinformatics.oxfordjournals.org/cgi/doi/10.1093/bioinformatics/17.1.107},
+volume = {17},
+year = {2001}
+}
+
+@techreport{Trains,
+address = {Oxford},
+author = {Michie, Donald and Muggleton, Stephen and Page, David and Srinivasan, Ashwin},
+institution = {Oxford University Computing laboratory},
+title = {{To the international computing community: A new east-west challenge}},
+year = {1994}
+}
+

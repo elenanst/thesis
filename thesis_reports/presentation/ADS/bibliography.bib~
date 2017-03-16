@@ -1,0 +1,15 @@
+@Article{ LM11,
+title = {Research Opportunities in Automl},
+author = {Rich Caruana},
+journal = {Automl Workshop, ICML 2015}, 
+year = "2015"
+}
+
+@article{Knuth92,
+        author = "D.E. Knuth",
+        title = "Two notes on notation",
+        journal = "Amer. Math. Monthly",
+        volume = "99",
+        year = "1992",
+        pages = "403--422",
+}

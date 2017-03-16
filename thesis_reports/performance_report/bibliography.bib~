@@ -1,0 +1,118 @@
+@Article{Dolan2002,
+author="Dolan, Elizabeth D.
+and Mor{\'e}, Jorge J.",
+title="Benchmarking optimization software with performance profiles",
+journal="Mathematical Programming",
+year="2002",
+volume="91",
+number="2",
+pages="201--213",
+abstract="We propose performance profiles --- distribution functions for a performance metric --- as a tool for benchmarking and comparing optimization software. We show that performance profiles combine the best features of other tools for performance evaluation.",
+issn="1436-4646",
+doi="10.1007/s101070100263",
+url="http://dx.doi.org/10.1007/s101070100263"
+}
+
+@article{Demsar:2006:SCC:1248547.1248548,
+ author = {Dem\v{s}ar, Janez},
+ title = {Statistical Comparisons of Classifiers over Multiple Data Sets},
+ journal = {J. Mach. Learn. Res.},
+ issue_date = {12/1/2006},
+ volume = {7},
+ month = dec,
+ year = {2006},
+ issn = {1532-4435},
+ pages = {1--30},
+ numpages = {30},
+ url = {http://dl.acm.org/citation.cfm?id=1248547.1248548},
+ acmid = {1248548},
+ publisher = {JMLR.org},
+} 
+
+@inproceedings{Bergstra:2011:AHO:2986459.2986743,
+ author = {Bergstra, James and Bardenet, R{\'e}mi and Bengio, Yoshua and K{\'e}gl, Bal\'{a}zs},
+ title = {Algorithms for Hyper-parameter Optimization},
+ booktitle = {Proceedings of the 24th International Conference on Neural Information Processing Systems},
+ series = {NIPS'11},
+ year = {2011},
+ isbn = {978-1-61839-599-3},
+ location = {Granada, Spain},
+ pages = {2546--2554},
+ numpages = {9},
+ url = {http://dl.acm.org/citation.cfm?id=2986459.2986743},
+ acmid = {2986743},
+ publisher = {Curran Associates Inc.},
+ address = {USA},
+}
+
+@Inbook{Hutter2011,
+author="Hutter, Frank
+and Hoos, Holger H.
+and Leyton-Brown, Kevin",
+editor="Coello, Carlos A. Coello",
+title="Sequential Model-Based Optimization for General Algorithm Configuration",
+bookTitle="Learning and Intelligent Optimization: 5th International Conference, LION 5, Rome, Italy, January 17-21, 2011. Selected Papers",
+year="2011",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="507--523",
+isbn="978-3-642-25566-3",
+doi="10.1007/978-3-642-25566-3_40",
+url="http://dx.doi.org/10.1007/978-3-642-25566-3_40"
+}
+
+@INPROCEEDINGS{7373431, 
+author={M. Wistu\-ba and N. Schilling and L.\-Schmidt-Thieme}, 
+booktitle={2015 IEEE International Conference on Data Mining}, 
+title={Sequential Model-Free Hyperparameter Tuning}, 
+year={2015}, 
+pages={1033-1038}, 
+keywords={pattern classification;support vector machines;AdaBoost;SMBO framework;SVM;acquisition function;automatic tuning;classifiers;complex hyperparameter tuning strategies;data sets;hyperparameter combinations;hyperparameter configurations;look-up tables;meta-features;random hyperparameter search;sequential model-based optimization;sequential model-free hyperparameter tuning;static ranking;surrogate models;Adaptation models;Data models;Loss measurement;Machine learning algorithms;Optimization;Tuning;hyperparameter optimization;meta-learning;transfer learning}, 
+doi={10.1109/ICDM.2015.20}, 
+ISSN={1550-4786}, 
+month={Nov},}
+
+@Inbook{Hutter2011,
+author="Hutter, Frank
+and Hoos, Holger H.
+and Leyton-Brown, Kevin",
+editor="Coello, Carlos A. Coello",
+title="Sequential Model-Based Optimization for General Algorithm Configuration",
+bookTitle="Learning and Intelligent Optimization: 5th International Conference, LION 5, Rome, Italy, January 17-21, 2011. Selected Papers",
+year="2011",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="507--523",
+isbn="978-3-642-25566-3",
+doi="10.1007/978-3-642-25566-3_40",
+url="http://dx.doi.org/10.1007/978-3-642-25566-3_40"
+}
+
+
+
+@article{DBLP:journals/corr/LoshchilovH16,
+  author    = {Ilya Loshchilov and
+               Frank Hutter},
+  title     = {{CMA-ES} for Hyperparameter Optimization of Deep Neural Networks},
+  journal   = {CoRR},
+  volume    = {abs/1604.07269},
+  year      = {2016},
+  url       = {http://arxiv.org/abs/1604.07269},
+  timestamp = {Mon, 02 May 2016 18:22:52 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/LoshchilovH16},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@article{Introduction,
+ author = {Presnell, Brett},
+ title = {An introduction to Categorical Data Analysis Using R},
+ issue_date = {28/1/2000}
+}
+
+@online{Fisher,
+  author = {Wikipedia},
+  title = {Fisher's exact test},
+  year = 1999,
+  url = {https://en.wikipedia.org/wiki/Fisher\%27s_exact_test},
+  urldate = {2017-01-21}
+}

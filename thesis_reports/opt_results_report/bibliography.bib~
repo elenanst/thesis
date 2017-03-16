@@ -1,0 +1,7 @@
+@online{caret,
+  author = {Max Kuhn},
+  title = {The caret Package},
+  year = 2016-11-29,
+  url = {http://topepo.github.io/caret/random-hyperparameter-search.html},
+  urldate = {2016-12-28}
+}

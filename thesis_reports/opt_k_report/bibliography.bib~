@@ -1,0 +1,69 @@
+@Article{Soares2004,
+author="Soares, Carlos
+and Brazdil, Pavel B.
+and Kuba, Petr",
+title="A Meta-Learning Method to Select the Kernel Width in Support Vector Regression",
+journal="Machine Learning",
+year="2004",
+volume="54",
+number="3",
+pages="195--209",
+abstract="The Support Vector Machine algorithm is sensitive to the choice of parameter settings. If these are not set correctly, the algorithm may have a substandard performance. Suggesting a good setting is thus an important problem. We propose a meta-learning methodology for this purpose and exploit information about the past performance of different settings. The methodology is applied to set the width of the Gaussian kernel. We carry out an extensive empirical evaluation, including comparisons with other methods (fixed default ranking; selection based on cross-validation and a heuristic method commonly used to set the width of the SVM kernel). We show that our methodology can select settings with low error while providing significant savings in time. Further work should be carried out to see how the methodology could be adapted to different parameter setting tasks.",
+issn="1573-0565",
+doi="10.1023/B:MACH.0000015879.28004.9b",
+url="http://dx.doi.org/10.1023/B:MACH.0000015879.28004.9b"
+}
+
+@inproceedings{Feurer:2014:UMI:3015544.3015549,
+ author = {Feurer, Matthias and Springenberg, Jost Tobias and Hutter, Frank},
+ title = {Using Meta-learning to Initialize Bayesian Optimization of Hyperparameters},
+ booktitle = {Proceedings of the 2014 International Conference on Meta-learning and Algorithm Selection - Volume 1201},
+ series = {MLAS'14},
+ year = {2014},
+ isbn = {1613-0073},
+ location = {Prague, Czech Republic},
+ pages = {3--10},
+ numpages = {8},
+ url = {http://dl.acm.org/citation.cfm?id=3015544.3015549},
+ acmid = {3015549},
+ publisher = {CEUR-WS.org},
+ address = {Aachen, Germany, Germany},
+} 
+
+@inproceedings{Caruana:2004:ESL:1015330.1015432,
+ author = {Caruana, Rich and Niculescu-Mizil, Alexandru and Crew, Geoff and Ksikes, Alex},
+ title = {Ensemble Selection from Libraries of Models},
+ booktitle = {Proceedings of the Twenty-first International Conference on Machine Learning},
+ series = {ICML '04},
+ year = {2004},
+ isbn = {1-58113-838-5},
+ location = {Banff, Alberta, Canada},
+ pages = {18--},
+ url = {http://doi.acm.org/10.1145/1015330.1015432},
+ doi = {10.1145/1015330.1015432},
+ acmid = {1015432},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@online{autosklearn,
+  author = {github},
+  title = {autosklearn},
+  year = 2016,
+  url = {https://github.com/automl/HPOlib},
+  urldate = {2017-02-06}
+}
+
+@online{hpolib,
+  author = {github},
+  title = {HPOlib},
+  year = 2016,
+  url = {https://github.com/automl/auto-sklearn},
+  urldate = {2017-02-06}
+}
+
+@MISC{Reif_meta2-features:,
+    author = {Matthias Reif and Faisal Shafait and Andreas Dengel},
+    title = {Meta 2-Features: Providing Meta-Learners More Information},
+    year = {}
+}

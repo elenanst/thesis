@@ -1,0 +1,77 @@
+@incollection{KRK,
+author = {Muggleton, Stephen and Bain, Michael and Hayes-Michie, Jean and Michie, Donald},
+booktitle = {In Proceedings of the Sixth International Workshop on Machine Learning},
+pages = {113--118},
+title = {{An Experimental Comparison of Human and Machine Learning Formalisms}},
+url = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.52.9566},
+volume = {53},
+year = {1989}
+}
+
+@misc{anudc:4896
+author = {Stiglic, G. and Kokol, F.},
+title = {{Stability of Ranked Gene Lists in Large Microarray Analysis Studies},
+doi = {10.4225/13/511C71F8612C3},
+howpublished= {\url{http://dx.doi.org/10.4225/13/511C71F8612C3}} 
+
+
+@article{gen,
+author = {Stiglic, G.and Kokol, P.,},
+doi = {10.1021/jm00106a046},
+journal = {Journal of biomedicine biotechnology},
+number = {2},
+pmid = {616358},
+title = {{ Stability of Ranked Gene Lists in Large Microarray Analysis Studies.}},
+year = {2010},
+url = {https://www.openml.org/d/1155},
+}
+
+@article{Mutagenesis,
+abstract = {A review of the literature yielded data on over 200 aromatic and heteroaromatic nitro compounds tested for mutagenicity in the Ames test using S. typhimurium TA98. From the data, a quantitative structure-activity relationship (QSAR) has been derived for 188 congeners. The main determinants of mutagenicity are the hydrophobicity (modeled by octanol/water partition coefficients) and the energies of the lowest unoccupied molecular orbitals calculated using the AM1 method. It is also shown that chemicals possessing three or more fused rings possess much greater mutagenic potency than compounds with one or two fused rings. Since the QSAR is based on a very wide range in structural variation, aromatic rings from benzene to coronene are included as well as many different types of heterocycles, it is a significant step toward a predictive toxicology of value in the design of less mutagenic bioactive compounds.},
+author = {Debnath, A. K. and {Lopez de Compadre}, R. L. and Debnath, G. and Shusterman, A. J. and Hansch, C.},
+doi = {10.1021/jm00106a046},
+isbn = {0022-2623 (Print)$\backslash$r0022-2623 (Linking)},
+issn = {0022-2623},
+journal = {Journal of medicinal chemistry},
+number = {2},
+pages = {786--797},
+pmid = {1995902},
+title = {{Structure-activity relationship of mutagenic aromatic and heteroaromatic nitro compounds. Correlation with molecular orbital energies and hydrophobicity.}},
+volume = {34},
+year = {1991}
+}
+
+@article{CorCer09,
+	Author = {P. Cortez and A. Cerdeira and F. Almeida and T. Matos and J. Reis},
+	Journal = {Decision Support Systems},
+	Number = {4},
+	Pages = {547-553},
+	Title = {{Modeling wine preferences by data mining from physicochemical properties}},
+	Volume = {47},
+	Year = {1998}
+       }
+
+
+@article{Helma2001,
+abstract = {Summary: We initiated the Predictive Toxicology Challenge (PTC) to stimulate the development of advanced SAR techniques for predictive toxicology models. The goal of this challenge is to predict the rodent carcinogenicity of new compounds based on the experimental results of the US National Toxicology Program (NTP). Submissions will be evaluated on quantitative and qualitative scales to select the most predictive models and those with the highest toxicological relevance.Availability: http://www.informatik.uni-freiburg.de/ ml/ptc/Contact: helma@informatik.uni-freiburg.de},
+author = {Helma, Christoph and King, R. D. and Kramer, S. and Srinivasan, A.},
+doi = {10.1093/bioinformatics/17.1.107},
+issn = {1367-4803},
+journal = {Bioinformatics},
+month = jan,
+number = {1},
+pages = {107--108},
+pmid = {12835260},
+title = {{The Predictive Toxicology Challenge 2000-2001}},
+url = {http://bioinformatics.oxfordjournals.org/cgi/doi/10.1093/bioinformatics/17.1.107},
+volume = {17},
+year = {2001}
+}
+
+@techreport{Trains,
+address = {Oxford},
+author = {Michie, Donald and Muggleton, Stephen and Page, David and Srinivasan, Ashwin},
+institution = {Oxford University Computing laboratory},
+title = {{To the international computing community: A new east-west challenge}},
+year = {1994}
+}

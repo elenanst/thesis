@@ -1,0 +1,185 @@
+@inproceedings{Bergstra:2011:AHO:2986459.2986743,
+ author = {Bergstra, James and Bardenet, R{\'e}mi and Bengio, Yoshua and K{\'e}gl, Bal\'{a}zs},
+ title = {Algorithms for Hyper-parameter Optimization},
+ booktitle = {Proceedings of the 24th International Conference on Neural Information Processing Systems},
+ series = {NIPS'11},
+ year = {2011},
+ isbn = {978-1-61839-599-3},
+ location = {Granada, Spain},
+ pages = {2546--2554},
+ numpages = {9},
+ url = {http://dl.acm.org/citation.cfm?id=2986459.2986743},
+ acmid = {2986743},
+ publisher = {Curran Associates Inc.},
+ address = {USA},
+}
+
+@inproceedings{Hutter:2009:EIM:1569901.1569940,
+ author = {Hutter, Frank and Hoos, Holger H. and Leyton-Brown, Kevin and Murphy, Kevin P.},
+ title = {An Experimental Investigation of Model-based Parameter Optimisation: SPO and Beyond},
+ booktitle = {Proceedings of the 11th Annual Conference on Genetic and Evolutionary Computation},
+ series = {GECCO '09},
+ year = {2009},
+ isbn = {978-1-60558-325-9},
+ location = {Montreal, Qu\&\#233;bec, Canada},
+ pages = {271--278},
+ numpages = {8},
+ url = {http://doi.acm.org/10.1145/1569901.1569940},
+ doi = {10.1145/1569901.1569940},
+ acmid = {1569940},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {active learning, gaussian processes, noisy optimization, parameter tuning, sequential experimental design},
+} 
+
+@Online{wassenberg,
+  hyphenation = {american},
+  author      = {Fabian Pedregosa},
+  title       = {Hyperparameter optimization with approximate gradient},
+  version     = {1},
+  date        = {2016-6-26},
+  eprinttype  = {arxiv},
+  eprintclass = {cs.LG},
+  eprint      = {1602.02355v5}
+}
+
+@Article{Soares2004,
+author="Soares, Carlos
+and Brazdil, Pavel B.
+and Kuba, Petr",
+title="A Meta-Learning Method to Select the Kernel Width in Support Vector Regression",
+journal="Machine Learning",
+year="2004",
+volume="54",
+number="3",
+pages="195--209",
+abstract="The Support Vector Machine algorithm is sensitive to the choice of parameter settings. If these are not set correctly, the algorithm may have a substandard performance. Suggesting a good setting is thus an important problem. We propose a meta-learning methodology for this purpose and exploit information about the past performance of different settings. The methodology is applied to set the width of the Gaussian kernel. We carry out an extensive empirical evaluation, including comparisons with other methods (fixed default ranking; selection based on cross-validation and a heuristic method commonly used to set the width of the SVM kernel). We show that our methodology can select settings with low error while providing significant savings in time. Further work should be carried out to see how the methodology could be adapted to different parameter setting tasks.",
+issn="1573-0565",
+doi="10.1023/B:MACH.0000015879.28004.9b",
+url="http://dx.doi.org/10.1023/B:MACH.0000015879.28004.9b"
+}
+
+@inproceedings{Feurer:2014:UMI:3015544.3015549,
+ author = {Feurer, Matthias and Springenberg, Jost Tobias and Hutter, Frank},
+ title = {Using Meta-learning to Initialize Bayesian Optimization of Hyperparameters},
+ booktitle = {Proceedings of the 2014 International Conference on Meta-learning and Algorithm Selection - Volume 1201},
+ series = {MLAS'14},
+ year = {2014},
+ isbn = {1613-0073},
+ location = {Prague, Czech Republic},
+ pages = {3--10},
+ numpages = {8},
+ url = {http://dl.acm.org/citation.cfm?id=3015544.3015549},
+ acmid = {3015549},
+ publisher = {CEUR-WS.org},
+ address = {Aachen, Germany, Germany},
+} 
+
+@inproceedings{Caruana:2004:ESL:1015330.1015432,
+ author = {Caruana, Rich and Niculescu-Mizil, Alexandru and Crew, Geoff and Ksikes, Alex},
+ title = {Ensemble Selection from Libraries of Models},
+ booktitle = {Proceedings of the Twenty-first International Conference on Machine Learning},
+ series = {ICML '04},
+ year = {2004},
+ isbn = {1-58113-838-5},
+ location = {Banff, Alberta, Canada},
+ pages = {18--},
+ url = {http://doi.acm.org/10.1145/1015330.1015432},
+ doi = {10.1145/1015330.1015432},
+ acmid = {1015432},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@online{autosklearn,
+  author = {github},
+  title = {autosklearn},
+  year = 2016,
+  url = {https://github.com/automl/auto-sklearn},
+  urldate = {2017-02-06}
+}
+
+@online{hpolib,
+  author = {github},
+  title = {HPOlib},
+  year = 2016,
+  url = {https://github.com/automl/HPOlib},
+  urldate = {2017-02-06}
+}
+
+@online{hyperopt,
+  author = {github},
+  title = {hyperopt},
+  year = 2016,
+  url = {https://github.com/hyperopt/hyperopt},
+  urldate = {2017-02-06}
+}
+
+@online{spearmint,
+  author = {github},
+  title = {Spearmint},
+  year = 2016,
+  url = {https://github.com/HIPS/Spearmintt},
+  urldate = {2017-02-06}
+}
+
+@online{UCI,
+  author = {},
+  title = {UCI},
+  year = 2016,
+  url = {https://archive.ics.uci.edu/ml/datasets.html},
+  urldate = {2017-02-06}
+}
+
+@online{kaggle,
+  author = {},
+  title = {Kaggle},
+  year = 2016,
+  url = {https://www.kaggle.com/datasets},
+  urldate = {2017-02-06}
+}
+
+@online{openml,
+  author = {},
+  title = {OpenML},
+  year = 2016,
+  url = {https://openml.org/},
+  urldate = {2017-02-06}
+}
+
+@online{dataworld,
+  author = {},
+  title = {data.world},
+  year = 2016,
+  url = {https://data.world/},
+  urldate = {2017-02-06}
+}
+
+@online{relational,
+  author = {},
+  title = {Relational Dataset Repository},
+  year = 2016,
+  url = {https://relational.fit.cvut.cz/},
+  urldate = {2017-02-06}
+}
+
+@MISC{Reif_meta2-features:,
+    author = {Matthias Reif and Faisal Shafait and Andreas Dengel},
+    title = {Meta 2-Features: Providing Meta-Learners More Information},
+    year = {}
+}
+
+@Article{Dolan2002,
+author="Dolan, Elizabeth D.
+and Mor{\'e}, Jorge J.",
+title="Benchmarking optimization software with performance profiles",
+journal="Mathematical Programming",
+year="2002",
+volume="91",
+number="2",
+pages="201--213",
+abstract="We propose performance profiles --- distribution functions for a performance metric --- as a tool for benchmarking and comparing optimization software. We show that performance profiles combine the best features of other tools for performance evaluation.",
+issn="1436-4646",
+doi="10.1007/s101070100263",
+url="http://dx.doi.org/10.1007/s101070100263"
+}
