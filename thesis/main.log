@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.3.19)  29 MAR 2017 08:28
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.3.19)  29 MAR 2017 08:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2909,8 +2909,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [44]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 261.
+
 File: images/test_intervals_sigma.png Graphic file (type QTm)
- <use  "images/test_intervals_sigma.png" >
+<use  "images/test_intervals_sigma.png" >
 Overfull \hbox (2.69687pt too wide) in paragraph at lines 287--293
 []\EU1/LinuxLibertineO(0)/m/n/10.95 Στη συνέχεια εκπαιδεύουμε ένα μοντέλο παλιν
 δρόμησης με χρήση του αλγορίθμου randomForest
@@ -2923,6 +2927,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [45]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 294.
+
+
 Overfull \hbox (2.69687pt too wide) in paragraph at lines 317--318
 []\EU1/LinuxLibertineO(0)/m/n/10.95 Στη συνέχεια εκπαιδεύουμε ένα μοντέλο παλιν
 δρόμησης με χρήση του αλγορίθμου randomForest
@@ -2937,8 +2946,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [46]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 325.
+
 File: images/test_intervals_size.png Graphic file (type QTm)
- <use  "images/test_intervals_size.png" >
+<use  "images/test_intervals_size.png" >
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 24.91798pt.
@@ -2946,6 +2959,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [47]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 360.
+
+
 Overfull \hbox (0.78062pt too wide) in paragraph at lines 386--387
 []\EU1/LinuxLibertineO(0)/m/n/10.95 Στη συνέχεια εκπαιδεύουμε ένα μοντέλο παλιν
 δρόμησης με χρήση του αλγορίθμου randomforest

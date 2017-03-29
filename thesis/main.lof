@@ -46,31 +46,29 @@
 \defcounter {refsection}{1}\relax 
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Διάγραμμα διαστημάτων πρόβλεψης για υπερ-παράμετρο decay}}{45}{figure.caption.74}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Διάγραμμα διαστημάτων πρόβλεψης για υπερ-παράμετρο decay}}{46}{figure.caption.77}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Διάγραμμα διαστημάτων πρόβλεψης για υπερ-παράμετρο decay}}{46}{figure.caption.76}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Διάγραμμα διαστημάτων πρόβλεψης για υπερ-παράμετρο decay}}{47}{figure.caption.80}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Διάγραμμα διαστημάτων πρόβλεψης για υπερ-παράμετρο decay}}{47}{figure.caption.78}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Διάγραμμα διαστημάτων πρόβλεψης για υπερ-παράμετρο decay}}{48}{figure.caption.83}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Διάγραμμα διαστημάτων πρόβλεψης για υπερ-παράμετρο decay}}{48}{figure.caption.80}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Διάγραμμα διαστημάτων πρόβλεψης για υπερ-παράμετρο decay}}{49}{figure.caption.86}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Διάγραμμα διαστημάτων πρόβλεψης για υπερ-παράμετρο decay}}{49}{figure.caption.82}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Διάγραμμα προφίλ απόδοσης για τη σύγκριση του ensemble με το βέλτιστο μοντέλο}}{50}{figure.caption.89}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Διάγραμμα προφίλ απόδοσης για τη σύγκριση του ensemble με το βέλτιστο μοντέλο}}{50}{figure.caption.85}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Διάγραμμα εξέλιξης ensemble για το σετ δεδομένων (όνομα)}}{50}{figure.caption.90}
-\defcounter {refsection}{1}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Διάγραμμα εξέλιξης ensemble για το σετ δεδομένων (όνομα)}}{50}{figure.caption.86}
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{2}\relax 
+\defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{2}\relax 
-\contentsline {figure}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }.1}{\ignorespaces Χώρος ταξινόμησης SVM}}{61}{figure.caption.97}
-\defcounter {refsection}{2}\relax 
-\contentsline {figure}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }.2}{\ignorespaces Λειτουργία \gls {SVM}}}{62}{figure.caption.98}
-\defcounter {refsection}{2}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{2}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }.1}{\ignorespaces Χώρος ταξινόμησης SVM}}{61}{figure.caption.93}
+\defcounter {refsection}{2}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }.2}{\ignorespaces Λειτουργία \gls {SVM}}}{62}{figure.caption.94}
 \defcounter {refsection}{2}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{2}\relax 
@@ -78,9 +76,11 @@
 \defcounter {refsection}{2}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{2}\relax 
-\contentsline {figure}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }.1}{\ignorespaces Μοντέλο υψηλής πόλωσης}}{73}{figure.caption.113}
+\addvspace {10\p@ }
 \defcounter {refsection}{2}\relax 
-\contentsline {figure}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }.2}{\ignorespaces Μοντέλο υψηλής διακύμανσης}}{73}{figure.caption.114}
+\contentsline {figure}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }.1}{\ignorespaces Μοντέλο υψηλής πόλωσης}}{73}{figure.caption.109}
+\defcounter {refsection}{2}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }.2}{\ignorespaces Μοντέλο υψηλής διακύμανσης}}{73}{figure.caption.110}
 \defcounter {refsection}{2}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{2}\relax 
