@@ -6,7 +6,7 @@
 \defcounter {refsection}{1}\relax 
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Ορολογία μηχανική μάθησης}}{12}{figure.caption.14}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Συστατικά Μηχανική Μάθησης}}{13}{figure.caption.15}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Συστατικά Μηχανική Μάθησης}}{14}{figure.caption.15}
 \defcounter {refsection}{1}\relax 
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Η διαδικασία της μηχανικής μάθησης}}{14}{figure.2.3}
 \defcounter {refsection}{1}\relax 
@@ -22,59 +22,65 @@
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Το σύστημα Automated Data Scientist ως μαύρο κουτί}}{32}{figure.caption.51}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Το σύστημα Automated Data Scientist ως μαύρο κουτί}}{33}{figure.caption.51}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Διάγραμμα ροής της διαδικασίας εκπαίδευσης του HPP μοντέλου}}{33}{figure.caption.52}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Διάγραμμα ροής της διαδικασίας εκπαίδευσης του HPP μοντέλου}}{34}{figure.caption.52}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Διάγραμμα ροής της διαδικασίας σχηματισμού μίας συλλογής μοντέλων με την τεχνική της προς τα εμπρός επιλογής μοντέλων}}{34}{figure.caption.54}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Διάγραμμα ροής της διαδικασίας σχηματισμού μίας συλλογής μοντέλων με την τεχνική της προς τα εμπρός επιλογής μοντέλων}}{35}{figure.caption.54}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Το υποσύστημα εκπαίδευσης}}{36}{figure.caption.60}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Το υποσύστημα εκπαίδευσης}}{37}{figure.caption.60}
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Το υποσύστημα πειράματος}}{37}{figure.caption.61}
-\defcounter {refsection}{1}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Διάστηματα πρόβλεψης για την υπερ-παράμετρο sigma του SVM.\relax }}{40}{figure.caption.65}
-\defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Διάστηματα πρόβλεψης για την υπερ-παράμετρο cp του rpart.\relax }}{40}{figure.caption.65}
-\defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Διάστηματα πρόβλεψης για την υπερ-παράμετρο decay του nnet.\relax }}{40}{figure.caption.65}
-\defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Διάστηματα πρόβλεψης για την υπερ-παράμετρο size του nnet.\relax }}{40}{figure.caption.65}
-\defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Διάστηματα πρόβλεψης για την υπερ-παράμετρο fL του nb.\relax }}{40}{figure.caption.65}
-\defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Καμπύλη ROC για την υπερ-παράμετρο usekernel του nb.\relax }}{40}{figure.caption.65}
-\defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Διάστηματα πρόβλεψης για την υπερ-παράμετρο adjust του nb.\relax }}{40}{figure.caption.65}
-\defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Διάγραμμα προφίλ απόδοσης για τη σύγκριση του ensemble με το βέλτιστο μοντέλο}}{42}{figure.caption.68}
-\defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Διάγραμμα εξέλιξης ensemble για το σετ δεδομένων (όνομα)}}{42}{figure.caption.69}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Το υποσύστημα πειράματος}}{38}{figure.caption.61}
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Ιστόγραμμα υπερ-παραμέτρου κ.\relax }}{42}{figure.caption.67}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Ιστόγραμμα υπερ-παραμέτρου κ.\relax }}{42}{figure.caption.67}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Σύγκριση General-inflated Generalized Poisson συνάρτηση μάζας πιθανότητες με πραγματικές συχνότητες: Αρχικοποίηση που προσαρμόζεται καλά στο σημείο συσσώρευσης και στις χαμηλές τιμές.\relax }}{43}{figure.caption.69}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Σύγκριση General-inflated Generalized Poisson συνάρτηση μάζας πιθανότητες με πραγματικές συχνότητες: Αρχικοποίηση που προσαρμόζεται καλά στο σημείο συσσώρευσης και στις υψηλές τιμές.\relax }}{43}{figure.caption.69}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Διάγραμμα διαστημάτων πρόβλεψης για υπερ-παράμετρο decay}}{44}{figure.caption.72}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Διάγραμμα διαστημάτων πρόβλεψης για υπερ-παράμετρο decay}}{45}{figure.caption.74}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Διάγραμμα διαστημάτων πρόβλεψης για υπερ-παράμετρο decay}}{46}{figure.caption.77}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Διάγραμμα διαστημάτων πρόβλεψης για υπερ-παράμετρο decay}}{47}{figure.caption.80}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Διάγραμμα διαστημάτων πρόβλεψης για υπερ-παράμετρο decay}}{48}{figure.caption.83}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Διάγραμμα διαστημάτων πρόβλεψης για υπερ-παράμετρο decay}}{49}{figure.caption.86}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Διάγραμμα προφίλ απόδοσης για τη σύγκριση του ensemble με το βέλτιστο μοντέλο}}{50}{figure.caption.89}
+\defcounter {refsection}{1}\relax 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Διάγραμμα εξέλιξης ensemble για το σετ δεδομένων (όνομα)}}{50}{figure.caption.90}
+\defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{2}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{2}\relax 
-\contentsline {figure}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }.1}{\ignorespaces Χώρος ταξινόμησης SVM}}{52}{figure.caption.76}
-\defcounter {refsection}{2}\relax 
-\contentsline {figure}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }.2}{\ignorespaces Λειτουργία \gls {SVM}}}{53}{figure.caption.77}
-\defcounter {refsection}{2}\relax 
+\defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{2}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{2}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }.1}{\ignorespaces Χώρος ταξινόμησης SVM}}{61}{figure.caption.97}
+\defcounter {refsection}{2}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }.2}{\ignorespaces Λειτουργία \gls {SVM}}}{62}{figure.caption.98}
+\defcounter {refsection}{2}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{2}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{2}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{2}\relax 
-\contentsline {figure}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }.1}{\ignorespaces Μοντέλο υψηλής πόλωσης}}{64}{figure.caption.92}
+\addvspace {10\p@ }
 \defcounter {refsection}{2}\relax 
-\contentsline {figure}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }.2}{\ignorespaces Μοντέλο υψηλής διακύμανσης}}{64}{figure.caption.93}
+\contentsline {figure}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }.1}{\ignorespaces Μοντέλο υψηλής πόλωσης}}{73}{figure.caption.113}
+\defcounter {refsection}{2}\relax 
+\contentsline {figure}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }.2}{\ignorespaces Μοντέλο υψηλής διακύμανσης}}{73}{figure.caption.114}
 \defcounter {refsection}{2}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{2}\relax 

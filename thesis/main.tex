@@ -16,7 +16,6 @@
 \makeatletter
 \newcommand{\ssymbol}[1]{^{\@fnsymbol{#1}}}
 \makeatother
-
 \newcommand\inv[1]{#1\raisebox{1.15ex}{$\scriptscriptstyle-\!1$}}
 \newcommand{\norm}[1]{\left\lVert#1\right\rVert}
 \DeclareMathOperator*{\argmin}{arg\,min}
@@ -32,8 +31,16 @@
 \usepackage [autostyle, english = american]{csquotes}
 \MakeOuterQuote{"}
 \usepackage{titlesec}
+
+\usepackage{etoolbox} % for fixing bug with version  2.10.1 of titlesec
+\makeatletter
+\patchcmd{\ttlh@hang}{\parindent\z@}{\parindent\z@\leavevmode}{}{}
+\patchcmd{\ttlh@hang}{\noindent}{}{}{}
+
+\makeatother
 \titleformat{\chapter}[display]{\huge\raggedleft}{\Huge\bfseries \thechapter}{1em}{\LARGE\bfseries\uppercase }
 \titlespacing{\chapter}{0pt}{0pt}{1cm}
+
 
 %%% appendix %%%
 \usepackage[toc,page]{appendix}
@@ -83,6 +90,15 @@
 	description={Instance Based Learning}%
 }
 
+\newglossaryentry{PC}{%
+	name={PC},%
+	description={Principal Component}%
+}
+\newglossaryentry{TPE}{%
+	name={TPE},%
+	description={Tree Parzen Estimator}%
+}
+
 \newglossaryentry{SVM}{%
 	name={SVM},%
 	description={Support Vector Machine}%
@@ -107,6 +123,7 @@
 	name={PCA},%
 	description={Principal Component Analysis}%
 }
+
 %%% algorithms %%%
 \usepackage[]{algorithm2e}
 \newenvironment{myalgorithm}[1][htb]
@@ -209,7 +226,10 @@ minimum height=2em]
 \newcounter{magicrownumbers}
 \newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}}
 \usepackage{longtable}
-
+\usepackage{pbox}
+\usepackage{footnote}
+\makesavenoteenv{tabular}
+\makesavenoteenv{figure}
 %%% confusion matrix %%%
 \usepackage{array}
 \usepackage{multirow}
@@ -225,13 +245,7 @@ minimum height=2em]
 
 \newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
 
-%%% title %%%
-\title{
-	{Thesis Title}\\
-	{\large Institution Name}
-}
-\author{Νησιώτη Ελένη}
-\date{Day Month Year}
+
 
 
 \begin{document}
