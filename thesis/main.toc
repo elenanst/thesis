@@ -158,108 +158,108 @@
 \defcounter {refsection}{1}\relax 
 \contentsline {section}{\numberline {4.2}Αξιολόγηση της τεχνικής βελτιστοποίησης υπερ-παραμέτρων με μετα-μάθηση και χρήση διαστημάτων πρόβλεψης}{39}{section.4.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Πρόβλεψη υπερ-παραμέτρου πλήθους γειτόνων για αλγόριθμο κ-κοντινότερου γείτονα}{41}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}Πρόβλεψη υπερ-παραμέτρου πλήθους γειτόνων για αλγόριθμο κ-κοντι\-νότερου γείτονα}{42}{subsection.4.2.1}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Περιγραφή προβλήματος}{41}{paragraph*.66}
+\contentsline {paragraph}{Περιγραφή προβλήματος}{42}{paragraph*.66}
 \defcounter {refsection}{1}\relax 
 \contentsline {subsubsection}{Πρόβλεψη με χρήση General-inflated Generalized Poisson μοντέλου}{42}{subsubsection*.68}
 \defcounter {refsection}{1}\relax 
 \contentsline {subsubsection}{Εκπαίδευση μοντέλου παλινδρόμησης για κ του κ-κοντινότερου γείτονα}{44}{subsubsection*.70}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Πρόβλεψη υπερ-παραμέτρου πολυπλοκότητας για αλγόριθμo δέντρου ταξινόμησης}{44}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.2}Πρόβλεψη υπερ-παραμέτρου πολυπλοκότητας για αλγόριθμo δέντρου ταξινόμησης}{45}{subsection.4.2.2}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Πρόβλεψη υπερ-παραμέτρου πλάτους πυρήνα για τον αλγόριθμο \gls {SVM}}{45}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}Πρόβλεψη υπερ-παραμέτρου πλάτους πυρήνα για τον αλγόριθμο \gls {SVM}}{46}{subsection.4.2.3}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {4.2.4}Πρόβλεψη υπερ-παραμέτρου κόστους για τον αλγόριθμo \gls {SVM} }{46}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.4}Πρόβλεψη υπερ-παραμέτρου κόστους για τον αλγόριθμo \gls {SVM} }{47}{subsection.4.2.4}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {4.2.5}Πρόβλεψη υπερ-παραμέτρου μεγέθους για τον αλγόριθμo \gls {ΤΝΝ}}{47}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.5}Πρόβλεψη υπερ-παραμέτρου μεγέθους για τον αλγόριθμo \gls {ΤΝΝ}}{48}{subsection.4.2.5}
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {4.2.6}Πρόβλεψη υπερ-παραμέτρου φθοράς για τον αλγόριθμo \gls {ΤΝΝ}}{48}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.6}Πρόβλεψη υπερ-παραμέτρου φθοράς για τον αλγόριθμo \gls {ΤΝΝ}}{49}{subsection.4.2.6}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Συμπεράσματα}{49}{paragraph*.83}
+\contentsline {paragraph}{Συμπεράσματα}{50}{paragraph*.83}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {4.3}Αξιολόγηση της τεχνικής σχηματισμού ensemble με προς τα εμπρός επιλογή μοντέλων}{49}{section.4.3}
+\contentsline {section}{\numberline {4.3}Αξιολόγηση της τεχνικής σχηματισμού ensemble με προς τα εμπρός επιλογή μοντέλων}{50}{section.4.3}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Διαγράμματα προφίλ απόδοσης}{50}{paragraph*.84}
+\contentsline {paragraph}{Διαγράμματα προφίλ απόδοσης}{51}{paragraph*.84}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Συμπεράσματα}{50}{paragraph*.87}
+\contentsline {paragraph}{Συμπεράσματα}{51}{paragraph*.87}
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {4.4}Αξιολόγηση συστήματος Automated Data Scientist}{50}{section.4.4}
+\contentsline {section}{\numberline {4.4}Αξιολόγηση συστήματος Automated Data Scientist}{51}{section.4.4}
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{Συμπεράσματα}{51}{paragraph*.88}
+\contentsline {paragraph}{Συμπεράσματα}{52}{paragraph*.88}
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {5}Σχετική Δουλειά}{52}{chapter.5}
+\contentsline {chapter}{\numberline {5}Σχετική Δουλειά}{53}{chapter.5}
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {6}Συμπεράσματα}{54}{chapter.6}
+\contentsline {chapter}{\numberline {6}Συμπεράσματα}{55}{chapter.6}
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {7}Μελλοντικές Επεκτάσεις}{55}{chapter.7}
+\contentsline {chapter}{\numberline {7}Μελλοντικές Επεκτάσεις}{56}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Παραρτήματα}{60}{section*.92}
+\contentsline {chapter}{Παραρτήματα}{61}{section*.92}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }}Μηχανές Διανυσματικής Στήριξης}{61}{Παράρτημα.alph1.Alph1}
+\contentsline {chapter}{\numberline {\MakeUppercase {α\anw@true \anw@print \relax }}Μηχανές Διανυσματικής Στήριξης}{62}{Παράρτημα.alph1.Alph1}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Θεωρητική θεμελίωση}{61}{paragraph*.95}
+\contentsline {paragraph}{Θεωρητική θεμελίωση}{62}{paragraph*.95}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Μη γραμμικά διαχωρίσιμες κλάσεις}{64}{paragraph*.96}
+\contentsline {paragraph}{Μη γραμμικά διαχωρίσιμες κλάσεις}{65}{paragraph*.96}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Μηχανές διανυσματικής στήριξης χαλαρού περιθωρίου}{65}{paragraph*.97}
+\contentsline {paragraph}{Μηχανές διανυσματικής στήριξης χαλαρού περιθωρίου}{66}{paragraph*.97}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {β\anw@true \anw@print \relax }}Naive Bayes}{66}{Παράρτημα.alph1.Alph2}
+\contentsline {chapter}{\numberline {\MakeUppercase {β\anw@true \anw@print \relax }}Naive Bayes}{67}{Παράρτημα.alph1.Alph2}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Θεώρημα Bayes.}{66}{paragraph*.98}
+\contentsline {paragraph}{Θεώρημα Bayes.}{67}{paragraph*.98}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Υπολογισμός Μοντέλου}{66}{paragraph*.99}
+\contentsline {paragraph}{Υπολογισμός Μοντέλου}{67}{paragraph*.99}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Πρόβλεψη}{66}{paragraph*.100}
+\contentsline {paragraph}{Πρόβλεψη}{67}{paragraph*.100}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {γ\anw@true \anw@print \relax }}Λογιστική Παλινδρόμηση}{68}{Παράρτημα.alph1.Alph3}
+\contentsline {chapter}{\numberline {\MakeUppercase {γ\anw@true \anw@print \relax }}Λογιστική Παλινδρόμηση}{69}{Παράρτημα.alph1.Alph3}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Η λογιστική συνάρτηση.}{68}{paragraph*.101}
+\contentsline {paragraph}{Η λογιστική συνάρτηση.}{69}{paragraph*.101}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Ερμηνεία}{68}{paragraph*.102}
+\contentsline {paragraph}{Ερμηνεία}{69}{paragraph*.102}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Gradient descent}{69}{paragraph*.103}
+\contentsline {paragraph}{Gradient descent}{70}{paragraph*.103}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {δ\anw@true \anw@print \relax }}Κ-κοντινότερος γείτονας}{70}{Παράρτημα.alph1.Alph4}
+\contentsline {chapter}{\numberline {\MakeUppercase {δ\anw@true \anw@print \relax }}Κ-κοντινότερος γείτονας}{71}{Παράρτημα.alph1.Alph4}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Συνάρτηση Ακτινικής βάσης }{70}{paragraph*.104}
+\contentsline {paragraph}{Συνάρτηση Ακτινικής βάσης }{71}{paragraph*.104}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Επίδραση της μεταβλητής γ}{71}{paragraph*.105}
+\contentsline {paragraph}{Επίδραση της μεταβλητής γ}{72}{paragraph*.105}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{H συνάρτηση RBF ως μοντέλο βασισμένο σε παραδείγματα.}{71}{paragraph*.106}
+\contentsline {paragraph}{H συνάρτηση RBF ως μοντέλο βασισμένο σε παραδείγματα.}{72}{paragraph*.106}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Επιλογή Κ κέντρων.}{71}{paragraph*.107}
+\contentsline {paragraph}{Επιλογή Κ κέντρων.}{72}{paragraph*.107}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }}Κανονικοποίηση}{73}{Παράρτημα.alph1.Alph5}
+\contentsline {chapter}{\numberline {\MakeUppercase {ε\anw@true \anw@print \relax }}Κανονικοποίηση}{74}{Παράρτημα.alph1.Alph5}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Διακύμανση - Πόλωση Μοντέλου}{73}{paragraph*.108}
+\contentsline {paragraph}{Διακύμανση - Πόλωση Μοντέλου}{74}{paragraph*.108}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Η ιδέα της κανονικοποίησης}{74}{paragraph*.111}
+\contentsline {paragraph}{Η ιδέα της κανονικοποίησης}{75}{paragraph*.111}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {στ\relax \anw@true \anw@print \relax }}Στατιστικά τεστ Υπόθεσης}{75}{Παράρτημα.alph1.Alph6}
+\contentsline {chapter}{\numberline {\MakeUppercase {στ\relax \anw@true \anw@print \relax }}Στατιστικά τεστ Υπόθεσης}{76}{Παράρτημα.alph1.Alph6}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Pearson's Chi-squared τεστ}{75}{paragraph*.112}
+\contentsline {paragraph}{Pearson's Chi-squared τεστ}{76}{paragraph*.112}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Yate's correction for continuity}{75}{paragraph*.113}
+\contentsline {paragraph}{Yate's correction for continuity}{76}{paragraph*.113}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{ANOVA τεστ}{75}{paragraph*.114}
+\contentsline {paragraph}{ANOVA τεστ}{76}{paragraph*.114}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Friedman τεστ}{76}{paragraph*.115}
+\contentsline {paragraph}{Friedman τεστ}{77}{paragraph*.115}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Fisher's exact τεστ}{76}{paragraph*.116}
+\contentsline {paragraph}{Fisher's exact τεστ}{77}{paragraph*.116}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Mann–Whitney U τεστ (Wilcoxon rank-sum)}{76}{paragraph*.117}
+\contentsline {paragraph}{Mann–Whitney U τεστ (Wilcoxon rank-sum)}{77}{paragraph*.117}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{McNemar}{76}{paragraph*.118}
+\contentsline {paragraph}{McNemar}{77}{paragraph*.118}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Cochran-Mantel-Haenszel}{76}{paragraph*.119}
+\contentsline {paragraph}{Cochran-Mantel-Haenszel}{77}{paragraph*.119}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {ζ\anw@true \anw@print \relax }}Αλγόριθμοι }{77}{Παράρτημα.alph1.Alph7}
+\contentsline {chapter}{\numberline {\MakeUppercase {ζ\anw@true \anw@print \relax }}Αλγόριθμοι }{78}{Παράρτημα.alph1.Alph7}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {η\anw@true \anw@print \relax }}Εξαγωγή διαστημάτων πρόβλεψης από μοντέλα παλινδρόμησης}{78}{Παράρτημα.alph1.Alph8}
+\contentsline {chapter}{\numberline {\MakeUppercase {η\anw@true \anw@print \relax }}Εξαγωγή διαστημάτων πρόβλεψης από μοντέλα παλινδρόμησης}{79}{Παράρτημα.alph1.Alph8}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Από γραμμικό μοντέλο}{78}{paragraph*.120}
+\contentsline {paragraph}{Από γραμμικό μοντέλο}{79}{paragraph*.120}
 \defcounter {refsection}{2}\relax 
-\contentsline {paragraph}{Από SVM}{78}{paragraph*.121}
+\contentsline {paragraph}{Από SVM}{79}{paragraph*.121}
 \defcounter {refsection}{2}\relax 
-\contentsline {chapter}{\numberline {\MakeUppercase {θ\anw@true \anw@print \relax }}Σετ δεδομένων }{80}{Παράρτημα.alph1.Alph9}
+\contentsline {chapter}{\numberline {\MakeUppercase {θ\anw@true \anw@print \relax }}Σετ δεδομένων }{81}{Παράρτημα.alph1.Alph9}

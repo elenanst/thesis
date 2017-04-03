@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.3.19)  29 MAR 2017 08:45
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.3.19)  3 APR 2017 11:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2175,7 +2175,21 @@ nvalid format '2016-6-26' of date field 'date' - ignoring.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 2):
+(biblatex)                McNemar1947
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 2):
 (biblatex)                Wilcoxon45
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 2):
+(biblatex)                krk
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2190,20 +2204,6 @@ Package biblatex Warning: The following entry could not be found
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 2):
 (biblatex)                Gender Recognition by Voice
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                McNemar1947
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 2):
-(biblatex)                krk
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2339,13 +2339,7 @@ LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 11.
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
-)
-Overfull \hbox (28.26874pt too wide) in paragraph at lines 161--161
- [][] [][][]\EU1/LinuxLibertineO(0)/m/n/10.95 Πρόβλεψη υπερ-παραμέτρου πλήθους 
-γειτόνων για αλγόριθμο κ-κοντινότερου 
- []
-
-[4
+) [4
 
 ]
 LaTeX Info: Redefining \anw@print on input line 199.
@@ -2787,18 +2781,10 @@ Overfull \hbox (44.00668pt too wide) in paragraph at lines 27--51
  []
 
 
-Overfull \hbox (3.18875pt too wide) in paragraph at lines 54--84
+Overfull \hbox (3.18875pt too wide) in paragraph at lines 54--82
 \EU1/LinuxLibertineO(0)/m/n/10.95 βέλτιστων. Σε πρώτη φάση αφαιρέσαμε τα γραμμι
 κά συσχετισμένα χαρακτηριστικά, όπως
  []
-
-
-Package caption Warning: \label without proper reference on input line 101.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `table:algorithms' on page 40 undefined on input line 
-85.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2807,28 +2793,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [40]
-Overfull \hbox (22.53668pt too wide) in paragraph at lines 108--108
-|[]\EU1/LinuxLibertineO(0)/b/n/12 Πρόβλεψη υπερ-παραμέτρου πλήθους γειτόνων για
- αλγόριθμο κ-κοντινότερου
- []
+
+Package caption Warning: \label without proper reference on input line 99.
+See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:khist' on page 41 undefined on input line 110.
-
-
-LaTeX Warning: Reference `fig:kgridhist' on page 41 undefined on input line 110
-.
-
-File: images/khist.png Graphic file (type QTm)
-<use  "images/khist.png" >
-File: images/kgridhist.png Graphic file (type QTm)
- <use  "images/kgridhist.png" >
-
-LaTeX Warning: Reference `fig:khist' on page 41 undefined on input line 125.
-
-
-LaTeX Warning: Reference `section:HPPk' on page 41 undefined on input line 125.
-
+LaTeX Warning: Reference `table:algorithms' on page 41 undefined on input line 
+83.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2837,9 +2808,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [41]
-Overfull \hbox (16.99397pt too wide) in paragraph at lines 156--157
-[]\EU1/LinuxLibertineO(0)/m/n/10.95 Για τις ανάγκες του προβλήματος που αντιμετ
-ωπίζουμε θα ορίσουμε το General-inflated Generalized
+File: images/khist.png Graphic file (type QTm)
+ <use  "images/khist.png" >
+File: images/kgridhist.png Graphic file (type QTm)
+ <use  "images/kgridhist.png" >
+Underfull \hbox (badness 1024) in paragraph at lines 118--118
+\EU1/LinuxLibertineO(0)/m/n/10.95 για βελτιστοποίηση με πλεγματική αναζή-
  []
 
 
@@ -2851,33 +2825,33 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [42]
 File: images/gigp_low.jpg Graphic file (type QTm)
  <use  "images/gigp_low.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
 []\EU1/LinuxLibertineO(0)/m/n/10.95 Σχήμα 4.3: |Σύγκριση General-inflated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
 \EU1/LinuxLibertineO(0)/m/n/10.95 Generalized Poisson συνάρτηση μάζας
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
 \EU1/LinuxLibertineO(0)/m/n/10.95 πιθανότητες με πραγματικές συχνότητες:
  []
 
 File: images/gigp_high.jpg Graphic file (type QTm)
 <use  "images/gigp_high.jpg" >
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 []\EU1/LinuxLibertineO(0)/m/n/10.95 Σχήμα 4.4: |Σύγκριση General-inflated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 \EU1/LinuxLibertineO(0)/m/n/10.95 Generalized Poisson συνάρτηση μάζας
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
 \EU1/LinuxLibertineO(0)/m/n/10.95 πιθανότητες με πραγματικές συχνότητες:
  []
 
@@ -2888,14 +2862,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [43]
-Overfull \hbox (2.69687pt too wide) in paragraph at lines 212--213
+Overfull \hbox (2.69687pt too wide) in paragraph at lines 210--211
 []\EU1/LinuxLibertineO(0)/m/n/10.95 Στη συνέχεια εκπαιδεύουμε ένα μοντέλο παλιν
 δρόμησης με χρήση του αλγορίθμου randomForest
  []
 
 File: images/test_intervals_k.png Graphic file (type QTm)
 <use  "images/test_intervals_k.png" >
-Overfull \hbox (2.69687pt too wide) in paragraph at lines 253--254
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 24.91798pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44]
+Overfull \hbox (2.69687pt too wide) in paragraph at lines 251--252
 []\EU1/LinuxLibertineO(0)/m/n/10.95 Στη συνέχεια εκπαιδεύουμε ένα μοντέλο παλιν
 δρόμησης με χρήση του αλγορίθμου randomForest
  []
@@ -2908,14 +2889,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44]
+[45]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 261.
+(hyperref)                removing `\gls' on input line 259.
 
 File: images/test_intervals_sigma.png Graphic file (type QTm)
 <use  "images/test_intervals_sigma.png" >
-Overfull \hbox (2.69687pt too wide) in paragraph at lines 287--293
+Overfull \hbox (2.69687pt too wide) in paragraph at lines 285--291
 []\EU1/LinuxLibertineO(0)/m/n/10.95 Στη συνέχεια εκπαιδεύουμε ένα μοντέλο παλιν
 δρόμησης με χρήση του αλγορίθμου randomForest
  []
@@ -2926,13 +2907,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45]
+[46]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 294.
+(hyperref)                removing `\gls' on input line 292.
 
 
-Overfull \hbox (2.69687pt too wide) in paragraph at lines 317--318
+Overfull \hbox (2.69687pt too wide) in paragraph at lines 315--316
 []\EU1/LinuxLibertineO(0)/m/n/10.95 Στη συνέχεια εκπαιδεύουμε ένα μοντέλο παλιν
 δρόμησης με χρήση του αλγορίθμου randomForest
  []
@@ -2945,10 +2926,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46]
+[47]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 325.
+(hyperref)                removing `\gls' on input line 323.
 
 File: images/test_intervals_size.png Graphic file (type QTm)
 <use  "images/test_intervals_size.png" >
@@ -2958,13 +2939,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[47]
+[48]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gls' on input line 360.
+(hyperref)                removing `\gls' on input line 358.
 
 
-Overfull \hbox (0.78062pt too wide) in paragraph at lines 386--387
+Overfull \hbox (0.78062pt too wide) in paragraph at lines 384--385
 []\EU1/LinuxLibertineO(0)/m/n/10.95 Στη συνέχεια εκπαιδεύουμε ένα μοντέλο παλιν
 δρόμησης με χρήση του αλγορίθμου randomforest
  []
@@ -2977,15 +2958,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48]
+[49]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 24.90704pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49]
-Overfull \hbox (19.92308pt too wide) in paragraph at lines 444--445
+[50]
+Overfull \hbox (19.92308pt too wide) in paragraph at lines 442--443
 []\EU1/LinuxLibertineO(0)/m/n/10.95 πλεγματική αναζήτηση. Πρόκειται για τη συνη
 θέστερη τεχνική αναζήτησης υπερπαραμέτρων
  []
@@ -2996,8 +2977,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50]
-Overfull \hbox (4.99086pt too wide) in paragraph at lines 448--449
+[51]
+Overfull \hbox (4.99086pt too wide) in paragraph at lines 446--447
 \EU1/LinuxLibertineO(0)/m/n/10.95 ensemble μοντέλα μόνο ενός αλγορίθμου μάθησης
 . Οι υποπεριπτώσεις αυτές λαμβάνονται υπόψη
  []
@@ -3009,7 +2990,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51]
+[52]
 \openout2 = `chapters/Chapter5.aux'.
 
  (./chapters/Chapter5.tex
@@ -3020,7 +3001,7 @@ Overfull \hbox (10.30527pt too wide) in paragraph at lines 11--12
 πυρήνα. Χρησιμοποιώντας μετα-χαρακτηριστικά
  []
 
-[52
+[53
 
 
 
@@ -3031,12 +3012,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53]
+[54]
 \openout2 = `chapters/Chapter6.aux'.
 
  (./chapters/Chapter6.tex
 Κεφάλαιο 6.
-) [54
+) [55
 
 
 
@@ -3045,7 +3026,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
  (./chapters/Chapter7.tex
 Κεφάλαιο 7.
-) [55
+) [56
 
 
 
@@ -3054,7 +3035,7 @@ LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 261
 .
  (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [56
+) [57
 
 
 ]
@@ -3068,7 +3049,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[57]
+[58]
 Package biblatex Info: Reference section=0 on input line 262.
  (./main.gls
 
@@ -3077,12 +3058,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58]
+[59]
 Invalid UTF-8 byte or sequence at line 29 replaced by U+FFFD.
-) [59
+) [60
 
 
-] [60
+] [61
 
 
 ]
@@ -3108,7 +3089,7 @@ LaTeX Info: Redefining \anw@print on input line 106.
 LaTeX Info: Redefining \anw@print on input line 106.
 LaTeX Info: Redefining \anw@print on input line 106.
 LaTeX Info: Redefining \anw@print on input line 106.
-[61
+[62
 
 
 ]
@@ -3134,7 +3115,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62]
+[63]
 LaTeX Info: Redefining \anw@print on input line 150.
 LaTeX Info: Redefining \anw@print on input line 150.
 LaTeX Info: Redefining \anw@print on input line 157.
@@ -3159,7 +3140,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[63]
+[64]
 LaTeX Info: Redefining \anw@print on input line 192.
 LaTeX Info: Redefining \anw@print on input line 198.
 LaTeX Info: Redefining \anw@print on input line 202.
@@ -3173,7 +3154,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[64]
+[65]
 LaTeX Info: Redefining \anw@print on input line 233.
 LaTeX Info: Redefining \anw@print on input line 239.
 LaTeX Info: Redefining \anw@print on input line 239.
@@ -3188,7 +3169,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[65]
+[66]
 \openout2 = `chapters/AP_NBayes.aux'.
 
  (./chapters/AP_NBayes.tex
@@ -3201,7 +3182,7 @@ Missing character: There is no ’ in font jkpmn7t!
 Missing character: There is no ’ in font jkpmn7t!
 LaTeX Info: Redefining \anw@print on input line 19.
 LaTeX Info: Redefining \anw@print on input line 24.
-[66
+[67
 
 
 
@@ -3212,7 +3193,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[67]
+[68]
 \openout2 = `chapters/AP_LRegress.aux'.
 
  (./chapters/AP_LRegress.tex
@@ -3225,7 +3206,7 @@ LaTeX Info: Redefining \anw@print on input line 31.
 LaTeX Info: Redefining \anw@print on input line 36.
 LaTeX Info: Redefining \anw@print on input line 40.
 LaTeX Info: Redefining \anw@print on input line 45.
-[68
+[69
 
 
 
@@ -3236,7 +3217,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[69]
+[70]
 \openout2 = `chapters/AP_Knn.aux'.
 
  (./chapters/AP_Knn.tex
@@ -3250,7 +3231,7 @@ LaTeX Info: Redefining \anw@print on input line 12.
 LaTeX Info: Redefining \anw@print on input line 17.
 Missing character: There is no Ξ in font jkpmi!
 LaTeX Info: Redefining \anw@print on input line 27.
-[70
+[71
 
 
 
@@ -3281,7 +3262,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[71]
+[72]
 LaTeX Info: Redefining \anw@print on input line 92.
 )
 
@@ -3290,7 +3271,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[72]
+[73]
 \openout2 = `chapters/AP_Regularization.aux'.
 
  (./chapters/AP_Regularization.tex
@@ -3308,7 +3289,7 @@ LaTeX Info: Redefining \anw@print on input line 17.
 LaTeX Info: Redefining \anw@print on input line 17.
 LaTeX Info: Redefining \anw@print on input line 17.
 LaTeX Info: Redefining \anw@print on input line 17.
- [73
+ [74
 
 
 
@@ -3321,7 +3302,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[74]
+[75]
 \openout2 = `chapters/AP_Tests.aux'.
 
  (./chapters/AP_Tests.tex
@@ -3333,7 +3314,7 @@ Overfull \hbox (11.49156pt too wide) in paragraph at lines 22--23
 ρείται μια μη-παραμετρική εκδοχή της ANOVA,
  []
 
-[75
+[76
 
 
 
@@ -3356,13 +3337,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[76]
+[77]
 \openout2 = `chapters/AP_Algorithms.aux'.
 
  (./chapters/AP_Algorithms.tex
 Παράρτημα \MakeUppercase {ζ\anw@true \anw@print \relax }.
 LaTeX Info: Redefining \anw@print on input line 1.
-) [77
+) [78
 
 
 
@@ -3377,7 +3358,7 @@ LaTeX Info: Redefining \anw@print on input line 14.
 LaTeX Info: Redefining \anw@print on input line 19.
 LaTeX Info: Redefining \anw@print on input line 27.
 LaTeX Info: Redefining \anw@print on input line 31.
-[78
+[79
 
 
 
@@ -3395,7 +3376,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[79]
+[80]
 \openout2 = `chapters/AP_Datasets.aux'.
 
  (./chapters/AP_Datasets.tex
@@ -3425,7 +3406,7 @@ Overfull \hbox (35.23674pt too wide) in alignment at lines 67--88
  [] [] [] [] [] [] [] [] [] 
  []
 
-[80
+[81
 
 
 
@@ -3454,14 +3435,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[81])
+[82])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[82] [83
+[83] [84
 
 
 ]
@@ -3471,7 +3452,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[84]
+[85]
 Package biblatex Info: Reference section=0 on input line 279.
 
 
@@ -3480,7 +3461,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[85]
+[86]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 282.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
  (./main.aux (./chapters/Intro.aux) (./chapters/Chapter1.aux)
@@ -3504,12 +3485,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 58862 strings out of 493638
- 1253415 string characters out of 6146796
- 1889840 words of memory out of 5000000
- 61268 multiletter control sequences out of 15000+600000
+ 58860 strings out of 493638
+ 1253398 string characters out of 6146796
+ 1890013 words of memory out of 5000000
+ 61266 multiletter control sequences out of 15000+600000
  30473 words of font info for 114 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  63i,17n,112p,10390b,2385s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (86 pages).
+Output written on main.pdf (87 pages).
