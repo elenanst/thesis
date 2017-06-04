@@ -19,6 +19,7 @@
 \newcommand\inv[1]{#1\raisebox{1.15ex}{$\scriptscriptstyle-\!1$}}
 \newcommand{\norm}[1]{\left\lVert#1\right\rVert}
 \DeclareMathOperator*{\argmin}{arg\,min}
+\usepackage{bm}
 
 %%%% images %%%
 \usepackage{graphicx}
@@ -40,7 +41,7 @@
 \makeatother
 \titleformat{\chapter}[display]{\huge\raggedleft}{\Huge\bfseries \thechapter}{1em}{\LARGE\bfseries\uppercase }
 \titlespacing{\chapter}{0pt}{0pt}{1cm}
-
+\setlength{\parskip}{1em}
 
 %%% appendix %%%
 \usepackage[toc,page]{appendix}
@@ -78,12 +79,14 @@
 \pagestyle{fancy}
 \fancyhead[RO,LE]{}
 
+%%% lists %%%
+\usepackage[inline, shortlabels]{enumitem}
 %%% glossary %%%
 \usepackage{glossaries}
 \makeglossaries
-\newglossaryentry{ANNs}{%
+\newglossaryentry{ANN}{%
 	name={ΑΝΝs},%
-	description={Artificial Neural Networks}%
+	description={Artificial Neural Network}%
 }
 
 \newglossaryentry{IBL}{%
@@ -216,8 +219,8 @@ minimum height=2em]
 				\pgfmathsetmacro{\pt@sy}{\pgf@y * 0.03514598035}%
 				\tikz@scan@one@point\pgfutil@firstofone#1\relax
 				\pgfmathsetmacro{\pt@ax}{\pgf@x * 0.03514598035 - \pt@sx}%
-				\pgfmathsetmacro{\pt@ay}{\pgf@y * 0.03514598035 - \pt@sy}%
-				\tikz@scan@one@point\pgfutil@firstofone(\tikztotarget)\relax
+@firstofone(\tikztota				\pgfmathsetmacro{\pt@ay}{\pgf@y * 0.03514598035 - \pt@sy}%
+\tikz@scan@one@point\pgfutilrget)\relax
 				\pgfmathsetmacro{\pt@ex}{\pgf@x * 0.03514598035 - \pt@sx}%
 				\pgfmathsetmacro{\pt@ey}{\pgf@y * 0.03514598035 - \pt@sy}%
 				\pgfmathsetmacro{\pt@len}{\pt@ex * \pt@ex + \pt@ey * \pt@ey}%
@@ -253,7 +256,6 @@ minimum height=2em]
 			\vfil}%
 	}%
 }
-
 \newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
 
 
