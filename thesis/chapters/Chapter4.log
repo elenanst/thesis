@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.19)  8 MAY 2017 14:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.19)  5 MAY 2017 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/elena/thesis_ws/thesis/thesis/chapters/Chapter3
-(/home/elena/thesis_ws/thesis/thesis/chapters/Chapter3.tex
+**/home/elena/thesis_ws/thesis/thesis/chapters/Chapter4
+(/home/elena/thesis_ws/thesis/thesis/chapters/Chapter4.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 ! Undefined control sequence.
 l.1 \chapter
-            {Περιγραφή Συστήματος} 
+            {Πειραματικά αποτελέσματα} 
 Here is how much of TeX's memory you used:
  6 strings out of 493029
  271 string characters out of 6136234
@@ -16,6 +16,6 @@ Here is how much of TeX's memory you used:
  3641 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 5i,0n,1p,105b,8s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 5i,0n,1p,113b,8s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 !  ==> Fatal error occurred, no output PDF file produced!
