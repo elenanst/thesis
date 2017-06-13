@@ -1,29 +1,151 @@
 \documentclass{beamer}
+
+
+%%% plots %%%
+\usepackage{pgfplots,filecontents}
+\pgfplotsset{compat=1.7}
+\usetikzlibrary{backgrounds}
+\tikzset{
+	circ/.style={circle, fill=black, inner sep=2pt, node contents={}}
+}
+\tikzset{
+	block/.style = {draw, thick, minimum width=1.7cm, minimum height=1.2cm, node distance=3cm},
+	down/.style={yshift=-7em},
+	up/.style={yshift=7em},
+	right/.style={xshift=15em},
+	downright/.style={xshift=12em, yshift = -7em},
+	downleft/.style={xshift=-12em, yshift = -7em}
+}
+\usepackage{makecell}
+\usetikzlibrary{shapes}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usepackage{verbatim}
+\def\foldedpaper#1{
+	\tikz[scale=#1,line width={#1*1pt}]{
+		\def\a{1.41} % relative height
+		\def\b{0.2}  % relative height/width of corner
+		\def\c{0.1}  % relative margin width (on either side)
+		\def\d{0.05} % vertical offset of lines
+		\def\N{6}    % number of lines
+		\draw         (0,0)
+		--  ++(-1,0)
+		--  ++(0,\a)
+		--  ++(1-\b,0)
+		--  ++(\b,-\b)
+		-- cycle;
+		\foreach \lnum in {1,...,\N}{
+			\pgfmathsetmacro\yline{\a-\d-\lnum*\a/(\N+1)}
+			\draw (-1+\c,\yline) -- (-\c,\yline);
+		}
+		\draw[fill=white] (0,\a-\b) -- ++(-\b,0) -- ++ (0,\b);
+	}
+}
+
+
+\def\man#1;{%
+	\begin{scope}[shift={#1}]
+		\fill [rounded corners=1.5] (0,0.4) -- (0,0.8) -- (0.4,0.8) -- (0.4,0.4) --
+		(0.325,0.4) -- (0.325,0.7) -- (0.3,0.7) -- (0.3,0) -- (0.225,0) --
+		(0.225,0.4) -- (0.175,0.4) -- (0.175,0) -- (0.1,0) -- (0.1,0.7) --
+		(0.075,0.7) -- (0.075,0.4) -- cycle;
+		\fill (0.2,0.9) circle (0.1);
+	\end{scope}}
+	\def\shadecircle(#1)(#2);{%
+		\draw [thick] (#1) circle (#2);
+		\draw [thick,draw opacity=0.1] (#1) ++(0,-0.1) circle (#2);}
+	
+	\tikzstyle{decision} = [diamond, draw, 
+	text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
+	\tikzstyle{block_flow} = [rectangle, draw, 
+	text centered, rounded corners, minimum height=4em]
+	\tikzstyle{line} = [draw, -latex']
+	\tikzstyle{cloud} = [draw, ellipse, node distance=3cm,
+	minimum height=2em]
+	
+	
+	\makeatletter
+	\tikzset{
+		through point/.style={
+			to path={%
+				\pgfextra{%
+					\tikz@scan@one@point\pgfutil@firstofone(\tikztostart)\relax
+					\pgfmathsetmacro{\pt@sx}{\pgf@x * 0.03514598035}%
+					\pgfmathsetmacro{\pt@sy}{\pgf@y * 0.03514598035}%
+					\tikz@scan@one@point\pgfutil@firstofone#1\relax
+					\pgfmathsetmacro{\pt@ax}{\pgf@x * 0.03514598035 - \pt@sx}%
+					@firstofone(\tikztota				\pgfmathsetmacro{\pt@ay}{\pgf@y * 0.03514598035 - \pt@sy}%
+					\tikz@scan@one@point\pgfutilrget)\relax
+					\pgfmathsetmacro{\pt@ex}{\pgf@x * 0.03514598035 - \pt@sx}%
+					\pgfmathsetmacro{\pt@ey}{\pgf@y * 0.03514598035 - \pt@sy}%
+					\pgfmathsetmacro{\pt@len}{\pt@ex * \pt@ex + \pt@ey * \pt@ey}%
+					\pgfmathsetmacro{\pt@t}{(\pt@ax * \pt@ex + \pt@ay * \pt@ey)/\pt@len}%
+					\pgfmathsetmacro{\pt@t}{(\pt@t > .5 ? 1 - \pt@t : \pt@t)}%
+					\pgfmathsetmacro{\pt@h}{(\pt@ax * \pt@ey - \pt@ay * \pt@ex)/\pt@len}%
+					\pgfmathsetmacro{\pt@y}{\pt@h/(3 * \pt@t * (1 - \pt@t))}%
+				}
+				(\tikztostart) .. controls +(\pt@t * \pt@ex + \pt@y * \pt@ey, \pt@t * \pt@ey - \pt@y * \pt@ex) and +(-\pt@t * \pt@ex + \pt@y * \pt@ey, -\pt@t * \pt@ey - \pt@y * \pt@ex) .. (\tikztotarget)
+			}
+		}
+	}
+	
+	\makeatother
+	
 \usepackage{FiraSans}
-\usetheme{metropolis}           % Use metropolis theme
+\usetheme{metropolis} 
 \usepackage{xgreek}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
 \title{Automated Data Scientist}
-\date{Δεκέμβριος, 2016}
-\author{Νησιώτη Ελένη \\AEM : 7737 \\ Επιβλέπων: Χατζηδημητρίου Κυριάκος}
-\institute{Αριστοτέλειο Πανεπιστήμιο Θεσσαλονικής \\ ΗΜΜΥ}
+\date{
+	\vspace{0.7cm}
+	\begin{tabular}{ll} 
+		 Εκπόνηση & Ελένη Νησιώτη \\
+		 Επίβλεψη & Επίκ. Καθ. Ανδρέας Συμεωνίδης \\
+		 Συνεπίβλεψη & Δρ. Κυριάκος Χατζηδημητρίου 
+	\end{tabular}
+	\\
+	\\
+	\\
+	\\
+	\\
+	{ 
+		 	\tiny \setlength{\parskip}{0.1em}
+		 \begin{tabular}{l}Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης \\
+		 	Πολυτεχνική Σχολή\\
+		 	Τμήμα Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών\\
+		 	Εργαστήριο Επεξεργασίας Πληροφορίας και Υπολογισμών 
+		 \end{tabular}}}
 \setlength{\parskip}{\baselineskip}%
 \usepackage{graphicx}
 \graphicspath{{./images/}}
 \usepackage[backend=biber]{biblatex}
 \addbibresource{bibliography.bib}
-\usepackage{fontspec}
-\setmainfont[Ligatures=TeX]{Linux Libertine O}
 \begin{document}
   \maketitle
   \section{Σκοπός διπλωματικής εργασίας}
-  \begin{frame}{ \scshape Το πρόβλημα}
-   To $ 75 \% $ ενός πειράματος μηχανικής μάθησης αφιερώνεται στην προετοιμασία της εφαρμογής του αλγορίθμου και το $15 \% $ στα βήματα που την ακολουθούν. Το μεγαλύτερο μέρος της έρευνας επικεντρώνεται στο ενδιάμεσο $10 \%$ ...
-   \\[12pt]
-   \rightline{{\rm --- Rich Caruana}}
-   \rightline{{\rm Automl 2016 $@$ ICML}}
+  \begin{frame}{Το πρόβλημα}
+  		\begin{flushleft}
+  			{\small \textit 
+  			To $ 75 \% $ ενός πειράματος μηχανικής μάθησης αφιερώνεται στην προετοιμασία της εφαρμογής του αλγορίθμου και το $15 \% $ στα βήματα που την ακολουθούν. Το μεγαλύτερο μέρος της έρευνας επικεντρώνεται στο ενδιάμεσο $10 \%$ ...}
+  		\end{flushleft}
+  		\rightline{{\rm --- Rich Caruana}}
+ \end{frame}
+  \begin{frame}{Η εξέλιξη των προβλημάτων}
+  	\begin{figure}
+  		\includegraphics[width=\textwidth]{evolution}
+  		\caption{Θα αλλαχθεί, το βάζω για αναφορά}
+  	\end{figure}
   \end{frame}
-  
-  \begin{frame}{ \scshape Η επιστήμη του Automl}
+  \begin{frame}{Η εξέλιξη του ML}
+  	\begin{flushleft}
+  			{\small \textit 
+  			Ο προγραμματισμός στοχεύει στην αυτοματοποίηση, η μηχανική μάθηση στην αυτοματοποίηση της αυτοματοποίησης και η αυτοματοποιημένη μηχανική μάθηση στην αυτοματοποίηση του να αυτοματοποιείς την αυτοματοποίηση.}
+  	\end{flushleft}
+  	\rightline{{\rm --- Matthew Mayo }}
+  	\end{frame}  
+  \begin{frame}{Η επιστήμη του Automl}
   	\begin{minipage}[t]{.4\textwidth}  		
   		Απαρχές
   		\vspace{4ex}
@@ -45,17 +167,17 @@
   		\vspace{4ex}
   	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
 	\begin{minipage}[t]{.5\textwidth}
-  		AutoWeka, Microsoft Azure, caret, HPOlib
+  		AutoWeka, Microsoft Azure, caret, HPOlib, Google Automl
   		\vspace{4ex}
   	\end{minipage}
   \end{frame}
   
-  \begin{frame} { \scshape Προτεινόμενο σύστημα}
+  \begin{frame} {Προτεινόμενο σύστημα}
   	Ένας \alert{αυτοματοποιημένος} αναλυτής δεδομένων για προβλήματα δυαδικής ταξινόμησης με \alert{εμπειρία} παλαιότερων πειραμάτων και \alert{κατανοητή} έξοδο.
   	
   \end{frame}
   
-  \begin{frame} { \scshape Γνώσεις που αποκτήθηκαν}
+  \begin{frame} {Εμπλεκόμενη τεχνολογία}
   	R
   	
   	Automl
@@ -63,58 +185,92 @@
   	Τεχνολογία Λογισμικού
   	
   \end{frame}
+     \section{Αρχιτεκτονική Συστήματος}
+     \begin{frame}{Υποσύστημα εκπαίδευσης}
+     \begin{figure}[!htb]
+     	\scalebox{0.7}{
+     	\begin{tikzpicture}	[database/.style={
+     		cylinder,
+     		cylinder uses custom fill,
+     		cylinder body fill=white!50,
+     		cylinder end fill=white!50,
+     		shape border rotate=90,
+     		aspect=0.5,
+     		draw
+     	}]
+     	\node[database] (db) at (0, -0.25cm) {Αποθήκη};
+     	\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (A) at (2.5cm,1.5) {optimizer};
+     	\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (B) at (2.5cm,-1.5) {mfExtractor};	
+     	\node[database, aspect = 0.2] (mfdb) at (6cm,-0.25cm) {\makecell{Αποθήκη \\μετα-δεδομένων}};	
+     	\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (C) at (9.5cm, -0.25cm) {metaLearner};
+     	\node[database] (model)  at (13cm, -0.25cm) {HPP-Μοντέλο};	
+     	\draw[->, thick] (db) |- (A);
+     	\draw[->, thick] (db) |- (B);
+     	\draw[->, thick] (A) -| (mfdb.north);
+     	\draw[->, thick] (B) -| (mfdb.south);
+     	\draw[->, thick] (mfdb) to (C);
+     	\draw[->, thick] (C) to (model.west);
+     	\end{tikzpicture}}
+     	\caption{Το υποσύστημα εκπαίδευσης}
+     \end{figure}
+     \end{frame}
+     \begin{frame}{Υποσύστημα πειράματος}
+\begin{figure}[!htb]
+	\scalebox{0.7}{
+	\begin{tikzpicture}	[database/.style={
+		cylinder,
+		cylinder uses custom fill,
+		cylinder body fill=white!50,
+		cylinder end fill=white!50,
+		shape border rotate=90,
+		aspect=0.5,
+		draw
+	}]
+	\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (A) at (0,0) {preprocessor};
+	\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (B) at ([xshift = 7em, yshift = 5em] A) {mfExtractor};
+	\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (C) at ([xshift = 7em, yshift = 0em] B) {optimizer};
+	\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (D) at ([xshift = 7em, yshift = 0em] C) {classifier1};
+	\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (E) at ([xshift = 0em, yshift = -5em] D) {classifier2};
+	\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (F) at ([xshift = 0em, yshift = -5em] E) {classifier3};
+	\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (G) at ([xshift = 7em, yshift = 0em] E) {ensembler};
+	\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (H) at ([xshift = 7em, yshift = 0em] G) {evaluator};
+	\draw[->, thick] (A) |- (B);
+	\draw[->, thick] (B) to (C);
+	\draw[->, thick] (C) to (D);
+	\draw[->, thick] (D) -| (G);
+	\draw[->, thick] (E) to (G);
+	\draw[->, thick] (F) -| (G);
+	\draw[->, thick] (G) to (H);
+	\draw[->, thick] (A) to (E);
+	\draw[->, thick] (A) -| ([xshift=-0.3cm]E.west) |- (D.west) ;
+	\draw[->, thick] (A) -| ([xshift=-0.3cm]E.west) |- (F.west) ;
+	\end{tikzpicture}}
+	\caption{Το υποσύστημα πειράματος}
+\end{figure}
+     \end{frame}
   \section{Μεθοδολογία}
-  \begin{frame} { \scshape Ρύθμιση αλγορίθμου μηχανικής μάθησης}
-  	\begin{minipage}[t]{.3\textwidth}  		
-  		Σκοπός
-  		\vspace{4ex}
-  	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
-  	\begin{minipage}[t]{.6\textwidth}
-  		Βελτιστοποίηση υπερπαραμέτρων αλγορίθμου  	
-  		\vspace{4ex}
-  	\end{minipage}
-  	\begin{minipage}[t]{.3\textwidth}  		
-  		Τεχνική
-  		\vspace{4ex}
-  	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
-  	\begin{minipage}[t]{.6\textwidth}
-  		Bayesian βελτιστοποίηση
-  		\vspace{4ex} 
-  	\end{minipage}
-  	\begin{minipage}[t]{.3\textwidth}  		
-  		Ιδέα
-  		\vspace{4ex}
-  	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
-  	\begin{minipage}[t]{.6\textwidth}
-  		Αντικατάσταση της χρονοβόρας διαδικασίας βελτιστοποίησης με πρόβλεψη
-  		\vspace{4ex}
-  	\end{minipage}
-  	\begin{minipage}[t]{.3\textwidth}  		
-  		Υλοποίηση
-  		\vspace{4ex}
-  	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
-  	\begin{minipage}[t]{.6\textwidth}
-  		Εισαγωγή μετα-μάθησης για παραγωγή χαρακτηριστικών χρήσιμων σε ένα νευρωνικό πρόβλεψης των βέλτιστων υπερπαραμέτρων (HPPNN).
-  		\vspace{4ex}
-  	\end{minipage}
+  \begin{frame} {No free lunch theorem}
+  	\begin{flushleft}
+  		{\small \textit 
+  	    Αν λάβουμε υπόψιν όλες τις πιθανές κατανομές δημιουργίας δεδομένων, τότε κάθε αλγόριθμος μηχανικής μάθησης επιδεικνύει κατά μέσο όρο το ίδιο σφάλμα στην πρόβλεψη άγνωστων παραδειγμάτων.}
+  	\end{flushleft}
+  	\rightline{{\rm --- David Wolpert}}
   \end{frame}
-  \begin{frame}{ \scshape Bayesian Βελτιστοποίηση}
-  	\begin{minipage}[t]{0.7\textwidth}
-  	\begin{figure}
-  		\includegraphics[width=\textwidth]{bayes}
-  		\caption{Μία γενιά Bayesian Βελτιστοποίησης με Γκαουσιανές διαδικασίες}
-  	\end{figure}
-  \end{minipage} \hspace{0.5cm}
-  	\begin{minipage}[t]{0.2\textwidth}
-  		\centering
-  		TPE
-  		\\ \vspace{1cm}
-  		Spearmint
-  		\\ \vspace{1cm}
-  		SMAC
-  	\end{minipage}
-  \end{frame}
-  \begin{frame}{ \scshape Μετα-μάθηση}
+    \begin{frame} {Ρύθμιση μοντέλου: τεχνικές βελτιστοποίησης}    	
+    	Πλεγματική αναζήτηση
+    	
+    	Τυχαία αναζήτηση
+    	
+    	Bayesian βελτιστοποίηση    	
+    \end{frame}
+    \begin{frame} {Ρύθμιση μοντέλου: σχολιασμός-επισκόπηση}
+    Χρονοβόρα
+    
+    Δεν υπάρχει βέλτιστος αλγόριθμος (No free lunch)
+    
+    ad-hoc
+    \end{frame}
+  \begin{frame}{Μετα-μάθηση}
   	\begin{minipage}[t]{.3\textwidth}  		
   		Σκοπός
   		\vspace{4ex}
@@ -140,34 +296,81 @@
   		\vspace{4ex}
   	\end{minipage}
   \end{frame}
-  \begin{frame}{ \scshape Bάση ευριστικών}
+  \begin{frame}{Ensembles}
+  	\begin{flushleft}
+  		{\small \textit 
+  			Μεταξύ ανταγωνιζομένων υποθέσεων πρέπει να επιλέγεται η απλούστερη.}
+  	\end{flushleft}
+  	\rightline{{\rm --- Το ξυράφι του Όκκαμ }}
+  	\begin{flushleft}
+  		{\small \textit 
+  			Ο συνδυασμός σωστών λύσεων σε ένα πρόβλημα, δε μπορεί παρά να λύνει το πρόβλημα τουλάχιστον εξίσου καλά.}
+  	\end{flushleft}
+  	\rightline{{\rm --- Επίκουρος}}
   	
+  	\begin{flushleft}
+  		{\small \textit 
+  			Μία αναγκαία και ικανή συνθήκη για να είναι μία συλλογή μοντέλων πιο ακριβής από τα μοντέλα που την απαρτίζουν είναι αυτά να είναι ακριβή και ετερογενή.}
+  	\end{flushleft}
+  	\rightline{{\rm --- Dietterich}}
   \end{frame}
-   \begin{frame}{ \scshape Ensemble forward selection}
-   	[]
+   \begin{frame}{Ensembles από αποθήκες μοντέλων}
+   	\begin{minipage}[t]{.3\textwidth}  		
+   		Πρόβλημα
+   		\vspace{4ex}
+   	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
+   	\begin{minipage}[t]{.6\textwidth}
+   		 	
+   		\vspace{4ex}
+   	\end{minipage}
+   	\begin{minipage}[t]{.3\textwidth}  		
+   		Στόχος
+   		\vspace{4ex}
+   	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
+   	\begin{minipage}[t]{.6\textwidth}   		
+   		\vspace{4ex} 
+   	\end{minipage}
+   	\begin{minipage}[t]{.3\textwidth}  		
+   		Τεχνικές
+   		\vspace{4ex}
+   	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
+   	\begin{minipage}[t]{.6\textwidth}
+   		Αποφυγή υπερ-προσαρμογής
+   		\vspace{4ex}
+   	\end{minipage}
    \end{frame}
-   \section{Αρχιτεκτονική Συστήματος}
-   \begin{frame}{ \scshape Υποσύστημα εκπαίδευσης}
-   	\begin{figure}
-   		\includegraphics[width=\textwidth]{train}
-   		\caption{Θα αλλαχθεί, το βάζω για αναφορά}
+   \begin{frame} {Ensemble με προς τα εμπρός επιλογή μοντέλων}
+   	\begin{figure}[!htb]
+   		\scalebox{0.7}{
+   		\begin{tikzpicture}[node distance = 3cm]
+   		% Place nodes
+   		\node [block_flow] (gather) {\makecell{Συγκέντρωση \\μοντέλων}};
+   		\node [block_flow, right of=gather] (init) {\makecell{Αρχικοποίηση\\ συλλογής\\ με Ν μοντέλα}};
+   		\node [block_flow, right of=init] (sample) {\makecell{Δειγματοληψία \\ με\\ αντικατάσταση}};
+   		\node [block_flow, align = center, right of=sample, xshift = -0.2cm] (eval) {\makecell{Αξιολόγηση\\μοντέλων\\δείγματος}};
+   		\node [block_flow, align = center, right of=eval, xshift = -0.5cm] (add) {\makecell{Προσθήκη \\ καλύτερου\\ μοντέλου}};
+   		\node [decision, right of=add, scale = 0.8, xshift = -1.2cm] (decide) {OK?};
+   		% Draw edges
+   		\path [line] (gather) -- (init);
+   		\path [line] (init) -- (sample);
+   		\path [line] (sample) -- (eval);
+   		\path [line] (eval) -- (add);
+   		\path [line] (add) -- (decide);
+   		\path[line] (decide.south)  node [anchor=west] {\small OXI} |- ([xshift=-0.5cm,yshift=-0.5cm]add.south west) -|  
+   		($(init)!.5!(sample)$); 
+   		\end{tikzpicture}}
+   		\caption{Διάγραμμα ροής της διαδικασίας σχηματισμού μίας συλλογής μοντέλων με την τεχνική της προς τα εμπρός επιλογής μοντέλων}
+   		\label{fig: flowHPP}	
    	\end{figure}
-   \end{frame}
-   \begin{frame}{ \scshape Υποσύστημα πρόβλεψης}
-   	\begin{figure}
-   		\includegraphics[width=\textwidth]{predict}
-   		\caption{Θα αλλαχθεί, το βάζω για αναφορά}
-   	\end{figure}
-   \end{frame}
+   	\end{frame}
    \section{Πειραματικά Αποτελέσματα}
-  \begin{frame}{ \scshape Περιγραφή πειραμάτων}
+  \begin{frame}{Περιγραφή πειραμάτων}
   	\begin{minipage}[t]{.3\textwidth}  		
   		Σετ δεδομένων
   		\vspace{4ex}
   	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
   	\begin{minipage}[t]{.6\textwidth}
-  		50 σετ δυαδικής ταξινόμησης από το UCI Repository.
-  		  	
+  		50 σετ δυαδικής ταξινόμησης από το UCI Repository.  		  	
   		\vspace{4ex}
   	\end{minipage}
   	\begin{minipage}[t]{.3\textwidth}  		
@@ -182,26 +385,41 @@
   		\vspace{4ex} 
   	\end{minipage} 
   \end{frame}
-  \begin{frame}{ \scshape Αξιολόγηση HPPNN} 
-  	[διαγράμματα]
+  \begin{frame}{Αξιολόγηση HyperParameterPrediction μοντέλων} 
+  	\begin{figure}[!htb]
+  		\scalebox{0.5}{
+  			\input{tikz/size_intervals.tex}}
+  		\caption{ \small Διάγραμμα διαστημάτων πρόβλεψης για υπερ-παράμετρο size.}
+  	\end{figure}
   \end{frame}
-  \begin{frame}{ \scshape Αξιολόγηση συστήματος} 
-  	[διαγράμματα]
+  \begin{frame}{Αξιολόγηση συστήματος A} 
+  	\begin{figure}[!htb]
+  		\scalebox{0.5}{
+  			\input{tikz/performance_grid.tex}}
+  		\caption{\small Διάγραμμα προφίλ απόδοσης συστήματος ADS: σύγκριση του συστήματός μας με τη μέθοδο της πλεγματικής αναζήτησης}
+  	\end{figure}
   \end{frame}
-  \begin{frame}{ \scshape Συμπεράσματα} 
+    \begin{frame}{Αξιολόγηση συστήματος Β} 
+    	\begin{figure}[!htb]
+    		\scalebox{0.5}{
+    			\input{tikz/performance_tpe.tex}}
+    		\caption{ \small Διάγραμμα προφίλ απόδοσης συστήματος ADS: σύγκριση του συστήματός μας με τη μέθοδο της ΤPE βελτιστοποίησης.}
+    	\end{figure}
+    \end{frame}
+  \begin{frame}{Συμπεράσματα} 
   	Η επιστήμη του automl επιδιώκει ένα συμβιβασμό μεταξύ αυτοματοποίησης και κατανοησιμότητας (intuition). Το λογισμικό που σχεδιάσαμε συνδυάζει τη λογική (reasoning) ενός αναλυτή δεδομένων με τεχνικές αυτοματοποίησης. Η αρχιτεκτονική εξασφαλίζει την εύκολη ενσωμάτωση state of the art τεχνικών και πρόσβαση (interface) στη χρήσιμη πληροφορία.
   \end{frame}
-  \begin{frame}{ \scshape Μελλοντική εργασία} 
-  	[??? Ανοιχτά θέματα ???]
-  \end{frame}
-  \begin{frame}{ \scshape Διακρίσεις-Δημοσιεύσεις} 
-  	[μακάρι]
-  \end{frame}
-  
-  \begin{frame}{ \scshape Ευχαριστίες} 
-  \end{frame}
-  \begin{frame}[standout]{ \scshape Ερωτήσεις} 
-    [να επαναλάβω τα συμπεράσματα? ή να βάλω κάτι που παραπέμπει στην ιδέα?]
+  \begin{frame}{Μελλοντικές επεκτάσεις} 
+  	Βελτίωση μοντέλων μετα-μάθησης
+  	
+  	Παραλληλοποίηση 
+  	
+  	Ενσωμάτωση διεπαφών αυτοματοποίησης για συλλογή σετ δεδομένων, χρήση ευριστικών,  
+  \end{frame}  
+  \begin{frame}[standout]{} 
+    \begin{center}
+    Ερωτήσεις
+    \end{center}
   \end{frame}
   \begin{frame}[allowframebreaks]{}
 \nocite{*}
