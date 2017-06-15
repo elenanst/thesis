@@ -1,6 +1,4 @@
 \documentclass{beamer}
-
-
 %%% plots %%%
 \usepackage{pgfplots,filecontents}
 \pgfplotsset{compat=1.7}
@@ -18,6 +16,28 @@
 }
 \usepackage{makecell}
 \usetikzlibrary{shapes}
+\usetikzlibrary{shapes.arrows}
+\tikzset{
+	myarrow/.style={
+		draw,
+		fill=black,
+		single arrow,
+		minimum height=3.5ex,
+		single arrow head extend=1ex
+	}
+}
+\newcommand{\arrowup}{%
+	\tikz [baseline=-0.5ex]{\node [myarrow,rotate=90] {};}
+}
+\newcommand{\arrowdown}{%
+	\tikz [baseline=-1ex]{\node [myarrow,rotate=-90] {};}
+}
+\newcommand{\arrowright}{%
+	\tikz [baseline=-0.5ex]{\node [myarrow,rotate=0] {};}
+}
+\newcommand{\arrowleft}{%
+	\tikz [baseline=-1ex]{\node [myarrow,rotate=-180] {};}
+}
 \usetikzlibrary{shapes.geometric}
 \usetikzlibrary{calc}
 \usetikzlibrary{arrows}
@@ -97,6 +117,7 @@
 \usepackage{xgreek}
 \usepackage [autostyle, english = american]{csquotes}
 \MakeOuterQuote{"}
+\usepackage{upgreek}
 \title{Automated Data Scientist}
 \date{
 	\vspace{0.7cm}
@@ -111,7 +132,7 @@
 	\\
 	\\
 	{ 
-		 	\tiny \setlength{\parskip}{0.1em}
+		 	\tiny \setlength{\parskip}{0.1em} 
 		 \begin{tabular}{l}Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης \\
 		 	Πολυτεχνική Σχολή\\
 		 	Τμήμα Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών\\
@@ -125,25 +146,47 @@
 \begin{document}
   \maketitle
   \section{Σκοπός διπλωματικής εργασίας}
-  \begin{frame}{Το πρόβλημα}
+  \begin{frame}{Προβληματισμός}
   		\begin{flushleft}
   			{\small \textit 
-  			To $ 75 \% $ ενός πειράματος μηχανικής μάθησης αφιερώνεται στην προετοιμασία της εφαρμογής του αλγορίθμου και το $15 \% $ στα βήματα που την ακολουθούν. Το μεγαλύτερο μέρος της έρευνας επικεντρώνεται στο ενδιάμεσο $10 \%$ ...}
+  			To $ 75 \% $ ενός πειράματος μηχανικής μάθησης αφιερώνεται στην προετοιμασία της εφαρμογής του αλγορίθμου και το $15 \% $ στα βήματα που την ακολουθούν. Το μεγαλύτερο μέρος της έρευνας επικεντρώνεται στο ενδιάμεσο $10 \%$ \ldots }
   		\end{flushleft}
-  		\rightline{{\rm --- Rich Caruana}}
+  		\rightline{{ --- Rich Caruana}}
+  		\begin{center}
+  			\arrowdown
+  		\end{center}
+  		
+  		Ανάγκη για \alert{επέκταση} της τρέχουσας έρευνας σε \alert{χρονοβόρα} στάδια της διαδικασίας εφαρμογής μηχανικής μάθησης που μέχρι τώρα γίνονταν \alert{χειροκίνητα}.
  \end{frame}
   \begin{frame}{Η εξέλιξη των προβλημάτων}
-  	\begin{figure}
-  		\includegraphics[width=\textwidth]{evolution}
-  		\caption{Θα αλλαχθεί, το βάζω για αναφορά}
-  	\end{figure}
+  	\begin{figure}[t]
+  		\resizebox*{0.7\textwidth}{0.5\textheight}{
+  		\includegraphics[width=\textwidth]{evolution}}
+  	\end{figure}  
+  	\begin{center}
+  	\begin{minipage}{0.3\textwidth}
+  		Απαιτητικότητα προβλημάτων
+  	\end{minipage}\qquad
+  	\begin{minipage}{0.1\textwidth}
+       \arrowright       
+       
+       \arrowleft
+  	\end{minipage}\qquad
+  	\begin{minipage}{0.3\textwidth}
+       Εμπλεκόμενη τεχνολογία
+  	\end{minipage}
+  	\end{center}
   \end{frame}
   \begin{frame}{Η εξέλιξη του ML}
   	\begin{flushleft}
   			{\small \textit 
   			Ο προγραμματισμός στοχεύει στην αυτοματοποίηση, η μηχανική μάθηση στην αυτοματοποίηση της αυτοματοποίησης και η αυτοματοποιημένη μηχανική μάθηση στην αυτοματοποίηση του να αυτοματοποιείς την αυτοματοποίηση.}
   	\end{flushleft}
-  	\rightline{{\rm --- Matthew Mayo }}
+  	\rightline{{--- Matthew Mayo }}
+  		\begin{center}
+  			\arrowdown
+  		\end{center}
+  	Το \alert{νέο στάδιο} στην εξέλιξη της μηχανικής μάθησης στοχεύει στη δημιουργία \alert{μετα-γνώσης} για την αυτοματοποίηση της ίδιας της διαδικασίας της μάθησης και όχι μεμονωμένων προβλημάτων.
   	\end{frame}  
   \begin{frame}{Η επιστήμη του Automl}
   	\begin{minipage}[t]{.4\textwidth}  		
@@ -159,7 +202,7 @@
   		\vspace{4ex}
   	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
   	\begin{minipage}[t]{.5\textwidth}
-  		Προεπεξεργασία, Ρύθμιση αλγορίθμου, Αξιολόγηση και κατανόηση μοντέλου
+  		Προ-επεξεργασία, Επιλογή αλγορίθμου, Ρύθμιση μοντέλου
   		\vspace{4ex} 
   	\end{minipage}
   	\begin{minipage}[t]{.4\textwidth}  		
@@ -188,7 +231,7 @@
      \section{Αρχιτεκτονική Συστήματος}
      \begin{frame}{Υποσύστημα εκπαίδευσης}
      \begin{figure}[!htb]
-     	\scalebox{0.7}{
+     	\resizebox{\textwidth}{0.4\textheight}{
      	\begin{tikzpicture}	[database/.style={
      		cylinder,
      		cylinder uses custom fill,
@@ -211,12 +254,18 @@
      	\draw[->, thick] (mfdb) to (C);
      	\draw[->, thick] (C) to (model.west);
      	\end{tikzpicture}}
-     	\caption{Το υποσύστημα εκπαίδευσης}
      \end{figure}
+     \begin{center}
+     \begin{itemize}
+     	\item Bελτιστοποίηση υπερ-παραμέτρων
+     	\item Eξαγωγή μετα-χαρακτηριστικών
+     	\item Eκπαίδευση HPP μοντέλων
+     \end{itemize}
+     \end{center}
      \end{frame}
      \begin{frame}{Υποσύστημα πειράματος}
 \begin{figure}[!htb]
-	\scalebox{0.7}{
+	\resizebox{\textwidth}{0.5\textheight}{
 	\begin{tikzpicture}	[database/.style={
 		cylinder,
 		cylinder uses custom fill,
@@ -245,7 +294,19 @@
 	\draw[->, thick] (A) -| ([xshift=-0.3cm]E.west) |- (D.west) ;
 	\draw[->, thick] (A) -| ([xshift=-0.3cm]E.west) |- (F.west) ;
 	\end{tikzpicture}}
-	\caption{Το υποσύστημα πειράματος}
+	\begin{minipage}{0.45\textwidth}
+		\begin{itemize}
+		\item Προεπεξεργασία
+		\item Eξαγωγή μετα-χαρακτηριστικών
+		\item Ρύθμιση μοντέλων
+	\end{itemize}
+	\end{minipage}\qquad
+	\begin{minipage}{0.45\textwidth}
+	\begin{itemize}
+		\item Σχηματισμός ensemble
+		\item Aξιολόγηση
+	\end{itemize}
+\end{minipage}
 \end{figure}
      \end{frame}
   \section{Μεθοδολογία}
@@ -254,27 +315,59 @@
   		{\small \textit 
   	    Αν λάβουμε υπόψιν όλες τις πιθανές κατανομές δημιουργίας δεδομένων, τότε κάθε αλγόριθμος μηχανικής μάθησης επιδεικνύει κατά μέσο όρο το ίδιο σφάλμα στην πρόβλεψη άγνωστων παραδειγμάτων.}
   	\end{flushleft}
-  	\rightline{{\rm --- David Wolpert}}
+  	\rightline{{--- David Wolpert}}  	
+  	\begin{center}
+  		\arrowdown
+  	\end{center}  	
+  	Είναι \alert{αδύνατη} η εύρεση ενός \alert{γενικά βέλτιστου αλγορίθμου}. Ένα εργαλείο βελτιστοποίησης γενικής φύσης προβλημάτων οφείλει να \alert{εξερευνήσει} το χώρο των πιθανών μηχανισμών δημιουργίας δεδομένων και να προσφέρει \alert{προσαρμοσμένες λύσεις}.
   \end{frame}
-    \begin{frame} {Ρύθμιση μοντέλου: τεχνικές βελτιστοποίησης}    	
-    	Πλεγματική αναζήτηση
-    	
-    	Τυχαία αναζήτηση
-    	
-    	Bayesian βελτιστοποίηση    	
+    \begin{frame} {Ρύθμιση μοντέλου: τεχνικές βελτιστοποίησης}
+    	\begin{center}
+    	\begin{minipage}[t]{0.28\textwidth}
+    		\begin{center}
+    		\textbf{Πλεγματική} 
+    		
+    		\vspace{1cm}
+    		χρονοβόρα
+    		
+    		\vspace{0.5cm}
+    		ισοπίθανη αντιμετώπιση
+    		\end{center}
+    	\end{minipage}%
+    	\begin{minipage}[t]{0.28\textwidth}
+    		\begin{center}
+    		\textbf{Τυχαία} 
+    		
+    		\vspace{1cm}
+    		naive
+    	\end{center}
+    	\end{minipage}%
+    	\begin{minipage}[t]{0.28\textwidth}
+    		\begin{center}
+    		\textbf{Bayesian} 
+    		
+    		\vspace{1cm}
+    		χρονοβόρα
+    		
+    		\vspace{0.5cm}
+    		intuitive
+    	\end{center}
+    	\end{minipage}    	
+    	    \end{center}	
     \end{frame}
-    \begin{frame} {Ρύθμιση μοντέλου: σχολιασμός-επισκόπηση}
-    Χρονοβόρα
-    
-    Δεν υπάρχει βέλτιστος αλγόριθμος (No free lunch)
-    
-    ad-hoc
+    \begin{frame} {Ρύθμιση μοντέλου: επισκόπηση}
+    Η σύγχρονη προσέγγιση:
+    \begin{itemize}
+    	\item είναι χρονοβόρα
+    	\item δεν μπορεί να αναδείξει γενικά βέλτιστο αλγόριθμο
+    	\item είναι ad-hoc
+    \end{itemize}
     \end{frame}
   \begin{frame}{Μετα-μάθηση}
   	\begin{minipage}[t]{.3\textwidth}  		
   		Σκοπός
   		\vspace{4ex}
-  	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
+  	\end{minipage}% This must go next to `\end{itemize}}` \hspace{2cm}
   	\begin{minipage}[t]{.6\textwidth}
   		Δημιουργία μετα-γνώσης από πειράματα μηχανικής μάθησης  	
   		\vspace{4ex}
@@ -292,7 +385,7 @@
   		\vspace{4ex}
   	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
   	\begin{minipage}[t]{.6\textwidth}
-  		Αρχικοποίηση αλγορίθμων βελτιστοποίησης
+  		Πρόβλεψη βέλτιστου αλγορίθμου, υπερ-παραμέτρων 
   		\vspace{4ex}
   	\end{minipage}
   \end{frame}
@@ -301,18 +394,18 @@
   		{\small \textit 
   			Μεταξύ ανταγωνιζομένων υποθέσεων πρέπει να επιλέγεται η απλούστερη.}
   	\end{flushleft}
-  	\rightline{{\rm --- Το ξυράφι του Όκκαμ }}
+  	\rightline{{--- Το ξυράφι του Occam}}
+
   	\begin{flushleft}
   		{\small \textit 
   			Ο συνδυασμός σωστών λύσεων σε ένα πρόβλημα, δε μπορεί παρά να λύνει το πρόβλημα τουλάχιστον εξίσου καλά.}
   	\end{flushleft}
-  	\rightline{{\rm --- Επίκουρος}}
-  	
+  	\rightline{{--- Επίκουρος}}  	
   	\begin{flushleft}
   		{\small \textit 
   			Μία αναγκαία και ικανή συνθήκη για να είναι μία συλλογή μοντέλων πιο ακριβής από τα μοντέλα που την απαρτίζουν είναι αυτά να είναι ακριβή και ετερογενή.}
   	\end{flushleft}
-  	\rightline{{\rm --- Dietterich}}
+  	\rightline{{ --- Dietterich}}
   \end{frame}
    \begin{frame}{Ensembles από αποθήκες μοντέλων}
    	\begin{minipage}[t]{.3\textwidth}  		
@@ -320,23 +413,16 @@
    		\vspace{4ex}
    	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
    	\begin{minipage}[t]{.6\textwidth}
-   		 	
+   		Παρουσία πολλών, ετερογενών και ενδεχομένως κακής ποιότητας μοντέλων 	
    		\vspace{4ex}
    	\end{minipage}
    	\begin{minipage}[t]{.3\textwidth}  		
    		Στόχος
    		\vspace{4ex}
    	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
-   	\begin{minipage}[t]{.6\textwidth}   		
+   	\begin{minipage}[t]{.6\textwidth}  
+   		Υπολογιστικά εφικτή τεχνική σχηματισμού συλλογής των αποδοτικότερων μοντέλων με αποφυγή υπερ-προσαρμογής 		
    		\vspace{4ex} 
-   	\end{minipage}
-   	\begin{minipage}[t]{.3\textwidth}  		
-   		Τεχνικές
-   		\vspace{4ex}
-   	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
-   	\begin{minipage}[t]{.6\textwidth}
-   		Αποφυγή υπερ-προσαρμογής
-   		\vspace{4ex}
    	\end{minipage}
    \end{frame}
    \begin{frame} {Ensemble με προς τα εμπρός επιλογή μοντέλων}
@@ -358,10 +444,14 @@
    		\path [line] (add) -- (decide);
    		\path[line] (decide.south)  node [anchor=west] {\small OXI} |- ([xshift=-0.5cm,yshift=-0.5cm]add.south west) -|  
    		($(init)!.5!(sample)$); 
+   		% additional 
+   		\node[draw,circle,minimum size=1cm,inner sep=0pt, above of =init,yshift=-1.5cm ] {$A$};
+   		\node[draw,circle,minimum size=1cm,inner sep=0pt, above of =sample,yshift=-1.5cm ] {$B$};
    		\end{tikzpicture}}
-   		\caption{Διάγραμμα ροής της διαδικασίας σχηματισμού μίας συλλογής μοντέλων με την τεχνική της προς τα εμπρός επιλογής μοντέλων}
-   		\label{fig: flowHPP}	
    	\end{figure}
+   	A: αποφυγή υπερ-προσαρμογής σε μικρές αποθήκες
+   	
+   	Β: αποφυγή υπερ-προσαρμογής σε μεγάλες αποθήκες και αναγκαστικής συμπερίληψης κακών μοντέλων
    	\end{frame}
    \section{Πειραματικά Αποτελέσματα}
   \begin{frame}{Περιγραφή πειραμάτων}
@@ -370,7 +460,7 @@
   		\vspace{4ex}
   	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
   	\begin{minipage}[t]{.6\textwidth}
-  		50 σετ δυαδικής ταξινόμησης από το UCI Repository.  		  	
+  		Συλλογή 123 σετ δυαδικής ταξινόμησης από online πλατφόρμες και καθαρισμός		  	
   		\vspace{4ex}
   	\end{minipage}
   	\begin{minipage}[t]{.3\textwidth}  		
@@ -378,43 +468,67 @@
   		\vspace{4ex}
   	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
   	\begin{minipage}[t]{.6\textwidth}
-  		Βελτιστοποίηση των αλγορίθμων SVM, NN, Tree, Bayes της caret με χρήση της βιβλιοθήκης HPOlib με hold-out validation, εξαγωγή μετα-χαρακτηριστικών και εκπαίδευση νευρωνικού με 10-fold CV.
-  		
-  		
-  		[Χρόνος και hardware]
+  		Εκπαίδευση HyperParameterPrediction μοντέλων
   		\vspace{4ex} 
   	\end{minipage} 
   \end{frame}
   \begin{frame}{Αξιολόγηση HyperParameterPrediction μοντέλων} 
   	\begin{figure}[!htb]
-  		\scalebox{0.5}{
+  		\scalebox{0.6}{
   			\input{tikz/size_intervals.tex}}
-  		\caption{ \small Διάγραμμα διαστημάτων πρόβλεψης για υπερ-παράμετρο size.}
   	\end{figure}
   \end{frame}
-  \begin{frame}{Αξιολόγηση συστήματος A} 
+  \begin{frame}{Αξιολόγηση συστήματος: σύγκριση με πλεγματική αναζήτηση} 
   	\begin{figure}[!htb]
   		\scalebox{0.5}{
   			\input{tikz/performance_grid.tex}}
-  		\caption{\small Διάγραμμα προφίλ απόδοσης συστήματος ADS: σύγκριση του συστήματός μας με τη μέθοδο της πλεγματικής αναζήτησης}
   	\end{figure}
   \end{frame}
-    \begin{frame}{Αξιολόγηση συστήματος Β} 
+    \begin{frame}{Αξιολόγηση συστήματος: σύγκριση με Bayesian βελτιστοποίηση} 
     	\begin{figure}[!htb]
     		\scalebox{0.5}{
     			\input{tikz/performance_tpe.tex}}
-    		\caption{ \small Διάγραμμα προφίλ απόδοσης συστήματος ADS: σύγκριση του συστήματός μας με τη μέθοδο της ΤPE βελτιστοποίησης.}
     	\end{figure}
     \end{frame}
-  \begin{frame}{Συμπεράσματα} 
-  	Η επιστήμη του automl επιδιώκει ένα συμβιβασμό μεταξύ αυτοματοποίησης και κατανοησιμότητας (intuition). Το λογισμικό που σχεδιάσαμε συνδυάζει τη λογική (reasoning) ενός αναλυτή δεδομένων με τεχνικές αυτοματοποίησης. Η αρχιτεκτονική εξασφαλίζει την εύκολη ενσωμάτωση state of the art τεχνικών και πρόσβαση (interface) στη χρήσιμη πληροφορία.
+    \begin{frame}{Αξιολόγηση συστήματος: συμπεράσματα}
+    	Με βάση τα διαγράμματα προφίλ απόδοσης και τα στατιστικά τεστ που εφαρμόσαμε μπορούμε να συμπεράνουμε ότι:
+    	\begin{itemize}
+    		\item το σύστημά μας είναι αποδοτικότερο από όλα τα μοντέλα που ρυθμίστηκαν με πλεγματική αναζήτηση
+    		\item το σύστημά μας είναι αποδοτικότερο από όλα τα μοντέλα που ρυθμίστηκαν με bayesian βελτιστοποίηση, εκτός από τα CART δέντρα. Το γεγονός ότι τα μοντέλα αυτά είναι αποδοτικότερα και από τον τελικό ensemble υποδηλώνει ότι η διαφορά αυτή οφείλεται στο σχηματισμό του ensemble και όχι στα HPP μοντέλα που χρησιμοποιεί το σύστημά μας.
+    	\end{itemize}
+    \end{frame}
+  \begin{frame}{Σύνοψη} 
+   Το λογισμικό που σχεδιάσαμε: 
+  	\begin{itemize}
+  		\item επεκτείνει την τρέχουσα κατάσταση στη ρύθμιση υπερ-παραμέτρων ενσωματώνοντας μετα-μάθηση
+  		\item ενσωματώνει την εμπειρία της κοινότητας μέσω ευριστικών κανόνων
+  		\item εισάγει την R στις γλώσσες που χρησιμοποιούνται σε AutoML εργαλεία
+  		\item εξασφαλίζει κατανοητή και επαναχρησιμοποιήσιμη έξοδο του συστήματος 
+  	\end{itemize}
   \end{frame}
   \begin{frame}{Μελλοντικές επεκτάσεις} 
-  	Βελτίωση μοντέλων μετα-μάθησης
-  	
-  	Παραλληλοποίηση 
-  	
-  	Ενσωμάτωση διεπαφών αυτοματοποίησης για συλλογή σετ δεδομένων, χρήση ευριστικών,  
+  	\textbf{Βελτίωση μοντέλων μετα-μάθησης:}
+  	\begin{itemize}
+  		{\small
+  			 \item εύρεση νέων μετα-χαρακτηριστικών
+  			\item πειραματισμός με μεταβλητά διαστήματα εμπιστοσύνης}
+  		
+  		\end{itemize}  	
+  		
+  	\textbf{Παραλληλοποίηση των embarassingly parallel διαδικασιών}:
+  	\begin{itemize}
+  		{\small
+  		\item k-fold αξιολόγηση
+  		\item βελτιστοποίηση υπερ-παραμέτρων	}
+  		 
+  	\end{itemize}  	   	  	
+  	\textbf{Ενσωμάτωση διεπαφών αυτοματοποίησης για}:
+  	\begin{itemize}
+  		{\small
+  			\item συλλογή σετ δεδομένων
+  			\item εκπαίδευση μετα-μοντέλων
+  			\item χρήση ευριστικών κανόνων}  		
+  	\end{itemize}
   \end{frame}  
   \begin{frame}[standout]{} 
     \begin{center}
@@ -423,6 +537,6 @@
   \end{frame}
   \begin{frame}[allowframebreaks]{}
 \nocite{*}
-\printbibliography[title=Bιβλιογραφία(να μπει??)  ]
+\printbibliography[title=Bιβλιογραφία ]
   \end{frame} 
 \end{document}
