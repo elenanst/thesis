@@ -151,7 +151,7 @@
   			{\small \textit 
   			To $ 75 \% $ ενός πειράματος μηχανικής μάθησης αφιερώνεται στην προετοιμασία της εφαρμογής του αλγορίθμου και το $15 \% $ στα βήματα που την ακολουθούν. Το μεγαλύτερο μέρος της έρευνας επικεντρώνεται στο ενδιάμεσο $10 \%$ \ldots }
   		\end{flushleft}
-  		\rightline{{ --- Rich Caruana}}
+  		\rightline{{ --- Rich Caruana, ICML 2015}}
   		\begin{center}
   			\arrowdown
   		\end{center}
@@ -182,7 +182,7 @@
   			{\small \textit 
   			Ο προγραμματισμός στοχεύει στην αυτοματοποίηση, η μηχανική μάθηση στην αυτοματοποίηση της αυτοματοποίησης και η αυτοματοποιημένη μηχανική μάθηση στην αυτοματοποίηση του να αυτοματοποιείς την αυτοματοποίηση.}
   	\end{flushleft}
-  	\rightline{{--- Matthew Mayo }}
+  	\rightline{{--- Matthew Mayo, KDnuggets 2017 }}
   		\begin{center}
   			\arrowdown
   		\end{center}
@@ -219,109 +219,19 @@
   	Ένας \alert{αυτοματοποιημένος} αναλυτής δεδομένων για προβλήματα δυαδικής ταξινόμησης με \alert{εμπειρία} παλαιότερων πειραμάτων και \alert{κατανοητή} έξοδο.
   	
   \end{frame}
-  
-  \begin{frame} {Εμπλεκόμενη τεχνολογία}
-  	R
-  	
-  	Automl
-  	
-  	Τεχνολογία Λογισμικού
-  	
-  \end{frame}
-     \section{Αρχιτεκτονική Συστήματος}
-     \begin{frame}{Υποσύστημα εκπαίδευσης}
-     \begin{figure}[!htb]
-     	\resizebox{\textwidth}{0.4\textheight}{
-     	\begin{tikzpicture}	[database/.style={
-     		cylinder,
-     		cylinder uses custom fill,
-     		cylinder body fill=white!50,
-     		cylinder end fill=white!50,
-     		shape border rotate=90,
-     		aspect=0.5,
-     		draw
-     	}]
-     	\node[database] (db) at (0, -0.25cm) {Αποθήκη};
-     	\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (A) at (2.5cm,1.5) {optimizer};
-     	\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (B) at (2.5cm,-1.5) {mfExtractor};	
-     	\node[database, aspect = 0.2] (mfdb) at (6cm,-0.25cm) {\makecell{Αποθήκη \\μετα-δεδομένων}};	
-     	\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (C) at (9.5cm, -0.25cm) {metaLearner};
-     	\node[database] (model)  at (13cm, -0.25cm) {HPP-Μοντέλο};	
-     	\draw[->, thick] (db) |- (A);
-     	\draw[->, thick] (db) |- (B);
-     	\draw[->, thick] (A) -| (mfdb.north);
-     	\draw[->, thick] (B) -| (mfdb.south);
-     	\draw[->, thick] (mfdb) to (C);
-     	\draw[->, thick] (C) to (model.west);
-     	\end{tikzpicture}}
-     \end{figure}
-     \begin{center}
-     \begin{itemize}
-     	\item Bελτιστοποίηση υπερ-παραμέτρων
-     	\item Eξαγωγή μετα-χαρακτηριστικών
-     	\item Eκπαίδευση HPP μοντέλων
-     \end{itemize}
-     \end{center}
-     \end{frame}
-     \begin{frame}{Υποσύστημα πειράματος}
-\begin{figure}[!htb]
-	\resizebox{\textwidth}{0.5\textheight}{
-	\begin{tikzpicture}	[database/.style={
-		cylinder,
-		cylinder uses custom fill,
-		cylinder body fill=white!50,
-		cylinder end fill=white!50,
-		shape border rotate=90,
-		aspect=0.5,
-		draw
-	}]
-	\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (A) at (0,0) {preprocessor};
-	\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (B) at ([xshift = 7em, yshift = 5em] A) {mfExtractor};
-	\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (C) at ([xshift = 7em, yshift = 0em] B) {optimizer};
-	\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (D) at ([xshift = 7em, yshift = 0em] C) {classifier1};
-	\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (E) at ([xshift = 0em, yshift = -5em] D) {classifier2};
-	\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (F) at ([xshift = 0em, yshift = -5em] E) {classifier3};
-	\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (G) at ([xshift = 7em, yshift = 0em] E) {ensembler};
-	\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (H) at ([xshift = 7em, yshift = 0em] G) {evaluator};
-	\draw[->, thick] (A) |- (B);
-	\draw[->, thick] (B) to (C);
-	\draw[->, thick] (C) to (D);
-	\draw[->, thick] (D) -| (G);
-	\draw[->, thick] (E) to (G);
-	\draw[->, thick] (F) -| (G);
-	\draw[->, thick] (G) to (H);
-	\draw[->, thick] (A) to (E);
-	\draw[->, thick] (A) -| ([xshift=-0.3cm]E.west) |- (D.west) ;
-	\draw[->, thick] (A) -| ([xshift=-0.3cm]E.west) |- (F.west) ;
-	\end{tikzpicture}}
-	\begin{minipage}{0.45\textwidth}
-		\begin{itemize}
-		\item Προεπεξεργασία
-		\item Eξαγωγή μετα-χαρακτηριστικών
-		\item Ρύθμιση μοντέλων
-	\end{itemize}
-	\end{minipage}\qquad
-	\begin{minipage}{0.45\textwidth}
-	\begin{itemize}
-		\item Σχηματισμός ensemble
-		\item Aξιολόγηση
-	\end{itemize}
-\end{minipage}
-\end{figure}
-     \end{frame}
   \section{Μεθοδολογία}
   \begin{frame} {No free lunch theorem}
   	\begin{flushleft}
   		{\small \textit 
   	    Αν λάβουμε υπόψιν όλες τις πιθανές κατανομές δημιουργίας δεδομένων, τότε κάθε αλγόριθμος μηχανικής μάθησης επιδεικνύει κατά μέσο όρο το ίδιο σφάλμα στην πρόβλεψη άγνωστων παραδειγμάτων.}
   	\end{flushleft}
-  	\rightline{{--- David Wolpert}}  	
+  	\rightline{{--- David Wolpert, 1996}}  	
   	\begin{center}
   		\arrowdown
   	\end{center}  	
   	Είναι \alert{αδύνατη} η εύρεση ενός \alert{γενικά βέλτιστου αλγορίθμου}. Ένα εργαλείο βελτιστοποίησης γενικής φύσης προβλημάτων οφείλει να \alert{εξερευνήσει} το χώρο των πιθανών μηχανισμών δημιουργίας δεδομένων και να προσφέρει \alert{προσαρμοσμένες λύσεις}.
   \end{frame}
-    \begin{frame} {Ρύθμιση μοντέλου: τεχνικές βελτιστοποίησης}
+    \begin{frame} {Ρύθμιση μοντέλου: σύγχρονες τεχνικές βελτιστοποίησης}
     	\begin{center}
     	\begin{minipage}[t]{0.28\textwidth}
     		\begin{center}
@@ -356,10 +266,10 @@
     	    \end{center}	
     \end{frame}
     \begin{frame} {Ρύθμιση μοντέλου: επισκόπηση}
-    Η σύγχρονη προσέγγιση:
+    Οι σύγχρονες τεχνικές:
     \begin{itemize}
-    	\item είναι χρονοβόρα
-    	\item δεν μπορεί να αναδείξει γενικά βέλτιστο αλγόριθμο
+    	\item είναι χρονοβόρες
+    	\item δεν μπορεί να αποδειχθούν γενικά βέλτιστες
     	\item είναι ad-hoc
     \end{itemize}
     \end{frame}
@@ -453,27 +363,131 @@
    	
    	Β: αποφυγή υπερ-προσαρμογής σε μεγάλες αποθήκες και αναγκαστικής συμπερίληψης κακών μοντέλων
    	\end{frame}
+   	 \section{Αρχιτεκτονική Συστήματος}
+   	 \begin{frame}{Υποσύστημα εκπαίδευσης}
+   	 	\begin{figure}[!htb]
+   	 		Σκοπός: {\small Εκπαίδευση HyperParameterPrediction (HPP) μοντέλων}     	
+   	 		\resizebox{\textwidth}{0.45\textheight}{
+   	 			\begin{tikzpicture}	[database/.style={
+   	 				cylinder,
+   	 				cylinder uses custom fill,
+   	 				cylinder body fill=white!50,
+   	 				cylinder end fill=white!50,
+   	 				shape border rotate=90,
+   	 				aspect=0.5,
+   	 				draw
+   	 			}]
+   	 			\node[database] (db) at (0, -0.25cm) {\makecell{Αποθήκη \\datasets}};
+   	 			\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (A) at (2.5cm,1.5) {optimizer};
+   	 			\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (B) at (2.5cm,-1.5) {mfExtractor};	
+   	 			\node[database, aspect = 0.2] (mfdb) at (6cm,-0.25cm) {\makecell{Αποθήκη \\μετα-δεδομένων}};	
+   	 			\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (C) at (9.5cm, -0.25cm) {metaLearner};
+   	 			\node[database] (model)  at (13cm, -0.25cm) {HPP-Μοντέλο};	
+   	 			\draw[->, thick] (db) |- (A);
+   	 			\draw[->, thick] (db) |- (B);
+   	 			\draw[->, thick] (A) -| (mfdb.north);
+   	 			\draw[->, thick] (B) -| (mfdb.south);
+   	 			\draw[->, thick] (mfdb) to (C);
+   	 			\draw[->, thick] (C) to (model.west);
+   	 			\end{tikzpicture}}
+   	 	\end{figure}
+   	 	\begin{center}
+   	 		\begin{enumerate}
+   	 			\item Optimizer: Bελτιστοποίηση υπερ-παραμέτρων
+   	 			\item mfExtractor: Eξαγωγή μετα-χαρακτηριστικών
+   	 			\item metaLearner: Eκπαίδευση HPP μοντέλων
+   	 		\end{enumerate}
+   	 	\end{center}
+   	 \end{frame}
+   	 \begin{frame}{Υποσύστημα πειράματος}  
+   	 	\begin{figure}
+   	 		Σκοπός: {\small Παραγωγή βέλτιστου ensemble για δεδομένο πρόβλημα}  
+   	 		\resizebox{\textwidth}{0.45\textheight}{
+   	 			\begin{tikzpicture}	[database/.style={
+   	 				cylinder,
+   	 				cylinder uses custom fill,
+   	 				cylinder body fill=white!50,
+   	 				cylinder end fill=white!50,
+   	 				shape border rotate=90,
+   	 				aspect=0.5,
+   	 				draw
+   	 			}]
+   	 			\node[database] (dt) at (0, -0.2cm) {\makecell{Dataset}};
+   	 			\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (A) at (7em,0) {preprocessor};
+   	 			\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (B) at ([xshift = 7em, yshift = 5em] A) {mfExtractor};
+   	 			\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (C) at ([xshift = 7em, yshift = 0em] B) {optimizer};
+   	 			\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (D) at ([xshift = 7em, yshift = 0em] C) {classifier1};
+   	 			\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (E) at ([xshift = 0em, yshift = -5em] D) {classifier2};
+   	 			\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (F) at ([xshift = 0em, yshift = -5em] E) {classifier3};
+   	 			\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (G) at ([xshift = 7em, yshift = 0em] E) {ensembler};
+   	 			\node[block, align = center, text width=2cm, text centered, minimum width = 2 cm] (H) at ([xshift = 7em, yshift = 0em] G) {evaluator};
+   	 			\draw[->, thick] (dt) to (A);
+   	 			\draw[->, thick] (A) |- (B);
+   	 			\draw[->, thick] (B) to (C);
+   	 			\draw[->, thick] (C) to (D);
+   	 			\draw[->, thick] (D) -| (G);
+   	 			\draw[->, thick] (E) to (G);
+   	 			\draw[->, thick] (F) -| (G);
+   	 			\draw[->, thick] (G) to (H);
+   	 			\draw[->, thick] (A) to (E);
+   	 			\draw[->, thick] (A) -| ([xshift=-0.3cm]E.west) |- (D.west) ;
+   	 			\draw[->, thick] (A) -| ([xshift=-0.3cm]E.west) |- (F.west) ;
+   	 			\end{tikzpicture}}
+   	 		\begin{minipage}{0.45\textwidth}
+   	 			\begin{enumerate}
+   	 				\item Προεπεξεργασία
+   	 				\item Eξαγωγή μετα-χαρακτηριστικών
+   	 				\item Ρύθμιση μοντέλων
+   	 			\end{enumerate}
+   	 		\end{minipage}\qquad
+   	 		\begin{minipage}{0.45\textwidth}
+   	 			\begin{enumerate}
+   	 				\setcounter{enumi}{4}
+   	 				\item Σχηματισμός ensemble
+   	 				\item Aξιολόγηση
+   	 			\end{enumerate}
+   	 		\end{minipage}
+   	 	\end{figure}
+   	 \end{frame}
    \section{Πειραματικά Αποτελέσματα}
   \begin{frame}{Περιγραφή πειραμάτων}
-  	\begin{minipage}[t]{.3\textwidth}  		
-  		Σετ δεδομένων
-  		\vspace{4ex}
-  	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
-  	\begin{minipage}[t]{.6\textwidth}
-  		Συλλογή 123 σετ δυαδικής ταξινόμησης από online πλατφόρμες και καθαρισμός		  	
-  		\vspace{4ex}
-  	\end{minipage}
-  	\begin{minipage}[t]{.3\textwidth}  		
-  		Off-line
-  		\vspace{4ex}
-  	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
-  	\begin{minipage}[t]{.6\textwidth}
-  		Εκπαίδευση HyperParameterPrediction μοντέλων
-  		\vspace{4ex} 
-  	\end{minipage} 
+ \begin{figure} 
+ 	\scalebox{0.5}{
+ 		\begin{tikzpicture}	[database/.style={
+ 			cylinder,
+ 			cylinder uses custom fill,
+ 			cylinder body fill=white!50,
+ 			cylinder end fill=white!50,
+ 			shape border rotate=90,
+ 			aspect=0.5,
+ 			draw
+ 		}]
+ 			\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (A) at (0,0) {\makecell{Συλλογή \\σετ \\δεδομένων}};
+ 			 \node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (B) at ([xshift = 4cm,yshift=0cm] A) {\makecell{Καθαρισμός \\σετ \\δεδομένων}};
+ 			\node[database, align =center] (dt) at ([xshift =3cm, yshift = 0cm] B) {\makecell{Datasets}};
+ 			\node[database] (dtA) at ([xshift =2cm, yshift = 4cm] dt) {\makecell{Datasets\\\ Εκπαίδευσης}};
+ 			\node[database] (dtB) at ([xshift =2cm, yshift = -4cm] dt) {\makecell{Datasets\\ Ελέγχου}};
+ 			 \node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (C) at ([xshift = 4cm,yshift=0cm] dtA) {\makecell{Eκπαίδευση \\HPP μοντέλων\\με 10-fold cv}};
+ 			\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (D) at ([xshift = 4cm,yshift=0cm] C) {\makecell{Αξιολόγηση \\ HPP μοντέλων\\με loocv}};
+ 			\node[database] (dtC) at ([xshift =0cm, yshift = -4cm] C) {\makecell{HPP\\ μοντέλα}};
+ 			\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (E) at ([xshift = 4cm,yshift=0cm] dtB) {\makecell{Εκτέλεση\\ πειραμάτων}};
+ 			\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (F) at ([xshift = 4cm,yshift=0cm] E) {\makecell{Αξιολόγηση\\ πειραμάτων}};	
+ 		\draw[->, thick] (A) to (B);
+ 		\draw[->, thick] (B) to (dt);
+ 		\draw[->, thick] (dt) |- (dtA);
+ 		\draw[->, thick] (dt) |- (dtB);		
+ 		\draw[->, thick] (dtA) to (C);
+ 		\draw[->, thick] (C) to (D);
+ 	    \draw[->, thick] (dtB) to (E);
+ 		\draw[->, thick] (E) to (F);
+ 			\draw[->, thick] (C) to (dtC);
+ 			\draw[->, thick] (dtC) to (E);		
+ 		\end{tikzpicture}}
+ 	\end{figure}
   \end{frame}
   \begin{frame}{Αξιολόγηση HPP μοντέλων} 
   	\begin{figure}[!htb]
+  Αξιολόγηση HPP μοντέλου για πρόβλεψη υπερ-παραμέτρου size για το ΑΝΝ μοντέλο
   		\scalebox{0.6}{
   			\input{tikz/size_intervals.tex}}
   	\end{figure}
