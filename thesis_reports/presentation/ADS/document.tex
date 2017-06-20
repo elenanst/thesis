@@ -1,5 +1,9 @@
 \documentclass{beamer}
 %%% plots %%%
+%%% table%%%
+%%% plots %%%
+\usepackage{relsize}
+\newcommand{\bigqm}[1][1]{\text{\larger[#1]{\textbf{?}}}}
 \usepackage{pgfplots,filecontents}
 \pgfplotsset{compat=1.7}
 \usetikzlibrary{backgrounds}
@@ -7,7 +11,7 @@
 	circ/.style={circle, fill=black, inner sep=2pt, node contents={}}
 }
 \tikzset{
-	block/.style = {draw, thick, minimum width=1.7cm, minimum height=1.2cm, node distance=3cm},
+	block/.style = {draw, fill=white!50, thick, minimum width=1.7cm, minimum height=1.2cm, node distance=3cm},
 	down/.style={yshift=-7em},
 	up/.style={yshift=7em},
 	right/.style={xshift=15em},
@@ -76,9 +80,9 @@
 		\draw [thick] (#1) circle (#2);
 		\draw [thick,draw opacity=0.1] (#1) ++(0,-0.1) circle (#2);}
 	
-	\tikzstyle{decision} = [diamond, draw, 
+	\tikzstyle{decision} = [diamond, draw,fill=white!50, 
 	text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
-	\tikzstyle{block_flow} = [rectangle, draw, 
+	\tikzstyle{block_flow} = [rectangle, draw, fill=white!50, 
 	text centered, rounded corners, minimum height=4em]
 	\tikzstyle{line} = [draw, -latex']
 	\tikzstyle{cloud} = [draw, ellipse, node distance=3cm,
@@ -160,7 +164,7 @@
  \end{frame}
   \begin{frame}{Η εξέλιξη των προβλημάτων}
   	\begin{figure}[t]
-  		\resizebox*{0.7\textwidth}{0.5\textheight}{
+  		\resizebox*{0.8\textwidth}{0.5\textheight}{
   		\includegraphics[width=\textwidth]{evolution}}
   	\end{figure}  
   	\begin{center}
@@ -217,7 +221,14 @@
   
   \begin{frame} {Προτεινόμενο σύστημα}
   	Ένας \alert{αυτοματοποιημένος} αναλυτής δεδομένων για προβλήματα δυαδικής ταξινόμησης με \alert{εμπειρία} παλαιότερων πειραμάτων και \alert{κατανοητή} έξοδο.
-  	
+  	\begin{center}
+  		\arrowdown
+  	\end{center}
+  	\begin{itemize}
+  		\item Αυτόματος σχηματισμός βέλτιστου ensemble
+  		\item Ενσωμάτωση μετα-μάθησης
+  		\item Παραγωγή επεξηγηματικού report για το χρήστη
+  	\end{itemize}
   \end{frame}
   \section{Μεθοδολογία}
   \begin{frame} {No free lunch theorem}
@@ -298,7 +309,35 @@
   		Πρόβλεψη βέλτιστου αλγορίθμου, υπερ-παραμέτρων 
   		\vspace{4ex}
   	\end{minipage}
-  \end{frame}
+  	\end{frame}
+\begin{frame}{Mετα-χαρακτηριστικά}
+\centering
+\begin{table}
+	\caption{Λίστα μετα-χαρακτηριστικών μετά από εφαρμογή φιλτραρίσματος}
+	\label{table:meta2}
+	\scalebox{0.65}{
+			\begin{tabular}{|l|l|}
+				\hline
+				Άθροισμα αθροισμάτων & Τυπική απόκλιση επιπέδων    \\
+				Άθροισμα μέγιστων τιμών &  Κυρτότητα επιπέδων  \\
+				Μέση τιμή τυπικών αποκλίσεων  & Λοξότητα επιπέδων    \\
+				Μέση τιμή ελαχίστων τιμών &  Πλήθος χαρακτηριστικών  \\
+				Μέση τιμή κυρτοτήτων &   Λογάριθμος πλήθους χαρακτηριστικών \\
+				Μέση τιμή λοξοτήτων &    Πλήθος παραδειγμάτων\\
+				Τυπική απόκλιση ελαχίστων τιμών & Λογάριθμος πλήθους παραδειγμάτων   \\
+				Ελάχιστη τιμή μέσων τιμών &  Ποσοστό αγνώστων τιμών  \\
+				Ελάχιστη τιμή τυπικών αποκλίσεων &  Πλήθος αριθμητικών χαρακτηριστικών  \\
+				Ελάχιστη τιμή ελαχίστων τιμών &  Πλήθος κατηγορικών χαρακτηριστικών  \\
+				Ελάχιστη τιμή μεγίστων τιμών &  Μέγιστη πιθανότητα κλάσης    \\
+				Ελάχιστη τιμή λοξοτήτων & Μέση τιμή πιθανοτήτων κλάσης   \\
+				Κυρτότητα ελαχίστων τιμών & Ποσοστό {PC} για $95\%$ διακύμανση  \\
+				Κυρτότητα μεγίστων τιμών & Κυρτότητα πρώτης {PC}   \\
+				Λοξότητα λοξοτήτων & Λοξότητα {PC}   \\
+				Άθροισμα επιπέδων &    \\
+				\hline
+			\end{tabular}}
+\end{table}
+\end{frame}
   \begin{frame}{Ensembles}
   	\begin{flushleft}
   		{\small \textit 
@@ -355,8 +394,8 @@
    		\path[line] (decide.south)  node [anchor=west] {\small OXI} |- ([xshift=-0.5cm,yshift=-0.5cm]add.south west) -|  
    		($(init)!.5!(sample)$); 
    		% additional 
-   		\node[draw,circle,minimum size=1cm,inner sep=0pt, above of =init,yshift=-1.5cm ] {$A$};
-   		\node[draw,circle,minimum size=1cm,inner sep=0pt, above of =sample,yshift=-1.5cm ] {$B$};
+   		\node[draw, fill=white!50,circle,minimum size=1cm,inner sep=0pt, above of =init,yshift=-1.5cm ] {$A$};
+   		\node[draw, fill=white!50,circle,minimum size=1cm,inner sep=0pt, above of =sample,yshift=-1.5cm ] {$B$};
    		\end{tikzpicture}}
    	\end{figure}
    	A: αποφυγή υπερ-προσαρμογής σε μικρές αποθήκες
@@ -366,7 +405,8 @@
    	 \section{Αρχιτεκτονική Συστήματος}
    	 \begin{frame}{Υποσύστημα εκπαίδευσης}
    	 	\begin{figure}[!htb]
-   	 		Σκοπός: {\small Εκπαίδευση HyperParameterPrediction (HPP) μοντέλων}     	
+   	 		Σκοπός: {\small Εκπαίδευση HyperParameterPrediction (HPP) μοντέλων\\ } 
+   	 		\vspace{0.5cm}    	
    	 		\resizebox{\textwidth}{0.45\textheight}{
    	 			\begin{tikzpicture}	[database/.style={
    	 				cylinder,
@@ -393,7 +433,7 @@
    	 	\end{figure}
    	 	\begin{center}
    	 		\begin{enumerate}
-   	 			\item Optimizer: Bελτιστοποίηση υπερ-παραμέτρων
+   	 			\item optimizer: Bελτιστοποίηση υπερ-παραμέτρων
    	 			\item mfExtractor: Eξαγωγή μετα-χαρακτηριστικών
    	 			\item metaLearner: Eκπαίδευση HPP μοντέλων
    	 		\end{enumerate}
@@ -401,7 +441,8 @@
    	 \end{frame}
    	 \begin{frame}{Υποσύστημα πειράματος}  
    	 	\begin{figure}
-   	 		Σκοπός: {\small Παραγωγή βέλτιστου ensemble για δεδομένο πρόβλημα}  
+   	 		Σκοπός: {\small Παραγωγή βέλτιστου ensemble για δεδομένο πρόβλημα\\ }  
+   	 		\vspace{0.5cm}
    	 		\resizebox{\textwidth}{0.45\textheight}{
    	 			\begin{tikzpicture}	[database/.style={
    	 				cylinder,
@@ -435,16 +476,17 @@
    	 			\end{tikzpicture}}
    	 		\begin{minipage}{0.45\textwidth}
    	 			\begin{enumerate}
-   	 				\item Προεπεξεργασία
-   	 				\item Eξαγωγή μετα-χαρακτηριστικών
-   	 				\item Ρύθμιση μοντέλων
+   	 				\item preprocessor: Προεπεξεργασία
+   	 				\item mfExtractor: Eξαγωγή μετα-χαρακτηριστικών
+   	 				\item optimizer: Ρύθμιση μοντέλων
    	 			\end{enumerate}
    	 		\end{minipage}\qquad
    	 		\begin{minipage}{0.45\textwidth}
    	 			\begin{enumerate}
    	 				\setcounter{enumi}{4}
-   	 				\item Σχηματισμός ensemble
-   	 				\item Aξιολόγηση
+   	 				\item classifier$_i$: Εκπαίδευση μοντέλου
+   	 				\item ensembler: Σχηματισμός ensemble
+   	 				\item evaluator: Aξιολόγηση
    	 			\end{enumerate}
    	 		\end{minipage}
    	 	\end{figure}
@@ -452,7 +494,7 @@
    \section{Πειραματικά Αποτελέσματα}
   \begin{frame}{Περιγραφή πειραμάτων}
  \begin{figure} 
- 	\scalebox{0.5}{
+ 	\scalebox{0.55}{
  		\begin{tikzpicture}	[database/.style={
  			cylinder,
  			cylinder uses custom fill,
@@ -553,7 +595,8 @@
   \end{frame}  
   \begin{frame}[standout]{} 
     \begin{center}
-    Ερωτήσεις
+    	  	\scalebox{2}{
+    $\bigqm[7]$}
     \end{center}
   \end{frame}
   \begin{frame}[allowframebreaks]{}
