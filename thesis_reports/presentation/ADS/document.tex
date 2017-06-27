@@ -7,6 +7,7 @@
 \usepackage{pgfplots,filecontents}
 \pgfplotsset{compat=1.7}
 \usetikzlibrary{backgrounds}
+\usetikzlibrary{tikzmark}
 \tikzset{
 	circ/.style={circle, fill=black, inner sep=2pt, node contents={}}
 }
@@ -122,11 +123,11 @@
 \usepackage [autostyle, english = american]{csquotes}
 \MakeOuterQuote{"}
 \usepackage{upgreek}
-\title{Automated Data Scientist}
+\title{Αυτοματοποιήμενος Αναλυτής Δεδομένων}
 \date{
 	\vspace{0.7cm}
 	\begin{tabular}{ll} 
-		 Εκπόνηση & Ελένη Νησιώτη \\
+		 Εκπόνηση & Ελένη Νησιώτη 7737 \\
 		 Επίβλεψη & Επίκ. Καθ. Ανδρέας Συμεωνίδης \\
 		 Συνεπίβλεψη & Δρ. Κυριάκος Χατζηδημητρίου 
 	\end{tabular}
@@ -137,10 +138,13 @@
 	\\
 	{ 
 		 	\tiny \setlength{\parskip}{0.1em} 
-		 \begin{tabular}{l}Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης \\
+		 \begin{tabular}{lcr}
+		 	\includegraphics[scale=0.13]{university}& \makecell{  Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης \\
 		 	Πολυτεχνική Σχολή\\
 		 	Τμήμα Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών\\
-		 	Εργαστήριο Επεξεργασίας Πληροφορίας και Υπολογισμών 
+		 	Εργαστήριο Επεξεργασίας Πληροφορίας και Υπολογισμών \\
+		 	29 Μαρτίου 2017  \\ \\ \\ \\} &
+		 \includegraphics[scale=0.7]{transparent}
 		 \end{tabular}}}
 \setlength{\parskip}{\baselineskip}%
 \usepackage{graphicx}
@@ -149,8 +153,12 @@
 \addbibresource{bibliography.bib}
 \begin{document}
   \maketitle
-  \section{Σκοπός διπλωματικής εργασίας}
-  \begin{frame}{Προβληματισμός}
+  \begin{frame}[standout]{} 
+  	\begin{center}
+  		Εισαγωγή
+  	\end{center}
+  \end{frame}
+  \begin{frame}{Ο προβληματισμός}
   		\begin{flushleft}
   			{\small \textit 
   			To $ 75 \% $ ενός πειράματος μηχανικής μάθησης αφιερώνεται στην προετοιμασία της εφαρμογής του αλγορίθμου και το $15 \% $ στα βήματα που την ακολουθούν. Το μεγαλύτερο μέρος της έρευνας επικεντρώνεται στο ενδιάμεσο $10 \%$ \ldots }
@@ -162,37 +170,71 @@
   		
   		Ανάγκη για \alert{επέκταση} της τρέχουσας έρευνας σε \alert{χρονοβόρα} στάδια της διαδικασίας εφαρμογής μηχανικής μάθησης που μέχρι τώρα γίνονταν \alert{χειροκίνητα}.
  \end{frame}
-  \begin{frame}{Η εξέλιξη των προβλημάτων}
-  	\begin{figure}[t]
-  		\resizebox*{0.8\textwidth}{0.5\textheight}{
-  		\includegraphics[width=\textwidth]{evolution}}
-  	\end{figure}  
-  	\begin{center}
-  	\begin{minipage}{0.3\textwidth}
-  		Απαιτητικότητα προβλημάτων
-  	\end{minipage}\qquad
-  	\begin{minipage}{0.1\textwidth}
-       \arrowright       
-       
-       \arrowleft
-  	\end{minipage}\qquad
-  	\begin{minipage}{0.3\textwidth}
-       Εμπλεκόμενη τεχνολογία
-  	\end{minipage}
-  	\end{center}
+  \begin{frame}{Η αναγκαιότητα της μεταφερσιμότητας}
+  	\begin{minipage}{0.45\textwidth}
+  		\scalebox{0.8}{
+  		\begin{tabular}{ccccc} 
+  			Πρόβλημα &$\rightarrow$& \begin{tikzpicture}[node distance = 3cm]
+  			% Place nodes
+  			\node [block_flow, minimum width = 0.5cm, minimum height=0.5cm] (gather) {ML};
+  			\end{tikzpicture}& $\rightarrow$& Λύση \\
+  			&&&&\\
+  			  			&&&&\\
+  				Πρόβλημα &$\rightarrow$& \begin{tikzpicture}[node distance = 3cm]
+  				% Place nodes
+  				\node [block_flow, minimum width = 0.5cm, minimum height=0.5cm] (gather) {ML};
+  				\end{tikzpicture}& $\rightarrow$& Λύση  \\
+  				  			&&&&\\
+  				  			  			&&&&\\
+  				Πρόβλημα &$\rightarrow$& \begin{tikzpicture}[node distance = 3cm]
+  				% Place nodes
+  				\node [block_flow, minimum width = 0.5cm, minimum height=0.5cm] (gather) {ML};
+  				\end{tikzpicture}& $\rightarrow$& Λύση 
+  		\end{tabular}}
+  \end{minipage}\qquad
+  \begin{minipage}{0.45\textwidth}
+  	  		\scalebox{0.8}{
+  	\begin{tabular}{ccccc} 
+  			Πρόβλημα &$\rightarrow$& \begin{tikzpicture}[node distance = 3cm]
+  			% Place nodes
+  			\node [block_flow, minimum width = 0.5cm, minimum height=0.5cm] (gather) {ML};
+  			\end{tikzpicture}& $\rightarrow$& Λύση \tikzmark{a}  \\
+  			  			&&&&\\
+  			  			&&&&\\
+  			Πρόβλημα &$\rightarrow$& \begin{tikzpicture}[node distance = 3cm]
+  			% Place nodes
+  			\node [block_flow, minimum width = 0.5cm, minimum height=0.5cm] (gather) {ML};
+  			\end{tikzpicture} \tikzmark{b}& $\rightarrow$& Λύση\tikzmark{c}  \\
+  			  			&&&&\\
+  			  			&&&&\\
+  			Πρόβλημα &$\rightarrow$& \begin{tikzpicture}[node distance = 3cm]
+  			% Place nodes
+  			\node [block_flow, minimum width = 0.5cm, minimum height=0.5cm] (gather) {ML};
+  			\end{tikzpicture} \tikzmark{d}& $\rightarrow$& Λύση \\
+  	\end{tabular}
+  	\begin{tikzpicture}[overlay, remember picture, yshift=.25\baselineskip, shorten >=.5pt, shorten <=.5pt]
+  	\draw [->] ([xshift = -0.5cm, yshift = -0.2cm] {pic cs:a}) --  ([xshift=-0.5cm, yshift =0.5cm]{pic cs:b});
+  	\draw [->] ([xshift = -0.5cm, yshift = -0.2cm] {pic cs:c}) --  ([xshift=-0.5cm, yshift =0.5cm]{pic cs:d});
+  	\end{tikzpicture}}
+  \end{minipage}
   \end{frame}
-  \begin{frame}{Η εξέλιξη του ML}
-  	\begin{flushleft}
-  			{\small \textit 
-  			Ο προγραμματισμός στοχεύει στην αυτοματοποίηση, η μηχανική μάθηση στην αυτοματοποίηση της αυτοματοποίησης και η αυτοματοποιημένη μηχανική μάθηση στην αυτοματοποίηση του να αυτοματοποιείς την αυτοματοποίηση.}
-  	\end{flushleft}
-  	\rightline{{--- Matthew Mayo, KDnuggets 2017 }}
-  		\begin{center}
-  			\arrowdown
-  		\end{center}
-  	Το \alert{νέο στάδιο} στην εξέλιξη της μηχανικής μάθησης στοχεύει στη δημιουργία \alert{μετα-γνώσης} για την αυτοματοποίηση της ίδιας της διαδικασίας της μάθησης και όχι μεμονωμένων προβλημάτων.
-  	\end{frame}  
-  \begin{frame}{Η επιστήμη του Automl}
+  {
+  \usebackgroundtemplate{%
+  	\tikz\node[opacity=0.15] {\includegraphics[height=\paperheight,width=\paperwidth]{RobotEvolution}};} 
+   \begin{frame}{Η εξέλιξη του ML ...}
+   	\begin{flushleft}
+   		{\small \textit 
+   			Ο προγραμματισμός στοχεύει στην αυτοματοποίηση, η μηχανική μάθηση στην αυτοματοποίηση της αυτοματοποίησης και η αυτοματοποιημένη μηχανική μάθηση στην αυτοματοποίηση του να αυτοματοποιείς την αυτοματοποίηση.}
+   	\end{flushleft}
+   	\rightline{{--- Matthew Mayo, KDnuggets 2017 }}
+   	\begin{center}
+   		\arrowdown
+   	\end{center}
+   	Το \alert{νέο στάδιο} στην εξέλιξη της μηχανικής μάθησης στοχεύει στη δημιουργία \alert{μετα-γνώσης} για την αυτοματοποίηση της ίδιας της διαδικασίας της μάθησης και όχι μεμονωμένων προβλημάτων.
+   \end{frame}  
+  }
+ 
+  \begin{frame}{... στην επιστήμη του AutoML}
   	\begin{minipage}[t]{.4\textwidth}  		
   		Απαρχές
   		\vspace{4ex}
@@ -214,19 +256,18 @@
   		\vspace{4ex}
   	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
 	\begin{minipage}[t]{.5\textwidth}
-  		AutoWeka, Microsoft Azure, caret, HPOlib, Google Automl
+  		Auto-WEKA, Microsoft Azure, caret, HPOlib, Google AutoML
   		\vspace{4ex}
   	\end{minipage}
-  \end{frame}
-  
-  \begin{frame} {Προτεινόμενο σύστημα}
+  \end{frame}  
+  \begin{frame} {Το προτεινόμενο σύστημα}
   	Ένας \alert{αυτοματοποιημένος} αναλυτής δεδομένων για προβλήματα δυαδικής ταξινόμησης με \alert{εμπειρία} παλαιότερων πειραμάτων και \alert{κατανοητή} έξοδο.
   	\begin{center}
   		\arrowdown
   	\end{center}
   	\begin{itemize}
   		\item Αυτόματος σχηματισμός βέλτιστου ensemble
-  		\item Ενσωμάτωση μετα-μάθησης
+  		\item Ενσωμάτωση μετα-μάθησης για ρύθμιση μοντέλου
   		\item Παραγωγή επεξηγηματικού report για το χρήστη
   	\end{itemize}
   \end{frame}
@@ -302,18 +343,18 @@
   		\vspace{4ex} 
   	\end{minipage}
   	\begin{minipage}[t]{.3\textwidth}  		
-  		Εφαρμογές
+  		Εφαρμογή
   		\vspace{4ex}
   	\end{minipage}% This must go next to `\end{minipage}` \hspace{2cm}
   	\begin{minipage}[t]{.6\textwidth}
-  		Πρόβλεψη βέλτιστου αλγορίθμου, υπερ-παραμέτρων 
+  		Πρόβλεψη βέλτιστων υπερ-παραμέτρων αλγορίθμου μηχανικής μάθησης 
   		\vspace{4ex}
   	\end{minipage}
   	\end{frame}
 \begin{frame}{Mετα-χαρακτηριστικά}
 \centering
 \begin{table}
-	\caption{Λίστα μετα-χαρακτηριστικών μετά από εφαρμογή φιλτραρίσματος}
+	\caption{Λίστα μετα-χαρακτηριστικών μετά από εφαρμογή φιλτραρίσματος στα 100 σετ δεδομένων εκπαίδευσης}
 	\label{table:meta2}
 	\scalebox{0.65}{
 			\begin{tabular}{|l|l|}
@@ -374,7 +415,7 @@
    		\vspace{4ex} 
    	\end{minipage}
    \end{frame}
-   \begin{frame} {Ensemble με προς τα εμπρός επιλογή μοντέλων}
+   \begin{frame} {Ensembles με προς τα εμπρός επιλογή μοντέλων}
    	\begin{figure}[!htb]
    		\scalebox{0.7}{
    		\begin{tikzpicture}[node distance = 3cm]
@@ -407,7 +448,7 @@
    	 	\begin{figure}[!htb]
    	 		Σκοπός: {\small Εκπαίδευση HyperParameterPrediction (HPP) μοντέλων\\ } 
    	 		\vspace{0.5cm}    	
-   	 		\resizebox{\textwidth}{0.45\textheight}{
+   	 		\resizebox{\textwidth}{0.4\textheight}{
    	 			\begin{tikzpicture}	[database/.style={
    	 				cylinder,
    	 				cylinder uses custom fill,
@@ -422,7 +463,7 @@
    	 			\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (B) at (2.5cm,-1.5) {mfExtractor};	
    	 			\node[database, aspect = 0.2] (mfdb) at (6cm,-0.25cm) {\makecell{Αποθήκη \\μετα-δεδομένων}};	
    	 			\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (C) at (9.5cm, -0.25cm) {metaLearner};
-   	 			\node[database] (model)  at (13cm, -0.25cm) {HPP-Μοντέλο};	
+   	 			\node[database] (model)  at (13cm, -0.25cm) {HPP-Μοντέλα};	
    	 			\draw[->, thick] (db) |- (A);
    	 			\draw[->, thick] (db) |- (B);
    	 			\draw[->, thick] (A) -| (mfdb.north);
@@ -443,7 +484,7 @@
    	 	\begin{figure}
    	 		Σκοπός: {\small Παραγωγή βέλτιστου ensemble για δεδομένο πρόβλημα\\ }  
    	 		\vspace{0.5cm}
-   	 		\resizebox{\textwidth}{0.45\textheight}{
+   	 		\resizebox{\textwidth}{0.4\textheight}{
    	 			\begin{tikzpicture}	[database/.style={
    	 				cylinder,
    	 				cylinder uses custom fill,
@@ -504,7 +545,7 @@
  			aspect=0.5,
  			draw
  		}]
- 			\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (A) at (0,0) {\makecell{Συλλογή \\σετ \\δεδομένων}};
+ 			\node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (A) at (0,0) {\makecell{Συλλογή \\ 125 σετ \\δεδομένων}};
  			 \node[block, align = center, text width=2.5cm, text centered, minimum width = 2 cm] (B) at ([xshift = 4cm,yshift=0cm] A) {\makecell{Καθαρισμός \\σετ \\δεδομένων}};
  			\node[database, align =center] (dt) at ([xshift =3cm, yshift = 0cm] B) {\makecell{Datasets}};
  			\node[database] (dtA) at ([xshift =2cm, yshift = 4cm] dt) {\makecell{Datasets\\\ Εκπαίδευσης}};
@@ -537,8 +578,8 @@
   \begin{frame}{Αξιολόγηση HPP μοντέλων: συμπεράσματα}
   	Από τα πειράματά μας προκύπτει ότι:
   	\begin{itemize}
-  		\item τα HPP μοντέλα δεν προβλέπουν επακριβώς τις βέλτιστες υπερ-παραμέτρους, γεγονός που μάλλον οφείλεται στην αδυναμία των μετα-χαρακτηριστικών να περιγράψουν τον μηχανισμό επιρροής των υπερ-παραμέτρων στην απόδοση ενός μοντέλου.
-  		\item η χρήση διαστημάτων πρόβλεψης οδηγεί σχεδόν πάντα στη συμπερίληψη της σωστής τιμής, επομένως ο τελικός ensemble οφείλει να πετύχει απόδοση τουλάχιστον ίση με του βέλτιστου μοντέλου. 
+  		\item τα HPP μοντέλα δεν προβλέπουν επακριβώς τις βέλτιστες υπερ-παραμέτρους.
+  		\item η χρήση διαστημάτων πρόβλεψης οδηγεί σχεδόν πάντα στη συμπερίληψη της σωστής τιμής.
   	\end{itemize}
   \end{frame}
   \begin{frame}{Αξιολόγηση συστήματος: σύγκριση με πλεγματική αναζήτηση} 
@@ -557,18 +598,9 @@
     	Με βάση τα διαγράμματα προφίλ απόδοσης και τα στατιστικά τεστ που εφαρμόσαμε μπορούμε να συμπεράνουμε ότι:
     	\begin{itemize}
     		\item το σύστημά μας είναι αποδοτικότερο από όλα τα μοντέλα που ρυθμίστηκαν με πλεγματική αναζήτηση
-    		\item το σύστημά μας είναι αποδοτικότερο από όλα τα μοντέλα που ρυθμίστηκαν με bayesian βελτιστοποίηση, εκτός από τα CART δέντρα. Το γεγονός ότι τα μοντέλα αυτά είναι αποδοτικότερα και από τον τελικό ensemble υποδηλώνει ότι η διαφορά αυτή οφείλεται στο σχηματισμό του ensemble και όχι στα HPP μοντέλα που χρησιμοποιεί το σύστημά μας.
+    		\item το σύστημά μας είναι αποδοτικότερο από όλα τα μοντέλα που ρυθμίστηκαν με bayesian βελτιστοποίηση, εκτός από τα CART δέντρα.
     	\end{itemize}
     \end{frame}
-  \begin{frame}{Σύνοψη} 
-   Το λογισμικό που σχεδιάσαμε: 
-  	\begin{itemize}
-  		\item επεκτείνει την τρέχουσα κατάσταση στη ρύθμιση υπερ-παραμέτρων ενσωματώνοντας μετα-μάθηση
-  		\item ενσωματώνει την εμπειρία της κοινότητας μέσω ευριστικών κανόνων
-  		\item εισάγει την R στις γλώσσες που χρησιμοποιούνται σε AutoML εργαλεία
-  		\item εξασφαλίζει κατανοητή και επαναχρησιμοποιήσιμη έξοδο του συστήματος 
-  	\end{itemize}
-  \end{frame}
   \begin{frame}{Μελλοντικές επεκτάσεις} 
   	\textbf{Βελτίωση μοντέλων μετα-μάθησης:}
   	\begin{itemize}
@@ -578,11 +610,10 @@
   		
   		\end{itemize}  	
   		
-  	\textbf{Παραλληλοποίηση των embarassingly parallel διαδικασιών}:
+  	\textbf{Περαιτέρω παραλληλοποίηση των embarassingly parallel διαδικασιών}:
   	\begin{itemize}
   		{\small
-  		\item k-fold αξιολόγηση
-  		\item βελτιστοποίηση υπερ-παραμέτρων	}
+  		\item βελτιστοποίηση υπερ-παραμέτρων (διαστήματα πρόβλεψης)}
   		 
   	\end{itemize}  	   	  	
   	\textbf{Ενσωμάτωση διεπαφών αυτοματοποίησης για}:
@@ -598,9 +629,5 @@
     	  	\scalebox{2}{
     $\bigqm[7]$}
     \end{center}
-  \end{frame}
-  \begin{frame}[allowframebreaks]{}
-\nocite{*}
-\printbibliography[title=Bιβλιογραφία ]
   \end{frame} 
 \end{document}
